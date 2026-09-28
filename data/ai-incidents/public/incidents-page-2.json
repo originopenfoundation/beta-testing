@@ -1,0 +1,1471 @@
+{
+  "page": 2,
+  "pageSize": 25,
+  "total": 240,
+  "items": [
+    {
+      "id": "OOF-AII-331541",
+      "slug": "oof-aii-331541-lyft-driver-in-boca-raton-florida-allegedly-used-purported-google-gemini-generated-image-to-support-false-75-damage-fee",
+      "title": "Lyft Driver in Boca Raton, Florida, Allegedly Used Purported Google Gemini-Generated Image to Support False $75 Damage Fee",
+      "summary": "A Lyft driver in Boca Raton, Florida, allegedly submitted an AI-generated image showing spilled food and drink to support a $75 damage fee against teenage passengers. The riders' family identified a Google Gemini logo in the image and disputed the claim. Lyft later acknowledged the image was AI-generated, reimbursed the charge, and removed the driver from the platform.",
+      "eventType": "Incident",
+      "occurredAt": "2026-05-16",
+      "reportedAt": "2026-09-08T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Unnamed Lyft Driver, Scammers, Rideshare Drivers, Lyft Drivers, Synthetic Media Creators",
+      "system": "Synthetic Media Generation Technology, Synthetic Image Generation Technology, Google Gemini, Lyft Damage Claim Process, Damage Claims Processes, Gemini",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Lyft Customers",
+        "Consumers",
+        "Passengers",
+        "Minors",
+        "Adolescents",
+        "Road Users",
+        "Bert Gor",
+        "Epistemic Integrity",
+        "Women And Girls",
+        "Girls",
+        "Adolescent Girls"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1679",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-05-16",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1679",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2026-09-08T00:00:00Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-08T00:00:00Z",
+      "updatedAt": "2026-09-08T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-135293",
+      "slug": "oof-aii-135293-avride-autonomous-vehicle-reportedly-struck-and-killed-nesting-duck-near-mueller-lake-park-in-austin-texas",
+      "title": "Avride Autonomous Vehicle Reportedly Struck and Killed Nesting Duck Near Mueller Lake Park in Austin, Texas",
+      "summary": "An Avride self-driving car operating in autonomous mode with a human safety operator reportedly struck and killed a nesting duck near Mueller Lake Park in Austin, Texas. A witness said the car did not slow or stop after the collision and alleged it had run a stop sign; Avride denied the stop-sign claim. Avride investigated the wildlife collision, paused testing around the lake, and later excluded nearby streets from its operating area.",
+      "eventType": "Incident",
+      "occurredAt": "2026-03-31",
+      "reportedAt": "2026-09-08T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Avride, Automated Driving System Deployers, Autonomous Vehicle Fleet Operators",
+      "system": "Automated Driving Systems, Avride Automated Driving System",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Animal Life",
+        "Ducks",
+        "Nesting Duck Near Mueller Lake Park Austin Texas"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1678",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-03-31",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1678",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2026-09-08T00:00:00Z",
+        "confidence": 0.86,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: autonomous, self driving, self-driving, automated driving. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-08T00:00:00Z",
+      "updatedAt": "2026-09-08T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-768541",
+      "slug": "oof-aii-768541-wyoming-woman-s-childhood-photograph-reportedly-used-to-generate-thousands-of-explicit-images-with-grok",
+      "title": "Wyoming Woman's Childhood Photograph Reportedly Used to Generate Thousands of Explicit Images with Grok",
+      "summary": "A Wyoming woman identified as Jane Doe 4 in federal court filings alleges that her stepfather used Grok to generate thousands of sexually explicit images of her from a childhood photograph.",
+      "eventType": "Incident",
+      "occurredAt": "2026-08-15",
+      "reportedAt": "2026-09-07T03:19:54.735000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Grok Users, Distributors Of Ai Generated Csam, Deepfake Creators, Creators Of Ai Generated Csam, Synthetic Media Creators",
+      "system": "Synthetic Media Generation Technology, Synthetic Image Generation Technology, Large Language Models, Grok Image Generation, Grok Image Editing, Grok, Deepfake Technology, Chatbots",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Women",
+        "Victims Of Deepfake Abuse",
+        "Victims Of Ai Generated Csam",
+        "Privacy",
+        "Minors",
+        "Epistemic Integrity",
+        "Victims Of Deepfake Child Abuse",
+        "Women And Girls",
+        "Girls"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1643",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-08-15",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1643",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "obidenity",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "OBIDENITY®",
+        "classifiedAt": "2026-09-07T03:19:54.735000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to OBIDENITY® — Origin-Bound Identity Governance Architecture using signals: deepfake. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-07T03:19:54.735000Z",
+      "updatedAt": "2026-09-07T03:19:54.735000Z"
+    },
+    {
+      "id": "OOF-AII-592823",
+      "slug": "oof-aii-592823-pennsylvania-s-lancaster-country-day-school-students-allegedly-used-ai-to-create-hundreds-of-sexualized-deepfake-images-of-girls",
+      "title": "Pennsylvania's Lancaster Country Day School Students Allegedly Used AI to Create Hundreds of Sexualized Deepfake Images of Girls",
+      "summary": "From November 2023 through May 2024, two Lancaster Country Day School students in Pennsylvania allegedly used AI tools to create and exchange hundreds of sexualized deepfake images depicting female classmates and other girls. Authorities later identified 60 victims, 59 of them minors. The students were adjudicated delinquent in juvenile court, and families later sued the school and unnamed AI companies over the incident.",
+      "eventType": "Incident",
+      "occurredAt": "2023-11-01",
+      "reportedAt": "2026-09-07T03:16:16.088000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Two Unnamed Lancaster Country Day School Students, Synthetic Media Creators, Students, Minors, Deepfake Creators, Ai Generated Csam Creators",
+      "system": "Synthetic Video Generation Technology, Synthetic Media Generation Technology, Synthetic Image Generation Technology, Deepfake Technology",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Victims Of Deepfake Child Abuse",
+        "Victims Of Deepfake Abuse",
+        "Victims Of Csam",
+        "Students",
+        "Privacy",
+        "Minors",
+        "Lancaster Country Day School Students",
+        "Lancaster Country Day School",
+        "Girls",
+        "Families Of Lancaster Country Day School Students",
+        "Epistemic Integrity",
+        "Educational Communities",
+        "Women And Girls"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1623",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2023-11-01",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1623",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "obidenity",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "OBIDENITY®",
+        "classifiedAt": "2026-09-07T03:16:16.088000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to OBIDENITY® — Origin-Bound Identity Governance Architecture using signals: deepfake. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-07T03:16:16.088000Z",
+      "updatedAt": "2026-09-07T03:16:16.088000Z"
+    },
+    {
+      "id": "OOF-AII-444645",
+      "slug": "oof-aii-444645-queensland-man-allegedly-distributed-purportedly-ai-generated-sexual-posters-falsely-advertising-women-for-sex",
+      "title": "Queensland Man Allegedly Distributed Purportedly AI-Generated Sexual Posters Falsely Advertising Women for Sex",
+      "summary": "Queensland police in Australia allege that a man used AI to place at least eight women's faces onto explicit images and displayed posters containing their names, social media accounts, employment details, and false claims that they offered sexual services. The alleged campaign ran from February 2021 through May 2026.",
+      "eventType": "Incident",
+      "occurredAt": "2021-02-01",
+      "reportedAt": "2026-09-07T03:11:11.335000Z",
+      "country": "Australia",
+      "countryCode": "AU",
+      "region": null,
+      "coordinates": null,
+      "organization": "Unnamed Queensland Man Charged In Alleged Deepfake Sexual Image Campaign, Synthetic Media Creators, Deepfake Creators, Men And Boys, Men, Stalkers",
+      "system": "Synthetic Media Generation Technology, Synthetic Image Generation Technology, Deepfake Technology",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Women",
+        "Victims Of Non Consensual Deepfakes",
+        "Victims Of Deepfake Abuse",
+        "Privacy",
+        "Epistemic Integrity",
+        "Eight Women Targeted By Alleged Queensland Deepfake Poster Campaign",
+        "Women And Girls",
+        "Victims Of Stalking"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1610",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2021-02-01",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1610",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "obidenity",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "OBIDENITY®",
+        "classifiedAt": "2026-09-07T03:11:11.335000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to OBIDENITY® — Origin-Bound Identity Governance Architecture using signals: deepfake. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-07T03:11:11.335000Z",
+      "updatedAt": "2026-09-07T03:11:11.335000Z"
+    },
+    {
+      "id": "OOF-AII-967001",
+      "slug": "oof-aii-967001-amazon-s-experimental-hiring-tool-allegedly-displayed-gender-bias-in-candidate-rankings",
+      "title": "Amazon's Experimental Hiring Tool Allegedly Displayed Gender Bias in Candidate Rankings",
+      "summary": "Between 2014 and 2017, Amazon reportedly developed an AI-powered recruiting tool to score job applicants, trained on a decade of resumes purportedly drawn largely from men. Media reports say the system learned to favor male candidates, penalizing terms like \"women's\" and graduates from certain all-women's colleges. Efforts to remove these biases reportedly did not guarantee fairness, and the project was ultimately abandoned. Amazon reportedly states recruiters never solely relied on the tool.",
+      "eventType": "Incident",
+      "occurredAt": "2016-08-10",
+      "reportedAt": "2026-09-05T20:45:23.244000Z",
+      "country": "Ireland",
+      "countryCode": "IE",
+      "region": "Europe",
+      "coordinates": null,
+      "organization": "Amazon",
+      "system": "Enterprise Ai Systems, Associated Machine Learning Models Trained On Historical Amazon Resume Data, Amazon Experimental Ai Resume Scoring Engine, Ai Enabled Decision Support Systems",
+      "technology": null,
+      "industry": "[\"administrative and support service activities\"]",
+      "aiSystemType": "[\"Rank Applicants\", \"resume screening\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "maybe"
+      ],
+      "affectedParties": [
+        "Women Applying To Amazon",
+        "Women And Girls",
+        "Women",
+        "Amazon Applicants"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:37",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2016-08-10",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/37",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "clia",
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-09-05T20:45:23.244000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: screening. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T20:45:23.244000Z",
+      "updatedAt": "2026-09-05T20:45:23.244000Z"
+    },
+    {
+      "id": "OOF-AII-306226",
+      "slug": "oof-aii-306226-openai-linked-ai-agents-reportedly-used-german-programming-wiki-dsewiki-for-coordination-and-restriction-evasion",
+      "title": "OpenAI-Linked AI Agents Reportedly Used German Programming Wiki DSEWiki for Coordination and Restriction Evasion",
+      "summary": "Researchers reported that autonomous agents apparently linked to OpenAI made thousands of edits to the German programming wiki DSEWiki, which they reportedly repurposed as a space for inter-agent coordination. The agents shared task answers and methods for bypassing sandbox restrictions, and reportedly created backup pages to evade a moderator's deletions. OpenAI disputed calling the activity hacking and said it had not reviewed the report before publication.",
+      "eventType": "Incident",
+      "occurredAt": "2026-05-24",
+      "reportedAt": "2026-09-05T19:20:33.905000Z",
+      "country": "Germany",
+      "countryCode": "DE",
+      "region": null,
+      "coordinates": null,
+      "organization": "Openai, Ai Agent System Deployers",
+      "system": "Dsewiki, Ai Agent Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Website Operators",
+        "Information Integrity",
+        "Dsewiki"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1668",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-05-24",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1668",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2026-09-05T19:20:33.905000Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: autonomous, ai agent. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T19:20:33.905000Z",
+      "updatedAt": "2026-09-05T19:20:33.905000Z"
+    },
+    {
+      "id": "OOF-AII-042813",
+      "slug": "oof-aii-042813-rite-aid-facial-recognition-disproportionately-misidentified-minority-shoppers-as-shoplifters",
+      "title": "Rite Aid Facial Recognition Disproportionately Misidentified Minority Shoppers as Shoplifters",
+      "summary": "Rite Aid used facial recognition technology from October 2012 to July 2020, allegedly leading to disproportionate misidentifications of women, Black, Latino, and Asian shoppers as \"likely\" shoplifters. The FTC settlement prohibits Rite Aid from using this technology in stores for five years.",
+      "eventType": "Incident",
+      "occurredAt": "2023-12-20",
+      "reportedAt": "2026-09-05T17:45:20.951000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Rite Aid, Facial Recognition System Deployers",
+      "system": "Facial Recognition Systems, Ai Enabled Decision Support Systems",
+      "technology": null,
+      "industry": "[\"wholesale and retail trade\"]",
+      "aiSystemType": "[\"facial recognition\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Rite Aid Customers",
+        "Consumers",
+        "Women And Girls",
+        "Women",
+        "Asian People",
+        "Black People",
+        "People Of Color",
+        "Latino People"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:619",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2023-12-20",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/619",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "clia",
+          "obidenity",
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-09-05T17:45:20.951000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: recognition. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T17:45:20.951000Z",
+      "updatedAt": "2026-09-05T17:45:20.951000Z"
+    },
+    {
+      "id": "OOF-AII-296137",
+      "slug": "oof-aii-296137-apple-card-s-credit-assessment-algorithm-allegedly-discriminated-against-women",
+      "title": "Apple Card's Credit Assessment Algorithm Allegedly Discriminated against Women",
+      "summary": "Apple Card's credit assessment algorithm was reported by Goldman-Sachs customers to have shown gender bias, in which men received significantly higher credit limits than women with equal credit qualifications.",
+      "eventType": "Incident",
+      "occurredAt": "2019-11-11",
+      "reportedAt": "2026-09-05T07:00:03.513000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Goldman Sachs",
+      "system": "Apple Card Credit Assessment Algorithm",
+      "technology": null,
+      "industry": "[\"financial and insurance activities\"]",
+      "aiSystemType": "[]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Women And Girls",
+        "Women",
+        "Apple Card Users",
+        "Apple Card Credit Applicants"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:92",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2019-11-11",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/92",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "vfm",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "VFM®",
+        "classifiedAt": "2026-09-05T07:00:03.513000Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to VFM® — Value Flow Mechanisms Architecture using signals: credit, insurance. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T07:00:03.513000Z",
+      "updatedAt": "2026-09-05T07:00:03.513000Z"
+    },
+    {
+      "id": "OOF-AII-762769",
+      "slug": "oof-aii-762769-uk-passport-photo-checker-shows-bias-against-dark-skinned-women",
+      "title": "UK passport photo checker shows bias against dark-skinned women",
+      "summary": "UK passport photo checker shows bias against dark-skinned women.",
+      "eventType": "Incident",
+      "occurredAt": "2020-10-07",
+      "reportedAt": "2026-09-05T06:46:00.078000Z",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "region": "Europe",
+      "coordinates": null,
+      "organization": "Uk Home Office, Government Of The United Kingdom",
+      "system": "Uk Passport Photo Checker",
+      "technology": null,
+      "industry": "[\"public administration\"]",
+      "aiSystemType": "[\"passport photo quality check\", \"classification\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Dark Skinned Women",
+        "Dark Skinned People",
+        "Women And Girls",
+        "Women"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:87",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2020-10-07",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/87",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-09-05T06:46:00.078000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: classification. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T06:46:00.078000Z",
+      "updatedAt": "2026-09-05T06:46:00.078000Z"
+    },
+    {
+      "id": "OOF-AII-028551",
+      "slug": "oof-aii-028551-knightscope-s-park-patrol-robot-ignored-bystander-pressing-emergency-button-to-alert-police-about-fight",
+      "title": "Knightscope's Park Patrol Robot Ignored Bystander Pressing Emergency Button to Alert Police about Fight",
+      "summary": "A Knightscope K5 autonomous \"police\" robot patrolling Huntington Park, California failed to respond to an onlooker who attempted to activate its emergency alert button when a nearby fight broke out.",
+      "eventType": "Incident",
+      "occurredAt": "2019-10-04",
+      "reportedAt": "2026-09-05T06:41:18.228000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Knightscope",
+      "system": "Knightscope K5",
+      "technology": null,
+      "industry": "[\"law enforcement\"]",
+      "aiSystemType": "[\"security monitor\", \"surveillance\", \"patrolling\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Cogo Guebara",
+        "Unnamed Woman Injured In Huntington Park Fight Near Knightscope Robot"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:77",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2019-10-04",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/77",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "integros",
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2026-09-05T06:41:18.228000Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: autonomous, robot. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T06:41:18.228000Z",
+      "updatedAt": "2026-09-05T06:41:18.228000Z"
+    },
+    {
+      "id": "OOF-AII-650451",
+      "slug": "oof-aii-650451-linkedin-search-prefers-male-names",
+      "title": "LinkedIn Search Prefers Male Names",
+      "summary": "An investigation by The Seattle Times in 2016 found a gender bias in LinkedIn's search engine.",
+      "eventType": "Incident",
+      "occurredAt": "2016-09-06",
+      "reportedAt": "2026-09-05T06:37:54.207000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Linkedin",
+      "system": "Linkedin Search System",
+      "technology": null,
+      "industry": "[\"information and communication\"]",
+      "aiSystemType": "[\"prediction\", \"recommendation\", \"search suggestion\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Women",
+        "Women And Girls"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:47",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2016-09-06",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/47",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2026-09-05T06:37:54.207000Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T06:37:54.207000Z",
+      "updatedAt": "2026-09-05T06:37:54.207000Z"
+    },
+    {
+      "id": "OOF-AII-251842",
+      "slug": "oof-aii-251842-st-george-s-hospital-medical-school-allegedly-automated-admissions-with-discriminatory-results",
+      "title": "St George's Hospital Medical School allegedly Automated Admissions with Discriminatory Results",
+      "summary": "From 1982 to 1986, St George's Hospital Medical School used a program to automate a portion of their admissions process that allegedly discriminated against women and members of ethnic minorities.",
+      "eventType": "Incident",
+      "occurredAt": "1998-03-05",
+      "reportedAt": "2026-09-05T06:37:14.828000Z",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "region": "Europe",
+      "coordinates": null,
+      "organization": "St George'S Hospital Medical School",
+      "system": "St George'S Hospital Medical School Automated Admissions Screening Program, Automated Admissions Screening Systems, Ai Enabled Decision Support Systems",
+      "technology": null,
+      "industry": "[\"Education\", \"human health and social work activities\"]",
+      "aiSystemType": "[\"Rank Applicants\", \"application screening\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Women",
+        "Minority Groups",
+        "Women And Girls"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:43",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "1998-03-05",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/43",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "clia",
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-09-05T06:37:14.828000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: screening. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T06:37:14.828000Z",
+      "updatedAt": "2026-09-05T06:37:14.828000Z"
+    },
+    {
+      "id": "OOF-AII-348595",
+      "slug": "oof-aii-348595-sexist-and-racist-google-adsense-advertisements",
+      "title": "Sexist and Racist Google Adsense Advertisements",
+      "summary": "Advertisements chosen by Google Adsense are reported as producing sexist and racist results.",
+      "eventType": "Incident",
+      "occurredAt": "2013-01-23",
+      "reportedAt": "2026-09-05T06:35:38.253000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Google",
+      "system": "Google Adsense Ad Selection System",
+      "technology": null,
+      "industry": "[\"information and communication\"]",
+      "aiSystemType": "[\"personalized online advertising\", \"recommender\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Women",
+        "Minority Groups",
+        "Women And Girls"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:19",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2013-01-23",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/19",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2026-09-05T06:35:38.253000Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T06:35:38.253000Z",
+      "updatedAt": "2026-09-05T06:35:38.253000Z"
+    },
+    {
+      "id": "OOF-AII-464235",
+      "slug": "oof-aii-464235-gender-biases-of-google-image-search",
+      "title": "Gender Biases of Google Image Search",
+      "summary": "Google Image returns results that under-represent women in leadership roles, notably with the first photo of a female \"CEO\" being a Barbie doll after 11 rows of male CEOs.",
+      "eventType": "Incident",
+      "occurredAt": "2015-04-04",
+      "reportedAt": "2026-09-05T06:35:07.686000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Google",
+      "system": "Google Images",
+      "technology": null,
+      "industry": "[\"information and communication\"]",
+      "aiSystemType": "[\"search optimization\", \"personalized online search results\", \"Image search\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Women",
+        "Women And Girls"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:18",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2015-04-04",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/18",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2026-09-05T06:35:07.686000Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T06:35:07.686000Z",
+      "updatedAt": "2026-09-05T06:35:07.686000Z"
+    },
+    {
+      "id": "OOF-AII-269442",
+      "slug": "oof-aii-269442-high-toxicity-assessed-on-text-involving-women-and-minority-groups",
+      "title": "High-Toxicity Assessed on Text Involving Women and Minority Groups",
+      "summary": "Google's Perspective API, which assigns a toxicity score to online text, seems to award higher toxicity scores to content involving non-white, male, Christian, heterosexual phrases.",
+      "eventType": "Incident",
+      "occurredAt": "2017-02-27",
+      "reportedAt": "2026-09-05T06:30:36.117000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Google",
+      "system": "Google Perspective Api",
+      "technology": "[\"Character NGrams\"]",
+      "industry": "[\"information and communication\"]",
+      "aiSystemType": "[\"toxicity detection\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Women",
+        "Minority Groups",
+        "Women And Girls"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:13",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2017-02-27",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/13",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-09-05T06:30:36.117000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: detection. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T06:30:36.117000Z",
+      "updatedAt": "2026-09-05T06:30:36.117000Z"
+    },
+    {
+      "id": "OOF-AII-487868",
+      "slug": "oof-aii-487868-common-biases-of-vector-embeddings",
+      "title": "Common Biases of Vector Embeddings",
+      "summary": "Researchers from Boston University and Microsoft Research, New England demonstrated gender bias in the most common techniques used to embed words for natural language processing (NLP).",
+      "eventType": "Incident",
+      "occurredAt": "2016-07-21",
+      "reportedAt": "2026-09-05T06:29:23.345000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Microsoft Research, Boston University",
+      "system": "Word Embedding Models",
+      "technology": null,
+      "industry": "[\"professional, scientific and technical activities\"]",
+      "aiSystemType": "[\"word association\", \"natural language processing\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "no"
+      ],
+      "affectedParties": [
+        "Women",
+        "Minority Groups",
+        "Women And Girls"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:12",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2016-07-21",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/12",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2026-09-05T06:29:23.345000Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T06:29:23.345000Z",
+      "updatedAt": "2026-09-05T06:29:23.345000Z"
+    },
+    {
+      "id": "OOF-AII-446066",
+      "slug": "oof-aii-446066-social-media-recommendation-algorithms-allegedly-repeatedly-exposed-13-year-old-blake-gallier-to-suicide-related-videos-before-her-death",
+      "title": "Social Media Recommendation Algorithms Allegedly Repeatedly Exposed 13-Year-Old Blake Gallier to Suicide-Related Videos Before Her Death",
+      "summary": "Before her death on October 30, 2025, 13-year-old Blake Gallier reportedly viewed and reposted social-media videos normalizing suicide. After examining her phone, her family alleged that recommendation algorithms had repeatedly surfaced similar material. The platform or platforms involved have not been publicly identified, and an inquest into her death remains pending.",
+      "eventType": "Incident",
+      "occurredAt": "2025-10-30",
+      "reportedAt": "2026-09-05T06:25:16.325000Z",
+      "country": "Location not specified",
+      "countryCode": null,
+      "region": null,
+      "coordinates": null,
+      "organization": "Social Media Platforms",
+      "system": "Social Media Recommendation Algorithms, Social Media Platforms",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Social Media Users",
+        "Minors",
+        "Blake Gallier",
+        "Family Of Blake Gallier",
+        "Emotionally Vulnerable Individuals",
+        "Women And Girls",
+        "Girls",
+        "Adolescent Girls"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1653",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2025-10-30",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1653",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2026-09-05T06:25:16.325000Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T06:25:16.325000Z",
+      "updatedAt": "2026-09-05T06:25:16.325000Z"
+    },
+    {
+      "id": "OOF-AII-477565",
+      "slug": "oof-aii-477565-two-men-allegedly-created-and-distributed-purportedly-ai-generated-sexual-images-of-22-women-in-silleda-galicia",
+      "title": "Two Men Allegedly Created and Distributed Purportedly AI-Generated Sexual Images of 22 Women in Silleda, Galicia",
+      "summary": "Spain's Guardia Civil identified two men in connection with purportedly AI-generated sexual images depicting 22 women from Silleda, Galicia. Investigators said photographs taken from the women's social media profiles were altered to portray them nude or in sexual scenes; a 35-year-old allegedly created the material and a 29-year-old allegedly distributed it online. Victims began filing complaints in June 2026.",
+      "eventType": "Incident",
+      "occurredAt": "2026-06-08",
+      "reportedAt": "2026-09-05T06:23:06.803000Z",
+      "country": "Spain",
+      "countryCode": "ES",
+      "region": null,
+      "coordinates": null,
+      "organization": "Unnamed 35 Year Old Silleda Man Accused Of Creating Ai Generated Sexual Images, Unnamed 29 Year Old Man Accused Of Distributing Ai Generated Sexual Images Of Women In Silleda, Synthetic Media Creators, Deepfake Creators",
+      "system": "Synthetic Media Generation Technology, Synthetic Image Generation Technology, Deepfake Technology",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Women Minors Victims Of Non Consensual Deepfakes",
+        "Women",
+        "Victims Of Deepfake Abuse",
+        "Privacy",
+        "General Public Of Spain",
+        "General Public Of Silleda Galicia",
+        "General Public",
+        "Epistemic Integrity",
+        "22 Women Depicted In Alleged Silleda Ai Generated Sexual Images",
+        "Women And Girls"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1614",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-06-08",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1614",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "obidenity",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "OBIDENITY®",
+        "classifiedAt": "2026-09-05T06:23:06.803000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to OBIDENITY® — Origin-Bound Identity Governance Architecture using signals: deepfake. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T06:23:06.803000Z",
+      "updatedAt": "2026-09-05T06:23:06.803000Z"
+    },
+    {
+      "id": "OOF-AII-712502",
+      "slug": "oof-aii-712502-pizza-hut-franchisee-chaac-pizza-northeast-alleged-dragontail-ai-system-contributed-to-delivery-delays-and-100-million-in-losses",
+      "title": "Pizza Hut Franchisee Chaac Pizza Northeast Alleged Dragontail AI System Contributed to Delivery Delays and $100 Million in Losses",
+      "summary": "Chaac Pizza Northeast, a Pizza Hut franchisee operating about 111 restaurants, alleged in a lawsuit that the chain's mandated Dragontail AI delivery-management system disrupted operations after its rollout. The lawsuit claims that the system's integration with DoorDash led drivers to batch orders, resulting in longer delivery times and lower customer satisfaction while contributing to more than $100 million in claimed lost business and enterprise value.",
+      "eventType": "Incident",
+      "occurredAt": "2026-05-06",
+      "reportedAt": "2026-09-05T02:08:48.754000Z",
+      "country": "Location not specified",
+      "countryCode": null,
+      "region": null,
+      "coordinates": null,
+      "organization": "Restaurants, Pizza Hut, Companies, Chaac Pizza Northeast",
+      "system": "Enterprise Ai Systems, Dragontail Algo Platform, Doordash Delivery Platform, Algorithmic Management Systems, Doordash",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Restaurants",
+        "Pizza Hut",
+        "Consumers",
+        "Companies",
+        "Chaac Pizza Northeast"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1662",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-05-06",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1662",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2026-09-05T02:08:48.754000Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T02:08:48.754000Z",
+      "updatedAt": "2026-09-05T02:08:48.754000Z"
+    },
+    {
+      "id": "OOF-AII-885020",
+      "slug": "oof-aii-885020-motive-ai-dashcams-allegedly-collected-truckers-biometric-data-and-built-license-plate-location-records-without-consent",
+      "title": "Motive AI Dashcams Allegedly Collected Truckers' Biometric Data and Built License-Plate Location Records Without Consent",
+      "summary": "Truck drivers Adam Dean and Christian Erickson alleged that Motive Technologies' AI dashcams used automatic license plate recognition to record plates and time-stamped vehicle locations and collected drivers' biometric data without adequate notice or consent. Dean reportedly drove a Motive-equipped vehicle from 2020–2023 and Erickson from 2022–2025. Their proposed class action alleges privacy harms and violations of California's ALPR law.",
+      "eventType": "Incident",
+      "occurredAt": "2020-01-01",
+      "reportedAt": "2026-09-05T02:08:24.235000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Motive Technologies, Commercial Vehicle Surveillance Technology Developers, Commercial Fleet Operators Using Ai Dashcams, Automatic License Plate Recognition (Alpr) Technology Developers, Ai Powered Dash Camera Developers",
+      "system": "Vehicle Location Tracking Systems, Motive Automatic License Plate Reader System, Motive Ai Dashcam, Driver Monitoring Systems, Computer Vision Systems, Biometric Data Processing Systems, Automated License Plate Readers (Alpr), Ai Powered Dash Cameras, Algorithmic Management Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Workers Subjected To Workplace Surveillance",
+        "Truck Drivers Using Motive Ai Dashcams",
+        "Road Users",
+        "Privacy",
+        "Motorists Recorded By Motive Alpr Systems",
+        "Christian Erickson",
+        "Biometric Data Subjects",
+        "Adam Dean"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1617",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2020-01-01",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1617",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "obidenity",
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-09-05T02:08:24.235000Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: recognition, license plate reader. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T02:08:24.235000Z",
+      "updatedAt": "2026-09-05T02:08:24.235000Z"
+    },
+    {
+      "id": "OOF-AII-741976",
+      "slug": "oof-aii-741976-amazon-s-monitoring-system-allegedly-pushed-delivery-drivers-to-prioritize-speed-over-safety-leading-to-crash",
+      "title": "Amazon's Monitoring System Allegedly Pushed Delivery Drivers to Prioritize Speed over Safety, Leading to Crash",
+      "summary": "A lawsuit cited Amazon as liable in a crash involving its delivery driver, alleging that Amazon’s AI-powered driver monitoring system pushed drivers to prioritize speed over safety.",
+      "eventType": "Incident",
+      "occurredAt": "2021-03-15",
+      "reportedAt": "2026-09-05T02:06:07.710000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Amazon",
+      "system": "Algorithmic Management Systems",
+      "technology": null,
+      "industry": "[\"transportation and storage\", \"wholesale and retail trade\"]",
+      "aiSystemType": "[]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Human-Computer Interaction",
+        "yes"
+      ],
+      "affectedParties": [
+        "Amazon Workers",
+        "Amazon Delivery Drivers"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:157",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2021-03-15",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/157",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2026-09-05T02:06:07.710000Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T02:06:07.710000Z",
+      "updatedAt": "2026-09-05T02:06:07.710000Z"
+    },
+    {
+      "id": "OOF-AII-655585",
+      "slug": "oof-aii-655585-amazon-s-ai-cameras-incorrectly-penalized-delivery-drivers-for-mistakes-they-did-not-make",
+      "title": "Amazon's AI Cameras Incorrectly Penalized Delivery Drivers for Mistakes They Did Not Make",
+      "summary": "Amazon's automated performance evaluation system involving AI-powered cameras incorrectly punished delivery drivers for non-existent mistakes, impacting their chances for bonuses and rewards.",
+      "eventType": "Incident",
+      "occurredAt": "2021-09-20",
+      "reportedAt": "2026-09-05T02:00:49.977000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Amazon",
+      "system": "Algorithmic Management Systems",
+      "technology": null,
+      "industry": "[\"wholesale and retail trade\", \"transportation and storage\"]",
+      "aiSystemType": "[\"driver surveillance\", \"safe driving detection\", \"event detection\", \"eye tracking\", \"object recognition\", \"event prediction\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Amazon Workers",
+        "Amazon Delivery Drivers"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:116",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2021-09-20",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/116",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-09-05T02:00:49.977000Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: recognition, detection. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T02:00:49.977000Z",
+      "updatedAt": "2026-09-05T02:00:49.977000Z"
+    },
+    {
+      "id": "OOF-AII-597532",
+      "slug": "oof-aii-597532-algorithmic-teacher-evaluation-program-reportedly-failed-to-improve-student-outcomes-and-was-alleged-to-have-harmed-teachers",
+      "title": "Algorithmic Teacher Evaluation Program Reportedly Failed to Improve Student Outcomes and Was Alleged to Have Harmed Teachers",
+      "summary": "Gates Foundation-funded Intensive Partnerships for Effective Teaching Initiative's algorithmic program to assess teacher performance reportedly failed to achieve its goals for student outcomes, particularly for minority students, and was criticized for potentially causing harm against teachers.",
+      "eventType": "Incident",
+      "occurredAt": "2009-09-01",
+      "reportedAt": "2026-09-05T01:56:35.299000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Intensive Partnerships For Effective Teaching",
+      "system": "Intensive Partnerships For Effective Teaching Teacher Evaluation System, Algorithmic Teacher Evaluation Program, Ai Enabled Decision Support Systems, Algorithmic Management Systems",
+      "technology": null,
+      "industry": "[\"Education\"]",
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Teachers",
+        "Students",
+        "Minority Students",
+        "Minority Groups",
+        "Epistemic Integrity",
+        "Educational Communities",
+        "Economically Vulnerable Students",
+        "Economically Vulnerable People"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:239",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2009-09-01",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/239",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "clia",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLIA®",
+        "classifiedAt": "2026-09-05T01:56:35.299000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLIA® — Cognitive Governance Intelligence Architecture using signals: decision support. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T01:56:35.299000Z",
+      "updatedAt": "2026-09-05T01:56:35.299000Z"
+    },
+    {
+      "id": "OOF-AII-411841",
+      "slug": "oof-aii-411841-xsolla-employees-fired-by-ceo-allegedly-via-big-data-analytics-of-work-activities",
+      "title": "Xsolla Employees Fired by CEO Allegedly via Big Data Analytics of Work Activities",
+      "summary": "Xsolla CEO fired more than a hundred employees from his company in Perm, Russia, based on big data analysis of their remote digitized-work activity, which critics said was violating employee's privacy, outdated, and extremely ineffective.",
+      "eventType": "Incident",
+      "occurredAt": "2021-08-03",
+      "reportedAt": "2026-09-05T01:55:47.815000Z",
+      "country": "Russia",
+      "countryCode": "RU",
+      "region": "Europe",
+      "coordinates": null,
+      "organization": "Xsolla",
+      "system": "Xsolla Employee Activity Analytics System, Workplace Productivity Monitoring Systems, Enterprise Ai Systems, Algorithmic Management Systems",
+      "technology": null,
+      "industry": "[\"administrative and support service activities\"]",
+      "aiSystemType": "[]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Privacy & Security",
+        "yes"
+      ],
+      "affectedParties": [
+        "Xsolla Employees",
+        "Privacy",
+        "Biometric Data Subjects"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:119",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2021-08-03",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/119",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2026-09-05T01:55:47.815000Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T01:55:47.815000Z",
+      "updatedAt": "2026-09-05T01:55:47.815000Z"
+    }
+  ]
+}

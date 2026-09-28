@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1.0",
+  "baseUrl": "https://originopenfoundation.org/",
+  "passed": true,
+  "errors": [],
+  "checks": [
+    {
+      "kind": "resource",
+      "target": "robots.txt",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8",
+      "xRobotsTag": ""
+    },
+    {
+      "kind": "resource",
+      "target": "sitemap.xml",
+      "status": 200,
+      "contentType": "application/xml",
+      "xRobotsTag": ""
+    },
+    {
+      "kind": "resource",
+      "target": "llms.txt",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8",
+      "xRobotsTag": ""
+    },
+    {
+      "kind": "resource",
+      "target": "data/oof-site-knowledge-graph.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "xRobotsTag": ""
+    },
+    {
+      "kind": "resource",
+      "target": "data/oof-url-registry.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "xRobotsTag": ""
+    },
+    {
+      "kind": "resource",
+      "target": "data/oof-url-alias-registry.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "xRobotsTag": ""
+    },
+    {
+      "kind": "resource",
+      "target": "data/oof-version-registry.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "xRobotsTag": ""
+    },
+    {
+      "kind": "crawler",
+      "crawler": "OAI-SearchBot",
+      "target": "index.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "xRobotsTag": ""
+    },
+    {
+      "kind": "crawler",
+      "crawler": "OAI-SearchBot",
+      "target": "content/v/validos-architecture.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "xRobotsTag": ""
+    },
+    {
+      "kind": "crawler",
+      "crawler": "Googlebot",
+      "target": "index.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "xRobotsTag": ""
+    },
+    {
+      "kind": "crawler",
+      "crawler": "Googlebot",
+      "target": "content/v/validos-architecture.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "xRobotsTag": ""
+    },
+    {
+      "kind": "crawler",
+      "crawler": "Bingbot",
+      "target": "index.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "xRobotsTag": ""
+    },
+    {
+      "kind": "crawler",
+      "crawler": "Bingbot",
+      "target": "content/v/validos-architecture.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "xRobotsTag": ""
+    },
+    {
+      "kind": "crawler",
+      "crawler": "ClaudeBot",
+      "target": "index.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "xRobotsTag": ""
+    },
+    {
+      "kind": "crawler",
+      "crawler": "ClaudeBot",
+      "target": "content/v/validos-architecture.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "xRobotsTag": ""
+    }
+  ]
+}

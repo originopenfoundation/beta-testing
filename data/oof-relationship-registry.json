@@ -1,0 +1,488 @@
+{
+  "schemaVersion": "1.0",
+  "methodology": "OOF® Governed Linking Methodology",
+  "architecture": {
+    "id": "VALIDOS",
+    "title": "VALIDOS® — Validation Governance Architecture",
+    "resources": [
+      {
+        "title": "About VALIDOS® — Validation Governance Architecture",
+        "url": "content/v/validos-about.html"
+      },
+      {
+        "title": "VALIDOS® Architecture Map",
+        "url": "content/v/validos-architecture-map.html"
+      },
+      {
+        "title": "VALIDOS® Validation Governance Architecture — Validation Governance Layer",
+        "url": "content/v/validos-architecture.html"
+      },
+      {
+        "title": "VALIDOS® Complete Standards & Modules Index",
+        "url": "content/v/validos-complete-index.html"
+      },
+      {
+        "title": "VALIDOS® — Four-Layer Validation Protocol™",
+        "url": "content/v/validos-four-layer-validation-protocol.html"
+      }
+    ],
+    "standards": [
+      {
+        "id": "VOBS",
+        "title": "Validation Object Standard",
+        "url": "content/v/validos-vobs.html",
+        "about": {
+          "title": "About Validation Object Standard",
+          "url": "content/v/validos-vobs-about.html"
+        },
+        "modules": [
+          {
+            "title": "Validation Object Identification Module (VOIM)",
+            "url": "content/v/validos-vobs-voim-1.html",
+            "position": 1
+          },
+          {
+            "title": "Validation Object Boundary Module (VOBM)",
+            "url": "content/v/validos-vobs-vobm-2.html",
+            "position": 2
+          },
+          {
+            "title": "Validation Object Version Module (VOVM)",
+            "url": "content/v/validos-vobs-vovm-3.html",
+            "position": 3
+          },
+          {
+            "title": "Validation Object Relationship Module (VORM)",
+            "url": "content/v/validos-vobs-vorm-4.html",
+            "position": 4
+          },
+          {
+            "title": "Validation Object Fitness Module (VOFM)",
+            "url": "content/v/validos-vobs-vofm-5.html",
+            "position": 5
+          }
+        ],
+        "compatibleStandards": [
+          "VPSS",
+          "VSGS",
+          "VRRS"
+        ]
+      },
+      {
+        "id": "VPSS",
+        "title": "Validation Purpose & Scope Standard",
+        "url": "content/v/validos-vpss.html",
+        "about": {
+          "title": "About Validation Purpose & Scope Standard",
+          "url": "content/v/validos-vpss-about.html"
+        },
+        "modules": [
+          {
+            "title": "Validation Purpose Identification Module (VPIM)",
+            "url": "content/v/validos-vpss-vpim-1.html",
+            "position": 1
+          },
+          {
+            "title": "Validation Scope Definition Module (VSCDM)",
+            "url": "content/v/validos-vpss-vscdm-2.html",
+            "position": 2
+          },
+          {
+            "title": "Validation Depth Calibration Module (VDCM)",
+            "url": "content/v/validos-vpss-vdcm-3.html",
+            "position": 3
+          },
+          {
+            "title": "Validation Applicability Mapping Module (VAMM)",
+            "url": "content/v/validos-vpss-vamm-4.html",
+            "position": 4
+          },
+          {
+            "title": "Validation Limitation Governance Module (VLGM)",
+            "url": "content/v/validos-vpss-vlgm-5.html",
+            "position": 5
+          }
+        ],
+        "compatibleStandards": [
+          "VOBS",
+          "VCRS",
+          "VMTS",
+          "VRRS"
+        ]
+      },
+      {
+        "id": "VCRS",
+        "title": "Validation Criteria Standard",
+        "url": "content/v/validos-vcrs.html",
+        "about": {
+          "title": "About Validation Criteria Standard",
+          "url": "content/v/validos-vcrs-about.html"
+        },
+        "modules": [
+          {
+            "title": "Validation Requirement Derivation Module (VRDM)",
+            "url": "content/v/validos-vcrs-vrdm-1.html",
+            "position": 1
+          },
+          {
+            "title": "Validation Criterion Formulation Module (VCFM)",
+            "url": "content/v/validos-vcrs-vcfm-2.html",
+            "position": 2
+          },
+          {
+            "title": "Validation Threshold Calibration Module (VTCM)",
+            "url": "content/v/validos-vcrs-vtcm-3.html",
+            "position": 3
+          },
+          {
+            "title": "Validation Acceptance & Rejection Conditions Module (VARCM)",
+            "url": "content/v/validos-vcrs-varcm-4.html",
+            "position": 4
+          },
+          {
+            "title": "Validation Criteria Coherence Module (VCCM)",
+            "url": "content/v/validos-vcrs-vccm-5.html",
+            "position": 5
+          }
+        ],
+        "compatibleStandards": [
+          "VPSS",
+          "VMTS",
+          "VEXS",
+          "VDTS"
+        ]
+      },
+      {
+        "id": "VMTS",
+        "title": "Validation Method Standard",
+        "url": "content/v/validos-vmts.html",
+        "about": {
+          "title": "About Validation Method Standard",
+          "url": "content/v/validos-vmts-about.html"
+        },
+        "modules": [
+          {
+            "title": "Validation Method Eligibility Module (VMEM)",
+            "url": "content/v/validos-vmts-vmem-1.html",
+            "position": 1
+          },
+          {
+            "title": "Validation Method Suitability Module (VMSM)",
+            "url": "content/v/validos-vmts-vmsm-2.html",
+            "position": 2
+          },
+          {
+            "title": "Validation Method Configuration Module (VMCM)",
+            "url": "content/v/validos-vmts-vmcm-3.html",
+            "position": 3
+          },
+          {
+            "title": "Validation Method Integration Module (VMIM)",
+            "url": "content/v/validos-vmts-vmim-4.html",
+            "position": 4
+          },
+          {
+            "title": "Validation Method Readiness Module (VMRM)",
+            "url": "content/v/validos-vmts-vmrm-5.html",
+            "position": 5
+          }
+        ],
+        "compatibleStandards": [
+          "VCRS",
+          "VEFS",
+          "VEXS"
+        ]
+      },
+      {
+        "id": "VEFS",
+        "title": "Validation Evidence Fitness Standard",
+        "url": "content/v/validos-vefs.html",
+        "about": {
+          "title": "About Validation Evidence Fitness Standard",
+          "url": "content/v/validos-vefs-about.html"
+        },
+        "modules": [
+          {
+            "title": "Validation Evidence Relevance Module (VERM)",
+            "url": "content/v/validos-vefs-verm-1.html",
+            "position": 1
+          },
+          {
+            "title": "Validation Evidence Applicability Module (VEAM)",
+            "url": "content/v/validos-vefs-veam-2.html",
+            "position": 2
+          },
+          {
+            "title": "Validation Evidence Coverage Module (VECM)",
+            "url": "content/v/validos-vefs-vecm-3.html",
+            "position": 3
+          },
+          {
+            "title": "Validation Evidence Adequacy Module (VEADM)",
+            "url": "content/v/validos-vefs-veadm-4.html",
+            "position": 4
+          },
+          {
+            "title": "Validation Evidence Fitness Determination Module (VEFDM)",
+            "url": "content/v/validos-vefs-vefdm-5.html",
+            "position": 5
+          }
+        ],
+        "compatibleStandards": [
+          "VMTS",
+          "VSRS",
+          "VEXS",
+          "VDTS"
+        ]
+      },
+      {
+        "id": "VSRS",
+        "title": "Validation Source Reliability Standard",
+        "url": "content/v/validos-vsrs.html",
+        "about": {
+          "title": "About Validation Source Reliability Standard",
+          "url": "content/v/validos-vsrs-about.html"
+        },
+        "modules": [
+          {
+            "title": "Validation Source Identity & Attribution Module (VSIAM)",
+            "url": "content/v/validos-vsrs-vsiam-1.html",
+            "position": 1
+          },
+          {
+            "title": "Validation Source Provenance & Lineage Module (VSPLM)",
+            "url": "content/v/validos-vsrs-vsplm-2.html",
+            "position": 2
+          },
+          {
+            "title": "Validation Source Capability & Competence Module (VSCCM)",
+            "url": "content/v/validos-vsrs-vsccm-3.html",
+            "position": 3
+          },
+          {
+            "title": "Validation Source Independence & Conflict Module (VSICM)",
+            "url": "content/v/validos-vsrs-vsicm-4.html",
+            "position": 4
+          },
+          {
+            "title": "Validation Source Reliability Determination Module (VSRDM)",
+            "url": "content/v/validos-vsrs-vsrdm-5.html",
+            "position": 5
+          }
+        ],
+        "compatibleStandards": [
+          "VEFS",
+          "VEXS",
+          "VDTS"
+        ]
+      },
+      {
+        "id": "VEXS",
+        "title": "Validation Execution Standard",
+        "url": "content/v/validos-vexs.html",
+        "about": {
+          "title": "About Validation Execution Standard",
+          "url": "content/v/validos-vexs-about.html"
+        },
+        "modules": [
+          {
+            "title": "Validation Execution Basis & Authorization Module (VEBAM)",
+            "url": "content/v/validos-vexs-vebam-1.html",
+            "position": 1
+          },
+          {
+            "title": "Validation Execution Instantiation & Control Module (VEICM)",
+            "url": "content/v/validos-vexs-veicm-2.html",
+            "position": 2
+          },
+          {
+            "title": "Validation Execution Observation & Traceability Module (VEOTM)",
+            "url": "content/v/validos-vexs-veotm-3.html",
+            "position": 3
+          },
+          {
+            "title": "Validation Execution Deviation & Exception Governance Module (VEDEGM)",
+            "url": "content/v/validos-vexs-vedegm-4.html",
+            "position": 4
+          },
+          {
+            "title": "Validation Execution Completeness & Conformity Module (VECCM)",
+            "url": "content/v/validos-vexs-veccm-5.html",
+            "position": 5
+          }
+        ],
+        "compatibleStandards": [
+          "VMTS",
+          "VEFS",
+          "VSRS",
+          "VDTS",
+          "VSGS"
+        ]
+      },
+      {
+        "id": "VDTS",
+        "title": "Validation Determination Standard",
+        "url": "content/v/validos-vdts.html",
+        "about": {
+          "title": "About Validation Determination Standard",
+          "url": "content/v/validos-vdts-about.html"
+        },
+        "modules": [
+          {
+            "title": "Validation Determination Basis & Result Qualification Module (VDBRQM)",
+            "url": "content/v/validos-vdts-vdbrqm-1.html",
+            "position": 1
+          },
+          {
+            "title": "Validation Criterion Determination Module (VCDM)",
+            "url": "content/v/validos-vdts-vcdm-2.html",
+            "position": 2
+          },
+          {
+            "title": "Validation Determination Conflict & Uncertainty Governance Module (VDCUGM)",
+            "url": "content/v/validos-vdts-vdcugm-3.html",
+            "position": 3
+          },
+          {
+            "title": "Validation Cross-Criterion Integration Module (VCCIM)",
+            "url": "content/v/validos-vdts-vccim-4.html",
+            "position": 4
+          },
+          {
+            "title": "Overall Validation Determination Module (OVDM)",
+            "url": "content/v/validos-vdts-ovdm-5.html",
+            "position": 5
+          }
+        ],
+        "compatibleStandards": [
+          "VCRS",
+          "VEFS",
+          "VEXS",
+          "VSGS",
+          "VRRS"
+        ]
+      },
+      {
+        "id": "VSGS",
+        "title": "Validation State Governance Standard",
+        "url": "content/v/validos-vsgs.html",
+        "about": {
+          "title": "About Validation State Governance Standard",
+          "url": "content/v/validos-vsgs-about.html"
+        },
+        "modules": [
+          {
+            "title": "Validation State Assignment & Eligibility Module (VSAEM)",
+            "url": "content/v/validos-vsgs-vsaem-1.html",
+            "position": 1
+          },
+          {
+            "title": "Validation State Conditions & Applicability Module (VSCAM)",
+            "url": "content/v/validos-vsgs-vscam-2.html",
+            "position": 2
+          },
+          {
+            "title": "Validation Material Change & State Monitoring Module (VMCSMM)",
+            "url": "content/v/validos-vsgs-vmcsmm-3.html",
+            "position": 3
+          },
+          {
+            "title": "Validation State Transition & Revalidation Trigger Module (VSTRM)",
+            "url": "content/v/validos-vsgs-vstrm-4.html",
+            "position": 4
+          },
+          {
+            "title": "Validation State Continuity & Lifecycle Record Module (VSCLRM)",
+            "url": "content/v/validos-vsgs-vsclrm-5.html",
+            "position": 5
+          }
+        ],
+        "compatibleStandards": [
+          "VOBS",
+          "VEXS",
+          "VDTS",
+          "VRRS"
+        ]
+      },
+      {
+        "id": "VRRS",
+        "title": "Validation Reliance & Revalidation Standard",
+        "url": "content/v/validos-vrrs.html",
+        "about": {
+          "title": "About Validation Reliance & Revalidation Standard",
+          "url": "content/v/validos-vrrs-about.html"
+        },
+        "modules": [
+          {
+            "title": "Validation Reliance Eligibility & Sufficiency Module (VRESM)",
+            "url": "content/v/validos-vrrs-vresm-1.html",
+            "position": 1
+          },
+          {
+            "title": "Validation Reliance Conditions, Authorization & Operational Control Module (VRCAOCM)",
+            "url": "content/v/validos-vrrs-vrcaocm-2.html",
+            "position": 2
+          },
+          {
+            "title": "Validation Reliance Monitoring, Dependency & Change Propagation Module (VRMDCPM)",
+            "url": "content/v/validos-vrrs-vrmdcpm-3.html",
+            "position": 3
+          },
+          {
+            "title": "Revalidation Scope, Delta & Validation Reuse Module (RSDVRM)",
+            "url": "content/v/validos-vrrs-rsdvrm-4.html",
+            "position": 4
+          },
+          {
+            "title": "Revalidation Execution, Renewal & Reliance Continuity Module (RERRCM)",
+            "url": "content/v/validos-vrrs-rerrcm-5.html",
+            "position": 5
+          }
+        ],
+        "compatibleStandards": [
+          "VPSS",
+          "VDTS",
+          "VSGS"
+        ]
+      }
+    ],
+    "crossArchitectureInterfaces": [
+      {
+        "target": "GOA™ — Governance Architecture",
+        "url": "content/g/GOA™.html",
+        "direction": "Bidirectional governance interface",
+        "boundary": "GOA governs governance architecture and constitutional conditions; VALIDOS governs the lifecycle through which Validation Objects acquire, maintain, change, or lose governed validation status."
+      },
+      {
+        "target": "ORA™ — Operational Reality Architecture",
+        "url": "content/o/ora-architecture.html",
+        "direction": "Operational Reality to validation governance, with governed feedback",
+        "boundary": "ORA governs what is occurring in Operational Reality; VALIDOS governs whether a defined Validation Object can support a validation determination under governed conditions."
+      },
+      {
+        "target": "OBIDENITY® — Origin-Bound Identity Governance Architecture",
+        "url": "content/o/obidenity-architecture.html",
+        "direction": "Identity and provenance into validation governance",
+        "boundary": "OBIDENITY governs origin, identity, ownership, authority, permission, provenance, transfer, and continuity; VALIDOS governs their validation-specific use."
+      },
+      {
+        "target": "INTEGROS® — Integrity Governance Architecture",
+        "url": "content/integros/INTEGROS® Integrity Governance Architecture - Integrity Governance Layer.html",
+        "direction": "Integrity conditions into validation determination and reliance",
+        "boundary": "INTEGROS governs integrity across objects, information, states, processes, and records; VALIDOS governs whether the complete validation basis supports determination, state, and bounded reliance."
+      },
+      {
+        "target": "ADIT® — Continuous Audit & Evidence Governance Architecture",
+        "url": "content/adit/ADIT® Continuous Audit & Evidence Governance Architecture - Audit & Evidence Governance Layer.html",
+        "direction": "Evidence governance into the validation lifecycle",
+        "boundary": "ADIT governs evidential observation, preservation, verification, traceability, and auditability; VALIDOS governs evidence fitness and use within validation."
+      },
+      {
+        "target": "AGA™ — Accountability Governance Architecture",
+        "url": "content/r/ref-aga-architecture-index.html",
+        "direction": "Accountability governance around validation activity",
+        "boundary": "AGA governs authority, responsibility, accountability, attribution, escalation, and decision relationships; VALIDOS governs validation methodology, execution, determination, state, reliance, and revalidation."
+      }
+    ]
+  }
+}

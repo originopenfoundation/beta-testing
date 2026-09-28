@@ -1,0 +1,387 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-27T09:35:13.645Z",
+  "notice": "Machine routing metadata references the OOF architecture registry; it is not canonical methodology.",
+  "architectures": [
+    {
+      "architecture_id": "TREGA",
+      "canonical_name": "TREGA™ — Tax-Relevant Event Governance Architecture",
+      "canonical_language": "English",
+      "source_registry": "data/oof-architecture-registry.json",
+      "source_status": "completed",
+      "resource_urls": [
+        "https://originopenfoundation.org/Tax-Relevant%20Event%20Context%20Standard%20-%20(TRECS).html",
+        "https://originopenfoundation.org/Tax-Relevant%20Event%20Recognition%20Standard%20-%20(TRERS).html",
+        "https://originopenfoundation.org/Tax-Relevant%20Event%20Formation%20Standard%20-%20(TREFS).html",
+        "https://originopenfoundation.org/Tax-Relevant%20Event%20Boundary%20Standard%20-%20(TREBS).html",
+        "https://originopenfoundation.org/Tax-Relevant%20Event%20Timing%20Standard%20-%20(TRETS).html",
+        "https://originopenfoundation.org/Tax-Relevant%20Event%20Location%20Standard%20-%20(TRELS).html",
+        "https://originopenfoundation.org/Tax-Relevant%20Event%20Participation%20Standard%20-%20(TREPS).html",
+        "https://originopenfoundation.org/Tax-Relevant%20Value%20Association%20Standard%20-%20(TRVAS).html",
+        "https://originopenfoundation.org/Tax-Relevant%20Event%20Relationship%20Standard%20-%20(TRERLS).html",
+        "https://originopenfoundation.org/Tax-Relevant%20Event%20Determination%20Standard%20-%20(TREDS).html",
+        "https://originopenfoundation.org/Tax-Relevant%20Event%20Record%20Governance%20Standard%20-%20(TREGS).html",
+        "https://originopenfoundation.org/Tax-Relevant%20Event%20Lifecycle%20&%20Continuity%20Standard%20-%20(TRECLS).html"
+      ],
+      "governed_spaces": [],
+      "methodology_questions": [],
+      "routing_terms": [
+        "TREGA",
+        "TREGA™",
+        "TREGA™ — Tax-Relevant Event Governance Architecture"
+      ]
+    },
+    {
+      "architecture_id": "SIMULOS",
+      "canonical_name": "SIMULOS® — Simulation Governance Architecture",
+      "canonical_language": "English",
+      "source_registry": "data/oof-architecture-registry.json",
+      "source_status": "completed",
+      "resource_urls": [
+        "https://originopenfoundation.org/Simulation%20Object%20Standard%20-%20(SOS).html",
+        "https://originopenfoundation.org/Simulation%20Purpose%20&%20Scope%20Standard%20-%20(SPSS).html",
+        "https://originopenfoundation.org/Reality%20Representation%20Standard%20-%20(RRS).html",
+        "https://originopenfoundation.org/Simulation%20Assumption%20Standard%20-%20(SAS).html",
+        "https://originopenfoundation.org/Simulation%20Model%20&%20Environment%20Standard%20-%20(SMES).html",
+        "https://originopenfoundation.org/Simulation%20Input%20&%20Data%20Standard%20-%20(SIDS).html",
+        "https://originopenfoundation.org/Simulation%20Scenario%20Standard%20-%20(SSS).html",
+        "https://originopenfoundation.org/Simulation%20Execution%20Standard%20-%20(SES).html",
+        "https://originopenfoundation.org/Simulation%20Output%20Governance%20Standard%20-%20(SOGS).html",
+        "https://originopenfoundation.org/Simulation-to-Reality%20Correlation%20Standard%20-%20(SRCS).html",
+        "https://originopenfoundation.org/Simulation%20Evidence%20&%20Reliance%20Boundary%20Standard%20-%20(SERBS).html",
+        "https://originopenfoundation.org/Simulation%20Lifecycle%20&%20Resimulation%20Standard%20-%20(SLRS).html"
+      ],
+      "governed_spaces": [],
+      "methodology_questions": [],
+      "routing_terms": [
+        "SIMULOS",
+        "SIMULOS®",
+        "SIMULOS® — Simulation Governance Architecture"
+      ]
+    },
+    {
+      "architecture_id": "VALIDOS",
+      "canonical_name": "VALIDOS® — Validation Governance Architecture",
+      "canonical_language": "English",
+      "source_registry": "data/oof-architecture-registry.json",
+      "source_status": "completed",
+      "resource_urls": [
+        "https://originopenfoundation.org/content/v/validos-vobs.html",
+        "https://originopenfoundation.org/content/v/validos-vpss.html",
+        "https://originopenfoundation.org/content/v/validos-vcrs.html",
+        "https://originopenfoundation.org/content/v/validos-vmts.html",
+        "https://originopenfoundation.org/content/v/validos-vefs.html",
+        "https://originopenfoundation.org/content/v/validos-vsrs.html",
+        "https://originopenfoundation.org/content/v/validos-vexs.html",
+        "https://originopenfoundation.org/content/v/validos-vdts.html",
+        "https://originopenfoundation.org/content/v/validos-vsgs.html",
+        "https://originopenfoundation.org/content/v/validos-vrrs.html"
+      ],
+      "governed_spaces": [],
+      "methodology_questions": [],
+      "routing_terms": [
+        "VALIDOS",
+        "VALIDOS®",
+        "VALIDOS® — Validation Governance Architecture"
+      ]
+    },
+    {
+      "architecture_id": "VFM",
+      "canonical_name": "VFM® — Value Flow Mechanisms Architecture",
+      "canonical_language": "English",
+      "source_registry": "data/oof-architecture-registry.json",
+      "source_status": "completed",
+      "resource_urls": [
+        "https://originopenfoundation.org/content/vfm/vfm-vis.html",
+        "https://originopenfoundation.org/content/vfm/vfm-vos.html",
+        "https://originopenfoundation.org/content/vfm/vfm-ves.html",
+        "https://originopenfoundation.org/content/vfm/vfm-vrs.html",
+        "https://originopenfoundation.org/content/vfm/vfm-vss.html",
+        "https://originopenfoundation.org/content/vfm/vfm-vcs.html",
+        "https://originopenfoundation.org/content/vfm/vfm-vds.html",
+        "https://originopenfoundation.org/content/vfm/vfm-vdgs.html",
+        "https://originopenfoundation.org/content/vfm/vfm-vns.html",
+        "https://originopenfoundation.org/content/vfm/vfm-vrss.html",
+        "https://originopenfoundation.org/content/vfm/vfm-vxss.html"
+      ],
+      "governed_spaces": [],
+      "methodology_questions": [],
+      "routing_terms": [
+        "VFM",
+        "VFM®",
+        "VFM® — Value Flow Mechanisms Architecture"
+      ]
+    },
+    {
+      "architecture_id": "INTEGROS",
+      "canonical_name": "INTEGROS® — Integrity Governance Architecture",
+      "canonical_language": "English",
+      "source_registry": "data/oof-architecture-registry.json",
+      "source_status": "completed",
+      "resource_urls": [
+        "https://originopenfoundation.org/content/integros/Integrity%20Definition%20Standard%20-%20(INDS).html",
+        "https://originopenfoundation.org/content/integros/Structural%20Integrity%20Standard%20-%20(STIS).html",
+        "https://originopenfoundation.org/content/integros/Integrity%20Condition%20Standard%20-%20(ICS).html",
+        "https://originopenfoundation.org/content/integros/Integrity%20Measurement%20Standard%20-%20(IMS).html",
+        "https://originopenfoundation.org/content/integros/Integrity%20State%20Standard%20-%20(ISS).html",
+        "https://originopenfoundation.org/content/integros/Integrity%20Deviation%20Standard%20-%20(IDS).html",
+        "https://originopenfoundation.org/content/integros/Integrity%20Breach%20Standard%20-%20(IBS).html",
+        "https://originopenfoundation.org/content/integros/Integrity%20Response%20Standard%20-%20(IRS).html",
+        "https://originopenfoundation.org/content/integros/Integrity%20Restoration%20Standard%20-%20(IRRS).html",
+        "https://originopenfoundation.org/content/integros/Integrity%20Assurance%20Standard%20-%20(IAS).html"
+      ],
+      "governed_spaces": [],
+      "methodology_questions": [],
+      "routing_terms": [
+        "INTEGROS",
+        "INTEGROS®",
+        "INTEGROS® — Integrity Governance Architecture"
+      ]
+    },
+    {
+      "architecture_id": "CLA",
+      "canonical_name": "CLA™ — Classification Architecture",
+      "canonical_language": "English",
+      "source_registry": "data/oof-architecture-registry.json",
+      "source_status": "completed",
+      "resource_urls": [
+        "https://originopenfoundation.org/content/c/cla-cfs.html",
+        "https://originopenfoundation.org/content/c/cla-css.html",
+        "https://originopenfoundation.org/content/c/cla-ccxs.html",
+        "https://originopenfoundation.org/content/c/cla-cas-assignment.html",
+        "https://originopenfoundation.org/content/c/cla-cvs.html",
+        "https://originopenfoundation.org/content/c/cla-cls.html",
+        "https://originopenfoundation.org/content/c/cla-crs.html",
+        "https://originopenfoundation.org/content/c/cla-cis-interoperability.html",
+        "https://originopenfoundation.org/content/c/cla-cis-intelligence.html",
+        "https://originopenfoundation.org/content/c/cla-cas-assurance.html"
+      ],
+      "governed_spaces": [],
+      "methodology_questions": [],
+      "routing_terms": [
+        "CLA",
+        "CLA™",
+        "CLA™ — Classification Architecture"
+      ]
+    },
+    {
+      "architecture_id": "OBIDENITY",
+      "canonical_name": "OBIDENITY® — Origin-Bound Identity Governance Architecture",
+      "canonical_language": "English",
+      "source_registry": "data/oof-architecture-registry.json",
+      "source_status": "completed",
+      "resource_urls": [
+        "https://originopenfoundation.org/content/o/obid-audis.html",
+        "https://originopenfoundation.org/content/o/obid-cis.html",
+        "https://originopenfoundation.org/content/o/obid-tis.html",
+        "https://originopenfoundation.org/content/o/obid-pris.html",
+        "https://originopenfoundation.org/content/o/obid-ris.html",
+        "https://originopenfoundation.org/content/o/obid-pis.html",
+        "https://originopenfoundation.org/content/o/obid-ais.html",
+        "https://originopenfoundation.org/content/o/obid-owis.html",
+        "https://originopenfoundation.org/content/o/obid-iis.html",
+        "https://originopenfoundation.org/content/o/obid-ois.html"
+      ],
+      "governed_spaces": [],
+      "methodology_questions": [],
+      "routing_terms": [
+        "OBIDENITY",
+        "OBIDENITY®",
+        "OBIDENITY® — Origin-Bound Identity Governance Architecture"
+      ]
+    },
+    {
+      "architecture_id": "AIG",
+      "canonical_name": "AIG® - Governance Architecture",
+      "canonical_language": "English",
+      "source_registry": "data/oof-architecture-registry.json",
+      "source_status": "completed",
+      "resource_urls": [
+        "https://originopenfoundation.org/content/aig/Behavioral%20Auditability%20Standard%20-%20(BAS).html",
+        "https://originopenfoundation.org/content/aig/Behavioral%20Boundary%20Standard%20-%20(BBS).html",
+        "https://originopenfoundation.org/content/aig/Behavioral%20Correction%20Standard%20-%20(BCS).html",
+        "https://originopenfoundation.org/content/aig/Behavioral%20Escalation%20Standard%20-%20(BES).html",
+        "https://originopenfoundation.org/content/aig/Behavioral%20Evidence%20Standard%20-%20(BVES).html",
+        "https://originopenfoundation.org/content/aig/Behavioral%20Integrity%20Standard%20-%20(BIS).html",
+        "https://originopenfoundation.org/content/aig/Behavioral%20Interoperability%20Standard%20-%20(BIS).html",
+        "https://originopenfoundation.org/content/aig/Behavioral%20Safety%20Standard%20-%20(BSS).html",
+        "https://originopenfoundation.org/content/aig/Behavioral%20Trust%20Standard%20-%20(BTS).html",
+        "https://originopenfoundation.org/content/aig/Behavioral%20Continuity%20Standard%20-%20(BCNS).html"
+      ],
+      "governed_spaces": [],
+      "methodology_questions": [],
+      "routing_terms": [
+        "AIG",
+        "AIG®",
+        "AIG® - Governance Architecture"
+      ]
+    },
+    {
+      "architecture_id": "GOA",
+      "canonical_name": "GOA™ - Governance Architecture",
+      "canonical_language": "English",
+      "source_registry": "data/oof-architecture-registry.json",
+      "source_status": "completed",
+      "resource_urls": [
+        "https://originopenfoundation.org/content/g/Governance%20Accountability%20Standard%20-%20(GAS-A).html",
+        "https://originopenfoundation.org/content/g/Governance%20Authority%20Standard%20-%20(GAS).html",
+        "https://originopenfoundation.org/content/g/Governance%20Boundary%20Standard%20-%20(GBS).html",
+        "https://originopenfoundation.org/content/g/Governance%20Continuity%20Standard%20-%20(GCS).html",
+        "https://originopenfoundation.org/content/g/Governance%20Delegation%20Standard%20-%20(GDS).html",
+        "https://originopenfoundation.org/content/g/Governance%20Integrity%20Standard%20-%20(GIS).html",
+        "https://originopenfoundation.org/content/g/Governance%20Interoperability%20Standard%20-%20(GOIS).html",
+        "https://originopenfoundation.org/content/g/Governance%20Scope%20Standard%20-%20(GSS).html",
+        "https://originopenfoundation.org/content/g/Governance%20Transparency%20Standard%20-%20(GTS).html",
+        "https://originopenfoundation.org/content/g/Governance%20Validation%20Standard%20-%20(GVS).html"
+      ],
+      "governed_spaces": [],
+      "methodology_questions": [],
+      "routing_terms": [
+        "GOA",
+        "GOA™",
+        "GOA™ - Governance Architecture"
+      ]
+    },
+    {
+      "architecture_id": "AGA",
+      "canonical_name": "AGA™ — Accountability Governance Architecture",
+      "canonical_language": "English",
+      "source_registry": "data/oof-architecture-registry.json",
+      "source_status": "completed",
+      "resource_urls": [
+        "https://originopenfoundation.org/content/r/ras.html",
+        "https://originopenfoundation.org/content/a/ags.html",
+        "https://originopenfoundation.org/content/a/ads.html",
+        "https://originopenfoundation.org/content/a/avs.html",
+        "https://originopenfoundation.org/content/a/aes.html",
+        "https://originopenfoundation.org/content/r/rgs.html",
+        "https://originopenfoundation.org/content/c/crgs.html",
+        "https://originopenfoundation.org/content/c/ccs.html",
+        "https://originopenfoundation.org/content/g/gos.html",
+        "https://originopenfoundation.org/content/e/eas.html",
+        "https://originopenfoundation.org/content/a/ags-a.html",
+        "https://originopenfoundation.org/content/r/ras-a.html",
+        "https://originopenfoundation.org/content/r/rcs.html",
+        "https://originopenfoundation.org/content/r/rts.html",
+        "https://originopenfoundation.org/content/d/das.html",
+        "https://originopenfoundation.org/content/a/acs.html",
+        "https://originopenfoundation.org/content/a/acs-c.html",
+        "https://originopenfoundation.org/content/c/cap-aga-protocol.html",
+        "https://originopenfoundation.org/content/c/cap.html"
+      ],
+      "governed_spaces": [],
+      "methodology_questions": [],
+      "routing_terms": [
+        "AGA",
+        "AGA™",
+        "AGA™ — Accountability Governance Architecture"
+      ]
+    },
+    {
+      "architecture_id": "ASGA",
+      "canonical_name": "ASGA™ — Autonomous Systems Governance Architecture",
+      "canonical_language": "English",
+      "source_registry": "data/oof-architecture-registry.json",
+      "source_status": "completed",
+      "resource_urls": [
+        "https://originopenfoundation.org/content/a/asga-ais.html",
+        "https://originopenfoundation.org/content/a/asga-aas.html",
+        "https://originopenfoundation.org/content/a/asga-aes.html",
+        "https://originopenfoundation.org/content/a/asga-acs.html",
+        "https://originopenfoundation.org/content/a/asga-arts.html",
+        "https://originopenfoundation.org/content/a/asga-acos.html",
+        "https://originopenfoundation.org/content/a/asga-aess.html",
+        "https://originopenfoundation.org/content/a/asga-aoas.html",
+        "https://originopenfoundation.org/content/a/asga-acps.html",
+        "https://originopenfoundation.org/content/a/asga-aevs.html"
+      ],
+      "governed_spaces": [],
+      "methodology_questions": [],
+      "routing_terms": [
+        "ASGA",
+        "ASGA™",
+        "ASGA™ — Autonomous Systems Governance Architecture"
+      ]
+    },
+    {
+      "architecture_id": "ORA",
+      "canonical_name": "ORA™ - Operational Reality Architecture",
+      "canonical_language": "English",
+      "source_registry": "data/oof-architecture-registry.json",
+      "source_status": "completed",
+      "resource_urls": [
+        "https://originopenfoundation.org/content/o/ors.html",
+        "https://originopenfoundation.org/content/o/obs.html",
+        "https://originopenfoundation.org/content/o/orcs.html",
+        "https://originopenfoundation.org/content/o/ortis.html",
+        "https://originopenfoundation.org/content/o/ovcs.html",
+        "https://originopenfoundation.org/content/o/ocns.html",
+        "https://originopenfoundation.org/content/o/oesis.html",
+        "https://originopenfoundation.org/content/o/oais.html",
+        "https://originopenfoundation.org/content/o/odis.html",
+        "https://originopenfoundation.org/content/o/odcs.html",
+        "https://originopenfoundation.org/content/o/oeas.html",
+        "https://originopenfoundation.org/content/s/srcs.html"
+      ],
+      "governed_spaces": [],
+      "methodology_questions": [],
+      "routing_terms": [
+        "ORA",
+        "ORA™",
+        "ORA™ - Operational Reality Architecture"
+      ]
+    },
+    {
+      "architecture_id": "CLIA",
+      "canonical_name": "CLIA® — Cognitive Governance Intelligence Architecture",
+      "canonical_language": "English",
+      "source_registry": "data/oof-architecture-registry.json",
+      "source_status": "completed",
+      "resource_urls": [
+        "https://originopenfoundation.org/content/c/CIS.html",
+        "https://originopenfoundation.org/content/h/HCIS.html",
+        "https://originopenfoundation.org/content/a/ACIS.html",
+        "https://originopenfoundation.org/content/m/MCIS.html",
+        "https://originopenfoundation.org/content/c/CIIS.html",
+        "https://originopenfoundation.org/content/c/CRIS.html",
+        "https://originopenfoundation.org/content/c/CRMS.html",
+        "https://originopenfoundation.org/content/c/CCIS.html",
+        "https://originopenfoundation.org/content/h/HAICS.html",
+        "https://originopenfoundation.org/content/c/CEGS.html"
+      ],
+      "governed_spaces": [],
+      "methodology_questions": [],
+      "routing_terms": [
+        "CLIA",
+        "CLIA®",
+        "CLIA® — Cognitive Governance Intelligence Architecture"
+      ]
+    },
+    {
+      "architecture_id": "MGIA",
+      "canonical_name": "MGIA™ — Memory Governance Intelligence Architecture",
+      "canonical_language": "English",
+      "source_registry": "data/oof-architecture-registry.json",
+      "source_status": "completed",
+      "resource_urls": [
+        "https://originopenfoundation.org/content/m/Memory%20Integrity%20Standard.html",
+        "https://originopenfoundation.org/content/m/Memory%20Governance%20Standard%20-%20(MGS).html",
+        "https://originopenfoundation.org/content/a/Agent%20Memory%20Integrity%20Standard%20-%20(AMIS).html",
+        "https://originopenfoundation.org/content/u/User%20Memory%20Integrity%20Standard%20-%20(UMIS).html",
+        "https://originopenfoundation.org/content/g/Group%20Memory%20Integrity%20Standard%20-%20(GMIS).html",
+        "https://originopenfoundation.org/content/t/Temporal%20Memory%20Integrity%20Standard%20-%20(TMIS).html",
+        "https://originopenfoundation.org/content/m/Multimodal%20Memory%20Integrity%20Standard%20-%20(MMIS).html",
+        "https://originopenfoundation.org/content/c/Collective%20Memory%20Integrity%20Standard%20-%20(CMIS).html",
+        "https://originopenfoundation.org/content/m/Memory%20Evolution%20Integrity%20Standard%20-%20(MEIS).html",
+        "https://originopenfoundation.org/content/s/Skill%20Formation%20Integrity%20Standard%20-%20(SFIS).html"
+      ],
+      "governed_spaces": [],
+      "methodology_questions": [],
+      "routing_terms": [
+        "MGIA",
+        "MGIA™",
+        "MGIA™ — Memory Governance Intelligence Architecture"
+      ]
+    }
+  ]
+}

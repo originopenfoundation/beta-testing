@@ -1,0 +1,598 @@
+{
+  "schemaVersion": "1.0",
+  "policy": "Only verified historical URLs may become aliases.",
+  "aliases": [
+    {
+      "sourcePath": "content/g/About Behavioral Auditability Standard - (BAS).html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/About%20Behavioral%20Auditability%20Standard%20-%20(BAS).html",
+      "canonicalPath": "content/aig/About Behavioral Auditability Standard - (BAS).html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/About%20Behavioral%20Auditability%20Standard%20-%20(BAS).html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/About Behavioral Evidence Standard - (BVES).html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/About%20Behavioral%20Evidence%20Standard%20-%20(BVES).html",
+      "canonicalPath": "content/aig/About Behavioral Evidence Standard - (BVES).html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/About%20Behavioral%20Evidence%20Standard%20-%20(BVES).html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/About Behavioral Safety Standard - (BSS).html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/About%20Behavioral%20Safety%20Standard%20-%20(BSS).html",
+      "canonicalPath": "content/aig/About Behavioral Safety Standard - (BSS).html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/About%20Behavioral%20Safety%20Standard%20-%20(BSS).html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/About Behavioral Trust Standard - (BTS).html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/About%20Behavioral%20Trust%20Standard%20-%20(BTS).html",
+      "canonicalPath": "content/aig/About Behavioral Trust Standard - (BTS).html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/About%20Behavioral%20Trust%20Standard%20-%20(BTS).html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/BAM.html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/BAM.html",
+      "canonicalPath": "content/aig/BAM.html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/BAM.html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/BARM.html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/BARM.html",
+      "canonicalPath": "content/aig/BARM.html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/BARM.html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/BEAM.html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/BEAM.html",
+      "canonicalPath": "content/aig/BEAM.html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/BEAM.html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/BEAvM.html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/BEAvM.html",
+      "canonicalPath": "content/aig/BEAvM.html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/BEAvM.html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/Behavioral Auditability Standard - (BAS).html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/Behavioral%20Auditability%20Standard%20-%20(BAS).html",
+      "canonicalPath": "content/aig/Behavioral Auditability Standard - (BAS).html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/Behavioral%20Auditability%20Standard%20-%20(BAS).html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/Behavioral Evidence Standard - (BVES).html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/Behavioral%20Evidence%20Standard%20-%20(BVES).html",
+      "canonicalPath": "content/aig/Behavioral Evidence Standard - (BVES).html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/Behavioral%20Evidence%20Standard%20-%20(BVES).html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/Behavioral Safety Standard - (BSS).html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/Behavioral%20Safety%20Standard%20-%20(BSS).html",
+      "canonicalPath": "content/aig/Behavioral Safety Standard - (BSS).html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/Behavioral%20Safety%20Standard%20-%20(BSS).html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/Behavioral Trust Standard - (BTS).html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/Behavioral%20Trust%20Standard%20-%20(BTS).html",
+      "canonicalPath": "content/aig/Behavioral Trust Standard - (BTS).html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/Behavioral%20Trust%20Standard%20-%20(BTS).html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/BEIM.html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/BEIM.html",
+      "canonicalPath": "content/aig/BEIM.html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/BEIM.html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/BEM.html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/BEM.html",
+      "canonicalPath": "content/aig/BEM.html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/BEM.html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/BEPM.html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/BEPM.html",
+      "canonicalPath": "content/aig/BEPM.html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/BEPM.html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/BETM.html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/BETM.html",
+      "canonicalPath": "content/aig/BETM.html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/BETM.html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/BRDM.html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/BRDM.html",
+      "canonicalPath": "content/aig/BRDM.html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/BRDM.html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/BRM.html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/BRM.html",
+      "canonicalPath": "content/aig/BRM.html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/BRM.html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/BRMM.html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/BRMM.html",
+      "canonicalPath": "content/aig/BRMM.html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/BRMM.html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/BSAM.html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/BSAM.html",
+      "canonicalPath": "content/aig/BSAM.html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/BSAM.html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/BSPM.html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/BSPM.html",
+      "canonicalPath": "content/aig/BSPM.html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/BSPM.html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/BSVM.html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/BSVM.html",
+      "canonicalPath": "content/aig/BSVM.html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/BSVM.html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/BTAM.html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/BTAM.html",
+      "canonicalPath": "content/aig/BTAM.html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/BTAM.html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/BTDM.html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/BTDM.html",
+      "canonicalPath": "content/aig/BTDM.html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/BTDM.html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/BTEM.html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/BTEM.html",
+      "canonicalPath": "content/aig/BTEM.html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/BTEM.html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/BTPM.html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/BTPM.html",
+      "canonicalPath": "content/aig/BTPM.html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/BTPM.html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/BTRM.html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/BTRM.html",
+      "canonicalPath": "content/aig/BTRM.html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/BTRM.html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    },
+    {
+      "sourcePath": "content/g/BVM.html",
+      "sourceUrl": "https://originopenfoundation.org/content/g/BVM.html",
+      "canonicalPath": "content/aig/BVM.html",
+      "canonicalUrl": "https://originopenfoundation.org/content/aig/BVM.html",
+      "resolution": "canonical+noindex",
+      "status": "active"
+    }
+  ],
+  "migrationCandidates": [
+    {
+      "normalizedEntityName": "about oof standards",
+      "paths": [
+        "content/a/aboutstandards.html",
+        "standardsoverview.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "agent cognition integrity standard acis",
+      "paths": [
+        "content/a/ACIS-overview.html",
+        "content/a/ACIS.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "artdata module",
+      "paths": [
+        "content/a/AD-AC.html",
+        "content/a/AD-AI.html",
+        "content/a/AD-C.html",
+        "content/a/AD-I.html",
+        "content/a/AD-P.html",
+        "content/a/AD-S.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "asset identity standard",
+      "paths": [
+        "content/a/AssetIdentityStandard.html",
+        "content/m/MinimalSelfDeclaration(AIS).html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "autonomous identity attribution module aiam",
+      "paths": [
+        "content/a/asga-ais-aiam-2.html",
+        "content/a/asga-ais-aiam-3.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "carbon lifecycle integrity standard cli",
+      "paths": [
+        "content/c/carbonlifecycleintegrity.html",
+        "content/c/CLI.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "classification consistency module ccm",
+      "paths": [
+        "content/c/cla-cas-assignment-ccm-4.html",
+        "content/c/cla-cfs-ccm-4.html",
+        "content/c/cla-cvs-ccm-3.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "classification decision module cdm",
+      "paths": [
+        "content/c/cla-cas-assignment-cdm-1.html",
+        "content/c/cla-cas-assignment-cdm-2.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "clia cognitive layer integrity standard",
+      "paths": [
+        "content/c/clia-preview.html",
+        "content/c/CLIA.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "clia complete standards modules index",
+      "paths": [
+        "content/c/CLIA-index.html",
+        "content/r/ref-clia-complete-index.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "cognitive integrity standard cis",
+      "paths": [
+        "content/c/CIS-overview.html",
+        "content/c/CIS.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "cognitive interpretation integrity standard ciis",
+      "paths": [
+        "content/c/CIIS-overview.html",
+        "content/c/CIIS.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "cognitive reality modeling standard crms",
+      "paths": [
+        "content/c/CRMS-overview.html",
+        "content/c/CRMS.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "cognitive reasoning integrity standard cris",
+      "paths": [
+        "content/c/CRIS-overview.html",
+        "content/c/CRIS.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "ctim cognitive transformation integrity module",
+      "paths": [
+        "content/c/CTIM.html",
+        "content/c/CTIM2.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "earned learning standard els",
+      "paths": [
+        "content/e/els-earned-learning-standard.html",
+        "content/e/els-preview.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "eim execution integrity module",
+      "paths": [
+        "content/e/EIM.html",
+        "content/r/ris-eim.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "escalation authority module eam",
+      "paths": [
+        "content/a/asga-aess-eam-2.html",
+        "content/aig/EAM.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "escalation continuity module ecm",
+      "paths": [
+        "content/a/asga-aess-ecm-3.html",
+        "content/aig/ECM.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "escalation trigger module etm",
+      "paths": [
+        "content/a/asga-aess-etm-1.html",
+        "content/aig/ETM.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "governance intelligence report",
+      "paths": [
+        "content/e/engine-4.html",
+        "content/g/Governance Intelligence Report.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "human cognition integrity standard hcis",
+      "paths": [
+        "content/h/HCIS-overview.html",
+        "content/h/HCIS.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "integros integrity standard",
+      "paths": [
+        "content/i/integros-preview.html",
+        "content/i/integros.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "join oof",
+      "paths": [
+        "content/j/JoinOOF.html",
+        "content/j/JoinOOF™.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "methodology validation",
+      "paths": [
+        "content/m/mdisc-12-methodology-validation.html",
+        "content/m/methodology-4.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "mtvf module",
+      "paths": [
+        "content/c/CLIE.html",
+        "content/i/ISCI.html",
+        "content/s/SCP.html",
+        "content/t/TSA.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "multi agent cognition integrity standard mcis",
+      "paths": [
+        "content/m/MCIS-overview.html",
+        "content/m/MCIS.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "oof canonical meaning registry oofcmr",
+      "paths": [
+        "content/m/minfra-4-OOFCMR.html",
+        "content/o/OOF-CanonicalMeaningRegistry.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "oof defines the structural conditions under which systems are valid interoperable and aligned with reality",
+      "paths": [
+        "content/a/AboutOOF-StructuredReality.html",
+        "index.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "oof funding readiness risk structuring",
+      "paths": [
+        "content/f/FundingReadiness&RiskStructuring.html",
+        "content/o/OOF™FundingReadiness.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "oof global ai incident intelligence",
+      "paths": [
+        "ai-incidents/architectures/index.html",
+        "ai-incidents/countries/index.html",
+        "ai-incidents/critical/index.html",
+        "ai-incidents/index.html",
+        "ai-incidents/industries/index.html",
+        "ai-incidents/latest/index.html",
+        "ai-incidents/map/index.html",
+        "ai-incidents/methodology/index.html",
+        "ai-incidents/stress-tests/index.html",
+        "ai-incidents/trends/index.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "oof standard participation monetization model",
+      "paths": [
+        "content/o/OOF™StandardParticipation.html",
+        "content/s/StandardParticipation&MonetizationModel.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "oof structured reality standards index",
+      "paths": [
+        "content/i/index oof.html",
+        "standardinde.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "operational boundary synchronization standard obs",
+      "paths": [
+        "content/o/obs-preview.html",
+        "content/o/obs.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "origin open registry",
+      "paths": [
+        "content/m/methodology-7.html",
+        "content/m/minfra-2-OOR.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "raoim responsibility assignment origin integrity module",
+      "paths": [
+        "content/r/ras-a-raoim.html",
+        "content/r/rgs-raoim.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "rbim relationship boundary integrity module",
+      "paths": [
+        "content/r/ras-module-3.html",
+        "content/r/ras-rbim.html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "tax relevant event context standard trecs",
+      "paths": [
+        "Standards.html",
+        "Tax-Relevant Event Context Standard - (TRECS).html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    },
+    {
+      "normalizedEntityName": "value activation standard vas",
+      "paths": [
+        "content/m/MinimalSelfDeclaration(VAS).html",
+        "content/v/ValueActivationStandard(VAS).html"
+      ],
+      "classification": "REVIEW",
+      "reason": "Multiple existing pages expose the same normalized display name; no migration is activated."
+    }
+  ]
+}

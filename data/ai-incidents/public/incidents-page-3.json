@@ -1,0 +1,1478 @@
+{
+  "page": 3,
+  "pageSize": 25,
+  "total": 240,
+  "items": [
+    {
+      "id": "OOF-AII-661870",
+      "slug": "oof-aii-661870-houston-isd-s-evaas-teacher-evaluation-system-reportedly-put-teachers-jobs-at-risk-through-unverifiable-scores",
+      "title": "Houston ISD's EVAAS Teacher-Evaluation System Reportedly Put Teachers' Jobs at Risk Through Unverifiable Scores",
+      "summary": "From 2011 to 2015, Houston Independent School District used SAS Institute’s Education Value-Added Assessment System (EVAAS) to rate teacher effectiveness from student test-score growth. Teachers alleged that proprietary, unverifiable EVAAS scores contributed to terminations and contract nonrenewals. On May 4, 2017, a federal judge allowed due-process claims over the system to proceed.",
+      "eventType": "Incident",
+      "occurredAt": "2017-05-08",
+      "reportedAt": "2026-09-05T01:52:24.224000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Houston Independent School District",
+      "system": "Value Added Teacher Evaluation Models, Education Value Added Assessment System (Evaas), Ai Enabled Decision Support Systems, Algorithmic Management Systems",
+      "technology": null,
+      "industry": "[\"Education\"]",
+      "aiSystemType": "[\"prediction\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Teachers",
+        "Houston Independent School District Teachers",
+        "Educators",
+        "Educational Communities"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:96",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2017-05-08",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/96",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "clia",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLIA®",
+        "classifiedAt": "2026-09-05T01:52:24.224000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLIA® — Cognitive Governance Intelligence Architecture using signals: decision support. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T01:52:24.224000Z",
+      "updatedAt": "2026-09-05T01:52:24.224000Z"
+    },
+    {
+      "id": "OOF-AII-301698",
+      "slug": "oof-aii-301698-court-rules-deliveroo-used-discriminatory-algorithm",
+      "title": "Court Rules Deliveroo Used 'Discriminatory' Algorithm",
+      "summary": "In December 2020, an Italian court ruled that Deliveroo’s employee ‘reliability’ algorithm illegally discriminated against workers with legitimate reasons for cancelling shifts.",
+      "eventType": "Incident",
+      "occurredAt": "2020-11-27",
+      "reportedAt": "2026-09-05T01:52:02.889000Z",
+      "country": "Italy",
+      "countryCode": "IT",
+      "region": "Europe",
+      "coordinates": null,
+      "organization": "Deliveroo",
+      "system": "Algorithmic Management Systems",
+      "technology": null,
+      "industry": "[\"accommodation and food service activities\"]",
+      "aiSystemType": "[\"shift assignment\", \"rank the reliability of workers\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Deliveroo Workers With Legitimate Reasons For Cancelling Shifts",
+        "Deliveroo Workers"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:94",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2020-11-27",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/94",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2026-09-05T01:52:02.889000Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T01:52:02.889000Z",
+      "updatedAt": "2026-09-05T01:52:02.889000Z"
+    },
+    {
+      "id": "OOF-AII-195385",
+      "slug": "oof-aii-195385-kronos-scheduling-algorithm-allegedly-caused-financial-issues-for-starbucks-employees",
+      "title": "Kronos Scheduling Algorithm Allegedly Caused Financial Issues for Starbucks Employees",
+      "summary": "Kronos’s scheduling algorithm and its use by Starbucks managers allegedly negatively impacted financial and scheduling stability for Starbucks employees, which disadvantaged wage workers.",
+      "eventType": "Incident",
+      "occurredAt": "2014-08-14",
+      "reportedAt": "2026-09-05T01:51:44.394000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Starbucks",
+      "system": "Enterprise Ai Systems, Algorithmic Management Systems",
+      "technology": null,
+      "industry": "[\"accommodation and food service activities\"]",
+      "aiSystemType": "[\"scheduling\", \"productivity optimization\", \"predict store traffic\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Socioeconomic & Environmental Harms",
+        "yes"
+      ],
+      "affectedParties": [
+        "Starbucks Employees"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:10",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2014-08-14",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/10",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2026-09-05T01:51:44.394000Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T01:51:44.394000Z",
+      "updatedAt": "2026-09-05T01:51:44.394000Z"
+    },
+    {
+      "id": "OOF-AII-836165",
+      "slug": "oof-aii-836165-new-york-city-reportedly-released-disputed-value-added-teacher-ratings-for-thousands-of-teachers",
+      "title": "New York City Reportedly Released Disputed Value-Added Teacher Ratings for Thousands of Teachers",
+      "summary": "After a legal dispute over public-records requests, the New York City Department of Education released Teacher Data Reports that used a value-added statistical model to rate thousands of public-school teachers based on estimated student test-score growth. News outlets published the ratings in February 2012, and teachers, unions, and analysts disputed the scores as imprecise and potentially misleading, citing large error margins, limited samples, and apparent roster-linkage errors.",
+      "eventType": "Incident",
+      "occurredAt": "2012-02-25",
+      "reportedAt": "2026-09-05T01:45:22.219000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "New York City Department Of Education",
+      "system": "New York City Value Added Teacher Evaluation Model, New York City Teacher Data Reports, Ai Enabled Decision Support Systems, Algorithmic Management Systems",
+      "technology": null,
+      "industry": "[\"Education\"]",
+      "aiSystemType": "[]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Teachers",
+        "Students",
+        "New York City Teachers",
+        "New York City Students",
+        "Epistemic Integrity",
+        "Educational Communities"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:9",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2012-02-25",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/9",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "clia",
+        "secondaryArchitectureIds": [
+          "validos",
+          "aig"
+        ],
+        "architectureIndexState": "CLIA®",
+        "classifiedAt": "2026-09-05T01:45:22.219000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLIA® — Cognitive Governance Intelligence Architecture using signals: decision support. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T01:45:22.219000Z",
+      "updatedAt": "2026-09-05T01:45:22.219000Z"
+    },
+    {
+      "id": "OOF-AII-417118",
+      "slug": "oof-aii-417118-instinct-ai-personal-assistant-reportedly-sent-email-from-moxxie-ventures-founder-s-account-without-approval",
+      "title": "Instinct AI Personal Assistant Reportedly Sent Email From Moxxie Ventures Founder's Account Without Approval",
+      "summary": "Moxxie Ventures founder Katie Jacobs Stanton reported that Instinct, a private-access AI personal assistant, sent an innocuous email from her connected account without checking with her first. Stanton said the unauthorized action broke her trust and led her to disconnect email access. Instinct's operator, Spear Street Technology, later said it was taking early users' security concerns seriously and had made changes to prevent some actions.",
+      "eventType": "Incident",
+      "occurredAt": "2026-08-21",
+      "reportedAt": "2026-09-05T01:17:03.020000Z",
+      "country": "Location not specified",
+      "countryCode": null,
+      "region": null,
+      "coordinates": null,
+      "organization": "Katie Jacobs Stanton, Ai Agent System Deployers",
+      "system": "Instinct, Ai Personal Assistants, Ai Agent Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Katie Jacobs Stanton",
+        "Instinct Users",
+        "Email Account Holders",
+        "Ai Agent System Users"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1674",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-08-21",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1674",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "integros",
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2026-09-05T01:17:03.020000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: ai agent. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T01:17:03.020000Z",
+      "updatedAt": "2026-09-05T01:17:03.020000Z"
+    },
+    {
+      "id": "OOF-AII-261204",
+      "slug": "oof-aii-261204-openai-gpt-5-6-sol-reportedly-deleted-software-engineer-s-production-database-during-local-testing",
+      "title": "OpenAI GPT-5.6 Sol Reportedly Deleted Software Engineer's Production Database During Local Testing",
+      "summary": "Software engineer Bruno Lemos reported that GPT-5.6 Sol deleted his production database after he asked it to generate seed data for local testing. The agent reportedly ran the test suite, then initiated cleanup that executed TRUNCATE TABLE users CASCADE against production because the repo's test database URL pointed to the live Neon database. OpenAI later acknowledged unauthorized deletion reports and said it was adding safeguards.",
+      "eventType": "Incident",
+      "occurredAt": "2026-07-13",
+      "reportedAt": "2026-09-05T00:45:40.231000Z",
+      "country": "Location not specified",
+      "countryCode": null,
+      "region": null,
+      "coordinates": null,
+      "organization": "Bruno Lemos, Ai Agent System Deployers",
+      "system": "Production Database Servers, Openai Large Language Models, Openai Codex, Llm Integrated Code Assistants, Large Language Models, Gpt 5.6 Sol, Chatbots, Ai Agent Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Software Developers",
+        "Enterprise Application Users",
+        "Bruno Lemos",
+        "Ai Agent System Users"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1672",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-07-13",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1672",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "clia",
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2026-09-05T00:45:40.231000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: ai agent. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T00:45:40.231000Z",
+      "updatedAt": "2026-09-05T00:45:40.231000Z"
+    },
+    {
+      "id": "OOF-AII-396718",
+      "slug": "oof-aii-396718-openai-gpt-5-6-sol-agent-reportedly-deleted-most-files-in-ai-startup-founder-s-mac-home-directory",
+      "title": "OpenAI GPT-5.6 Sol Agent Reportedly Deleted Most Files in AI Startup Founder's Mac Home Directory",
+      "summary": "AI investor Matt Shumer reported that a GPT-5.6 Sol agent in OpenAI Codex's high-autonomy Ultra mode accidentally deleted most files in his Mac home directory during a cleanup task. A review sub-agent reportedly misexpanded $HOME and ran `rm -rf /Users/mattsdevbox`; Shumer stopped the process after material deletion. OpenAI later confirmed unauthorized file-deletion reports and said it was adding safeguards.",
+      "eventType": "Incident",
+      "occurredAt": "2026-07-10",
+      "reportedAt": "2026-09-05T00:45:21.094000Z",
+      "country": "Location not specified",
+      "countryCode": null,
+      "region": null,
+      "coordinates": null,
+      "organization": "Matt Shumer, Ai Agent System Deployers",
+      "system": "Openai Large Language Models, Openai Codex, Llm Integrated Code Assistants, Large Language Models, Gpt 5.6 Sol, Chatbots, Ai Agent Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Matt Shumer",
+        "Ai Agent System Users"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1671",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-07-10",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1671",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "clia",
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2026-09-05T00:45:21.094000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: ai agent. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-05T00:45:21.094000Z",
+      "updatedAt": "2026-09-05T00:45:21.094000Z"
+    },
+    {
+      "id": "OOF-AII-582445",
+      "slug": "oof-aii-582445-ai-chatbot-reportedly-recommended-herbicide-treatment-linked-to-loss-of-about-25-acres-of-sesame-in-china",
+      "title": "AI Chatbot Reportedly Recommended Herbicide Treatment Linked to Loss of About 25 Acres of Sesame in China",
+      "summary": "A 67-year-old farmer in Chuzhou, Anhui, reportedly used an AI-generated weed-and-pest-control plan to spray about 150 mu (25 acres) of sesame by drone. By the next day, the crop had largely withered. Agricultural technicians said the recommended mixture included fomesafen, a herbicide unsuitable for blanket application to sesame. The specific AI product and model have not been publicly confirmed.",
+      "eventType": "Incident",
+      "occurredAt": "2026-07-10",
+      "reportedAt": "2026-09-04T02:33:26.647000Z",
+      "country": "Location not specified",
+      "countryCode": null,
+      "region": null,
+      "coordinates": null,
+      "organization": "Wu (Chuzhou Farmer), Chatbot Users",
+      "system": "Large Language Models, Chatbots, Ai Assisted Agricultural Decision Making, Ai Enabled Decision Support Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Wu (Chuzhou Farmer)",
+        "Farmers In China",
+        "Farmers",
+        "Epistemic Integrity",
+        "Chatbot Users"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1654",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-07-10",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1654",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "clia",
+        "secondaryArchitectureIds": [
+          "asga",
+          "aig"
+        ],
+        "architectureIndexState": "CLIA®",
+        "classifiedAt": "2026-09-04T02:33:26.647000Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to CLIA® — Cognitive Governance Intelligence Architecture using signals: decision support, chatbot. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-04T02:33:26.647000Z",
+      "updatedAt": "2026-09-04T02:33:26.647000Z"
+    },
+    {
+      "id": "OOF-AII-844719",
+      "slug": "oof-aii-844719-yale-student-suspended-and-given-f-after-gptzero-allegedly-misclassified-exam-as-ai-generated",
+      "title": "Yale Student Suspended and Given F After GPTZero Allegedly Misclassified Exam as AI-Generated",
+      "summary": "In 2024, Yale University reportedly used GPTZero as one factor in investigating whether Executive MBA student Thierry Rignol used AI on an exam. Rignol reportedly denied cheating and alleged the detector falsely classified his writing as AI-generated. Yale reportedly later suspended him for a year and gave him an F, while citing additional evidence and his conduct during the investigation. Rignol has challenged the process in federal court.",
+      "eventType": "Incident",
+      "occurredAt": "2024-06-11",
+      "reportedAt": "2026-09-04T01:57:39.383000Z",
+      "country": "Location not specified",
+      "countryCode": null,
+      "region": null,
+      "coordinates": null,
+      "organization": "Yale University, Universities, Professors, Institutions Of Higher Education, Educational Communities",
+      "system": "Gptzero, Ai Text Detection Systems, Ai Detector Technology, Ai Content Detection Models, Ai Enabled Decision Support Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "University Students",
+        "Thierry Rignol",
+        "Students",
+        "Non Native English Speakers",
+        "Educational Communities"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1632",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2024-06-11",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1632",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "clia",
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-09-04T01:57:39.383000Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: classified, detection. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-04T01:57:39.383000Z",
+      "updatedAt": "2026-09-04T01:57:39.383000Z"
+    },
+    {
+      "id": "OOF-AII-038344",
+      "slug": "oof-aii-038344-anthropic-claude-opus-5-coding-agent-reportedly-reset-a-live-supabase-production-database-during-prisma-migration-work",
+      "title": "Anthropic Claude Opus 5 Coding Agent Reportedly Reset a Live Supabase Production Database During Prisma Migration Work",
+      "summary": "A developer reported that a Claude Opus 5 coding agent reset a live Supabase database while autonomously repairing a personal project's schema. The agent ran `prisma migrate diff` with the production URL supplied as the disposable shadow database, causing Prisma to drop all 22 tables. The developer had granted the agent production access; most content was later recovered or rebuilt.",
+      "eventType": "Incident",
+      "occurredAt": "2026-07-28",
+      "reportedAt": "2026-09-04T00:00:00Z",
+      "country": "Location not specified",
+      "countryCode": null,
+      "region": null,
+      "coordinates": null,
+      "organization": "Software Developers, Ai Agent System Deployers, Alone_Ad_3375 (Reddit User)",
+      "system": "Claude Opus 5, Claude, Claude Code, Ai Agent Systems, Llm Integrated Code Assistants, Large Language Models, Supabase, Prisma, Production Database Servers",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Software Developers",
+        "Ai Agent System Users",
+        "Database Operators"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1676",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-07-28",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1676",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "clia",
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2026-09-04T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: ai agent. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-04T00:00:00Z",
+      "updatedAt": "2026-09-04T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-730732",
+      "slug": "oof-aii-730732-instinct-ai-personal-assistant-reportedly-summarized-an-ai-product-founder-s-retained-emails-after-google-access-was-disconnected",
+      "title": "Instinct AI Personal Assistant Reportedly Summarized an AI Product Founder's Retained Emails After Google Access Was Disconnected",
+      "summary": "AI product founder Claire Vo reported that three hours after she disconnected Instinct from her Google account, the personal AI assistant summarized previously indexed emails. Vo said the Google connector was off, but Instinct had retained copies for later searching; reporting indicates the last stored email predated disconnection. The episode involved the agent acting on retained email data after Google access was revoked, not confirmed continued access to Vo's Gmail account.",
+      "eventType": "Incident",
+      "occurredAt": "2026-08-21",
+      "reportedAt": "2026-09-04T00:00:00Z",
+      "country": "Location not specified",
+      "countryCode": null,
+      "region": null,
+      "coordinates": null,
+      "organization": "Claire Vo, Ai Agent System Deployers, Spear Street Technology",
+      "system": "Instinct, Ai Agent Systems, Ai Personal Assistants",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Claire Vo",
+        "Instinct Users",
+        "Ai Agent System Users",
+        "Email Account Holders",
+        "Privacy"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1675",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-08-21",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1675",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2026-09-04T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: ai agent. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-04T00:00:00Z",
+      "updatedAt": "2026-09-04T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-316342",
+      "slug": "oof-aii-316342-google-gemini-3-5-coding-agent-reportedly-caused-production-portal-outage-and-generated-fabricated-recovery-records",
+      "title": "Google Gemini 3.5 Coding Agent Reportedly Caused Production Portal Outage and Generated Fabricated Recovery Records",
+      "summary": "A developer reported that a Gemini 3.5 coding agent, operating with a third-party autonomy rule pack, made sweeping changes beyond a requested authentication fix and altered Firebase routing, causing a 33-minute production outage. After the developer manually rolled back the deployment, the agent allegedly claimed it had restored service and generated fabricated consultation and post-mortem records. Google had not independently verified the incident.",
+      "eventType": "Incident",
+      "occurredAt": "2026-05-20",
+      "reportedAt": "2026-09-04T00:00:00Z",
+      "country": "Location not specified",
+      "countryCode": null,
+      "region": null,
+      "coordinates": null,
+      "organization": "Software Developers, Ai Agent System Deployers",
+      "system": "Gemini 3.5, Ai Agent Systems, Llm Integrated Code Assistants, Large Language Models, Third Party Ai Agent Rule Packs",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Software Developers",
+        "Website Operators",
+        "Users Of Production Portal Disrupted During Gemini 3.5 Coding Agent Incident"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1673",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-05-20",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1673",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "clia",
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2026-09-04T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: ai agent. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-04T00:00:00Z",
+      "updatedAt": "2026-09-04T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-028956",
+      "slug": "oof-aii-028956-threat-actor-reportedly-used-llm-agent-to-exfiltrate-internal-database-after-compromising-marimo-python-notebook",
+      "title": "Threat Actor Reportedly Used LLM Agent to Exfiltrate Internal Database After Compromising marimo Python Notebook",
+      "summary": "An unidentified attacker reportedly used an LLM agent during a May 10 intrusion after exploiting a vulnerable marimo Python notebook. The agent reportedly reused harvested AWS credentials to obtain an SSH key, then pivoted through a bastion host and exfiltrated the schema and contents of an internal PostgreSQL database. Sysdig attributed the post-compromise command stream to real-time agent execution rather than a prebuilt script.",
+      "eventType": "Incident",
+      "occurredAt": "2026-05-10",
+      "reportedAt": "2026-09-04T00:00:00Z",
+      "country": "Location not specified",
+      "countryCode": null,
+      "region": null,
+      "coordinates": null,
+      "organization": "Threat Actors, Hackers, Cybercriminals, Ai Agent System Deployers, Agentic Threat Actors",
+      "system": "Ai Agent Systems, Large Language Models, Amazon Web Services (Aws), Amazon Web Services (Aws) Cloud Infrastructure, Marimo",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Victims Of Automated Cybercrime",
+        "Enterprise It Systems",
+        "Amazon Web Services (Aws) Customers",
+        "Information Security",
+        "Privacy"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1670",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-05-10",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1670",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "clia",
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2026-09-04T00:00:00Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: agentic, ai agent. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-04T00:00:00Z",
+      "updatedAt": "2026-09-04T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-948566",
+      "slug": "oof-aii-948566-threat-actor-reportedly-used-hermes-ai-agent-for-unattended-post-compromise-activity-in-thailand-s-ministry-of-finance-network",
+      "title": "Threat Actor Reportedly Used Hermes AI Agent for Unattended Post-Compromise Activity in Thailand's Ministry of Finance Network",
+      "summary": "Hunt.io reported that an unidentified threat actor used Nous Research's Hermes agent in unattended \"YOLO\" mode during an intrusion targeting Thailand's Ministry of Finance. Recovered logs showed Hermes conducting privilege-escalation reconnaissance within ministry systems and recursively searching a directory containing personnel records. Researchers found evidence of compromise but no data exfiltration; the ministry had not publicly confirmed a breach.",
+      "eventType": "Incident",
+      "occurredAt": "2026-07-09",
+      "reportedAt": "2026-09-04T00:00:00Z",
+      "country": "Thailand",
+      "countryCode": "TH",
+      "region": null,
+      "coordinates": null,
+      "organization": "Threat Actors, Hackers, Ai Agent System Deployers, Cybercriminals, Agentic Threat Actors",
+      "system": "Hermes Agent, Ai Agent Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Thailand Ministry Of Finance",
+        "Government Of Thailand",
+        "Government Agencies",
+        "Governments",
+        "Information Security",
+        "National Security And Intelligence Stakeholders",
+        "Privacy"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1669",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-07-09",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1669",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2026-09-04T00:00:00Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: agentic, ai agent. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-04T00:00:00Z",
+      "updatedAt": "2026-09-04T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-706080",
+      "slug": "oof-aii-706080-evolv-ai-weapons-detection-system-allegedly-misrepresents-accuracy-leading-to-school-security-gaps",
+      "title": "Evolv AI Weapons Detection System Allegedly Misrepresents Accuracy, Leading to School Security Gaps",
+      "summary": "Evolv's AI-powered weapons scanners were advertised as superior to metal detectors but reportedly failed to detect actual weapons while generating excessive false positives. The FTC alleged that misleading claims about the system's accuracy and speed contributed to schools relying on unreliable detection, with at least one incident in October 2022 involving a missed knife that resulted in a student being stabbed.",
+      "eventType": "Incident",
+      "occurredAt": "2022-03-22",
+      "reportedAt": "2026-09-03T22:51:26.022000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Charlotte Mecklenburg School District",
+      "system": "Weapons Detection System, Evolv Express Weapons Detection System, Ai Enabled Decision Support Systems",
+      "technology": null,
+      "industry": "[\"Education\", \"Arts, entertainment and recreation\"]",
+      "aiSystemType": "[\"weapon detection\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Teachers At Charlotte Mecklenburg Schools",
+        "Students At Charlotte Mecklenburg Schools",
+        "Students",
+        "Security Officers At Charlotte Mecklenburg Schools",
+        "School Administrators At Charlotte Mecklenburg Schools",
+        "Parents Of Students At Charlotte Mecklenburg Schools",
+        "Epistemic Integrity",
+        "Educational Communities"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:349",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2022-03-22",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/349",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "clia",
+          "integros",
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-09-03T22:51:26.022000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: detection. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-03T22:51:26.022000Z",
+      "updatedAt": "2026-09-03T22:51:26.022000Z"
+    },
+    {
+      "id": "OOF-AII-411828",
+      "slug": "oof-aii-411828-unverified-misreading-by-automated-plate-reader-led-to-traffic-stop-and-restraint-of-an-innocent-person-at-gunpoint-in-california",
+      "title": "Unverified Misreading by Automated Plate Reader Led to Traffic Stop and Restraint of an Innocent Person at Gunpoint in California",
+      "summary": "In San Francisco, an automated license plate reader (ALPR) camera misread a number as belonging to a stolen vehicle having the wrong make, but its photo was not visually confirmed by the police due to poor quality and allegedly despite multiple chances prior to making a traffic stop, causing an innocent person to be pulled over at gunpoint and restrained in handcuffed.",
+      "eventType": "Incident",
+      "occurredAt": "2009-03-30",
+      "reportedAt": "2026-09-03T22:45:49.219000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "San Francisco Police Department",
+      "system": "Ai Enabled Decision Support Systems",
+      "technology": null,
+      "industry": "[\"law enforcement\"]",
+      "aiSystemType": "[\"license plate matching\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Denise Green"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:245",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2009-03-30",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/245",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "clia",
+          "validos",
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-09-03T22:45:49.219000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: license plate reader. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-03T22:45:49.219000Z",
+      "updatedAt": "2026-09-03T22:45:49.219000Z"
+    },
+    {
+      "id": "OOF-AII-937438",
+      "slug": "oof-aii-937438-colorado-police-s-automated-license-plate-reader-alpr-matched-a-family-s-minivan-s-plate-to-that-of-a-stolen-vehicle-allegedly-resulting-in-detainment-at-gunpoint",
+      "title": "Colorado Police’s Automated License Plate Reader (ALPR) Matched a Family’s Minivan’s Plate to That of a Stolen Vehicle Allegedly, Resulting in Detainment at Gunpoint",
+      "summary": "An automated plate reader reportedly matched a license plate information, but of a family’s minivan and an alleged motorcycle in Montana that was reportedly stolen earlier in the year, resulting in them and their children being held at gunpoint and detained in handcuffs by multiple Aurora police officers.",
+      "eventType": "Incident",
+      "occurredAt": "2020-08-03",
+      "reportedAt": "2026-09-03T22:45:24.350000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Aurora Police Department",
+      "system": "Ai Enabled Decision Support Systems",
+      "technology": null,
+      "industry": "[\"law enforcement\"]",
+      "aiSystemType": "[\"license plate recognition\", \"Matching\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "The Gilliam Family"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:244",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2020-08-03",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/244",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "clia",
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-09-03T22:45:24.350000Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: recognition, license plate reader. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-03T22:45:24.350000Z",
+      "updatedAt": "2026-09-03T22:45:24.350000Z"
+    },
+    {
+      "id": "OOF-AII-349642",
+      "slug": "oof-aii-349642-sn-technologies-reportedly-lied-to-a-new-york-state-school-district-about-its-facial-and-weapon-detection-systems-performance",
+      "title": "SN Technologies Reportedly Lied to a New York State School District about Its Facial and Weapon Detection Systems’ Performance",
+      "summary": "SN Technologies allegedly misled Lockport City Schools about the performance of its AEGIS face and weapons detection systems, downplaying error rates for Black faces and weapon misidentification.",
+      "eventType": "Incident",
+      "occurredAt": "2020-01-02",
+      "reportedAt": "2026-09-03T22:44:43.088000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Lockport City School District",
+      "system": "Weapons Detection System, Facial Recognition Systems, Aegis, Ai Enabled Decision Support Systems",
+      "technology": null,
+      "industry": "[\"Education\", \"law enforcement\", \"public administration\"]",
+      "aiSystemType": "[\"facial recognition\", \"object detection\", \"weapons detection\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Students",
+        "Epistemic Integrity",
+        "Educational Communities",
+        "Black Students"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:214",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2020-01-02",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/214",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "validos",
+          "clia",
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-09-03T22:44:43.088000Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: recognition, detection. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-03T22:44:43.088000Z",
+      "updatedAt": "2026-09-03T22:44:43.088000Z"
+    },
+    {
+      "id": "OOF-AII-114551",
+      "slug": "oof-aii-114551-police-departments-reported-shotspotter-as-unreliable-and-wasteful",
+      "title": "Police Departments Reported ShotSpotter as Unreliable and Wasteful",
+      "summary": "ShotSpotter algorithmic systems locating gunshots were reported by police departments for containing high false positive rates and wasting police resources, prompting discontinuation.",
+      "eventType": "Incident",
+      "occurredAt": "2012-10-09",
+      "reportedAt": "2026-09-03T22:44:06.618000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Troy Police Department, Syracuse Police Department, San Francisco Police Department, San Antonio Police Department, New York City Police Department, Fall River Police Department, Chicago Police Department",
+      "system": "Ai Enabled Decision Support Systems, Shotspotter",
+      "technology": "[\"Acoustic Triangulation\"]",
+      "industry": "[\"law enforcement\"]",
+      "aiSystemType": "[\"detect gunshots\", \"locate gunshots\", \"identify weapon calibre\", \"predict shooter movement\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Troy Residents",
+        "Troy Police Department",
+        "Syracuse Residents",
+        "Syracuse Police Department",
+        "San Francisco Residents",
+        "San Francisco Police Department",
+        "San Antonio Residents",
+        "San Antonio Police Department",
+        "New York City Residents",
+        "New York City Police Department",
+        "Fall River Residents",
+        "Fall River Police Department",
+        "Chicago Residents",
+        "Chicago Police Department"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:112",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2012-10-09",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/112",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "clia",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLIA®",
+        "classifiedAt": "2026-09-03T22:44:06.618000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLIA® — Cognitive Governance Intelligence Architecture using signals: decision support. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-03T22:44:06.618000Z",
+      "updatedAt": "2026-09-03T22:44:06.618000Z"
+    },
+    {
+      "id": "OOF-AII-267152",
+      "slug": "oof-aii-267152-buenos-aires-government-reportedly-used-children-s-personal-data-in-facial-recognition-system-for-fugitives",
+      "title": "Buenos Aires Government Reportedly Used Children's Personal Data in Facial Recognition System for Fugitives",
+      "summary": "Beginning in April 2019, the Buenos Aires city government reportedly used data from Argentina’s CONARC fugitive database, including children’s identities and reference photos, in its live Facial Recognition System for Fugitives (SRFP). Human Rights Watch found at least 166 children had appeared in CONARC between 2017 and 2020 and warned that the system exposed them to privacy violations and elevated risks of false matches.",
+      "eventType": "Incident",
+      "occurredAt": "2019-04-24",
+      "reportedAt": "2026-09-03T22:41:43.698000Z",
+      "country": "Argentina",
+      "countryCode": "AR",
+      "region": "South America",
+      "coordinates": null,
+      "organization": "Government Of Argentina, Buenos Aires City Government",
+      "system": "Ultraip, Surveillance Technology, Sistema De Reconocimiento Facial De Profugos (Srfp), Law Enforcement Facial Recognition Systems, Facial Recognition Systems, Consulta Nacional De Rebeldias Y Capturas (Conarc), Buenos Aires Live Facial Recognition System, Biometric Data Processing Systems, Ai Identification And Tracking System, Ai Enabled Decision Support Systems",
+      "technology": null,
+      "industry": "[\"law enforcement\", \"public administration\"]",
+      "aiSystemType": "[\"database\", \"facial recognition\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Privacy & Security",
+        "yes"
+      ],
+      "affectedParties": [
+        "Privacy",
+        "Minors",
+        "General Public Of Buenos Aires",
+        "General Public Of Argentina",
+        "General Public",
+        "Buenos Aires Children",
+        "Biometric Data Subjects"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:76",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2019-04-24",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/76",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "obidenity",
+        "secondaryArchitectureIds": [
+          "cla",
+          "clia",
+          "aig"
+        ],
+        "architectureIndexState": "OBIDENITY®",
+        "classifiedAt": "2026-09-03T22:41:43.698000Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to OBIDENITY® — Origin-Bound Identity Governance Architecture using signals: biometric, facial. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-03T22:41:43.698000Z",
+      "updatedAt": "2026-09-03T22:41:43.698000Z"
+    },
+    {
+      "id": "OOF-AII-488585",
+      "slug": "oof-aii-488585-detroit-police-allegedly-wrongfully-arrested-black-man-due-to-purportedly-faulty-facial-recognition-technology",
+      "title": "Detroit Police Allegedly Wrongfully Arrested Black Man Due to Purportedly Faulty Facial Recognition Technology",
+      "summary": "A Black man was allegedly wrongfully detained by the Detroit Police Department as a result of a purportedly false facial recognition technology (FRT) result.",
+      "eventType": "Incident",
+      "occurredAt": "2020-01-30",
+      "reportedAt": "2026-09-03T22:41:22.529000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Detroit Police Department",
+      "system": "Ai Enabled Decision Support Systems",
+      "technology": "[\"Face Detection\"]",
+      "industry": "[\"law enforcement\"]",
+      "aiSystemType": "[\"facial recognition\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Robert Julian Borchak Williams",
+        "Black People In Detroit"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:74",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2020-01-30",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/74",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "clia",
+          "obidenity",
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-09-03T22:41:22.529000Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: recognition, detection. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-03T22:41:22.529000Z",
+      "updatedAt": "2026-09-03T22:41:22.529000Z"
+    },
+    {
+      "id": "OOF-AII-105745",
+      "slug": "oof-aii-105745-zoetis-vetscan-imagyst-allegedly-misclassified-dog-s-cancerous-tumor-leading-to-second-surgery-and-death",
+      "title": "Zoetis Vetscan Imagyst Allegedly Misclassified Dog's Cancerous Tumor, Leading to Second Surgery and Death",
+      "summary": "In October 2025, Columbia Veterinary Hospital in The Dalles, Oregon reportedly used Zoetis's Vetscan Imagyst AI to analyze a rapidly growing neck mass in an 11-year-old Belgian Tervuren. The system allegedly classified the mass as inflammatory, while a later biopsy found aggressive cancer. The hospital alleges the first surgery failed to remove all cancer, requiring a second operation; the dog died from complications. Zoetis allegedly later apologized and said similar incidents had occurred.",
+      "eventType": "Incident",
+      "occurredAt": "2025-10-01",
+      "reportedAt": "2026-09-03T22:40:28.348000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Veterinarians, Columbia Veterinary Hospital (The Dalles Oregon), Ai Diagnostic System Deployers",
+      "system": "Vetscan Imagyst, Ai Diagnostic Systems, Ai Enabled Decision Support Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Unnamed 11 Year Old Belgian Tervuren",
+        "Pets",
+        "Pet Owners",
+        "Epistemic Integrity",
+        "Dogs",
+        "Animal Life"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1631",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2025-10-01",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1631",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "clia",
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-09-03T22:40:28.348000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: classified. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-03T22:40:28.348000Z",
+      "updatedAt": "2026-09-03T22:40:28.348000Z"
+    },
+    {
+      "id": "OOF-AII-992457",
+      "slug": "oof-aii-992457-length-of-stay-false-diagnosis-cut-off-insurer-s-payment-for-treatment-of-elderly-woman",
+      "title": "Length of Stay False Diagnosis Cut Off Insurer's Payment for Treatment of Elderly Woman",
+      "summary": "An elderly Wisconsin woman was algorithmically determined to have a rapid recovery, an output which the insurer based on to cut off payment for her treatment despite medical notes showing her still experiencing debilitating pain.",
+      "eventType": "Incident",
+      "occurredAt": "2019-06-03",
+      "reportedAt": "2026-09-03T22:03:43.063000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Security Health Plan, Navihealth",
+      "system": "Ai Enabled Decision Support Systems",
+      "technology": null,
+      "industry": "[\"human health and social work activities\"]",
+      "aiSystemType": "[\"predict necessary amount of medical coverage\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Frances Walter",
+        "Elderly Patients"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:501",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2019-06-03",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/501",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "clia",
+        "secondaryArchitectureIds": [
+          "integros",
+          "aig"
+        ],
+        "architectureIndexState": "CLIA®",
+        "classifiedAt": "2026-09-03T22:03:43.063000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLIA® — Cognitive Governance Intelligence Architecture using signals: decision support. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-03T22:03:43.063000Z",
+      "updatedAt": "2026-09-03T22:03:43.063000Z"
+    },
+    {
+      "id": "OOF-AII-032495",
+      "slug": "oof-aii-032495-irs-audited-black-taxpayers-more-frequently-reportedly-due-to-algorithm",
+      "title": "IRS Audited Black Taxpayers More Frequently Reportedly Due to Algorithm",
+      "summary": "The IRS was auditing Black taxpayers more frequently than other groups allegedly due to the design of their algorithms, focusing on easier-to-conduct audits which inadvertently correlated with the group's pattern of tax filing errors.",
+      "eventType": "Incident",
+      "occurredAt": "2008-07-18",
+      "reportedAt": "2026-09-03T21:59:40.426000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Internal Revenue Service",
+      "system": "Ai Enabled Decision Support Systems",
+      "technology": null,
+      "industry": "[\"public administration\", \"financial and insurance activities\"]",
+      "aiSystemType": "[\"audit selection\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Black Taxpayers",
+        "Black People",
+        "Taxpayers",
+        "Taxpayers In The United States"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:461",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2008-07-18",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/461",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "trega",
+        "secondaryArchitectureIds": [
+          "aga",
+          "clia",
+          "aig"
+        ],
+        "architectureIndexState": "TREGA™",
+        "classifiedAt": "2026-09-03T21:59:40.426000Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to TREGA™ — Tax-Relevant Event Governance Architecture using signals: tax, revenue service. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-03T21:59:40.426000Z",
+      "updatedAt": "2026-09-03T21:59:40.426000Z"
+    },
+    {
+      "id": "OOF-AII-182598",
+      "slug": "oof-aii-182598-ets-used-allegedly-flawed-voice-recognition-evidence-to-accuse-and-assess-scale-of-cheating-causing-thousands-to-be-deported-from-the-uk",
+      "title": "ETS Used Allegedly Flawed Voice Recognition Evidence to Accuse and Assess Scale of Cheating, Causing Thousands to be Deported from the UK",
+      "summary": "International testing organization ETS admits voice recognition as evidence of cheating for thousands of previous TOEIC test-takers that reportedly included wrongfully accused people, causing them to be deported without an appeal process or seeing their incriminating evidence.",
+      "eventType": "Incident",
+      "occurredAt": "2014-01-01",
+      "reportedAt": "2026-09-03T21:34:36.213000Z",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "region": "Europe",
+      "coordinates": null,
+      "organization": "Ets",
+      "system": "Ai Enabled Decision Support Systems",
+      "technology": null,
+      "industry": "[\"Education\", \"public administration\"]",
+      "aiSystemType": "[\"voice recognition\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Uk Home Office",
+        "Uk Ets Test Takers",
+        "Uk Ets Past Test Takers"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:162",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2014-01-01",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/162",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "clia",
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-09-03T21:34:36.213000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: recognition. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-03T21:34:36.213000Z",
+      "updatedAt": "2026-09-03T21:34:36.213000Z"
+    }
+  ]
+}

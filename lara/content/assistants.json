@@ -1,0 +1,11 @@
+{
+  "assistants": [{
+    "assistant_id": "lara",
+    "name": "LaRA",
+    "role": "OOF Methodology Assistant",
+    "allowed_architectures": ["*"],
+    "voice": "",
+    "visual_profile": "",
+    "default_language": "auto"
+  }]
+}

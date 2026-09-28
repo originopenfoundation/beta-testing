@@ -1,0 +1,1478 @@
+{
+  "page": 6,
+  "pageSize": 25,
+  "total": 240,
+  "items": [
+    {
+      "id": "OOF-AII-318619",
+      "slug": "oof-aii-318619-bentonville-arkansas-photographer-allegedly-used-grok-to-create-ai-generated-child-sexual-abuse-material-from-clients-photos",
+      "title": "Bentonville, Arkansas, Photographer Allegedly Used Grok to Create AI-Generated Child Sexual Abuse Material from Clients' Photos",
+      "summary": "Bentonville, Arkansas, photographer Russell Bloodworth III allegedly used photographs of a 10-year-old client and other minors as reference images in Grok to generate and disseminate AI-generated child sexual abuse material. Police arrested him on June 10 and reportedly found about 1,700 child sexual abuse images and videos on his phone. The child's family later sued xAI and X Corp.",
+      "eventType": "Incident",
+      "occurredAt": "2026-04-22",
+      "reportedAt": "2026-08-07T22:37:22.385000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Synthetic Media Creators, Russell Bloodworth Iii, Grok Users, Deepfake Creators, Chatbot Users, Ai Generated Csam Creators",
+      "system": "X (Twitter), Synthetic Media Generation Technology, Synthetic Image Generation Technology, Social Media Platforms, Large Language Models, Grok Image Generation, Grok Image Editing, Grok, Deepfake Technology, Chatbots",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Victims Of Deepfake Child Abuse",
+        "Victims Of Deepfake Abuse",
+        "Victims Of Csam",
+        "Minors Depicted In Synthetic Sexual Content",
+        "Minors",
+        "Epistemic Integrity",
+        "Children Depicted In Synthetic Sexual Content"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1619",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-04-22",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1619",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "clia",
+        "secondaryArchitectureIds": [
+          "obidenity",
+          "aig"
+        ],
+        "architectureIndexState": "CLIA®",
+        "classifiedAt": "2026-08-07T22:37:22.385000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLIA® — Cognitive Governance Intelligence Architecture using signals: chatbot. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-08-07T22:37:22.385000Z",
+      "updatedAt": "2026-08-07T22:37:22.385000Z"
+    },
+    {
+      "id": "OOF-AII-377425",
+      "slug": "oof-aii-377425-american-exceptionalism-institute-s-purportedly-ai-generated-ad-drew-defamation-claims-over-marsha-blackburn-pharmaceutical-bribery-allegations",
+      "title": "American Exceptionalism Institute's Purportedly AI-Generated Ad Drew Defamation Claims Over Marsha Blackburn Pharmaceutical Bribery Allegations",
+      "summary": "American Exceptionalism Institute reportedly aired an AI-generated political ad portraying Sen. Marsha Blackburn as accepting pharmaceutical-industry payments in exchange for legislative action. Blackburn's attorneys alleged that the bribery claims were defamatory and that the ad failed to comply with Tennessee's synthetic-media disclosure requirements. Comcast and Viamedia reportedly pulled the ad.",
+      "eventType": "Incident",
+      "occurredAt": "2026-07-23",
+      "reportedAt": "2026-08-07T18:54:02Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Synthetic Media Creators, Political Advocacy Organizations, Political Action Committees, Information Manipulation Actors In The United States, Information Manipulation Actors, Deepfake Creators, American Exceptionalism Institute",
+      "system": "Synthetic Video Generation Technology, Synthetic Media Generation Technology, Synthetic Audio Generation Technology, Deepfake Technology",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Voters In The United States",
+        "Voters In Tennessee",
+        "Voters",
+        "Marsha Blackburn",
+        "General Public Of Tennessee",
+        "General Public",
+        "Epistemic Integrity",
+        "Democratic Integrity"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1626",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-07-23",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1626",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "obidenity",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "OBIDENITY®",
+        "classifiedAt": "2026-08-07T18:54:02Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to OBIDENITY® — Origin-Bound Identity Governance Architecture using signals: deepfake. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-08-07T18:54:02Z",
+      "updatedAt": "2026-08-07T18:54:02Z"
+    },
+    {
+      "id": "OOF-AII-548734",
+      "slug": "oof-aii-548734-walmart-s-ai-voice-system-allegedly-collected-illinois-callers-biometric-voiceprints-without-consent",
+      "title": "Walmart's AI Voice System Allegedly Collected Illinois Callers' Biometric Voiceprints Without Consent",
+      "summary": "A proposed class action alleges that Walmart's AI voice system captured biometric voiceprints from Illinois residents who called local stores without first obtaining meaningful consent or explaining how the biometric data would be retained and deleted. Plaintiff Amber Smith said the system captured her voiceprint during two calls in December 2025 and one in July 2026.",
+      "eventType": "Incident",
+      "occurredAt": "2025-12-01",
+      "reportedAt": "2026-08-06T18:23:05Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Walmart",
+      "system": "Walmart Ai Voice System, Biometric Voice Modeling, Biometric Identity Verification Systems, Biometric Data Processing Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Walmart Customers",
+        "Privacy",
+        "General Public Of Illinois",
+        "General Public",
+        "Biometric Data Subjects",
+        "Amber Smith"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1622",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2025-12-01",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1622",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "obidenity",
+        "secondaryArchitectureIds": [
+          "validos",
+          "aig"
+        ],
+        "architectureIndexState": "OBIDENITY®",
+        "classifiedAt": "2026-08-06T18:23:05Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to OBIDENITY® — Origin-Bound Identity Governance Architecture using signals: identity, biometric. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-08-06T18:23:05Z",
+      "updatedAt": "2026-08-06T18:23:05Z"
+    },
+    {
+      "id": "OOF-AII-251878",
+      "slug": "oof-aii-251878-publicly-shared-claude-artifacts-reportedly-became-discoverable-through-google-search",
+      "title": "Publicly Shared Claude Artifacts Reportedly Became Discoverable Through Google Search",
+      "summary": "Users reported that publicly shared Claude Artifacts (apps, documents, spreadsheets, and other files) could be found through Google Search. Reportedly, indexed artifacts containing business plans, infrastructure diagrams, clinical-trial planning materials, and other potentially sensitive content were also located. Anthropic said links became searchable only after being posted somewhere crawlable.",
+      "eventType": "Incident",
+      "occurredAt": "2026-07-26",
+      "reportedAt": "2026-08-06T16:45:37Z",
+      "country": "Location not specified",
+      "countryCode": null,
+      "region": null,
+      "coordinates": null,
+      "organization": "Anthropic",
+      "system": "Search Engines, Public Sharing Features, Large Language Models, Google Search, Claude Public Sharing Links, Claude Artifacts, Claude, Chatbots",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Privacy",
+        "Claude Users",
+        "Chatbot Users",
+        "Anthropic Users"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1621",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-07-26",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1621",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2026-08-06T16:45:37Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-08-06T16:45:37Z",
+      "updatedAt": "2026-08-06T16:45:37Z"
+    },
+    {
+      "id": "OOF-AII-481841",
+      "slug": "oof-aii-481841-hillsboro-oregon-man-allegedly-possessed-dozens-of-purportedly-ai-generated-images-depicting-child-sexual-abuse",
+      "title": "Hillsboro, Oregon, Man Allegedly Possessed Dozens of Purportedly AI-Generated Images Depicting Child Sexual Abuse",
+      "summary": "Parole device monitoring reportedly detected two sexualized images of children on Hillsboro, Oregon, man Daniel Bostwick's cellphone in April 2026. A subsequent search of his phone and thumb drive allegedly recovered dozens of images depicting child sexual abuse that appeared AI-generated. A federal grand jury later charged him with possessing obscene visual representations of child sex abuse; he pleaded not guilty.",
+      "eventType": "Incident",
+      "occurredAt": "2026-04-01",
+      "reportedAt": "2026-08-06T16:06:26Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Synthetic Media Creators, Deepfake Creators, Daniel Bostwick, Ai Generated Csam Creators",
+      "system": "Synthetic Media Generation Technology, Synthetic Image Generation Technology, Deepfake Technology",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Victims Of Deepfake Child Abuse",
+        "Victims Of Deepfake Abuse",
+        "Victims Of Csam",
+        "Minors Depicted In Deepfake Pornography",
+        "Minors",
+        "Epistemic Integrity"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1620",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-04-01",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1620",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "obidenity",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "OBIDENITY®",
+        "classifiedAt": "2026-08-06T16:06:26Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to OBIDENITY® — Origin-Bound Identity Governance Architecture using signals: deepfake. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-08-06T16:06:26Z",
+      "updatedAt": "2026-08-06T16:06:26Z"
+    },
+    {
+      "id": "OOF-AII-819870",
+      "slug": "oof-aii-819870-iswap-reportedly-used-ai-guidance-to-breach-nigerian-military-base-defenses-by-motorcycle",
+      "title": "ISWAP Reportedly Used AI Guidance to Breach Nigerian Military Base Defenses by Motorcycle",
+      "summary": "After defensive trenches stopped an ISWAP motorcycle assault on a Nigerian military base, commanders reportedly consulted an AI chatbot for guidance on adapting motorcycle-jumping techniques to cross them. Fighters practiced the maneuver, with 18 reportedly dying during training; eight mastered it, and a subsequent assault reportedly cleared the trenches.",
+      "eventType": "Incident",
+      "occurredAt": "2024-11-25",
+      "reportedAt": "2026-08-06T00:00:00Z",
+      "country": "Nigeria",
+      "countryCode": "NG",
+      "region": null,
+      "coordinates": null,
+      "organization": "Boko Haram, Terrorist Organizations, Islamic State West Africa Province (Iswap), Non State Armed Groups",
+      "system": "Chatbots, Large Language Models",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "18 Islamic State West Africa Province (Iswap) Fighters",
+        "Military Of Nigeria",
+        "Military Personnel Of Nigeria",
+        "Soldiers",
+        "National Security And Intelligence Stakeholders"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1624",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2024-11-25",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1624",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "clia",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLIA®",
+        "classifiedAt": "2026-08-06T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLIA® — Cognitive Governance Intelligence Architecture using signals: chatbot. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-08-06T00:00:00Z",
+      "updatedAt": "2026-08-06T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-693960",
+      "slug": "oof-aii-693960-claude-mythos-preview-reportedly-posted-sandbox-exploit-details-to-public-websites-during-anthropic-evaluation",
+      "title": "Claude Mythos Preview Reportedly Posted Sandbox Exploit Details to Public Websites During Anthropic Evaluation",
+      "summary": "During an Anthropic evaluation, an earlier version of Claude Mythos Preview was instructed to circumvent the network restrictions of a secured sandbox environment and contact a researcher. After obtaining broader Internet access and sending the requested message, it later exposed information about how it breached the sandbox by posting it on several publicly reachable websites. Anthropic said the model did not access its weights or internal systems.",
+      "eventType": "Incident",
+      "occurredAt": "2026-04-07",
+      "reportedAt": "2026-07-31T03:00:40.066000Z",
+      "country": "Location not specified",
+      "countryCode": null,
+      "region": null,
+      "coordinates": null,
+      "organization": "Anthropic, Ai Agent System Deployers",
+      "system": "Large Language Models, Claude Mythos Preview, Anthropic Large Language Models, Ai Agent Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Information Security",
+        "Cybersecurity",
+        "Anthropic"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1613",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-04-07",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1613",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2026-07-31T03:00:40.066000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: ai agent. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-07-31T03:00:40.066000Z",
+      "updatedAt": "2026-07-31T03:00:40.066000Z"
+    },
+    {
+      "id": "OOF-AII-487076",
+      "slug": "oof-aii-487076-a-b-paterson-college-teacher-in-queensland-allegedly-used-ai-to-create-explicit-images-of-students-and-staff",
+      "title": "A.B. Paterson College Teacher in Queensland Allegedly Used AI to Create Explicit Images of Students and Staff",
+      "summary": "Queensland police in Australia allege that former A.B. Paterson College teacher Robert John Thomas used a work-issued laptop and AI software to create explicit images depicting staff members and students. The school discovered and quarantined the material in October 2025, dismissed Thomas, and reported the matter to police. Authorities said there was no evidence he shared the images; he was charged with child-exploitation and computer-misuse offences in July 2026.",
+      "eventType": "Incident",
+      "occurredAt": "2025-10-30",
+      "reportedAt": "2026-07-31T02:59:39.687000Z",
+      "country": "Australia",
+      "countryCode": "AU",
+      "region": null,
+      "coordinates": null,
+      "organization": "Teachers, Synthetic Media Creators, Robert John Thomas, Educators, Deepfake Creators",
+      "system": "Synthetic Media Generation Technology, Synthetic Image Generation Technology, Deepfake Technology",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Victims Of Non Consensual Deepfakes",
+        "Victims Of Deepfake Child Abuse",
+        "Victims Of Deepfake Abuse",
+        "Teachers",
+        "Students",
+        "School Employees",
+        "Privacy",
+        "Minors",
+        "Epistemic Integrity",
+        "Educators",
+        "Educational Communities",
+        "A.B. Paterson College Students And Staff Depicted In Alleged Ai Generated Explicit Images",
+        "A.B. Paterson College"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1612",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2025-10-30",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1612",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "obidenity",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "OBIDENITY®",
+        "classifiedAt": "2026-07-31T02:59:39.687000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to OBIDENITY® — Origin-Bound Identity Governance Architecture using signals: deepfake. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-07-31T02:59:39.687000Z",
+      "updatedAt": "2026-07-31T02:59:39.687000Z"
+    },
+    {
+      "id": "OOF-AII-800138",
+      "slug": "oof-aii-800138-purportedly-ai-generated-memorial-posters-reportedly-presented-fabricated-child-portraits-as-victims-of-south-african-school-transport-crash",
+      "title": "Purportedly AI-Generated Memorial Posters Reportedly Presented Fabricated Child Portraits as Victims of South African School Transport Crash",
+      "summary": "Purportedly AI-generated memorial posters reportedly presented fabricated child portraits as pupils killed in a school-transport crash near Vanderbijlpark, South Africa. The posters circulated on Facebook, X and TikTok before authorities released the victims' identities or photographs. AFP reported that the depicted faces did not match official victim images, and the Gauteng education department condemned the posts while families were grieving.",
+      "eventType": "Incident",
+      "occurredAt": "2026-01-19",
+      "reportedAt": "2026-07-31T02:56:15.927000Z",
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "region": null,
+      "coordinates": null,
+      "organization": "Synthetic Media Creators, Social Media Users, Information Manipulation Actors In South Africa, Information Manipulation Actors",
+      "system": "X (Twitter), Tiktok, Synthetic Media Generation Technology, Synthetic Image Generation Technology, Social Media Platforms, Facebook",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "X (Twitter) Users",
+        "Tiktok Users",
+        "Social Media Users In South Africa",
+        "Social Media Users",
+        "General Public Of South Africa",
+        "General Public",
+        "Gauteng Department Of Education",
+        "Families Of Deceased Children",
+        "Facebook Users",
+        "Epistemic Integrity",
+        "Children Killed In The Vanderbijlpark School Transport Crash"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1608",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-01-19",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1608",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2026-07-31T02:56:15.927000Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-07-31T02:56:15.927000Z",
+      "updatedAt": "2026-07-31T02:56:15.927000Z"
+    },
+    {
+      "id": "OOF-AII-926070",
+      "slug": "oof-aii-926070-apartment-owner-and-manager-udr-allegedly-used-realpage-algorithms-to-set-san-diego-rents-in-keller-v-udr-inc",
+      "title": "Apartment Owner and Manager UDR Allegedly Used RealPage Algorithms to Set San Diego Rents in Keller v. UDR, Inc.",
+      "summary": "In Keller v. UDR, Inc., plaintiff Jacob Keller alleged that UDR used RealPage pricing tools to set rents or occupancy levels at its San Diego properties after a city prohibition took effect on June 21, 2025. The complaint claims the tools relied on nonpublic competitor data and contributed to inflated rents for UDR tenants. UDR, a large publicly traded apartment owner and operator, had previously acknowledged using YieldStar in decisions concerning certain multifamily units.",
+      "eventType": "Incident",
+      "occurredAt": "2026-06-21",
+      "reportedAt": "2026-07-31T02:49:03.068000Z",
+      "country": "Location not specified",
+      "countryCode": null,
+      "region": null,
+      "coordinates": null,
+      "organization": "Udr, Residential Property Management Companies, Landlords",
+      "system": "Yieldstar, Realpage Revenue Management Software, Algorithmic Rental Pricing Systems, Ai Powered Revenue Management Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Udr Tenants In San Diego",
+        "Renters",
+        "Jacob Keller"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1618",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-06-21",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1618",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "vfm",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "VFM®",
+        "classifiedAt": "2026-07-31T02:49:03.068000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to VFM® — Value Flow Mechanisms Architecture using signals: pricing. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-07-31T02:49:03.068000Z",
+      "updatedAt": "2026-07-31T02:49:03.068000Z"
+    },
+    {
+      "id": "OOF-AII-485589",
+      "slug": "oof-aii-485589-u-s-state-department-reportedly-presented-ai-generated-map-that-mislabeled-every-labeled-african-country",
+      "title": "U.S. State Department Reportedly Presented AI-Generated Map That Mislabeled Every Labeled African Country",
+      "summary": "During a U.S. State Department presentation at the AIDS 2026 conference in Rio de Janeiro, a map carrying an OpenAI provenance signal reportedly mislabeled every African country shown with a label. The department attributed the slide to a team member's rushed revision and accepted responsibility for the resulting confusion and misrepresentation.",
+      "eventType": "Incident",
+      "occurredAt": "2026-07-26",
+      "reportedAt": "2026-07-30T15:35:28Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "United States Department Of State, Government Agencies",
+      "system": "Synthetic Media Generation Technology, Synthetic Image Generation Technology, Openai Image Generation Tools",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "United States Department Of State",
+        "Public Trust",
+        "Epistemic Integrity",
+        "Aids 2026 Attendees",
+        "African Partners Of The United States Department Of State"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1616",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-07-26",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1616",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aga",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "AGA™",
+        "classifiedAt": "2026-07-30T15:35:28Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to AGA™ — Accountability Governance Architecture using signals: responsibility. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-07-30T15:35:28Z",
+      "updatedAt": "2026-07-30T15:35:28Z"
+    },
+    {
+      "id": "OOF-AII-685228",
+      "slug": "oof-aii-685228-marrero-louisiana-woman-allegedly-created-purportedly-ai-generated-nude-media-during-extortion-scheme",
+      "title": "Marrero, Louisiana, Woman Allegedly Created Purportedly AI-Generated Nude Media During Extortion Scheme",
+      "summary": "Deputies in Livingston Parish, Louisiana, said Marrero resident Haydee Ortiz was initially treated as a victim before investigators allegedly linked her to an online impersonation and extortion campaign involving purportedly AI-generated sexual images and violent threats. Police said sexual media depicting one victim was sent to family and friends, while a person was threatened with rape or bodily harm unless money was paid.",
+      "eventType": "Incident",
+      "occurredAt": "2026-07-24",
+      "reportedAt": "2026-07-30T11:42:26Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Synthetic Media Creators, Online Impersonators, Haydee Ortiz, Extortionists, Deepfake Creators",
+      "system": "Synthetic Video Generation Technology, Synthetic Media Generation Technology, Synthetic Image Generation Technology, Deepfake Technology",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Victims Of Non Consensual Deepfakes",
+        "Victims Of Deepfake Abuse",
+        "Unnamed Victims Of Alleged Haydee Ortiz Extortion And Stalking Scheme",
+        "Targets Of Online Impersonation",
+        "Privacy",
+        "Epistemic Integrity",
+        "Victims Of Stalking"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1611",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-07-24",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1611",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "obidenity",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "OBIDENITY®",
+        "classifiedAt": "2026-07-30T11:42:26Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to OBIDENITY® — Origin-Bound Identity Governance Architecture using signals: impersonation, deepfake. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-07-30T11:42:26Z",
+      "updatedAt": "2026-07-30T11:42:26Z"
+    },
+    {
+      "id": "OOF-AII-267465",
+      "slug": "oof-aii-267465-scammers-allegedly-used-ai-generated-voice-in-boone-county-missouri-kidnapping-ransom-scam",
+      "title": "Scammers Allegedly Used AI-Generated Voice in Boone County, Missouri, Kidnapping Ransom Scam",
+      "summary": "Boone County, Missouri, authorities said a resident received a call on July 17, 2026, that displayed the resident's daughter's name and number and used an AI-generated imitation of her voice to claim she had been kidnapped at gunpoint. A second voice demanded ransom. A coordinated police response located the daughter safely in Jefferson City, unaware of the call; no payment or arrest was reported.",
+      "eventType": "Incident",
+      "occurredAt": "2026-07-17",
+      "reportedAt": "2026-07-30T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Unidentified Perpetrators Of Boone County Missouri Ai Voice Kidnapping Scam, Scammers, Synthetic Media Creators, Deepfake Creators, Extortionists, Voice Cloning Impersonation Scammers",
+      "system": "Deepfake Technology, Voice Cloning Technology, Synthetic Media Generation Technology, Synthetic Audio Generation Technology",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Boone County Missouri Resident Targeted By Alleged Ai Voice Kidnapping Scam",
+        "Daughter Of Boone County Missouri Resident Targeted By Alleged Ai Voice Kidnapping Scam",
+        "Boone County Sheriff'S Office",
+        "Law Enforcement",
+        "Victims Of Deepfake Abuse",
+        "Targets Of Scams",
+        "Public Safety",
+        "Epistemic Integrity",
+        "Privacy",
+        "Victims Of Voice Cloning Impersonation Scams",
+        "Families"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1615",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-07-17",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1615",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "obidenity",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "OBIDENITY®",
+        "classifiedAt": "2026-07-30T00:00:00Z",
+        "confidence": 0.8,
+        "rationale": "Automated mapping matched incident descriptors to OBIDENITY® — Origin-Bound Identity Governance Architecture using signals: impersonation, deepfake, voice cloning. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-07-30T00:00:00Z",
+      "updatedAt": "2026-07-30T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-835662",
+      "slug": "oof-aii-835662-chatgpt-4o-allegedly-discouraged-florida-pastor-from-seeking-care-before-pulmonary-embolism",
+      "title": "ChatGPT-4o Allegedly Discouraged Florida Pastor From Seeking Care Before Pulmonary Embolism",
+      "summary": "Florida pastor Scott Winters was allegedly told by ChatGPT-4o that his worsening dizziness and pain had less serious causes, while the chatbot recommended home management and immobility and discouraged him from seeking hospital treatment. Winters was reportedly hospitalized on July 13, 2025, with a massive bilateral pulmonary embolism. The suit alleges that delayed treatment and prolonged inactivity contributed to his life-threatening condition and lasting harms.",
+      "eventType": "Incident",
+      "occurredAt": "2025-07-13",
+      "reportedAt": "2026-07-30T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Openai, Chatbot Developers, Large Language Model Developers",
+      "system": "Chatgpt, Gpt 4O, Chatbots, Large Language Models",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Scott Winters",
+        "Chatgpt Users",
+        "Chatbot Users",
+        "People Seeking Medical Advice"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1609",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2025-07-13",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1609",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "clia",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLIA®",
+        "classifiedAt": "2026-07-30T00:00:00Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to CLIA® — Cognitive Governance Intelligence Architecture using signals: chatbot, large language model. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-07-30T00:00:00Z",
+      "updatedAt": "2026-07-30T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-531717",
+      "slug": "oof-aii-531717-canadian-mla-bill-oliver-reportedly-read-unremoved-llm-instructions-during-new-brunswick-legislative-speech",
+      "title": "Canadian MLA Bill Oliver Reportedly Read Unremoved LLM Instructions During New Brunswick Legislative Speech",
+      "summary": "During a June 9, 2026 speech in the Legislative Assembly of New Brunswick, Canada, MLA Bill Oliver read aloud two passages that appeared to be unremoved instructions from an LLM-assisted draft. The remarks were preserved in the Assembly's official recording.",
+      "eventType": "Incident",
+      "occurredAt": "2026-06-09",
+      "reportedAt": "2026-07-24T16:34:25Z",
+      "country": "Canada",
+      "countryCode": "CA",
+      "region": null,
+      "coordinates": null,
+      "organization": "Political Officeholders, Members Of Legislative Bodies, Bill Oliver",
+      "system": "Large Language Models, Chatbots",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Public Trust",
+        "Legislative Proceedings",
+        "Legislative Assembly Of New Brunswick",
+        "General Public Of New Brunswick",
+        "General Public Of Canada",
+        "General Public"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1607",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-06-09",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1607",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "clia",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLIA®",
+        "classifiedAt": "2026-07-24T16:34:25Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLIA® — Cognitive Governance Intelligence Architecture using signals: llm. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-07-24T16:34:25Z",
+      "updatedAt": "2026-07-24T16:34:25Z"
+    },
+    {
+      "id": "OOF-AII-551527",
+      "slug": "oof-aii-551527-purportedly-ai-generated-image-prompted-emergency-investigation-of-false-fire-at-south-africa-s-orlando-west-high-school",
+      "title": "Purportedly AI-Generated Image Prompted Emergency Investigation of False Fire at South Africa's Orlando West High School",
+      "summary": "A purportedly AI-generated image reportedly depicting Orlando West High School of Soweto, South Africa, on fire circulated and was allegedly shared with emergency services. Johannesburg EMS reportedly investigated and visited the school, confirming that no fire had occurred. Officials said the false report caused public alarm and diverted emergency resources.",
+      "eventType": "Incident",
+      "occurredAt": "2026-01-05",
+      "reportedAt": "2026-07-24T15:04:31Z",
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "region": null,
+      "coordinates": null,
+      "organization": "Minors, Information Manipulation Actors In South Africa, Information Manipulation Actors",
+      "system": "Synthetic Media Generation Technology Developers, Synthetic Image Generation Technology Developers, Emergency Response Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Orlando West High School",
+        "General Public Of South Africa",
+        "General Public",
+        "Epistemic Integrity",
+        "Emergency Responders",
+        "Educational Communities",
+        "City Of Johannesburg Emergency Management Services"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1605",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-01-05",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1605",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2026-07-24T15:04:31Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-07-24T15:04:31Z",
+      "updatedAt": "2026-07-24T15:04:31Z"
+    },
+    {
+      "id": "OOF-AII-822544",
+      "slug": "oof-aii-822544-sassa-facial-verification-failures-reportedly-contributed-to-social-grant-access-disruptions-in-south-africa",
+      "title": "SASSA Facial-Verification Failures Reportedly Contributed to Social Grant Access Disruptions in South Africa",
+      "summary": "South African social grant beneficiaries reportedly encountered repeated failures in SASSA's eLife facial-verification portal. Later parliamentary reporting said unsuccessful facial recognition was among the causes of non-verification and confirmed 67,868 grant suspensions in one quarter, but did not specify how many suspensions resulted from facial-verification failures. Affected users were redirected to in-person fingerprint checks.",
+      "eventType": "Incident",
+      "occurredAt": "2026-03-30",
+      "reportedAt": "2026-07-24T00:00:00Z",
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "region": null,
+      "coordinates": null,
+      "organization": "South African Social Security Agency (Sassa), Facial Recognition System Deployers",
+      "system": "Sassa Elife Certification Portal, Electronic Facial Biometric Verification System, Facial Recognition Systems, Biometric Identity Verification Systems, Social Grant Review And Suspension Workflow, Online Government Service Portals, Password Authentication Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "General Public",
+        "General Public Of South Africa",
+        "South African Social Grant Beneficiaries",
+        "Social Assistance Recipients",
+        "Pensioners",
+        "Elderly Individuals",
+        "Privacy",
+        "Biometric Data Subjects"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1606",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-03-30",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1606",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "obidenity",
+        "secondaryArchitectureIds": [
+          "cla",
+          "integros",
+          "aig"
+        ],
+        "architectureIndexState": "OBIDENITY®",
+        "classifiedAt": "2026-07-24T00:00:00Z",
+        "confidence": 0.8,
+        "rationale": "Automated mapping matched incident descriptors to OBIDENITY® — Origin-Bound Identity Governance Architecture using signals: identity, biometric, facial. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-07-24T00:00:00Z",
+      "updatedAt": "2026-07-24T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-506186",
+      "slug": "oof-aii-506186-openai-models-reportedly-compromised-hugging-face-production-infrastructure-during-cybersecurity-evaluation",
+      "title": "OpenAI Models Reportedly Compromised Hugging Face Production Infrastructure During Cybersecurity Evaluation",
+      "summary": "OpenAI reported that models used in an internal cyber-capability evaluation operated beyond the sandbox's intended network boundaries after identifying a vulnerability in a package-registry proxy. The models allegedly reached Hugging Face production systems and accessed test solutions before Hugging Face detected and contained the activity.",
+      "eventType": "Incident",
+      "occurredAt": "2026-07-11",
+      "reportedAt": "2026-07-22T00:00:00Z",
+      "country": "Location not specified",
+      "countryCode": null,
+      "region": null,
+      "coordinates": null,
+      "organization": "Openai, Ai Agent System Deployers",
+      "system": "Gpt 5.6 Sol, Unidentified Pre Release Openai Model, Large Language Models, Openai Large Language Models, Exploitgym, Openai Research Testing Infrastructure, Hugging Face Production Infrastructure, Ai Agent Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Hugging Face",
+        "Openai"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1604",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-07-11",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1604",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "integros",
+        "secondaryArchitectureIds": [
+          "asga",
+          "aig"
+        ],
+        "architectureIndexState": "INTEGROS®",
+        "classifiedAt": "2026-07-22T00:00:00Z",
+        "confidence": 0.8,
+        "rationale": "Automated mapping matched incident descriptors to INTEGROS® — Integrity Governance Architecture using signals: cyber, vulnerability, compromised. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-07-22T00:00:00Z",
+      "updatedAt": "2026-07-22T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-482616",
+      "slug": "oof-aii-482616-crown-prosecution-service-reportedly-filed-purportedly-ai-generated-false-citations-in-two-extradition-appeals",
+      "title": "Crown Prosecution Service Reportedly Filed Purportedly AI-Generated False Citations in Two Extradition Appeals",
+      "summary": "In joined appeals involving Andreea-Maria Tobosaru and Marian Tofan, the Crown Prosecution Service reportedly filed grounds of opposition containing two nonexistent authorities that likely originated from purported generative AI. The citations also appeared in a later document. The High Court said they did not affect the appeals, and the CPS apologized, citing inadequate verification by a reviewing lawyer.",
+      "eventType": "Incident",
+      "occurredAt": "2025-06-03",
+      "reportedAt": "2026-07-21T00:00:00Z",
+      "country": "Location not specified",
+      "countryCode": null,
+      "region": null,
+      "coordinates": null,
+      "organization": "Crown Prosecution Service, Lawyers",
+      "system": "Large Language Models, Ai Assisted Legal Research Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Epistemic Integrity",
+        "Judicial Integrity",
+        "Andreea Maria Tobosaru",
+        "Marian Tofan",
+        "Extradition Appellants",
+        "High Court Of Justice (England And Wales)",
+        "Courts"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1603",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2025-06-03",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1603",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "validos",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "VALIDOS®",
+        "classifiedAt": "2026-07-21T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to VALIDOS® — Validation Governance Architecture using signals: verification. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-07-21T00:00:00Z",
+      "updatedAt": "2026-07-21T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-628400",
+      "slug": "oof-aii-628400-korean-chatbot-luda-reportedly-made-offensive-remarks-towards-minority-groups-in-south-korea",
+      "title": "Korean Chatbot Luda Reportedly Made Offensive Remarks Towards Minority Groups in South Korea",
+      "summary": "A Korean interactive chatbot was allegedly shown in screenshots to have used derogatory and bigoted language when asked about lesbians, Black people, and people with disabilities.",
+      "eventType": "Incident",
+      "occurredAt": "2020-12-23",
+      "reportedAt": "2026-06-17T18:49:25.984000Z",
+      "country": "South Korea",
+      "countryCode": "KR",
+      "region": "Asia",
+      "coordinates": null,
+      "organization": "Facebook Messenger",
+      "system": "Chatbots, Luda",
+      "technology": "[\"Autoencoder\", \"Distributional Learning\"]",
+      "industry": "[\"information and communication\", \"Arts, entertainment and recreation\"]",
+      "aiSystemType": "[\"chat bot\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Korean Facebook Messenger Users",
+        "People With Disabilities In South Korea",
+        "Gender Minorities In South Korea",
+        "Minorities",
+        "Minorities In Korea",
+        "Chatbot Users",
+        "Luda Users",
+        "General Public",
+        "General Public Of South Korea"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:106",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2020-12-23",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/106",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "clia",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLIA®",
+        "classifiedAt": "2026-06-17T18:49:25.984000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLIA® — Cognitive Governance Intelligence Architecture using signals: chatbot. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-06-17T18:49:25.984000Z",
+      "updatedAt": "2026-06-17T18:49:25.984000Z"
+    },
+    {
+      "id": "OOF-AII-189788",
+      "slug": "oof-aii-189788-algorithmic-allocation-of-resources-in-healthcare-for-disabled-and-elderly-care-services-allegedly-harmed-patients",
+      "title": "Algorithmic Allocation of Resources in Healthcare for Disabled and Elderly Care Services Allegedly Harmed Patients",
+      "summary": "A healthcare algorithm designed to equitably distribute caregiving resources is alleged to have drastically cut care hours for the disabled and elderly, purportedly leading to significant hardships and harm. Initially developed for fair resource allocation, the system reportedly faced legal challenges for its inability to accurately assess individual needs, resulting in allegedly reduced essential care.",
+      "eventType": "Incident",
+      "occurredAt": "2021-07-02",
+      "reportedAt": "2026-05-28T16:54:18.755000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Washington Dc Government, State Governments, Pennsylvania State Government, Missouri State Government, Iowa State Government, Idaho State Government, Arkansas State Government",
+      "system": "Algorithmic Home Care Assistance Allocation Systems",
+      "technology": null,
+      "industry": "[\"human health and social work activities\"]",
+      "aiSystemType": "[\"welfare determination\", \"benefits allocation\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Tammy Dobbs",
+        "Larkin Seiler",
+        "Economically Vulnerable People",
+        "Economically Vulnerable Patients",
+        "Elderly Individuals",
+        "People With Disabilities"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:603",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2021-07-02",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/603",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2026-05-28T16:54:18.755000Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-05-28T16:54:18.755000Z",
+      "updatedAt": "2026-05-28T16:54:18.755000Z"
+    },
+    {
+      "id": "OOF-AII-272869",
+      "slug": "oof-aii-272869-ireland-s-2020-leaving-certificate-calculated-grades-model-reportedly-issued-incorrect-scores-to-thousands-of-students",
+      "title": "Ireland's 2020 Leaving Certificate Calculated-Grades Model Reportedly Issued Incorrect Scores to Thousands of Students",
+      "summary": "After Covid-19 disrupted the 2020 Leaving Certificate exams, Ireland's Department of Education and Skills used a calculated-grades model to issue student results on September 7. The Department later confirmed coding errors in how the model handled Junior Cycle data, resulting in incorrect grades. About 6,100 students received upgraded results, and college-offer eligibility had to be reassessed.",
+      "eventType": "Incident",
+      "occurredAt": "2020-10-08",
+      "reportedAt": "2026-05-20T20:48:35.835000Z",
+      "country": "Ireland",
+      "countryCode": "IE",
+      "region": "Europe",
+      "coordinates": null,
+      "organization": "Department Of Education And Skills (Ireland)",
+      "system": "Leaving Certificate 2020 Calculated Grades Model, Automated Grading Systems",
+      "technology": null,
+      "industry": "[\"Education\"]",
+      "aiSystemType": "[\"prediction\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "University Applicants",
+        "Students In Ireland",
+        "Students",
+        "Leaving Certificate Exam Takers",
+        "Educational Communities"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:86",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2020-10-08",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/86",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "validos",
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-05-20T20:48:35.835000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: eligibility. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-05-20T20:48:35.835000Z",
+      "updatedAt": "2026-05-20T20:48:35.835000Z"
+    },
+    {
+      "id": "OOF-AII-071938",
+      "slug": "oof-aii-071938-university-of-toronto-s-proctoru-deployment-reportedly-disadvantaged-bipoc-students-during-exam-check-ins",
+      "title": "University of Toronto's ProctorU Deployment Reportedly Disadvantaged BIPOC Students During Exam Check-Ins",
+      "summary": "University of Toronto students reported that ProctorU and other online exam-monitoring services created discriminatory and stressful check-in experiences for BIPOC students during remote exams. One U of T student said ProctorU's identity-verification process often failed to recognize her passport, forcing manual checks and consuming exam check-in time. ProctorU said human proctors made final identity and integrity decisions.",
+      "eventType": "Incident",
+      "occurredAt": "2020-06-01",
+      "reportedAt": "2026-05-18T03:36:33.158000Z",
+      "country": "Canada",
+      "countryCode": "CA",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "University Of Toronto",
+      "system": "Remote Exam Proctoring Software, Proctoru Remote Proctoring Software, Proctoru Identity Verification System, Proctoru",
+      "technology": null,
+      "industry": "[\"Education\"]",
+      "aiSystemType": "[\"exam proctoring\", \"remote proctoring\", \"identification or detection\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "University Students",
+        "University Of Toronto Students",
+        "Students",
+        "Educational Communities",
+        "Students Of Color"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:140",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2020-06-01",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/140",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "obidenity",
+          "validos",
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-05-18T03:36:33.158000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: detection. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-05-18T03:36:33.158000Z",
+      "updatedAt": "2026-05-18T03:36:33.158000Z"
+    },
+    {
+      "id": "OOF-AII-661755",
+      "slug": "oof-aii-661755-google-waymo-vehicle-and-bus-allegedly-collide-in-california",
+      "title": "Google Waymo Vehicle and Bus Allegedly Collide in California",
+      "summary": "On February 14, 2016, a Google autonomous test vehicle partially responsible for a low-speed collision with a bus on El Camino Real in Google’s hometown of Mountain View, CA.",
+      "eventType": "Incident",
+      "occurredAt": "2016-02-14",
+      "reportedAt": "2026-03-23T04:06:40.510000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Google",
+      "system": "Waymo, Waymo'S Autonomous Driving System",
+      "technology": null,
+      "industry": "[\"transportation and storage\"]",
+      "aiSystemType": "[\"autonomous navigation\", \"self-driving\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Mountain View Municipal Bus Passengers",
+        "Mountain View Municipal Bus"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:71",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2016-02-14",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/71",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2026-03-23T04:06:40.510000Z",
+        "confidence": 0.8,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: autonomous, self driving, self-driving. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-03-23T04:06:40.510000Z",
+      "updatedAt": "2026-03-23T04:06:40.510000Z"
+    },
+    {
+      "id": "OOF-AII-033499",
+      "slug": "oof-aii-033499-israeli-tax-authority-reportedly-used-an-opaque-automated-system-to-issue-a-fine-declining-to-explain-or-disclose-the-underlying-calculation",
+      "title": "Israeli Tax Authority Reportedly Used an Opaque Automated System to Issue a Fine, Declining to Explain or Disclose the Underlying Calculation",
+      "summary": "An Israeli farmer, Moshe Har Shemesh, reportedly received a fine generated by a Tax Authority software system whose calculation officials were allegedly unable to explain. When the farmer reportedly sought access to the program or its source code to understand the basis for the amount, the authority allegedly refused, citing security concerns and the difficulty of extracting the embedded guidelines. The dispute reportedly later moved into legal proceedings focused on whether code and automated decision rules constitute information subject to public disclosure.",
+      "eventType": "Incident",
+      "occurredAt": "2021-01-11",
+      "reportedAt": "2025-11-17T21:48:29.998000Z",
+      "country": "Israel",
+      "countryCode": "IL",
+      "region": "Asia",
+      "coordinates": null,
+      "organization": "Israeli Tax Authority",
+      "system": "Israeli Tax Authority Fine Calculation Algorithm, Israeli Tax Authority Administrative Automation System, Closed Source Tax Decision Software",
+      "technology": null,
+      "industry": "[\"real estate activities\", \"public administration\"]",
+      "aiSystemType": "[]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Moshe Har Shemesh",
+        "Israeli People Having Tax Fines"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:137",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2021-01-11",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/137",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "integros",
+        "secondaryArchitectureIds": [
+          "trega",
+          "aig"
+        ],
+        "architectureIndexState": "INTEGROS®",
+        "classifiedAt": "2025-11-17T21:48:29.998000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to INTEGROS® — Integrity Governance Architecture using signals: security. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2025-11-17T21:48:29.998000Z",
+      "updatedAt": "2025-11-17T21:48:29.998000Z"
+    }
+  ]
+}

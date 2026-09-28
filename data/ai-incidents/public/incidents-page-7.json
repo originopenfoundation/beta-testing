@@ -1,0 +1,1416 @@
+{
+  "page": 7,
+  "pageSize": 25,
+  "total": 240,
+  "items": [
+    {
+      "id": "OOF-AII-060325",
+      "slug": "oof-aii-060325-google-and-delphi-self-driving-prototypes-allegedly-involved-in-near-miss-on-san-antonio-road-palo-alto",
+      "title": "Google and Delphi Self-Driving Prototypes Allegedly Involved in Near-Miss on San Antonio Road, Palo Alto",
+      "summary": "A Delphi self-driving Audi Q5 prototype reportedly aborted a lane change after a Google self-driving Lexus RX400h allegedly cut in front of it on San Antonio Road in Palo Alto, California. According to Delphi executive John Absmeier, the Delphi car \"took appropriate action\" to avoid collision. No crash or injuries occurred.",
+      "eventType": "Incident",
+      "occurredAt": "2015-06-23",
+      "reportedAt": "2025-08-20T14:39:02Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Google, Delphi Technologies",
+      "system": "Google Self Driving Lexus Rx400H Prototype, Delphi Self Driving Audi Q5 Prototype",
+      "technology": null,
+      "industry": "[\"transportation and storage\"]",
+      "aiSystemType": "[\"autonomous driving\", \"self driving\", \"autonomous navigation\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Delphi Technologies",
+        "John Absmeier"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:25",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2015-06-23",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/25",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2025-08-20T14:39:02Z",
+        "confidence": 0.8,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: autonomous, self driving, self-driving. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2025-08-20T14:39:02Z",
+      "updatedAt": "2025-08-20T14:39:02Z"
+    },
+    {
+      "id": "OOF-AII-941025",
+      "slug": "oof-aii-941025-the-christchurch-shooter-and-youtube-s-radicalization-trap",
+      "title": "The Christchurch shooter and YouTube’s radicalization trap",
+      "summary": "A New Zealand government report released following a right-wing terrorist killing 51 worshippers at two New Zealand mosques which indicated that Youtube's recommendation algorithm played an important role in the terrorist's radicalization.",
+      "eventType": "Incident",
+      "occurredAt": "2019-03-15",
+      "reportedAt": "2025-07-02T01:00:03Z",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "region": "Oceania",
+      "coordinates": null,
+      "organization": "Youtube",
+      "system": "Youtube",
+      "technology": null,
+      "industry": "[\"information and communication\", \"Arts, entertainment and recreation\"]",
+      "aiSystemType": "[\"recommender\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Youtube Users"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:89",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2019-03-15",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/89",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2025-07-02T01:00:03Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2025-07-02T01:00:03Z",
+      "updatedAt": "2025-07-02T01:00:03Z"
+    },
+    {
+      "id": "OOF-AII-414595",
+      "slug": "oof-aii-414595-reported-ai-cloned-voice-used-to-deceive-hong-kong-bank-manager-in-purported-35-million-fraud-scheme",
+      "title": "Reported AI-Cloned Voice Used to Deceive Hong Kong Bank Manager in Purported $35 Million Fraud Scheme",
+      "summary": "In January 2020, a Hong Kong-based bank manager for a Japanese company reportedly authorized $35 million in transfers after receiving a call from someone whose voice matched the company director's. According to Emirati investigators, scammers used AI-based voice cloning to impersonate the executive. The fraud allegedly involved at least 17 individuals and reportedly led to global fund transfers that triggered a UAE investigation. U.S. authorities were reportedly later asked to help trace part of the funds sent to U.S. banks.",
+      "eventType": "Incident",
+      "occurredAt": "2020-01-15",
+      "reportedAt": "2025-05-04T01:42:26Z",
+      "country": "People's Republic of China",
+      "countryCode": "CN",
+      "region": "Asia",
+      "coordinates": null,
+      "organization": "Cybercriminals, Scammers, Transnational Fraud Rings",
+      "system": "Unknown Real Time Speech Synthesis Technology, Deepfake Technology, Synthetic Audio Generation Technology",
+      "technology": null,
+      "industry": "[\"financial and insurance activities\", \"other\"]",
+      "aiSystemType": "[\"deepfake audio generation\", \"audio deepfake\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Malicious Actors & Misuse",
+        "yes"
+      ],
+      "affectedParties": [
+        "Unnamed Japanese Firm",
+        "Unnamed Hong Kong Based Branch Manager Of Unnamed Japanese Firm",
+        "General Public Of The United Arab Emirates",
+        "Centennial Bank"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:147",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2020-01-15",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/147",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "obidenity",
+        "secondaryArchitectureIds": [
+          "vfm",
+          "aig"
+        ],
+        "architectureIndexState": "OBIDENITY®",
+        "classifiedAt": "2025-05-04T01:42:26Z",
+        "confidence": 0.8,
+        "rationale": "Automated mapping matched incident descriptors to OBIDENITY® — Origin-Bound Identity Governance Architecture using signals: deepfake, cloned voice, voice cloning. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2025-05-04T01:42:26Z",
+      "updatedAt": "2025-05-04T01:42:26Z"
+    },
+    {
+      "id": "OOF-AII-160472",
+      "slug": "oof-aii-160472-tesla-on-autopilot-crashed-into-parked-police-car-in-california",
+      "title": "Tesla on Autopilot Crashed into Parked Police Car in California",
+      "summary": "A Tesla sedan on Autopilot mode collided with a parked Laguna Beach Police Department car, resulting in minor injuries for its driver in Laguna Beach, California.",
+      "eventType": "Incident",
+      "occurredAt": "2018-05-29",
+      "reportedAt": "2024-06-16T16:15:38Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Tesla",
+      "system": "yes",
+      "technology": null,
+      "industry": "[\"transportation and storage\"]",
+      "aiSystemType": "[\"semi-autonomous navigation\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Laguna Beach Police Department"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:323",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2018-05-29",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/323",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2024-06-16T16:15:38Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: autonomous, autopilot. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2024-06-16T16:15:38Z",
+      "updatedAt": "2024-06-16T16:15:38Z"
+    },
+    {
+      "id": "OOF-AII-359571",
+      "slug": "oof-aii-359571-ron-desantis-s-presidential-campaign-released-twitter-video-containing-ai-images-of-donald-trump-hugging-anthony-fauci",
+      "title": "Ron DeSantis's Presidential Campaign Released Twitter Video Containing AI Images of Donald Trump Hugging Anthony Fauci",
+      "summary": "Ron DeSantis’s presidential campaign shared a video on Twitter featuring some AI-generated images of Donald Trump hugging former White House coronavirus advisor Anthony Fauci, allegedly as a smear campaign. This incident is possibly the first time a major U.S. presidential campaign deployed deepfakes with the intention of misleading the electorate.",
+      "eventType": "Incident",
+      "occurredAt": "2023-06-05",
+      "reportedAt": "2024-05-18T02:01:23Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Ron Desantis'S Presidential Campaign",
+      "system": "yes",
+      "technology": null,
+      "industry": "[\"other\"]",
+      "aiSystemType": "[\"image generation\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Malicious Actors & Misuse",
+        "maybe"
+      ],
+      "affectedParties": [
+        "Donald Trump",
+        "Anthony Fauci"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:547",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2023-06-05",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/547",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2024-05-18T02:01:23Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2024-05-18T02:01:23Z",
+      "updatedAt": "2024-05-18T02:01:23Z"
+    },
+    {
+      "id": "OOF-AII-156233",
+      "slug": "oof-aii-156233-google-bard-allegedly-generates-false-allegations-against-consulting-firms-used-in-research-presented-in-australian-parliamentary-inquiry",
+      "title": "Google Bard Allegedly Generates False Allegations Against Consulting Firms Used in Research Presented in Australian Parliamentary Inquiry",
+      "summary": "Australian academics reportedly used Google Bard AI to generate case studies for a parliamentary inquiry, leading to false allegations against major consultancy firms. The AI-generated misinformation prompted an apology from the academics, causing reputational harm for all parties involved and raising concerns about the reliability of AI tools in producing accurate and unbiased information.",
+      "eventType": "Incident",
+      "occurredAt": "2023-11-02",
+      "reportedAt": "2023-11-25T15:13:26Z",
+      "country": "Australia",
+      "countryCode": "AU",
+      "region": "Oceania",
+      "coordinates": null,
+      "organization": "James Guthrie",
+      "system": "yes",
+      "technology": null,
+      "industry": "[\"law enforcement\", \"information and communication\"]",
+      "aiSystemType": "[\"chatbot\", \"content generation\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Misinformation",
+        "maybe"
+      ],
+      "affectedParties": [
+        "James Guthrie",
+        "James Guthrie'S Co Authors",
+        "Parliament Of Australia",
+        "Kpmg",
+        "Deloitte"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:614",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2023-11-02",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/614",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "clia",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLIA®",
+        "classifiedAt": "2023-11-25T15:13:26Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLIA® — Cognitive Governance Intelligence Architecture using signals: chatbot. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2023-11-25T15:13:26Z",
+      "updatedAt": "2023-11-25T15:13:26Z"
+    },
+    {
+      "id": "OOF-AII-353609",
+      "slug": "oof-aii-353609-ai-meal-planner-suggests-hazardous-chlorine-gas-recipe",
+      "title": "AI Meal Planner Suggests Hazardous Chlorine Gas Recipe",
+      "summary": "Pak 'n' Save's AI-based app, Savey Meal-bot, inadvertently suggested dangerous recipes, including one creating chlorine gas, when users entered non-food household items, raising safety and oversight concerns.",
+      "eventType": "Incident",
+      "occurredAt": "2023-08-10",
+      "reportedAt": "2023-11-04T23:57:38Z",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "region": "Oceania",
+      "coordinates": null,
+      "organization": "Pak 'N' Save",
+      "system": "yes",
+      "technology": null,
+      "industry": "[\"accommodation and food service activities\", \"wholesale and retail trade\"]",
+      "aiSystemType": "[\"recipe generation\", \"text generation\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Misinformation",
+        "no"
+      ],
+      "affectedParties": [
+        "Potential Users Of The Savey Meal Bot"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:594",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2023-08-10",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/594",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aga",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "AGA™",
+        "classifiedAt": "2023-11-04T23:57:38Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to AGA™ — Accountability Governance Architecture using signals: oversight. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2023-11-04T23:57:38Z",
+      "updatedAt": "2023-11-04T23:57:38Z"
+    },
+    {
+      "id": "OOF-AII-184939",
+      "slug": "oof-aii-184939-images-of-black-people-labeled-as-gorillas",
+      "title": "Images of Black People Labeled as Gorillas",
+      "summary": "Google Photos image processing software mistakenly labelled a black couple as \"gorillas.\"",
+      "eventType": "Incident",
+      "occurredAt": "2015-06-03",
+      "reportedAt": "2023-10-03T13:52:19Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Google",
+      "system": "yes",
+      "technology": "[\"Face Detection\", \"Convolutional Neural Network\", \"Keyword Filtering\"]",
+      "industry": "[\"information and communication\"]",
+      "aiSystemType": "[\"image classification\", \"image categorization\", \"Image Tagging\", \"object recognition\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Black People"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:16",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2015-06-03",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/16",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2023-10-03T13:52:19Z",
+        "confidence": 0.8,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: classification, recognition, detection. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2023-10-03T13:52:19Z",
+      "updatedAt": "2023-10-03T13:52:19Z"
+    },
+    {
+      "id": "OOF-AII-917509",
+      "slug": "oof-aii-917509-scammers-deepfaked-videos-of-victims-loved-ones-asking-for-funds-over-facebook-in-vietnam",
+      "title": "Scammers Deepfaked Videos of Victims' Loved Ones Asking for Funds over Facebook in Vietnam",
+      "summary": "In Vietnam, to convince victims of their disguises when prompted, scammers deepfaked audios and videos of victims' friends and families asking them over Facebook to send over thousands of dollars.",
+      "eventType": "Incident",
+      "occurredAt": "2023-03-23",
+      "reportedAt": "2023-03-23T00:00:00Z",
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "region": "Asia",
+      "coordinates": null,
+      "organization": "Scammers",
+      "system": "yes",
+      "technology": null,
+      "industry": "[\"information and communication\"]",
+      "aiSystemType": "[\"deepfake video generation\", \"deepfake audio generation\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Malicious Actors & Misuse",
+        "yes"
+      ],
+      "affectedParties": [
+        "Vietnamese Facebook Users"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:509",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2023-03-23",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/509",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "obidenity",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "OBIDENITY®",
+        "classifiedAt": "2023-03-23T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to OBIDENITY® — Origin-Bound Identity Governance Architecture using signals: deepfake. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2023-03-23T00:00:00Z",
+      "updatedAt": "2023-03-23T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-598657",
+      "slug": "oof-aii-598657-kfc-sent-insensitive-kristallnacht-promotion-via-holiday-detection-system",
+      "title": "KFC Sent Insensitive Kristallnacht Promotion via Holiday Detection System",
+      "summary": "KFC cited an error in an automated holiday detection system which identified the anniversary of Kristallnacht and prompted an insensitive push notification promoting its chicken.",
+      "eventType": "Incident",
+      "occurredAt": "2022-11-09",
+      "reportedAt": "2022-11-09T00:00:00Z",
+      "country": "Germany",
+      "countryCode": "DE",
+      "region": "Europe",
+      "coordinates": null,
+      "organization": "Kfc",
+      "system": "yes",
+      "technology": null,
+      "industry": "[\"accommodation and food service activities\", \"information and communication\"]",
+      "aiSystemType": "[\"marketing material generation\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "no"
+      ],
+      "affectedParties": [
+        "Jewish People"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:410",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2022-11-09",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/410",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "validos",
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2022-11-09T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: detection. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2022-11-09T00:00:00Z",
+      "updatedAt": "2022-11-09T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-077008",
+      "slug": "oof-aii-077008-false-negatives-for-water-quality-associated-beach-closures",
+      "title": "False Negatives for Water Quality-Associated Beach Closures",
+      "summary": "Toronto’s use of AI predictive modeling (AIPM) which had replaced existing methodology as the only determiner of beach water quality raised concerns about its accuracy, after allegedly conflicting results were found by a local water advocacy group using traditional means.",
+      "eventType": "Incident",
+      "occurredAt": "2022-06-03",
+      "reportedAt": "2022-06-03T00:00:00Z",
+      "country": "Canada",
+      "countryCode": "CA",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Toronto City Government",
+      "system": "yes",
+      "technology": null,
+      "industry": "[\"human health and social work activities\", \"public administration\"]",
+      "aiSystemType": "[\"water quality testing\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Sunnyside Beachgoers",
+        "Marie Curtis Beachgoers",
+        "Toronto Citizens"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:290",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2022-06-03",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/290",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "clia",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLIA®",
+        "classifiedAt": "2022-06-03T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLIA® — Cognitive Governance Intelligence Architecture using signals: predictive. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2022-06-03T00:00:00Z",
+      "updatedAt": "2022-06-03T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-971045",
+      "slug": "oof-aii-971045-amazon-fresh-cameras-failed-to-register-purchased-items",
+      "title": "Amazon Fresh Cameras Failed to Register Purchased Items",
+      "summary": "Amazon Fresh's system of tracking cameras in its cashier-less stores was reported by shoppers for failing to detect items they purchased.",
+      "eventType": "Incident",
+      "occurredAt": "2022-05-08",
+      "reportedAt": "2022-05-08T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Amazon Fresh",
+      "system": "yes",
+      "technology": null,
+      "industry": "[\"wholesale and retail trade\"]",
+      "aiSystemType": "[\"product recognition\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Amazon Fresh"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:520",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2022-05-08",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/520",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2022-05-08T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: recognition. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2022-05-08T00:00:00Z",
+      "updatedAt": "2022-05-08T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-535171",
+      "slug": "oof-aii-535171-starship-delivery-robot-ran-into-problems-traversing-campus-terrains",
+      "title": "Starship Delivery Robot Ran into Problems Traversing Campus Terrains",
+      "summary": "A Starship autonomous delivery robot struggled to navigate campus terrains of UCLA, reportedly getting stuck into a planter and falling off the stairs.",
+      "eventType": "Incident",
+      "occurredAt": "2022-04-03",
+      "reportedAt": "2022-04-03T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Starship Technologies",
+      "system": "yes",
+      "technology": null,
+      "industry": "[\"accommodation and food service activities\", \"transportation and storage\"]",
+      "aiSystemType": "[\"autonomous food delivery\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Starship Technologies"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:519",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2022-04-03",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/519",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2022-04-03T00:00:00Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: autonomous, robot. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2022-04-03T00:00:00Z",
+      "updatedAt": "2022-04-03T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-825359",
+      "slug": "oof-aii-825359-google-maps-allegedly-directed-sierra-nevada-travelers-to-dangerous-roads-amid-winter-storm",
+      "title": "Google Maps Allegedly Directed Sierra Nevada Travelers to Dangerous Roads amid Winter Storm",
+      "summary": "Lake Tahoe travelers were allegedly guided by Google Maps into hazardous shortcuts in the mountains during a snowstorm.",
+      "eventType": "Incident",
+      "occurredAt": "2021-12-27",
+      "reportedAt": "2021-12-27T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Google Maps",
+      "system": "yes",
+      "technology": null,
+      "industry": "[\"transportation and storage\", \"information and communication\"]",
+      "aiSystemType": "[\"navigation\", \"route optimization\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Google Maps Users Traveling In Sierra Nevada",
+        "Google Maps Users Traveling In The Mountains"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:155",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2021-12-27",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/155",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2021-12-27T00:00:00Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2021-12-27T00:00:00Z",
+      "updatedAt": "2021-12-27T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-141726",
+      "slug": "oof-aii-141726-alexa-recommended-dangerous-tiktok-challenge-to-ten-year-old-girl",
+      "title": "Alexa Recommended Dangerous TikTok Challenge to Ten-Year-Old Girl",
+      "summary": "Amazon’s voice assistant Alexa suggested “the penny challenge,” which involves dangerously touching a coin to the prongs of a half-exposed plug, when a ten-year-old girl asked for a challenge to do.",
+      "eventType": "Incident",
+      "occurredAt": "2021-12-26",
+      "reportedAt": "2021-12-26T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Amazon",
+      "system": "yes",
+      "technology": null,
+      "industry": "[\"information and communication\"]",
+      "aiSystemType": "[\"virtual assistant technology\", \"suggestion\", \"recommendation\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Kristin Livdahl'S Daughter",
+        "Amazon Echo Customers",
+        "Children Using Alexa"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:160",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2021-12-26",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/160",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2021-12-26T00:00:00Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2021-12-26T00:00:00Z",
+      "updatedAt": "2021-12-26T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-421273",
+      "slug": "oof-aii-421273-web-accessibility-vendors-allegedly-falsely-claimed-to-provide-compliance-using-ai",
+      "title": "Web Accessibility Vendors Allegedly Falsely Claimed to Provide Compliance Using AI",
+      "summary": "AI-powered web accessibility vendors allegedly overstated to customers about their products' utility for people with disabilities, falsely claiming to deliver automated compliance solutions.",
+      "eventType": "Incident",
+      "occurredAt": "2021-11-21",
+      "reportedAt": "2021-11-21T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Accessibe, Accessus.Ai, Allyable, Userway, Maxaccess.Io",
+      "system": "yes",
+      "technology": null,
+      "industry": "[\"information and communication\"]",
+      "aiSystemType": "[\"accessibility compliance\", \"ADA website compliance\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Malicious Actors & Misuse",
+        "yes"
+      ],
+      "affectedParties": [
+        "Internet Users With Disabilities",
+        "Web Accessibility Vendors' Customers"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:148",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2021-11-21",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/148",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2021-11-21T00:00:00Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2021-11-21T00:00:00Z",
+      "updatedAt": "2021-11-21T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-562299",
+      "slug": "oof-aii-562299-california-regulator-suspended-pony-ai-s-driverless-testing-permit-following-a-non-fatal-collision",
+      "title": "California Regulator Suspended Pony.ai's Driverless Testing Permit Following a Non-Fatal Collision",
+      "summary": "A Pony.ai vehicle operating in autonomous mode crashed into a center divider and a traffic sign in San Francisco, prompting a regulator to suspend the driverless testing permit for the startup.",
+      "eventType": "Incident",
+      "occurredAt": "2021-10-28",
+      "reportedAt": "2021-10-28T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Pony.Ai",
+      "system": "yes",
+      "technology": "[\"Geolocation Data\"]",
+      "industry": "[\"transportation and storage\"]",
+      "aiSystemType": "[\"autonomous driving\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "San Francisco City Government"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:151",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2021-10-28",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/151",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aga",
+        "secondaryArchitectureIds": [
+          "asga",
+          "aig"
+        ],
+        "architectureIndexState": "AGA™",
+        "classifiedAt": "2021-10-28T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to AGA™ — Accountability Governance Architecture using signals: regulator. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2021-10-28T00:00:00Z",
+      "updatedAt": "2021-10-28T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-020950",
+      "slug": "oof-aii-020950-tesla-s-autopilot-misidentified-the-moon-as-yellow-stop-light",
+      "title": "Tesla's Autopilot Misidentified the Moon as Yellow Stop Light",
+      "summary": "Tesla's Autopilot was shown on video by its owner mistaking the moon for a yellow stop light, allegedly causing the vehicle to keep slowing down.",
+      "eventType": "Incident",
+      "occurredAt": "2021-07-23",
+      "reportedAt": "2021-07-23T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Tesla",
+      "system": "yes",
+      "technology": null,
+      "industry": "[\"transportation and storage\"]",
+      "aiSystemType": "[\"autonomous navigation\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Tesla Drivers"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:145",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2021-07-23",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/145",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "validos",
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2021-07-23T00:00:00Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: autonomous, autopilot. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2021-07-23T00:00:00Z",
+      "updatedAt": "2021-07-23T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-542565",
+      "slug": "oof-aii-542565-three-robots-collided-sparking-fire-in-a-grocer-s-warehouse-in-uk",
+      "title": "Three Robots Collided, Sparking Fire in a Grocer's Warehouse in UK",
+      "summary": "A collision involving three robots at an Ocado's warehouse in Erith, UK, resulting in a fire but no reports of injuries.",
+      "eventType": "Incident",
+      "occurredAt": "2021-07-16",
+      "reportedAt": "2021-07-16T00:00:00Z",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "region": "Europe",
+      "coordinates": null,
+      "organization": "Ocado",
+      "system": "no",
+      "technology": null,
+      "industry": "[\"wholesale and retail trade\", \"transportation and storage\"]",
+      "aiSystemType": "[]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Ocado"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:126",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2021-07-16",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/126",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2021-07-16T00:00:00Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2021-07-16T00:00:00Z",
+      "updatedAt": "2021-07-16T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-770759",
+      "slug": "oof-aii-770759-softbank-s-humanoid-robot-pepper-reportedly-frequently-made-errors-prompting-dismissal",
+      "title": "SoftBank's Humanoid Robot, Pepper, Reportedly Frequently Made Errors, Prompting Dismissal",
+      "summary": "SoftBank's robot allegedly kept making mechanical errors, taking unplanned breaks, failing to recognize previously-met people, and breaking down during practice runs.",
+      "eventType": "Incident",
+      "occurredAt": "2021-07-13",
+      "reportedAt": "2021-07-13T00:00:00Z",
+      "country": "Japan",
+      "countryCode": "JP",
+      "region": "Asia",
+      "coordinates": null,
+      "organization": "Softbank",
+      "system": "yes",
+      "technology": null,
+      "industry": "[\"administrative and support service activities\", \"other service activities\", \"financial and insurance activities\", \"Arts, entertainment and recreation\", \"human health and social work activities\"]",
+      "aiSystemType": "[\"chant scripture\", \"entertain guests\", \"household administration\", \"cheerleading\", \"exercise demonstration\", \"concierge\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Softbank"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:152",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2021-07-13",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/152",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "vfm",
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2021-07-13T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: robot. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2021-07-13T00:00:00Z",
+      "updatedAt": "2021-07-13T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-344232",
+      "slug": "oof-aii-344232-skating-rink-s-facial-recognition-cameras-misidentified-black-teenager-as-banned-troublemaker",
+      "title": "Skating Rink’s Facial Recognition Cameras Misidentified Black Teenager as Banned Troublemaker",
+      "summary": "A Black teenager living in Livonia, Michigan was incorrectly stopped from entering a roller skating rink after its facial-recognition cameras misidentified her as another person who had been previously banned for starting a skirmish with other skaters.",
+      "eventType": "Incident",
+      "occurredAt": "2021-07-10",
+      "reportedAt": "2021-07-10T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Riverside Arena Skating Rink",
+      "system": "yes",
+      "technology": null,
+      "industry": "[\"Arts, entertainment and recreation\"]",
+      "aiSystemType": "[\"facial recognition\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Lamya Robinson",
+        "Black Livonia Residents"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:108",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2021-07-10",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/108",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "obidenity",
+          "validos",
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2021-07-10T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: recognition. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2021-07-10T00:00:00Z",
+      "updatedAt": "2021-07-10T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-788456",
+      "slug": "oof-aii-788456-coupang-allegedly-tweaked-search-algorithms-to-boost-own-products",
+      "title": "Coupang Allegedly Tweaked Search Algorithms to Boost Own Products",
+      "summary": "Coupang was alleged in internal reports tampering its search algorithms to prioritize exposure of its own products, which potentially violated Korea's Fair Trade Act.",
+      "eventType": "Incident",
+      "occurredAt": "2021-07-04",
+      "reportedAt": "2021-07-04T00:00:00Z",
+      "country": "South Korea",
+      "countryCode": "KR",
+      "region": "Asia",
+      "coordinates": null,
+      "organization": "Coupang",
+      "system": "yes",
+      "technology": null,
+      "industry": "[\"wholesale and retail trade\"]",
+      "aiSystemType": "[\"product promotion\", \"search result ranking\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Socioeconomic & Environmental Harms",
+        "maybe"
+      ],
+      "affectedParties": [
+        "Coupang Suppliers",
+        "Coupang Customers"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:435",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2021-07-04",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/435",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2021-07-04T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: ranking. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2021-07-04T00:00:00Z",
+      "updatedAt": "2021-07-04T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-085522",
+      "slug": "oof-aii-085522-n-y-p-d-robot-dog-s-run-is-cut-short-after-fierce-backlash",
+      "title": "N.Y.P.D. Robot Dog’s Run Is Cut Short After Fierce Backlash",
+      "summary": "The New York Police Department canceled a contract to use Boston Dynamics' robotic dog Spot following public backlash.",
+      "eventType": "Incident",
+      "occurredAt": "2021-04-28",
+      "reportedAt": "2021-04-28T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "New York City Police Department",
+      "system": "maybe",
+      "technology": null,
+      "industry": "[\"law enforcement\"]",
+      "aiSystemType": "[\"law enforcement\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Human-Computer Interaction",
+        "yes"
+      ],
+      "affectedParties": [
+        "New York City Low Income Communities"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:98",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2021-04-28",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/98",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2021-04-28T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: robot. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2021-04-28T00:00:00Z",
+      "updatedAt": "2021-04-28T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-469883",
+      "slug": "oof-aii-469883-how-french-welfare-services-are-creating-robo-debt",
+      "title": "How French welfare services are creating ‘robo-debt’",
+      "summary": "A French welfare office using software to automatically evaluate cases incorrectly notified a woman receiving benefits that she owed €542.",
+      "eventType": "Incident",
+      "occurredAt": "2021-03-17",
+      "reportedAt": "2021-03-17T00:00:00Z",
+      "country": "France",
+      "countryCode": "FR",
+      "region": "Europe",
+      "coordinates": null,
+      "organization": "French Welfare Offices",
+      "system": "no",
+      "technology": null,
+      "industry": "[\"administrative and support service activities\", \"human health and social work activities\"]",
+      "aiSystemType": "[\"welfare determination\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Lucie Inland"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:100",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2021-03-17",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/100",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2021-03-17T00:00:00Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2021-03-17T00:00:00Z",
+      "updatedAt": "2021-03-17T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-733569",
+      "slug": "oof-aii-733569-facebook-s-and-twitter-s-automated-content-moderation-reportedly-failed-to-effectively-enforce-violation-rules-for-small-language-groups",
+      "title": "Facebook’s and Twitter's Automated Content Moderation Reportedly Failed to Effectively Enforce Violation Rules for Small Language Groups",
+      "summary": "Facebook's and Twitter were not able to sufficiently moderate content of small language groups such as the Balkan languages using AI, allegedly due to the lack of investment in human moderation and difficulty in AI-solution design for the languages.",
+      "eventType": "Incident",
+      "occurredAt": "2021-02-16",
+      "reportedAt": "2021-02-16T00:00:00Z",
+      "country": "Serbia",
+      "countryCode": "RS",
+      "region": "Europe",
+      "coordinates": null,
+      "organization": "Facebook, Twitter",
+      "system": "yes",
+      "technology": null,
+      "industry": "[\"information and communication\"]",
+      "aiSystemType": "[\"content moderation\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Facebook Users Of Small Language Groups",
+        "Twitter Users Of Small Language Groups"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:143",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2021-02-16",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/143",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2021-02-16T00:00:00Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2021-02-16T00:00:00Z",
+      "updatedAt": "2021-02-16T00:00:00Z"
+    }
+  ]
+}
