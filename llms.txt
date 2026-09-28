@@ -1,0 +1,31 @@
+# OOF® — OriginOpen® Foundation
+
+> Canonical methodological reference website for OOF architectures, standards, modules, services, and governance resources.
+
+All canonical documents are in English. Follow each document's explicit hierarchy and governed links; do not infer compatibility from proximity or link volume.
+
+## Primary Navigation
+
+- [OOF® — OriginOpen® Foundation | Methodology Infrastructure](https://originopenfoundation.org/)
+- [OOF® Site Index](https://originopenfoundation.org/oof-site-index.html)
+- [OOF® Architecture Standards Index](https://originopenfoundation.org/oof-structured-architecture-index.html)
+- [OOF™ Structured Reality Standards Index — standardinde](https://originopenfoundation.org/standardinde.html)
+- [OOF® Reference Architectures](https://originopenfoundation.org/reference-architectures.html)
+- [VALIDOS® Validation Governance Architecture — Validation Governance Layer](https://originopenfoundation.org/content/v/validos-architecture.html)
+- [VALIDOS® Complete Standards & Modules Index](https://originopenfoundation.org/content/v/validos-complete-index.html)
+
+## Machine-Readable Resources
+
+- [XML Sitemap](https://originopenfoundation.org/sitemap.xml)
+- [OOF Site Knowledge Graph](https://originopenfoundation.org/data/oof-site-knowledge-graph.json)
+- [OOF Typed Relationship Graph](https://originopenfoundation.org/data/oof-typed-relationships.json)
+- [OOF URL Registry](https://originopenfoundation.org/data/oof-url-registry.json)
+- [OOF URL Alias Registry](https://originopenfoundation.org/data/oof-url-alias-registry.json)
+- [OOF Version Registry](https://originopenfoundation.org/data/oof-version-registry.json)
+- [OOF Governed Relationship Registry](https://originopenfoundation.org/data/oof-relationship-registry.json)
+- [Site Search Index](https://originopenfoundation.org/search-index.json)
+- [Complete Page Catalog](https://originopenfoundation.org/llms-full.txt)
+
+## Retrieval Guidance
+
+Use canonical URLs from the sitemap or knowledge graph. Treat Parent Resources, Standards Compatibility, Module Flow, and Cross-Architecture Interfaces as distinct governed relationship types.

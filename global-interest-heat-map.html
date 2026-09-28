@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>OOF® Global Interest Heat Map™</title>
+<link rel="stylesheet" href="assets/vendor/leaflet-1.9.4/leaflet.css" />
+<link rel="stylesheet" href="style.css?v=20260916.3" />
+<!-- OOF AI DISCOVERY START -->
+<meta name="description" content="OOF® Global Interest Heat Map™. Where is interest in governance methodology developing? Loading global interest map... + − ↺ Country interest Select a country." />
+<link rel="canonical" href="https://originopenfoundation.org/global-interest-heat-map.html" />
+<link rel="alternate" hreflang="en" href="https://originopenfoundation.org/global-interest-heat-map.html" />
+<link rel="alternate" hreflang="x-default" href="https://originopenfoundation.org/global-interest-heat-map.html" />
+<link rel="alternate" type="application/ld+json" href="https://originopenfoundation.org/data/oof-site-knowledge-graph.json" title="OOF Site Knowledge Graph" />
+<link rel="alternate" type="text/plain" href="https://originopenfoundation.org/llms.txt" title="OOF LLM Index" />
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="content-language" content="en" />
+<meta property="og:title" content="OOF® Global Interest Heat Map™" />
+<meta property="og:description" content="OOF® Global Interest Heat Map™. Where is interest in governance methodology developing? Loading global interest map... + − ↺ Country interest Select a country." />
+<meta property="og:url" content="https://originopenfoundation.org/global-interest-heat-map.html" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="OOF® — OriginOpen® Foundation" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="OOF® Global Interest Heat Map™" />
+<meta name="twitter:description" content="OOF® Global Interest Heat Map™. Where is interest in governance methodology developing? Loading global interest map... + − ↺ Country interest Select a country." />
+<meta name="DC.title" content="OOF® Global Interest Heat Map™" />
+<meta name="DC.language" content="en" />
+<meta name="DC.identifier" content="https://originopenfoundation.org/global-interest-heat-map.html" />
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","@id":"https://originopenfoundation.org/global-interest-heat-map.html#webpage","url":"https://originopenfoundation.org/global-interest-heat-map.html","name":"OOF® Global Interest Heat Map™","description":"OOF® Global Interest Heat Map™. Where is interest in governance methodology developing? Loading global interest map... + − ↺ Country interest Select a country.","inLanguage":"en","isPartOf":{"@id":"https://originopenfoundation.org/#website"},"publisher":{"@id":"https://originopenfoundation.org/#organization"},"breadcrumb":{"@type":"BreadcrumbList","@id":"https://originopenfoundation.org/global-interest-heat-map.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"OOF® — OriginOpen® Foundation","item":"https://originopenfoundation.org/"},{"@type":"ListItem","position":2,"name":"OOF® Global Interest Heat Map™","item":"https://originopenfoundation.org/global-interest-heat-map.html"}]}}</script>
+<!-- OOF AI DISCOVERY END -->
+</head>
+<body class="oof-global-interest-page">
+<div id="header"></div>
+<!-- OOF SEMANTIC CONTENT START -->
+<main class="oof-semantic-main"><article class="oof-semantic-article">
+
+<section class="container oof-global-interest-section" aria-labelledby="global-interest-title">
+  <header class="oof-global-interest-heading">
+    <h1 id="global-interest-title" data-oof-section-id="true" role="heading" aria-level="1">OOF® Global Interest Heat Map™</h1>
+    <p>Where is interest in governance methodology developing?</p>
+  </header>
+
+  <div class="oof-global-interest-globe-shell">
+    <div id="global-interest-globe" class="oof-global-interest-globe" role="application" aria-label="Interactive two-dimensional world map showing country-level interest in OOF governance methodology. Drag to move, zoom to reveal English country names, or choose a country below.">
+      <div class="oof-global-interest-loading" role="status">Loading global interest map...</div>
+    </div>
+
+    <div class="oof-global-interest-view-controls" aria-label="Map view controls">
+      <button type="button" data-map-action="zoom-in" aria-label="Zoom in" title="Zoom in">+</button>
+      <button type="button" data-map-action="zoom-out" aria-label="Zoom out" title="Zoom out">−</button>
+      <button type="button" data-map-action="reset" aria-label="Reset map view" title="Reset map view">↺</button>
+    </div>
+
+    <aside id="global-interest-country-card" class="oof-global-interest-country-card" aria-live="polite" aria-atomic="true">
+      <span class="oof-global-interest-card-label">Country interest</span>
+      <strong id="global-interest-country-name">Select a country</strong>
+      <span id="global-interest-country-status">Interest classification will appear here.</span>
+      <span id="global-interest-country-momentum" hidden></span>
+    </aside>
+  </div>
+
+  <div class="oof-global-interest-controls">
+    <label for="global-interest-country-select">Choose a country</label>
+    <select id="global-interest-country-select">
+      <option value="">Select a country</option>
+    </select>
+  </div>
+
+  <div class="oof-global-interest-legend" aria-label="Interest classification legend">
+    <span><i class="is-high" aria-hidden="true"></i>High Interest</span>
+    <span><i class="is-moderate" aria-hidden="true"></i>Moderate Interest</span>
+    <span><i class="is-emerging" aria-hidden="true"></i>Emerging Interest</span>
+    <span><i class="is-insufficient" aria-hidden="true"></i>Insufficient Signal</span>
+  </div>
+  <p class="oof-global-interest-principle"><b>Insufficient Signal does not mean Low Interest.</b></p>
+
+  <div id="global-interest-fallback" class="oof-global-interest-fallback" hidden>
+    <h2 id="accessible-country-interest-view" data-oof-section-id="true" role="heading" aria-level="2">Accessible country interest view</h2>
+    <p>The interactive map is unavailable. Use the country selector to read each public classification.</p>
+  </div>
+
+  <noscript>
+    <div class="oof-global-interest-fallback">
+      <h2 id="interactive-map-requires-javascript" data-oof-section-id="true" role="heading" aria-level="2">Interactive map requires JavaScript</h2>
+      <p>The public dataset contains country-level classifications only and does not contain individual visitor data.</p>
+    </div>
+  </noscript>
+</section>
+
+</article></main>
+<!-- OOF SEMANTIC CONTENT END -->
+<div id="footer"></div>
+<script src="header.js"></script>
+<script>
+fetch("header.html").then(res => res.text()).then(data => { document.getElementById("header").innerHTML = data; if (window.normalizePageLinks) window.normalizePageLinks(); });
+fetch("footer.html").then(res => res.text()).then(data => { document.getElementById("footer").innerHTML = data; if (window.normalizePageLinks) window.normalizePageLinks(); });
+</script>
+<script defer src="assets/vendor/leaflet-1.9.4/leaflet.js"></script>
+<script defer src="assets/js/oof-global-interest-heat-map.js?v=20260916.3"></script>
+</body>
+</html>

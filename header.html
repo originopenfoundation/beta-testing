@@ -1,0 +1,588 @@
+<header class="container">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="144x144" href="/favicon-144.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+  <div class="top-fixed-header">
+    <h1 class="page-title">OOF® — OriginOpen® Foundation</h1>
+    <p class="subtitle">Methodology Infrastructure Organization™</p>
+  </div>
+
+  <nav class="desktop-mega-nav">
+    <button type="button" class="site-search-toggle" onclick="toggleSiteSearch()" aria-label="Search">⌕ Search</button>
+    <span class="mega-separator">|</span>
+    <a href="index.html">Home</a>
+    <span class="mega-separator">|</span>
+    <button type="button" class="mega-menu-button" onclick="toggleMegaMenu()">☰ Menu</button>
+    <span class="mega-separator">|</span>
+    <a href="oof-site-index.html">OOF® Site Index</a>
+    <span class="mega-separator">|</span>
+    <a href="Contact.html">Contact</a>
+
+    <div id="megaMenu" class="mega-menu-panel">
+      <div class="mega-menu-head">
+        <span>OOF® Navigation</span>
+        <button type="button" class="mega-menu-close" onclick="closeMegaMenu()">×</button>
+      </div>
+      <div id="megaMenuContent" class="mega-menu-content"></div>
+    </div>
+
+    <div id="siteSearchPanel" class="site-search-panel">
+      <input id="siteSearchInput" class="site-search-input" type="search" placeholder="Search OOF Site" oninput="runSiteSearch(this.value)" autocomplete="off">
+      <div id="siteSearchResults" class="site-search-results"></div>
+    </div>
+  </nav>
+
+
+  <div class="burger" onclick="toggleBurger()">☰</div>
+
+  <div id="burgerMenu" class="burger-menu">
+    <div class="burger-search">
+      <label class="burger-search-label" for="burgerSearchInput">⌕ Search</label>
+      <input id="burgerSearchInput" class="site-search-input" type="search" placeholder="Search OOF Site" onfocus="loadSiteSearchIndex('burgerSearchResults')" oninput="runSiteSearch(this.value, 'burgerSearchResults')" autocomplete="off">
+      <div id="burgerSearchResults" class="site-search-results"></div>
+    </div>
+
+    <br><br>
+    <h3 class="nadp">OOF®</h3>
+    <a href="index.html">Home</a>
+    <a href="content/o/oof-overview.html">OOF® Overview</a>
+    <a href="content/e/evolution-comes-with-governance.html">Evolution Comes With Governance</a>
+    <a href="content/o/oof-executable-standards-infrastructure.html">OOF® Executable Standards Infrastructure</a>
+    <a href="content/o/OOF-CertificationSystems.html">OOF® and Certification Systems</a>
+    <a href="content/a/abouthautority.html">About Authority</a>
+    <a href="content/o/oof-operational-architecture-spaces.html">Operational Architecture Spaces</a>
+    <a href="content/a/AIinterpretation.html">AI &amp; Interpretation</a>
+    <a href="content/m/Methodology.html">Methodology</a>
+    <a href="content/m/MethodologyFirst.html">Methodology First</a>
+    <a href="content/m/MethodologyasProtection.html">Methodology as Protection</a>
+    <a href="content/s/StructuredReality.html">Structured Reality™</a>
+    <a href="content/s/StructuralRealityLogic.html">Structural Reality Logic</a>
+    <a href="content/v/vfm.html">VFM-Value Flow Mechanism</a>
+    <a href="content/a/agent-governance-infrastructure.html">Agent Governance Infrastructure™</a>
+    <a href="content/w/what-is-oof.html">What is OOF®?</a>
+    <a href="content/f/from-one-ai-agent-to-intelligent-ecosystems.html">From One AI Agent to Intelligent Ecosystems</a>
+
+    <hr>
+    <h3 class="nadp">Methodology Discipline™</h3>
+    <a href="content/m/mdisc-1-what-is-a-methodology.html">What is a Methodology?</a>
+    <a href="content/m/mdisc-2-methodology-definition.html">Methodology Definition</a>
+    <a href="content/m/mdisc-3-methodology-purpose.html">Methodology Purpose</a>
+    <a href="content/m/mdisc-4-methodology-scope.html">Methodology Scope</a>
+    <a href="content/m/mdisc-5-methodology-structure.html">Methodology Structure</a>
+    <a href="content/m/mdisc-6-methodology-consistency.html">Methodology Consistency</a>
+    <a href="content/m/mdisc-7-methodology-reproducibility.html">Methodology Reproducibility</a>
+    <a href="content/m/mdisc-8-methodology-traceability.html">Methodology Traceability</a>
+    <a href="content/m/mdisc-9-methodology-governance.html">Methodology Governance</a>
+    <a href="content/m/mdisc-10-methodology-adoption.html">Methodology Adoption</a>
+    <a href="content/m/mdisc-11-methodology-evolution.html">Methodology Evolution</a>
+    <a href="content/m/mdisc-12-methodology-validation.html">Methodology Validation</a>
+
+    <hr>
+    <h3 class="nadp">Methodology Authority™</h3>
+    <a href="content/m/methodology-1.html">About Methodology Authority</a>
+    <a href="content/m/methodology-2.html">Why Methodologies Matter</a>
+    <a href="content/m/methodology-3.html">Methodology Assessment</a>
+    <a href="content/m/methodology-4.html">Methodology Validation</a>
+    <a href="content/m/methodology-5.html">Methodology Compatibility</a>
+    <a href="content/m/methodology-6.html">Methodology Registry</a>
+    <a href="content/m/methodology-7.html">Origin Open Registry™</a>
+    <a href="content/m/methodology-8.html">Reusable Methodologies</a>
+    <a href="content/m/methodology-9.html">Methodology Risk Mapping</a>
+    <a href="content/m/methodology-10.html">Methodology Sustainability Assessment™</a>
+    <a href="content/m/methodology-11.html">EVIP® Methodology Evaluation</a>
+    <a href="content/m/methodology-12.html">Architecture Discovery System™ (ADS™)</a>
+
+    <hr>
+    <h3 class="nadp">Methodology Infrastructure™</h3>
+    <a href="content/m/minfra-1-MI.html">Methodology Infrastructure™</a>
+    <a href="content/m/minfra-2-OOR.html">Origin Open Registry™ (OOR™)</a>
+    <a href="content/m/minfra-3-ESA.html">Emerging Spaces Atlas™ (ESA™)</a>
+    <a href="content/m/minfra-4-OOFCMR.html">OOF Canonical Meaning Registry™ (OOFCMR™)</a>
+
+    <h4 class="burger-toggle burger-subtitle" onclick="toggleBurgerSub('burgerPsiiMenu', this)">
+      About OOF Problem Space Intelligence Index™
+    </h4>
+    <div id="burgerPsiiMenu" class="burger-submenu burger-subsection">
+      <a href="content/m/minfra-5-PSII.html">OOF Problem Space Intelligence Index™ (PSII™)</a>
+      <a href="content/p/psii-governance-architecture-questions.html">Governance Architecture Questions</a>
+      <a href="content/p/psii-problem-space-questions.html">Problem Space Questions</a>
+      <a href="content/p/psii-operational-reality-questions.html">Operational Reality Questions</a>
+      <a href="content/p/psii-autonomous-systems-questions.html">Autonomous Systems Questions</a>
+      <a href="content/p/psii-intelligence-questions.html">Intelligence Questions</a>
+      <a href="content/p/psii-evidence-questions.html">Evidence Questions</a>
+      <a href="content/p/psii-audit-questions.html">Audit Questions</a>
+      <a href="content/p/psii-methodology-architecture-questions.html">Methodology Architecture Questions</a>
+      <a href="content/p/psii-methodology-evaluation-questions.html">Methodology Evaluation Questions</a>
+      <a href="content/p/psii-methodology-modernization-questions.html">Methodology Modernization Questions</a>
+      <a href="content/p/psii-methodology-protection-questions.html">Methodology Protection Questions</a>
+      <a href="content/p/psii-methodology-licensing-questions.html">Methodology Licensing Questions</a>
+      <a href="content/p/psii-methodology-lifecycle-questions.html">Methodology Lifecycle Questions</a>
+      <a href="content/p/psii-methodology-modularity-questions.html">Methodology Modularity Questions</a>
+      <a href="content/p/psii-methodology-governance-questions.html">Methodology Governance Questions</a>
+      <a href="content/p/psii-methodology-asset-questions.html">Methodology Asset Questions</a>
+      <a href="content/p/psii-methodology-quality-questions.html">Methodology Quality Questions</a>
+      <a href="content/p/psii-methodology-engineering-questions.html">Methodology Engineering Questions</a>
+      <a href="content/p/psii-methodology-questions.html">Methodology Questions</a>
+      <a href="content/p/psii-compliance-questions.html">Compliance Questions</a>
+      <a href="content/p/psii-validation-questions.html">Validation Questions</a>
+      <a href="content/p/psii-transparency-questions.html">Transparency Questions</a>
+      <a href="content/p/psii-trust-questions.html">Trust Questions™</a>
+      <a href="content/p/psii-risk-questions.html">Risk Questions™</a>
+      <a href="content/p/psii-decision-making-questions.html">Decision-Making Questions™</a>
+      <a href="content/p/psii-authority-questions.html">Authority Questions™</a>
+      <a href="content/p/psii-accountability-questions.html">Accountability Questions™</a>
+      <a href="content/p/psii-governance-questions.html">Governance Questions™</a>
+    </div>
+
+    <hr>
+    <h3 class="nadp">Methodology OS™</h3>
+    <a href="content/o/os.html">OOF® Methodology OS</a>
+    <a href="content/a/AbouttheUCL-UniversalCanonicalLanguage.html">UCL™ — Universal Canonical Language</a>
+    <a href="content/u/ucl-how-it-works.html">UCL™ — How It Works</a>
+    <a href="content/u/ucl-ambiguity.html">How UCL™ Handles Ambiguity</a>
+
+    <hr>
+    <h3 class="nadp">Methodology Intelligence Tools™</h3>
+
+    <h4 class="burger-toggle burger-subtitle" onclick="toggleBurgerSub('burgerIntelligenceMenu', this)">
+      Governance Intelligence Engine™
+    </h4>
+
+    <div id="burgerIntelligenceMenu" class="burger-submenu">
+      <h5 class="burger-toggle burger-subtitle burger-subsection-title" onclick="toggleBurgerSub('burgerEngineMenu', this)">
+        About Governance Intelligence Engine™
+      </h5>
+      <div id="burgerEngineMenu" class="burger-submenu burger-subsection">
+        <a href="content/e/engine-1.html">Governance Intelligence Engine™</a>
+        <a href="content/e/engine-2.html">Governance Intelligence Analytics™</a>
+        <a href="content/e/engine-3.html">Governance Intelligence Implementation™</a>
+        <a href="content/e/engine-4.html">Governance Intelligence Report™</a>
+        <a href="content/e/engine-5.html">Modular Architecture™</a>
+      </div>
+
+      <h5 class="burger-toggle burger-subtitle burger-subsection-title" onclick="toggleBurgerSub('burgerSemanticMenu', this)">
+        Semantic Governance™
+      </h5>
+      <div id="burgerSemanticMenu" class="burger-submenu burger-subsection">
+        <a href="content/a/AboutSemanticGovernanceArchitecture.html">About Semantic Governance Architecture™</a>
+        <a href="content/a/ActiveSemanticLayer.html">Active Semantic Layer™</a>
+        <a href="content/h/HowActiveSemanticLayerWorks.html">How Active Semantic Layer Works</a>
+        <a href="content/o/OOF-CanonicalMeaningRegistry.html">OOF Canonical Meaning Registry</a>
+        <a href="content/s/SemanticAudit.html">Semantic Audit™</a>
+        <a href="content/s/SemanticRisk.html">Semantic Risk™</a>
+        <a href="content/w/WhoImplementsActiveSemanticLayer.html">Who Implements Active Semantic Layer™?</a>
+        <a href="content/w/WhyOrganizationsNeedMeaningGovernance.html">Why Organizations Need Meaning Governance™</a>
+        <a href="content/a/AIMeaningAlignment.html">AI Meaning Alignment™</a>
+        <a href="content/s/SharedSemanticLayer.html">Shared Semantic Layer™</a>
+      </div>
+
+      <h5 class="burger-toggle burger-subtitle burger-subsection-title" onclick="toggleBurgerSub('burgerGovernanceNavMenu', this)">
+        Governance Navigation™
+      </h5>
+      <div id="burgerGovernanceNavMenu" class="burger-submenu burger-subsection">
+        <a href="content/g/governance-1.html">About Governance Navigation™</a>
+        <a href="content/g/governance-2.html">Problem Identification™</a>
+        <a href="content/g/governance-3.html">Problem Classification™</a>
+        <a href="content/g/governance-4.html">Problem Localization™</a>
+        <a href="content/g/governance-5.html">Governance Mapping™</a>
+        <a href="content/g/governance-6.html">Dependency Discovery™</a>
+        <a href="content/g/governance-7.html">Problem Propagation™</a>
+        <a href="content/g/governance-8.html">Governance Diagnostics™</a>
+      </div>
+
+      <h5 class="burger-toggle burger-subtitle burger-subsection-title" onclick="toggleBurgerSub('burgerSimulationMenu', this)">
+        Governance Simulation™
+      </h5>
+      <div id="burgerSimulationMenu" class="burger-submenu burger-subsection">
+        <a href="content/s/sim-1-AGS.html">About Governance Simulation™</a>
+        <a href="content/s/sim-2-SM.html">Scenario Modeling™</a>
+        <a href="content/s/sim-3-FSM.html">Future State Modeling™</a>
+        <a href="content/s/sim-4-RS.html">Risk Simulation™</a>
+        <a href="content/s/sim-5-DIS.html">Dependency Impact Simulation™</a>
+        <a href="content/s/sim-6-ES.html">Escalation Simulation™</a>
+        <a href="content/s/sim-7-GRS.html">Governance Re-Simulation™</a>
+        <a href="content/s/sim-8-SD.html">Simulation Diagnostics™</a>
+      </div>
+
+      <h5 class="burger-toggle burger-subtitle burger-subsection-title" onclick="toggleBurgerSub('burgerGaodMenu', this)">
+        Governance Architecture On Demand™
+      </h5>
+      <div id="burgerGaodMenu" class="burger-submenu burger-subsection">
+        <a href="content/g/gaod-1-AGAOD.html">About Governance Architecture On Demand™</a>
+        <a href="content/g/gaod-2-GLD.html">Governance Logic Design™</a>
+        <a href="content/g/gaod-3-AC.html">Architecture Composition™</a>
+        <a href="content/g/gaod-4-AO.html">Architecture Options™</a>
+        <a href="content/g/gaod-5-GCD.html">Governance Controls Design™</a>
+        <a href="content/g/gaod-6-VLD.html">Validation Layer Design™</a>
+        <a href="content/g/gaod-7-ARA.html">Architecture Readiness Assessment™</a>
+        <a href="content/g/gaod-8-AR.html">Architecture Recommendation™</a>
+      </div>
+
+      <h5 class="burger-toggle burger-subtitle burger-subsection-title" onclick="toggleBurgerSub('burgerResimMenu', this)">
+        Governance Re-Simulation™
+      </h5>
+      <div id="burgerResimMenu" class="burger-submenu burger-subsection">
+        <a href="content/r/resim-1-AGRS.html">About Governance Re-Simulation™</a>
+        <a href="content/r/resim-2-ARS.html">Architecture Re-Simulation™</a>
+        <a href="content/r/resim-3-GLRS.html">Governance Logic Re-Simulation™</a>
+        <a href="content/r/resim-4-CRS.html">Control Re-Simulation™</a>
+        <a href="content/r/resim-5-VRS.html">Validation Layer Design™</a>
+        <a href="content/r/resim-6-DRS.html">Dependency Re-Simulation™</a>
+        <a href="content/r/resim-7-FRS.html">Failure Re-Simulation™</a>
+        <a href="content/r/resim-8-RSD.html">Re-Simulation Diagnostics™</a>
+      </div>
+
+      <h5 class="burger-toggle burger-subtitle burger-subsection-title" onclick="toggleBurgerSub('burgerOperationalRealityMenu', this)">
+        Operational Reality™
+      </h5>
+      <div id="burgerOperationalRealityMenu" class="burger-submenu burger-subsection">
+        <a href="content/o/opreal-1-AOR.html">About Operational Reality™</a>
+        <a href="content/o/opreal-2-RO.html">Reality Observation™</a>
+        <a href="content/o/opreal-3-RD.html">Reality Detection™</a>
+        <a href="content/o/opreal-4-RC.html">Reality Context™</a>
+        <a href="content/o/opreal-5-RI.html">Reality Interpretation™</a>
+        <a href="content/o/opreal-6-RCOMP.html">Reality Comparison™</a>
+        <a href="content/o/opreal-7-RDA.html">Reality Deviation Analysis™</a>
+        <a href="content/o/opreal-8-ORD.html">Operational Reality Diagnostics™</a>
+      </div>
+
+      <h5 class="burger-toggle burger-subtitle burger-subsection-title" onclick="toggleBurgerSub('burgerArtMenu', this)">
+        ART™ Audit in Real Time™
+      </h5>
+      <div id="burgerArtMenu" class="burger-submenu burger-subsection">
+        <a href="content/a/artfam-1-AART.html">About ART™ Audit in Real Time™</a>
+        <a href="content/a/artfam-2-EC.html">Evidence Collection™</a>
+        <a href="content/a/artfam-3-EV.html">Evidence Validation™</a>
+        <a href="content/a/artfam-4-ET.html">Evidence Traceability™</a>
+        <a href="content/a/artfam-5-RV.html">Reality Verification™</a>
+        <a href="content/a/artfam-6-AC.html">Audit Continuity™</a>
+        <a href="content/a/artfam-7-AI.html">Audit Integrity™</a>
+        <a href="content/a/artfam-8-AD.html">ART Diagnostics™</a>
+      </div>
+
+      <h5 class="burger-toggle burger-subtitle burger-subsection-title" onclick="toggleBurgerSub('burgerArtDataMenu', this)">
+        ArtData®
+      </h5>
+      <div id="burgerArtDataMenu" class="burger-submenu burger-subsection">
+        <a href="content/a/artdata-1-AA.html">About ArtData®</a>
+        <a href="content/a/artdata-2-AQ.html">ArtData Qualification™</a>
+        <a href="content/a/artdata-3-AR.html">ArtData Registry™</a>
+        <a href="content/a/artdata-4-AI.html">ArtData Intelligence™</a>
+        <a href="content/a/artdata-5-AV.html">ArtData Value™</a>
+        <a href="content/a/artdata-6-AE.html">ArtData Exchange™</a>
+        <a href="content/a/artdata-7-AG.html">ArtData Governance™</a>
+        <a href="content/a/artdata-8-AD.html">ArtData Diagnostics™</a>
+      </div>
+    </div>
+
+    <h4 class="burger-toggle burger-subtitle" onclick="toggleBurgerSub('burgerMvfMenu', this)">
+      MVF™ — Methodology Assessment &amp; Valuation Framework™
+    </h4>
+    <div id="burgerMvfMenu" class="burger-submenu">
+      <a href="content/m/mvf-1-AMVF.html">MVF™ — Methodology Assessment &amp; Valuation Framework™</a>
+      <a href="content/m/mvf-2-WMVM.html">Why Methodology Valuation Matters™</a>
+      <a href="content/m/mvf-3-MAC.html">Methodology Asset Classification™</a>
+      <a href="content/m/mvf-4-AA.html">Adoption Assessment™</a>
+      <a href="content/m/mvf-5-POA.html">Protection &amp; Ownership Assessment™</a>
+      <a href="content/m/mvf-6-PEVA.html">Proven Economic Value Assessment™</a>
+      <a href="content/m/mvf-7-SVA.html">Strategic Value Assessment™</a>
+      <a href="content/m/mvf-8-FPRWA.html">Future Potential &amp; Risk Weighting Assessment™</a>
+      <a href="content/m/mvf-9-MVR.html">Methodology Valuation Report™</a>
+      <a href="content/m/mvf-10-APA.html">Applicability Assessment™</a>
+      <a href="content/m/mvf-11-ORA.html">Operational Readiness Assessment™</a>
+      <a href="content/m/mvf-12-CEA.html">Compatibility &amp; Expansion Assessment™</a>
+    </div>
+
+    <a href="content/a/ads-architecture-discovery-system.html">ADS™ — Architecture Discovery System™</a>
+    <a href="content/o/omip.html">OOF Methodology Intelligence Platform™ (OMIP™)</a>
+
+    <a class="menu-temporarily-hidden" href="content/m/methodology-as-a-service.html">Methodology-as-a-Service™ (MaaS™)</a>
+    <a class="menu-temporarily-hidden" href="content/a/ai-governance-assessment.html">AI Governance Assessment™</a>
+    <a class="menu-temporarily-hidden" href="content/i/implementation-partner-discovery.html">Implementation Partner Discovery™</a>
+    <a class="menu-temporarily-hidden" href="content/m/methodology-asset-formation.html">Methodology Asset Formation™ (MAF™)</a>
+
+    <hr>
+    <h3 class="nadp">OOF® Architecture Mapping™</h3>
+    <a href="content/a/ais-iga-map.html">IGA™ Architecture Master Map</a>
+    <a href="content/adit/ADIT® Architecture Map.html">ADIT® Architecture Map</a>
+    <a href="content/integros/INTEGROS® Architecture Map.html">INTEGROS® Architecture Map</a>
+    <a href="content/aig/AIG® Architecture Map.html">AIG® Architecture Map</a>
+    <a href="content/g/GOA™ Architecture Map.html">GOA™ Architecture Map</a>
+    <a href="content/a/ais-ora-map.html">ORA™ Architecture Map</a>
+    <a href="content/a/ais-clia-map.html">CLIA® Architecture Map</a>
+    <a href="content/a/ais-mgia-map.html">MGIA™ Architecture Map</a>
+    <a href="content/a/ais-aga-map.html">AGA™ Architecture Map</a>
+    <a href="content/a/asga-architecture-map.html">ASGA™ Architecture Map</a>
+    <a href="content/o/obidenity-architecture-map.html">OBIDENITY® Architecture Map</a>
+    <a href="content/c/cla-architecture-map.html">CLA™ Architecture Map</a>
+    <a href="content/v/validos-architecture-map.html">VALIDOS® Architecture Map</a>
+    <a href="content/vfm/vfm-architecture-map.html">VFM® Architecture Map</a>
+    <a href="SIMULOS® Architecture Map.html">SIMULOS® Architecture Map</a>
+    <a href="TREGA™ Architecture Map.html">TREGA™ Architecture Map</a>
+
+    <hr>
+    <h3 class="nadp">OOF Governance Heat Map</h3>
+    <a href="reference-architectures.html#oof-governance-heat-map">OOF Governance Architecture Heat Map</a>
+    <a href="content/o/about-oof-governance-heat-map.html">About OOF® Governance Heat Map</a>
+    <a href="global-interest-heat-map.html">OOF® Global Interest Heat Map™</a>
+    <a href="content/o/about-oof-global-interest-heat-map.html">About OOF® Global Interest Heat Map™</a>
+    <a href="ai-incidents/">OOF® Global AI Incident Intelligence™</a>
+    <a href="content/o/about-oof-global-ai-incident-intelligence.html">About OOF® Global AI Incident Intelligence™</a>
+
+    <hr>
+    <h3 class="nadp">OOF® Reference Architectures™</h3>
+    <a href="reference-architectures.html">OOF® Reference Architectures</a>
+    <a href="content/r/ris.html">Runtime Integrity Standard™ (RIS™)</a>
+
+    <h4 class="burger-toggle burger-subtitle" onclick="toggleBurgerSub('burgerRefAditMenu', this)">
+      ADIT® Continuous Audit &amp; Evidence Governance
+    </h4>
+    <div id="burgerRefAditMenu" class="burger-submenu burger-subsection">
+      <a href="content/adit/ADIT® Architecture Map.html">ADIT® Architecture Map</a>
+      <a href="content/adit/About Continuous Audit &amp; Evidence Governance Architecture (ADIT®).html">About Continuous Audit &amp; Evidence Governance Architecture (ADIT®)</a>
+      <a href="content/adit/ADIT® Complete Standards &amp; Modules Index.html">ADIT® Complete Standards &amp; Modules Index</a>
+      <a href="content/adit/ADIT® Continuous Audit &amp; Evidence Governance Architecture - Audit &amp; Evidence Governance Layer.html">ADIT® Continuous Audit &amp; Evidence Governance Architecture - Audit &amp; Evidence Governance Layer</a>
+    </div>
+
+    <h4 class="burger-toggle burger-subtitle" onclick="toggleBurgerSub('burgerRefIntegrosMenu', this)">
+      INTEGROS® Integrity Governance Architecture
+    </h4>
+    <div id="burgerRefIntegrosMenu" class="burger-submenu burger-subsection">
+      <a href="content/integros/INTEGROS® Architecture Map.html">INTEGROS® Architecture Map</a>
+      <a href="content/integros/INTEGROS® Complete Standards &amp; Modules Index.html">INTEGROS® Complete Standards &amp; Modules Index</a>
+      <a href="content/integros/About Integrity Governance Architecture (INTEGROS®).html">About Integrity Governance Architecture (INTEGROS®)</a>
+      <a href="content/integros/INTEGROS® Integrity Governance Architecture - Integrity Governance Layer.html">INTEGROS® Integrity Governance Architecture - Integrity Governance Layer</a>
+    </div>
+
+    <h4 class="burger-toggle burger-subtitle" onclick="toggleBurgerSub('burgerRefAigMenu', this)">
+      AIG® - Governance Architecture
+    </h4>
+    <div id="burgerRefAigMenu" class="burger-submenu burger-subsection">
+      <a href="content/aig/AIG® Architecture Map.html">AIG® Architecture Map</a>
+      <a href="content/aig/About AI Governance Architecture (AIG®).html">About AI Governance Architecture (AIG®)</a>
+      <a href="content/aig/AI Governance Architecture - Behavioral Governance Layer.html">AI Governance Architecture - Behavioral Governance Layer</a>
+      <a href="content/aig/AIG® Complete Standards &amp; Modules Index.html">AIG® Complete Standards &amp; Modules Index</a>
+    </div>
+
+    <h4 class="burger-toggle burger-subtitle" onclick="toggleBurgerSub('burgerRefGoaMenu', this)">
+      GOA™ - Governance Architecture
+    </h4>
+    <div id="burgerRefGoaMenu" class="burger-submenu burger-subsection">
+      <a href="content/a/About Governance Architecture (GOA™).html">About Governance Architecture (GOA™)</a>
+      <a href="content/g/GOA™ Architecture Map.html">GOA™ Architecture Map</a>
+      <a href="content/g/GOA™.html">GOA™ Architecture Index</a>
+      <a href="content/g/GOA™ Complete Standards &amp; Modules Index.html">GOA™ Complete Standards &amp; Modules Index</a>
+      <a href="content/o/OOF® Official Architecture Map Template.html">OOF® Official Architecture Map Template</a>
+    </div>
+
+    <h4 class="burger-toggle burger-subtitle" onclick="toggleBurgerSub('burgerRefOraMenu', this)">
+      ORA™ - Operational Reality Architecture
+    </h4>
+    <div id="burgerRefOraMenu" class="burger-submenu burger-subsection">
+      <a href="content/a/ais-ora-map.html">ORA™ Architecture Map</a>
+      <a href="content/o/ora-about.html">About Operational Reality Architecture (ORA™)</a>
+      <a href="content/o/ora-architecture.html">ORA™ Operational Reality Architecture</a>
+      <a href="content/o/ora-complete-index.html">ORA™ Complete Standards &amp; Modules Index</a>
+    </div>
+
+    <h4 class="burger-toggle burger-subtitle" onclick="toggleBurgerSub('burgerRefCliaMenu', this)">
+      CLIA® — Cognitive Layer Integrity Architecture
+    </h4>
+    <div id="burgerRefCliaMenu" class="burger-submenu burger-subsection">
+      <a href="content/a/ais-clia-map.html">CLIA® Architecture Map</a>
+      <a href="content/r/ref-clia-architecture-index.html">CLIA® Architecture Index</a>
+      <a href="content/r/ref-clia-complete-index.html">CLIA® Complete Standards &amp; Modules Index</a>
+    </div>
+
+    <h4 class="burger-toggle burger-subtitle" onclick="toggleBurgerSub('burgerRefMgiaMenu', this)">
+      MGIA™ — Memory Governance Intelligence Architecture
+    </h4>
+    <div id="burgerRefMgiaMenu" class="burger-submenu burger-subsection">
+      <a href="content/a/ais-mgia-map.html">MGIA™ Architecture Map</a>
+      <a href="content/r/ref-mgia-architecture-index.html">MGIA™ Architecture Index</a>
+      <a href="content/r/ref-mgia-complete-index.html">MGIA™ Complete Standards &amp; Modules Index</a>
+    </div>
+
+    <h4 class="burger-toggle burger-subtitle" onclick="toggleBurgerSub('burgerRefAgaMenu', this)">
+      AGA™ — Accountability Governance Architecture
+    </h4>
+    <div id="burgerRefAgaMenu" class="burger-submenu burger-subsection">
+      <a href="content/a/ais-aga-map.html">AGA™ Architecture Map</a>
+      <a href="content/r/ref-aga-architecture-index.html">AGA™ Architecture Index</a>
+      <a href="content/r/ref-aga-complete-index.html">AGA™ Complete Standards &amp; Modules Index</a>
+      <a href="content/c/cap-aga-protocol.html">CAP™ — Chain of Accountability Protocol</a>
+      <a href="content/c/cap.html">Chain Accountability Protocol - (CAP)</a>
+    </div>
+
+    <h4 class="burger-toggle burger-subtitle" onclick="toggleBurgerSub('burgerRefAsgaMenu', this)">
+      ASGA™ — Autonomous Systems Governance Architecture
+    </h4>
+    <div id="burgerRefAsgaMenu" class="burger-submenu burger-subsection">
+      <a href="content/a/asga-architecture-map.html">ASGA™ Architecture Map</a>
+      <a href="content/a/asga-about.html">About Autonomous Systems Governance Architecture (ASGA™)</a>
+      <a href="content/a/asga-architecture.html">ASGA™ Autonomous Systems Governance Architecture</a>
+      <a href="content/a/asga-complete-index.html">ASGA™ Complete Standards &amp; Modules Index</a>
+    </div>
+
+    <h4 class="burger-toggle burger-subtitle" onclick="toggleBurgerSub('burgerRefObidenityMenu', this)">
+      OBIDENITY® — Origin-Bound Identity Governance Architecture
+    </h4>
+    <div id="burgerRefObidenityMenu" class="burger-submenu burger-subsection">
+      <a href="content/o/obidenity-architecture-map.html">OBIDENITY® Architecture Map</a>
+      <a href="content/o/obidenity-about.html">About Origin-Bound Identity Governance Architecture (OBIDENITY®)</a>
+      <a href="content/o/obidenity-architecture.html">OBIDENITY® — Origin-Bound Identity Governance Architecture</a>
+      <a href="content/o/obidenity-complete-index.html">OBIDENITY® Complete Standards &amp; Modules Index</a>
+    </div>
+
+    <h4 class="burger-toggle burger-subtitle" onclick="toggleBurgerSub('burgerRefClaMenu', this)">
+      CLA™ — Classification Architecture
+    </h4>
+    <div id="burgerRefClaMenu" class="burger-submenu burger-subsection">
+      <a href="content/c/cla-architecture-map.html">CLA™ Architecture Map</a>
+      <a href="content/c/cla-about.html">About Classification Architecture (CLA™)</a>
+      <a href="content/c/cla-architecture.html">CLA™ — Classification Architecture</a>
+      <a href="content/c/cla-complete-index.html">CLA™ Complete Standards &amp; Modules Index</a>
+    </div>
+
+    <h4 class="burger-toggle burger-subtitle" onclick="toggleBurgerSub('burgerRefValidosMenu', this)">
+      VALIDOS® — Validation Governance Architecture
+    </h4>
+    <div id="burgerRefValidosMenu" class="burger-submenu burger-subsection">
+      <a href="content/v/validos-architecture-map.html">VALIDOS® Architecture Map</a>
+      <a href="content/v/validos-about.html">About VALIDOS® — Validation Governance Architecture</a>
+      <a href="content/v/validos-architecture.html">VALIDOS® — Validation Governance Architecture</a>
+      <a href="content/v/validos-complete-index.html">VALIDOS® Complete Standards &amp; Modules Index</a>
+      <a href="content/v/validos-four-layer-validation-protocol.html">VALIDOS® — Four-Layer Validation Protocol™</a>
+    </div>
+
+    <h4 class="burger-toggle burger-subtitle" onclick="toggleBurgerSub('burgerRefVfmMenu', this)">
+      VFM® — Value Flow Mechanisms Architecture
+    </h4>
+    <div id="burgerRefVfmMenu" class="burger-submenu burger-subsection">
+      <a href="content/vfm/vfm-architecture-map.html">VFM® Architecture Map</a>
+      <a href="content/vfm/vfm-about.html">About VFM® — Value Flow Mechanisms Architecture</a>
+      <a href="content/vfm/vfm-architecture.html">VFM® — Value Flow Mechanisms Architecture</a>
+      <a href="content/vfm/vfm-complete-index.html">VFM® Complete Standards &amp; Modules Index</a>
+    </div>
+
+    <h4 class="burger-toggle burger-subtitle" onclick="toggleBurgerSub('burgerRefSimulosMenu', this)">
+      SIMULOS® — Simulation Governance Architecture
+    </h4>
+    <div id="burgerRefSimulosMenu" class="burger-submenu burger-subsection">
+      <a href="SIMULOS® Architecture Map.html">SIMULOS® Architecture Map</a>
+      <a href="About SIMULOS® - Simulation Governance Architecture.html">About SIMULOS® — Simulation Governance Architecture</a>
+      <a href="SIMULOS® Simulation Governance Architecture - Simulation Governance Layer.html">SIMULOS® — Simulation Governance Architecture</a>
+      <a href="SIMULOS® Complete Standards &amp; Modules Index.html">SIMULOS® Complete Standards &amp; Modules Index</a>
+    </div>
+
+    <h4 class="burger-toggle burger-subtitle" onclick="toggleBurgerSub('burgerRefTregaMenu', this)">
+      TREGA™ — Tax-Relevant Event Governance Architecture
+    </h4>
+    <div id="burgerRefTregaMenu" class="burger-submenu burger-subsection">
+      <a href="TREGA™ Architecture Map.html">TREGA™ Architecture Map</a>
+      <a href="About TREGA™ - Tax-Relevant Event Governance Architecture.html">About TREGA™ — Tax-Relevant Event Governance Architecture</a>
+      <a href="TREGA™ Tax-Relevant Event Governance Architecture - Tax-Relevant Event Governance Layer.html">TREGA™ — Tax-Relevant Event Governance Architecture</a>
+      <a href="TREGA™ Complete Standards &amp; Modules Index.html">TREGA™ Complete Standards &amp; Modules Index</a>
+      <a href="Governance Architecture Implementation.html">Governance Architecture Implementation</a>
+    </div>
+
+    <hr>
+    <h3 class="nadp">Structured Reality Standards™</h3>
+    <a href="standardinde.html">OOF Complete Structured Standard Index</a>
+    <a href="oof-structured-architecture-index.html">OOF® Architecture Standards Index</a>
+    <a href="Standards.html">Standards Previews</a>
+    <a href="standardsoverview.html">About Standards</a>
+
+    <hr>
+    <h3 class="nadp">Governance Architecture™</h3>
+    <a href="content/g/GovernanceArchitecture.html">Governance Architecture</a>
+    <a href="content/h/HowItWorksInPractice.html">How It Works in Practice</a>
+    <a href="content/e/ExampleArchitectures.html">Example Architectures</a>
+
+    <hr>
+    <h3 class="nadp">Future of Governance Layers™</h3>
+    <a href="content/g/future-of-governance-layers.html">Future of Governance Layers™</a>
+    <a href="content/g/what-the-governance-layer-can-do.html">What the Governance Layer Can Do</a>
+    <a href="content/g/governance-layer-deployment.html">Governance Layer Deployment</a>
+    <a href="content/g/methodology-sovereignty.html">Methodology Sovereignty™</a>
+    <a href="content/g/distributed-governance-infrastructure.html">Distributed Governance Infrastructure™</a>
+
+    <hr>
+    <h3 class="nadp">Assessment &amp; Intelligence Services</h3>
+    <a class="assessment-service-link" href="content/g/Governance Architecture Analysis.html">Governance Architecture Analysis™</a>
+    <a class="assessment-question-index" href="content/q/question-governance-architecture-analysis.html">Question Index</a>
+    <a class="assessment-service-link" href="content/g/Governance Intelligence Report.html">Governance Intelligence Report™</a>
+    <a class="assessment-question-index" href="content/q/question-governance-intelligence-report.html">Question Index</a>
+    <a class="assessment-service-link" href="content/m/Methodology Existence Validation.html">Methodology Existence Validation™</a>
+    <a class="assessment-question-index" href="content/q/question-methodology-existence-validation.html">Question Index</a>
+    <a class="assessment-service-link" href="content/m/Methodology Protection &amp; Positioning.html">Methodology Protection &amp; Positioning™</a>
+    <a class="assessment-question-index" href="content/q/question-methodology-protection-positioning.html">Question Index</a>
+    <a class="assessment-service-link" href="content/m/Methodology Space Discovery.html">Methodology Space Discovery™</a>
+    <a class="assessment-question-index" href="content/q/question-methodology-space-discovery.html">Question Index</a>
+    <a class="assessment-service-link" href="content/m/MethodologyDueDiligence.html">Methodology Due Diligence™</a>
+    <a class="assessment-question-index" href="content/q/question-methodology-due-diligence.html">Question Index</a>
+    <a class="assessment-service-link" href="content/m/MethodologyEngineering.html">Methodology Engineering™</a>
+    <a class="assessment-question-index" href="content/q/question-methodology-engineering.html">Question Index</a>
+    <a class="assessment-service-link" href="content/m/MethodologyModernization.html">Methodology Modernization™</a>
+    <a class="assessment-question-index" href="content/q/question-methodology-modernization.html">Question Index</a>
+    <a class="assessment-service-link" href="content/m/MethodologyValuation.html">Methodology Valuation™</a>
+    <a class="assessment-question-index" href="content/q/question-methodology-valuation.html">Question Index</a>
+    <a class="assessment-service-link" href="content/p/Problem Space Mapping.html">Problem Space Mapping™</a>
+    <a class="assessment-question-index" href="content/q/question-problem-space-mapping.html">Question Index</a>
+    <a class="assessment-service-link" href="content/r/Responsibility Mapping Analysis.html">Responsibility Mapping Analysis™</a>
+    <a class="assessment-question-index" href="content/q/question-responsibility-mapping-analysis.html">Question Index</a>
+    <a class="assessment-service-link" href="content/s/Semantic Governance Analysis.html">Semantic Governance Analysis™</a>
+    <a class="assessment-question-index" href="content/q/question-semantic-governance-analysis.html">Question Index</a>
+    <a class="assessment-service-link" href="content/a/ai-governance-assessment.html">AI Governance Assessment™</a>
+    <a class="assessment-question-index" href="content/q/question-ai-governance-assessment.html">Question Index</a>
+    <a class="assessment-service-link" href="content/i/implementation-partner-discovery.html">Implementation Partner Discovery™</a>
+    <a class="assessment-question-index" href="content/q/question-implementation-partner-discovery.html">Question Index</a>
+    <a class="assessment-service-link" href="content/m/methodology-asset-formation.html">Methodology Asset Formation™ (MAF™)</a>
+    <a class="assessment-question-index" href="content/q/question-methodology-asset-formation.html">Question Index</a>
+    <a class="assessment-service-link" href="content/m/methodology-as-a-service.html">Methodology-as-a-Service™ (MaaS™)</a>
+    <a class="assessment-question-index" href="content/q/question-methodology-as-a-service.html">Question Index</a>
+    <a class="assessment-service-link" href="content/s/standard-engineering.html">Standard Engineering™ (SE™)</a>
+    <a class="assessment-question-index" href="content/q/question-standard-engineering.html">Question Index</a>
+    <a class="assessment-service-link" href="content/g/governance-architecture-on-demand-service.html">Governance Architecture on Demand™ (GAOD™)</a>
+    <a class="assessment-question-index" href="content/q/question-governance-architecture-on-demand.html">Question Index</a>
+    <a class="assessment-service-link" href="content/c/continuous-governance-intelligence.html">Continuous Governance Intelligence™ (CGI™)</a>
+    <a class="assessment-question-index" href="content/q/question-continuous-governance-intelligence.html">Question Index</a>
+    <a class="assessment-service-link" href="content/r/runtime-integrity-assessment.html">Runtime Integrity Assessment™ (RIA™)</a>
+    <a class="assessment-question-index" href="content/q/question-runtime-integrity-assessment.html">Question Index</a>
+
+    <hr>
+    <h3 class="nadp">MIP®</h3>
+    <a href="content/m/MIP™.html">MIP® — Methodological Intellectual Property</a>
+    <a href="content/m/MIP-ActiveProtectionFramework.html">MIP® Active Protection Framework</a>
+    <a href="content/o/Open-and-Protected.html">Open &amp; Protected</a>
+    <a href="content/a/AItraining.html">AI Training</a>
+    <a href="content/o/OOF-NamingProtection.html">OOF Naming Protection</a>
+    <a href="content/o/OOF-TrademarkSpace.html">OOF Trademark Space</a>
+    <a href="content/o/Official OOF Brand Identity.html">Official OOF Brand Identity</a>
+
+    <hr>
+    <section class="podstranka">
+      <a href="content/o/oof-faq.html"><b>FAQ</b></a>
+    </section>
+
+    <hr>
+    <h3 class="nadp">Access &amp; Participation</h3>
+    <a href="content/o/OOF-UseOpenValidityConditional.html">Use &amp; Validity</a>
+    <a href="content/o/OOF-CompatibilityOperationalSystemState.html">OOF® Compatibility</a>
+    <a href="content/m/MethodologyApplication&amp;MonetizationFramewor.html">Methodology Applications</a>
+    <a href="content/m/MethodologyMonetizationFramewor.html">Methodology Monetization</a>
+    <a href="content/p/PartnershipAccess.html">Partnership Access</a>
+    <a href="content/r/RegionalMethodologyInfrastructure.html">Regional Infrastructure</a>
+    <a href="content/j/JoinOOF.html">Join OOF®</a>
+
+    <hr>
+    <section class="podstranka">
+      <a href="oof-site-index.html"><b>OOF® Site Index</b></a>
+      <hr>
+      <a href="Contact.html"><b>Contact</b></a>
+    </section>
+  </div>
+
+  <script src="header.js"></script>
+</header>
