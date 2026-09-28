@@ -1,0 +1,5 @@
+The country geometry in ne_110m_admin_0_countries.geojson is derived from
+Natural Earth, a public-domain map dataset.
+
+Source: https://www.naturalearthdata.com/
+Repository: https://github.com/nvkelso/natural-earth-vector
