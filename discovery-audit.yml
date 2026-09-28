@@ -1,0 +1,64 @@
+name: Discovery infrastructure
+
+on:
+  push:
+    branches: [main1]
+  pull_request:
+    branches: [main1]
+  schedule:
+    - cron: "23 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Audit links and discovery structure
+        run: python tools/audit_discovery_infrastructure.py --strict
+
+      - name: Prepare or submit IndexNow update
+        if: github.event_name == 'push'
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+          INDEXNOW_KEY_LOCATION: ${{ vars.INDEXNOW_KEY_LOCATION }}
+        run: python tools/submit_indexnow.py
+
+      - name: Upload discovery report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: oof-discovery-audit
+          path: data/oof-discovery-audit.json
+
+  live-audit:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Audit live crawler access and indexability
+        run: python tools/audit_live_discovery.py
+
+      - name: Upload live discovery report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: oof-live-discovery-audit
+          path: data/oof-live-discovery-audit.json

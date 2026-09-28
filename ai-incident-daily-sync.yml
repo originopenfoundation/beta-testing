@@ -1,0 +1,39 @@
+name: OOF AI Incident Daily Sync
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-ai-incidents.txt
+      - name: Install incident sync dependencies
+        run: pip install -r requirements-ai-incidents.txt
+      - name: Build Architecture Index registry
+        run: python tools/build_architecture_registry.py
+      - name: Synchronize configured incident sources
+        run: python tools/ai_incidents.py sync
+      - name: Validate incident records
+        run: python tools/ai_incidents.py validate
+      - name: Commit changed public projections
+        run: |
+          if git diff --quiet -- data/ai-incidents; then
+            echo "No incident data changes."
+            exit 0
+          fi
+          git config user.name "OOF Incident Sync"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ai-incidents
+          git commit -m "Update OOF AI incident public data"
+          git push

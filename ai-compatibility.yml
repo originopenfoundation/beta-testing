@@ -1,0 +1,42 @@
+name: AI compatibility
+
+on:
+  push:
+    branches: [main1]
+  pull_request:
+    branches: [main1]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild AI discovery files
+        run: python tools/build_ai_compatibility.py
+
+      - name: Rebuild URL and version governance files
+        run: python tools/build_url_governance.py
+
+      - name: Validate AI compatibility
+        run: python tools/validate_ai_compatibility.py
+
+      - name: Audit links and discovery structure
+        run: python tools/audit_discovery_infrastructure.py --strict
+
+      - name: Validate URL and version governance
+        run: python tools/validate_url_governance.py
+
+      - name: Verify generated files are current
+        run: git diff --exit-code
