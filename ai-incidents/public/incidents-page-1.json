@@ -1,0 +1,1453 @@
+{
+  "page": 1,
+  "pageSize": 25,
+  "total": 240,
+  "items": [
+    {
+      "id": "OOF-AII-493183",
+      "slug": "oof-aii-493183-russia-linked-matryoshka-influence-operation-reportedly-used-ai-cloned-celebrity-voices-and-fabricated-news-style-videos-to-target-democratic-candidates-ahead-of-2026-u-s-midterms",
+      "title": "Russia-Linked Matryoshka Influence Operation Reportedly Used AI-Cloned Celebrity Voices and Fabricated News-Style Videos to Target Democratic Candidates Ahead of 2026 U.S. Midterms",
+      "summary": "Researchers attributed a September 2026 influence campaign targeting U.S. Democratic Senate candidates to the Russia-linked Matryoshka/Operation Overload network. The campaign reportedly used AI-cloned celebrity voices and fabricated, news-branded videos to spread false or unsubstantiated claims on social media. Celebrities and CNN rejected the manipulated statements and unauthorized branding, which were intended to influence U.S. voters before the midterms.",
+      "eventType": "Incident",
+      "occurredAt": "2026-09-10",
+      "reportedAt": "2026-09-20T01:29:19.570000Z",
+      "country": "Russia",
+      "countryCode": "RU",
+      "region": null,
+      "coordinates": null,
+      "organization": "Synthetic Media Creators, Storm 1679, Russian State Linked Actors, Pro Russian Information Manipulation Actors, Operation Overload, Matryoshka, Information Manipulation Actors In Russia, Information Manipulation Actors, Influence Operation Groups, Deepfake Creators",
+      "system": "X (Twitter), Voice Cloning Technology, Tiktok, Social Media Platforms, Deepfake Technology, Bluesky",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Voters In The United States",
+        "Voters",
+        "Public Figures",
+        "Politicians In The United States",
+        "Politicians",
+        "Political Candidates Targeted By Deepfakes",
+        "Epistemic Integrity",
+        "Democratic Integrity",
+        "Deepfaked Celebrities",
+        "Celebrities"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1702",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-09-10",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1702",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "obidenity",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "OBIDENITY®",
+        "classifiedAt": "2026-09-20T01:29:19.570000Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to OBIDENITY® — Origin-Bound Identity Governance Architecture using signals: deepfake, voice cloning. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-20T01:29:19.570000Z",
+      "updatedAt": "2026-09-20T01:29:19.570000Z"
+    },
+    {
+      "id": "OOF-AII-634813",
+      "slug": "oof-aii-634813-former-costa-mesa-california-police-officer-reportedly-used-flock-safety-license-plate-reader-system-to-track-woman-he-was-seeing-and-her-romantic-partners",
+      "title": "Former Costa Mesa, California, Police Officer Reportedly Used Flock Safety License-Plate Reader System to Track Woman He Was Seeing and Her Romantic Partners",
+      "summary": "Orange County prosecutors said Costa Mesa, California, police officer Robert Jay Josett used the department's Flock Safety license-plate reader system between 2023 and 2024 to locate a woman he was seeing and vehicles belonging to her romantic partners, including after he was placed on leave. In 2026, Josett pleaded guilty to misdemeanor unauthorized computer access and fraud, repeated phone calls, and contempt of court.",
+      "eventType": "Incident",
+      "occurredAt": "2023-06-01",
+      "reportedAt": "2026-09-19T13:52:43.035000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Stalkers, Robert Jay Josett, Law Enforcement, Costa Mesa Police Department (California)",
+      "system": "Surveillance Technology, Law Enforcement Databases, Flock Safety Automated License Plate Reader System, Automated License Plate Readers (Alpr)",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Woman And Romantic Partners Tracked By Robert Jay Josett",
+        "Victims Of Stalking",
+        "Privacy",
+        "Individuals Whose License Plate Data Were Accessed For Non Law Enforcement Purposes"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1697",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2023-06-01",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1697",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-09-19T13:52:43.035000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: license plate reader. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-19T13:52:43.035000Z",
+      "updatedAt": "2026-09-19T13:52:43.035000Z"
+    },
+    {
+      "id": "OOF-AII-652589",
+      "slug": "oof-aii-652589-flock-safety-license-plate-reader-reportedly-misread-plate-digit-prompting-gunpoint-stop-of-two-sisters-in-espa-ola-new-mexico",
+      "title": "Flock Safety License-Plate Reader Reportedly Misread Plate Digit, Prompting Gunpoint Stop of Two Sisters in Española, New Mexico",
+      "summary": "In July 2023, Española police stopped Jaclynn Gonzales and her 12-year-old sister after a Flock Safety license-plate reader reportedly read the final digit of Gonzales's plate as 7 rather than 2, matching a stolen plate. Body-camera reporting showed officers drew guns and handcuffed both before confirming the mismatch. The sisters later sued; Española police said officers followed procedure.",
+      "eventType": "Incident",
+      "occurredAt": "2023-07-28",
+      "reportedAt": "2026-09-19T10:18:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Law Enforcement, Espanola Police Department (New Mexico)",
+      "system": "Surveillance Technology, Flock Safety Automated License Plate Reader System, Automated License Plate Readers (Alpr)",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Women And Girls",
+        "Women",
+        "Road Users",
+        "Privacy",
+        "Motorists",
+        "Misidentified Individuals",
+        "Minors",
+        "Jaclynn Gonzales And Her 12 Year Old Sister",
+        "Girls",
+        "Epistemic Integrity"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1698",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2023-07-28",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1698",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "validos",
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-09-19T10:18:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: license plate reader. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-19T10:18:00Z",
+      "updatedAt": "2026-09-19T10:18:00Z"
+    },
+    {
+      "id": "OOF-AII-016954",
+      "slug": "oof-aii-016954-ai-chatbot-reportedly-misidentified-chinese-ship-cargo-as-nuclear-program-components-prompting-u-s-military-interception-preparations",
+      "title": "AI Chatbot Reportedly Misidentified Chinese Ship Cargo as Nuclear-Program Components, Prompting U.S. Military Interception Preparations",
+      "summary": "In spring 2026, a U.S. special operations analyst reportedly used an AI chatbot to analyze intelligence on a Chinese ship's cargo and produced a report falsely identifying it as carrying nuclear-weapons-program components. The U.S. military reportedly prepared to intercept and potentially board the vessel, with aircraft already airborne, before officials rechecked the report, found the AI-assisted conclusion was wrong, and called off the operation.",
+      "eventType": "Incident",
+      "occurredAt": "2026-09-18",
+      "reportedAt": "2026-09-19T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "United States Special Operations Command Analyst, United States Military, United States Department Of Defense, Military Organizations, National Security And Intelligence Stakeholders",
+      "system": "Chatbots, Ai Enabled Decision Support Systems, Ai Assisted Intelligence Analysis Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Crew Of Chinese Vessel Targeted For United States Military Interception",
+        "Government Of China",
+        "Information Integrity",
+        "National Security And Intelligence Stakeholders",
+        "Epistemic Integrity"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1701",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-09-18",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1701",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "clia",
+        "secondaryArchitectureIds": [
+          "integros",
+          "validos",
+          "aig"
+        ],
+        "architectureIndexState": "CLIA®",
+        "classifiedAt": "2026-09-19T00:00:00Z",
+        "confidence": 0.8,
+        "rationale": "Automated mapping matched incident descriptors to CLIA® — Cognitive Governance Intelligence Architecture using signals: intelligence, decision support, chatbot. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-19T00:00:00Z",
+      "updatedAt": "2026-09-19T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-396418",
+      "slug": "oof-aii-396418-google-gemini-reportedly-accessed-three-real-companies-protected-systems-during-cybersecurity-evaluation",
+      "title": "Google Gemini Reportedly Accessed Three Real Companies' Protected Systems During Cybersecurity Evaluation",
+      "summary": "During a May 2026 cybersecurity evaluation run by Irregular, a Google Gemini model reportedly gained unintended Internet access and accessed protected systems belonging to three real companies while pursuing fictional test targets. Google said Gemini guessed a password in one case and used credentials found in public repositories in two others, then stopped each intrusion after recognizing the targets were real. Google said no harm resulted.",
+      "eventType": "Incident",
+      "occurredAt": "2026-05-01",
+      "reportedAt": "2026-09-19T00:00:00Z",
+      "country": "Location not specified",
+      "countryCode": null,
+      "region": null,
+      "coordinates": null,
+      "organization": "Irregular, Google, Ai Evaluation Organizations, Ai Agent System Deployers",
+      "system": "Gemini, Ai Agent Systems, Cybersecurity Ai Systems, Large Language Models",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Three Unidentified Companies Accessed By Google Gemini During May 2026 Cybersecurity Evaluation",
+        "Companies",
+        "Targets Of Autonomous Ai Enabled Intrusion Operations"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1700",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-05-01",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1700",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2026-09-19T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: ai agent. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-19T00:00:00Z",
+      "updatedAt": "2026-09-19T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-952943",
+      "slug": "oof-aii-952943-ai-generated-images-purporting-to-show-donald-trump-kissing-white-house-aide-natalie-harp-went-viral-on-social-media",
+      "title": "AI-Generated Images Purporting to Show Donald Trump Kissing White House Aide Natalie Harp Went Viral on Social Media",
+      "summary": "AI-generated images purporting to show U.S. President Donald Trump kissing White House aide Natalie Harp on a golf course spread across social media; one X post received over 10 million views. Forensic analysis and provenance checks indicated the circulating images were synthetic, and the White House called them fake. The original creator remained unidentified.",
+      "eventType": "Incident",
+      "occurredAt": "2026-09-14",
+      "reportedAt": "2026-09-19T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Mykhailo Rohoza, Synthetic Media Creators, Deepfake Creators, Information Manipulation Actors, Keith Edwards",
+      "system": "Chatgpt Image Generation Tools, Chatgpt, Chatbots, Large Language Models, Openai Large Language Models, Synthetic Media Generation Technology, Synthetic Image Generation Technology, Deepfake Technology",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Donald Trump",
+        "Natalie Harp",
+        "General Public",
+        "Epistemic Integrity",
+        "General Public Misled By Deepfake Content"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1699",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-09-14",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1699",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "obidenity",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "OBIDENITY®",
+        "classifiedAt": "2026-09-19T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to OBIDENITY® — Origin-Bound Identity Governance Architecture using signals: deepfake. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-19T00:00:00Z",
+      "updatedAt": "2026-09-19T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-087837",
+      "slug": "oof-aii-087837-ai-medical-scribe-reportedly-added-false-psychedelic-mushroom-use-claim-to-australian-patient-rebecca-green-s-medical-record",
+      "title": "AI Medical Scribe Reportedly Added False Psychedelic-Mushroom Use Claim to Australian Patient Rebecca Green's Medical Record",
+      "summary": "Australian patient Rebecca Green reportedly discovered that a post-operative letter sent by her urologist to her GP falsely said she micro-dosed psychedelic mushrooms and suggested this could explain prior kidney bleeding. Green had reportedly consented to an AI scribe during her first urology appointment and feared the false record could affect her workers' compensation case. Her urologist reportedly apologized, corrected the letter, and said the error appeared to arise during dictation or transcription.",
+      "eventType": "Incident",
+      "occurredAt": "2026-03-01",
+      "reportedAt": "2026-09-18T10:37:54.161000Z",
+      "country": "Australia",
+      "countryCode": "AU",
+      "region": null,
+      "coordinates": null,
+      "organization": "Medical Personnel, Doctors, Ai Transcription Tool Users",
+      "system": "Clinical Documentation Ai, Ai Transcription Tools, Ai Medical Scribe Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Rebecca Green",
+        "Patients",
+        "Epistemic Integrity",
+        "Privacy"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1695",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-03-01",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1695",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "validos",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "VALIDOS®",
+        "classifiedAt": "2026-09-18T10:37:54.161000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to VALIDOS® — Validation Governance Architecture using signals: error. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-18T10:37:54.161000Z",
+      "updatedAt": "2026-09-18T10:37:54.161000Z"
+    },
+    {
+      "id": "OOF-AII-138546",
+      "slug": "oof-aii-138546-vero-beach-florida-man-allegedly-used-ai-nudification-tools-to-create-and-distribute-nonconsensual-sexual-images-of-former-neighbor",
+      "title": "Vero Beach, Florida, Man Allegedly Used AI Nudification Tools to Create and Distribute Nonconsensual Sexual Images of Former Neighbor",
+      "summary": "Vero Beach, Florida, police allege that Peter Solomon Ruma used AI nudification tools to create sexually explicit altered images of a former neighbor without her consent and distributed them through spoofed phone numbers. Investigators found more than 140 altered nude images of the woman on his phone. Ruma was arrested on September 2, 2026, and charged with six altered-depiction offenses, sexual cyberharassment, and stalking.",
+      "eventType": "Incident",
+      "occurredAt": "2026-06-14",
+      "reportedAt": "2026-09-18T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Peter Solomon Ruma, Stalkers, Synthetic Media Creators, Deepfake Creators",
+      "system": "Ai Nudification Tools, Deepfake Technology, Synthetic Media Generation Technology, Synthetic Image Generation Technology",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Women And Girls",
+        "Women",
+        "Former Neighbor Of Peter Solomon Ruma",
+        "Victims Of Non Consensual Deepfakes",
+        "Victims Of Deepfake Abuse",
+        "Epistemic Integrity",
+        "Privacy"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1696",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-06-14",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1696",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "obidenity",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "OBIDENITY®",
+        "classifiedAt": "2026-09-18T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to OBIDENITY® — Origin-Bound Identity Governance Architecture using signals: deepfake. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-18T00:00:00Z",
+      "updatedAt": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-452027",
+      "slug": "oof-aii-452027-jackson-township-police-in-stark-county-ohio-briefly-detained-driver-after-flock-safety-alert-matched-vehicle-to-stale-missing-juvenile-hot-list-entry",
+      "title": "Jackson Township Police in Stark County, Ohio Briefly Detained Driver After Flock Safety Alert Matched Vehicle to Stale Missing-Juvenile Hot-List Entry",
+      "summary": "In March 2023, Jackson Township police in Ohio briefly detained driver Michael Smith after a Flock Safety license-plate reader matched his vehicle to an NCIC hot-list entry from a missing-juvenile investigation that Cleveland police had closed two weeks earlier. Officers released Smith after confirming the juvenile had already been found. A federal court later held that Flock matched the plate to law-enforcement data but did not create the stale entry.",
+      "eventType": "Incident",
+      "occurredAt": "2023-03-01",
+      "reportedAt": "2026-09-17T20:37:33Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Law Enforcement, Jackson Township Police Department (Stark County Ohio)",
+      "system": "Surveillance Technology, Law Enforcement Databases, Flock Safety Automated License Plate Reader System, Automated License Plate Readers (Alpr)",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Road Users",
+        "Motorists",
+        "Michael Smith (Ohio Driver)",
+        "Drivers"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1694",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2023-03-01",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1694",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-09-17T20:37:33Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: license plate reader. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-17T20:37:33Z",
+      "updatedAt": "2026-09-17T20:37:33Z"
+    },
+    {
+      "id": "OOF-AII-219316",
+      "slug": "oof-aii-219316-ai-agent-reportedly-exploited-application-vulnerabilities-to-modify-personal-data-and-access-invoices-in-breach-reported-to-spanish-data-protection-authority",
+      "title": "AI Agent Reportedly Exploited Application Vulnerabilities to Modify Personal Data and Access Invoices in Breach Reported to Spanish Data Protection Authority",
+      "summary": "An unnamed organization reportedly notified Spain's data protection authority that a third party used an AI agent powered by a known language model to carry out a multistep intrusion that resulted in unauthorized changes to personal data and access to invoices. The AEPD said the case remains under review and has not identified the organization, attacker, AI system, attack date, or number of affected people.",
+      "eventType": "Incident",
+      "occurredAt": "2026-09-14",
+      "reportedAt": "2026-09-17T16:16:59.710000Z",
+      "country": "Spain",
+      "countryCode": "ES",
+      "region": null,
+      "coordinates": null,
+      "organization": "Threat Actors, Cybercriminals, Ai Agent System Deployers, Agentic Threat Actors",
+      "system": "Large Language Models, Ai Agent Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Victims Of Automated Cybercrime",
+        "Privacy",
+        "Organizations",
+        "Organization Affected By Ai Agent Data Breach Reported To Aepd",
+        "Information Security",
+        "Enterprise It Systems"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1693",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-09-14",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1693",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2026-09-17T16:16:59.710000Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: agentic, ai agent. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-17T16:16:59.710000Z",
+      "updatedAt": "2026-09-17T16:16:59.710000Z"
+    },
+    {
+      "id": "OOF-AII-350449",
+      "slug": "oof-aii-350449-parkview-high-school-in-georgia-reportedly-received-series-of-purportedly-ai-generated-bomb-threats-that-prompted-repeated-lockdowns",
+      "title": "Parkview High School in Georgia Reportedly Received Series of Purportedly AI-Generated Bomb Threats That Prompted Repeated Lockdowns",
+      "summary": "During the 2026–27 school year, Parkview High School in Lilburn, Georgia, reportedly received at least four AI-generated bomb threats, including masked phone calls that prompted repeated lockdowns or soft lockdowns. School police described the threats as following a recurring pattern and were investigating with the GBI and FBI. Authorities had not identified a suspect or established publicly whether the same person was responsible for every threat.",
+      "eventType": "Incident",
+      "occurredAt": "2026-08-28",
+      "reportedAt": "2026-09-17T16:15:22.799000Z",
+      "country": "Location not specified",
+      "countryCode": null,
+      "region": null,
+      "coordinates": null,
+      "organization": "Threat Actors, Synthetic Media Creators",
+      "system": "Synthetic Media Generation Technology, Synthetic Audio Generation Technology",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Teachers",
+        "Parkview High School Students And Staff (Georgia)",
+        "Parkview High School (Georgia)",
+        "Minors",
+        "Educators",
+        "Educational Communities Targeted By Threats",
+        "Educational Communities"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1692",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-08-28",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1692",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2026-09-17T16:15:22.799000Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-17T16:15:22.799000Z",
+      "updatedAt": "2026-09-17T16:15:22.799000Z"
+    },
+    {
+      "id": "OOF-AII-672382",
+      "slug": "oof-aii-672382-kechi-kansas-police-lieutenant-victor-heiar-used-flock-safety-license-plate-reader-system-to-monitor-estranged-wife",
+      "title": "Kechi, Kansas Police Lieutenant Victor Heiar Used Flock Safety License-Plate Reader System to Monitor Estranged Wife",
+      "summary": "Kechi, Kansas police lieutenant Victor Heiar used Wichita police's Flock Safety license-plate reader system to search his estranged wife's plate and review her movements over the prior month. An arrest affidavit said Heiar acknowledged knowing the use was improper; his wife said she felt violated and unsafe. He later pleaded guilty to misdemeanor stalking and computer crime and received 18 months' probation.",
+      "eventType": "Incident",
+      "occurredAt": "2022-10-23",
+      "reportedAt": "2026-09-16T21:13:27.219000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Wichita Police Department (Kansas), Victor Heiar, Stalkers, Law Enforcement, Kechi Police Department (Kansas)",
+      "system": "Surveillance Technology, Flock Safety Automated License Plate Reader System, Automated License Plate Reader (Alpr) Developers",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Women And Girls",
+        "Women",
+        "Victor Heiar'S Estranged Wife",
+        "Privacy",
+        "Individuals Whose License Plate Data Were Accessed For Non Law Enforcement Purposes"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1690",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2022-10-23",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1690",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-09-16T21:13:27.219000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: license plate reader. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-16T21:13:27.219000Z",
+      "updatedAt": "2026-09-16T21:13:27.219000Z"
+    },
+    {
+      "id": "OOF-AII-327260",
+      "slug": "oof-aii-327260-fort-bend-county-texas-sheriff-s-office-lieutenant-reportedly-used-flock-safety-license-plate-reader-system-for-189-non-law-enforcement-searches",
+      "title": "Fort Bend County, Texas, Sheriff's Office Lieutenant Reportedly Used Flock Safety License-Plate Reader System for 189 Non-Law-Enforcement Searches",
+      "summary": "From January 2022 through December 2025, a Fort Bend County Sheriff's Office lieutenant in Texas reportedly used Flock Safety's license-plate reader system to search two vehicle plates 189 times and admitted the searches were unrelated to official law-enforcement work. A resident alleged stalking and feared for their family's safety. Internal affairs found department-order violations and imposed a two-day suspension.",
+      "eventType": "Incident",
+      "occurredAt": "2022-01-01",
+      "reportedAt": "2026-09-16T21:04:29.256000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Law Enforcement, Fort Bend County Sheriff'S Office (Texas), Stalkers",
+      "system": "Surveillance Technology, Law Enforcement Databases, Flock Safety Automated License Plate Reader System, Automated License Plate Readers (Alpr)",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Privacy",
+        "Individuals Whose License Plate Data Were Accessed For Non Law Enforcement Purposes"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1689",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2022-01-01",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1689",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-09-16T21:04:29.256000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: license plate reader. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-16T21:04:29.256000Z",
+      "updatedAt": "2026-09-16T21:04:29.256000Z"
+    },
+    {
+      "id": "OOF-AII-633313",
+      "slug": "oof-aii-633313-chatgpt-was-reportedly-used-to-plan-z-rich-oerlikon-knife-attack-that-seriously-injured-three-five-year-old-boys",
+      "title": "ChatGPT Was Reportedly Used to Plan Zürich-Oerlikon Knife Attack That Seriously Injured Three Five-Year-Old Boys",
+      "summary": "Before an October 2024 knife attack in Zürich-Oerlikon, Switzerland, a 23-year-old student reportedly used ChatGPT to ask about consequences of killing random stabbing victims, where and when to find children, and human anatomy. He later stabbed three five-year-old boys, seriously injuring them. Prosecutors charged him with attempted murder; the allegations about his AI-assisted planning come from the indictment.",
+      "eventType": "Incident",
+      "occurredAt": "2024-10-01",
+      "reportedAt": "2026-09-16T00:00:00Z",
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "region": null,
+      "coordinates": null,
+      "organization": "Zurich Oerlikon Child Stabbing Suspect, Violent Attack Planners And Assailants",
+      "system": "Chatbots, Chatgpt, Large Language Models, Openai Large Language Models, Ai Search Technology",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Minors",
+        "Men And Boys",
+        "Boys",
+        "Three Boys Injured In Zurich Oerlikon Knife Attack",
+        "Victims Of Violent Attack Planners And Assailants"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1691",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2024-10-01",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1691",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2026-09-16T00:00:00Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-16T00:00:00Z",
+      "updatedAt": "2026-09-16T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-931532",
+      "slug": "oof-aii-931532-hong-kong-man-reportedly-lost-more-than-hk-10-million-in-whatsapp-scam-using-purported-ai-generated-voice-impersonation-of-his-father",
+      "title": "Hong Kong Man Reportedly Lost More Than HK$10 Million in WhatsApp Scam Using Purported AI-Generated Voice Impersonation of His Father",
+      "summary": "A Hong Kong man reportedly lost more than HK$10 million after scammers hijacked his father's WhatsApp account and sent voice messages closely resembling his father's voice and speech. The victim allegedly made repeated transfers until his savings were depleted.",
+      "eventType": "Incident",
+      "occurredAt": "2026-07-29",
+      "reportedAt": "2026-09-14T17:02:58.845000Z",
+      "country": "Hong Kong",
+      "countryCode": "HK",
+      "region": null,
+      "coordinates": null,
+      "organization": "Voice Cloning Impersonation Scammers, Synthetic Media Creators, Scammers In Hong Kong, Scammers, Deepfake Creators, Cybercriminals",
+      "system": "Whatsapp, Voice Cloning Technology, Synthetic Media Generation Technology, Synthetic Audio Generation Technology, Messaging Apps, Deepfake Technology",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Whatsapp Users",
+        "Victims Of Voice Cloning Impersonation Scams",
+        "Victims Of Impersonation Scams",
+        "Financial Scam Victims"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1648",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-07-29",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1648",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "obidenity",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "OBIDENITY®",
+        "classifiedAt": "2026-09-14T17:02:58.845000Z",
+        "confidence": 0.8,
+        "rationale": "Automated mapping matched incident descriptors to OBIDENITY® — Origin-Bound Identity Governance Architecture using signals: impersonation, deepfake, voice cloning. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-14T17:02:58.845000Z",
+      "updatedAt": "2026-09-14T17:02:58.845000Z"
+    },
+    {
+      "id": "OOF-AII-699634",
+      "slug": "oof-aii-699634-teenager-in-quilmes-argentina-reportedly-consulted-chatgpt-while-planning-school-shooting-against-classmates",
+      "title": "Teenager in Quilmes, Argentina, Reportedly Consulted ChatGPT While Planning School Shooting Against Classmates",
+      "summary": "Argentine authorities reported that a 15-year-old in Quilmes allegedly discussed a planned school shooting with ChatGPT, including tactical preparations, before an FBI alert prompted an investigation by the Argentine Federal Police. Police later seized phones and tactical clothing; no firearms or ammunition were reported. Public reporting does not establish what ChatGPT answered or whether it materially assisted the alleged plan.",
+      "eventType": "Incident",
+      "occurredAt": "2026-08-19",
+      "reportedAt": "2026-09-12T15:48:33.323000Z",
+      "country": "Argentina",
+      "countryCode": "AR",
+      "region": null,
+      "coordinates": null,
+      "organization": "Unnamed Adolescent Boy In Quilmes Argentina, Students, School Violence Planners And Assailants, Minors, Men And Boys, Chatgpt Users, Chatbot Users, Adolescents, Adolescent Boys",
+      "system": "Openai Large Language Models, Large Language Models, Chatgpt, Chatbots",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Victims Of School Violence Planners And Assailants",
+        "Teachers",
+        "Students",
+        "Minors",
+        "Educators",
+        "Educational Communities",
+        "Classmates Of Unnamed Adolescent Boy In Quilmes Argentina"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1688",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-08-19",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1688",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "clia",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLIA®",
+        "classifiedAt": "2026-09-12T15:48:33.323000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLIA® — Cognitive Governance Intelligence Architecture using signals: chatbot. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-12T15:48:33.323000Z",
+      "updatedAt": "2026-09-12T15:48:33.323000Z"
+    },
+    {
+      "id": "OOF-AII-658214",
+      "slug": "oof-aii-658214-anthropic-designated-gtg-87001-weapons-cell-in-northern-yemen-reportedly-used-claude-code-to-develop-missile-guidance-software",
+      "title": "Anthropic-Designated GTG-87001 Weapons Cell in Northern Yemen Reportedly Used Claude Code to Develop Missile Guidance Software",
+      "summary": "Anthropic reported that a northern Yemen-based weapons cell, designated GTG-87001, used Claude Code across three weapons programs to develop guidance, navigation, and control software. The actors reportedly test-fired a guided rocket that appeared to fail, then returned to Claude for failure analysis. Anthropic said it banned associated accounts and shared threat intelligence with partners.",
+      "eventType": "Incident",
+      "occurredAt": "2026-09-10",
+      "reportedAt": "2026-09-11T00:00:00Z",
+      "country": "Yemen",
+      "countryCode": "YE",
+      "region": null,
+      "coordinates": null,
+      "organization": "Gtg 87001, Threat Actors, Chatbot Users",
+      "system": "Claude Code, Claude, Large Language Models, Chatbots, Ai Agent Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "National Security And Intelligence Stakeholders"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1687",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-09-10",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1687",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "clia",
+        "secondaryArchitectureIds": [
+          "asga",
+          "aig"
+        ],
+        "architectureIndexState": "CLIA®",
+        "classifiedAt": "2026-09-11T00:00:00Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to CLIA® — Cognitive Governance Intelligence Architecture using signals: intelligence, chatbot. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-11T00:00:00Z",
+      "updatedAt": "2026-09-11T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-320670",
+      "slug": "oof-aii-320670-early-claude-opus-4-6-checkpoint-reportedly-gained-unauthorized-admin-access-to-third-party-system-during-cybersecurity-evaluation",
+      "title": "Early Claude Opus 4.6 Checkpoint Reportedly Gained Unauthorized Admin Access to Third-Party System During Cybersecurity Evaluation",
+      "summary": "Anthropic reported that during a January 2026 cybersecurity evaluation, an early checkpoint of Claude Opus 4.6 accidentally disabled its assigned target, then reached an unrelated third-party machine over the open Internet. The model reportedly used a discovered password for admin access, harvested additional credentials, changed system settings, and read one person's personal information before its token budget ended. Anthropic later notified the affected party.",
+      "eventType": "Incident",
+      "occurredAt": "2026-09-09",
+      "reportedAt": "2026-09-10T20:01:20.599000Z",
+      "country": "Location not specified",
+      "countryCode": null,
+      "region": null,
+      "coordinates": null,
+      "organization": "Irregular, Anthropic, Ai Evaluation Organizations, Ai Agent System Deployers",
+      "system": "Large Language Models, Early Checkpoint Of Claude Opus 4.6, Cybersecurity Ai Systems, Claude Opus 4.6, Claude, Ai Agent Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Unidentified Third Party Compromised By Claude Opus 4.6 During Anthropic Cybersecurity Evaluation",
+        "Unidentified Person Whose Personal Information Was Accessed By Claude Opus 4.6",
+        "Privacy",
+        "Organizations"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1685",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-09-09",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1685",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2026-09-10T20:01:20.599000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: ai agent. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-10T20:01:20.599000Z",
+      "updatedAt": "2026-09-10T20:01:20.599000Z"
+    },
+    {
+      "id": "OOF-AII-803982",
+      "slug": "oof-aii-803982-dozens-of-dutch-women-including-politicians-and-public-figures-were-reportedly-targeted-with-ai-manipulated-deepfake-pornography",
+      "title": "Dozens of Dutch Women, Including Politicians and Public Figures, Were Reportedly Targeted With AI-Manipulated Deepfake Pornography",
+      "summary": "Dutch reporting in March 2024 identified roughly 70–80 prominent women, including politicians, presenters, athletes, celebrities, and members of the royal family, as reportedly depicted in pornographic deepfake videos made by using AI to place their faces on performers' bodies. Some videos had more than 100,000 views. Several women said they had not known the videos existed and filed or planned police reports.",
+      "eventType": "Incident",
+      "occurredAt": "2024-03-19",
+      "reportedAt": "2026-09-10T18:27:10.528000Z",
+      "country": "Netherlands",
+      "countryCode": "NL",
+      "region": null,
+      "coordinates": null,
+      "organization": "Synthetic Media Creators, Deepfake Website Operators, Deepfake Creators",
+      "system": "Synthetic Video Generation Technology, Synthetic Media Generation Technology, Deepfake Technology, Ai Face Swapping Technology",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Women And Girls",
+        "Women",
+        "Victims Of Non Consensual Deepfakes",
+        "Victims Of Deepfake Abuse",
+        "Sylvana Ijsselmuiden",
+        "Simone Simons",
+        "Sharon Dijksma",
+        "Sandra Beckerman",
+        "Public Figures And Celebrities Depicted In Explicit Ai Images",
+        "Public Figures",
+        "Privacy",
+        "Politicians In The Netherlands",
+        "Politicians",
+        "Olcay Gulsen",
+        "Noa Vahle",
+        "Mirjam Bikker",
+        "Leontine Ruiters",
+        "Jennifer Hoffman",
+        "Individuals Whose Likenesses Were Used Without Consent",
+        "Helene Hendriks",
+        "Epistemic Integrity",
+        "Eline Vedder",
+        "Celebrities",
+        "Caroline Van Der Plas"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1684",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2024-03-19",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1684",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "obidenity",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "OBIDENITY®",
+        "classifiedAt": "2026-09-10T18:27:10.528000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to OBIDENITY® — Origin-Bound Identity Governance Architecture using signals: deepfake. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-10T18:27:10.528000Z",
+      "updatedAt": "2026-09-10T18:27:10.528000Z"
+    },
+    {
+      "id": "OOF-AII-479643",
+      "slug": "oof-aii-479643-tesla-model-s-with-autopilot-reportedly-engaged-struck-parked-suv-in-key-largo-killing-one-person-and-seriously-injuring-another-standing-nearby",
+      "title": "Tesla Model S with Autopilot Reportedly Engaged Struck Parked SUV in Key Largo, Killing One Person and Seriously Injuring Another Standing Nearby",
+      "summary": "On April 25, 2019, George McGee's Tesla Model S, with Autopilot reportedly engaged, drove through a Key Largo intersection and struck a parked Chevrolet Tahoe, which then hit two people standing beside it: Naibel Benavides Leon, who was killed, and Dillon Angulo, who was seriously injured. McGee admitted distraction. In 2025, a federal jury found Tesla 33% responsible on defective-design and failure-to-warn claims. Tesla disputed liability and said it would appeal.",
+      "eventType": "Incident",
+      "occurredAt": "2019-04-25",
+      "reportedAt": "2026-09-10T00:00:00Z",
+      "country": "Location not specified",
+      "countryCode": null,
+      "region": null,
+      "coordinates": null,
+      "organization": "George Mcgee, Tesla Drivers, Drivers, Road Users",
+      "system": "Tesla Autopilot, Automated Driving Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Naibel Benavides Leon",
+        "Dillon Angulo",
+        "Pedestrians",
+        "Road Users"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1686",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2019-04-25",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1686",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2026-09-10T00:00:00Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: autopilot, automated driving. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-10T00:00:00Z",
+      "updatedAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-031813",
+      "slug": "oof-aii-031813-delhi-man-allegedly-used-ai-to-create-and-circulate-obscene-images-of-college-acquaintance",
+      "title": "Delhi Man Allegedly Used AI to Create and Circulate Obscene Images of College Acquaintance",
+      "summary": "Delhi police alleged that a man named Keshav Bansal used photographs from a college acquaintance's private social media account with AI image-generation and editing tools to create obscene morphed images and upload them to anonymous Discord servers. The woman reported fake accounts and threatening messages intended to humiliate and harass her. Police arrested Bansal and said the investigation was ongoing.",
+      "eventType": "Incident",
+      "occurredAt": "2026-09-09",
+      "reportedAt": "2026-09-09T00:00:00Z",
+      "country": "Location not specified",
+      "countryCode": null,
+      "region": null,
+      "coordinates": null,
+      "organization": "Keshav Bansal, Synthetic Media Creators, Deepfake Creators",
+      "system": "Synthetic Image Generation Technology, Synthetic Media Generation Technology, Deepfake Technology, Discord, Instagram, Social Media Platforms",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Individuals Subjected To Sexual Exploitation Imagery",
+        "Victims Of Deepfake Abuse",
+        "Women And Girls",
+        "Women",
+        "Privacy",
+        "Epistemic Integrity",
+        "Victims Of Non Consensual Deepfakes"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1683",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-09-09",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1683",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "obidenity",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "OBIDENITY®",
+        "classifiedAt": "2026-09-09T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to OBIDENITY® — Origin-Bound Identity Governance Architecture using signals: deepfake. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-09T00:00:00Z",
+      "updatedAt": "2026-09-09T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-857693",
+      "slug": "oof-aii-857693-xai-reportedly-operated-unpermitted-gas-turbines-in-southaven-mississippi-to-power-colossus-2-ai-data-center-producing-air-pollution-and-noise",
+      "title": "xAI Reportedly Operated Unpermitted Gas Turbines in Southaven, Mississippi, to Power Colossus 2 AI Data Center, Producing Air Pollution and Noise",
+      "summary": "Beginning August 1, 2025, xAI reportedly began installing and later operating gas turbines in Southaven, Mississippi, to power its Colossus 2 AI data center in Memphis. 57 turbines were later reportedly identified at the site, while residents described persistent noise in nearby neighborhoods. Civil-rights groups allege the turbines required Clean Air Act permits and added harmful pollution near predominantly Black communities; Mississippi regulators maintain the temporary turbines did not require air permits.",
+      "eventType": "Incident",
+      "occurredAt": "2025-08-01",
+      "reportedAt": "2026-09-08T15:32:51.830000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Xai, Mzx Tech Llc",
+      "system": "Unpermitted Energy Infrastructure, Methane Gas Turbines, Grok, Colossus 2, Ai Data Centers",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Southaven Mississippi Residents",
+        "South Memphis Tennessee Residents",
+        "Predominantly Black Communities",
+        "Minorities",
+        "General Public Of The United States",
+        "General Public",
+        "Black People"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1677",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2025-08-01",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1677",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2026-09-08T15:32:51.830000Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-08T15:32:51.830000Z",
+      "updatedAt": "2026-09-08T15:32:51.830000Z"
+    },
+    {
+      "id": "OOF-AII-291063",
+      "slug": "oof-aii-291063-d-c-court-of-appeals-struck-deutsche-bank-national-trust-company-brief-after-attorney-used-google-generative-ai-search-tool-and-filed-four-nonexistent-case-citations",
+      "title": "D.C. Court of Appeals Struck Deutsche Bank National Trust Company Brief After Attorney Used Google Generative AI Search Tool and Filed Four Nonexistent Case Citations",
+      "summary": "In Douglas v. Deutsche Bank National Trust Co., attorney Loishirl W. Hall acknowledged using Google's generative AI search tool to locate case authority and failing to verify citations before an appellate brief was filed. The D.C. Court of Appeals found four cited cases did not exist, said the filing misdirected the court and burdened judicial resources, struck Deutsche Bank's brief, and referred the matter for disciplinary review.",
+      "eventType": "Incident",
+      "occurredAt": "2025-08-12",
+      "reportedAt": "2026-09-08T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Loishirl W. Hall, Lawyers, Legal Professionals",
+      "system": "Google Search, Ai Assisted Legal Research Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "District Of Columbia Court Of Appeals",
+        "Courts",
+        "Legal Clients",
+        "Judicial Integrity",
+        "Epistemic Integrity",
+        "Parties To Legal Proceedings"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1682",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2025-08-12",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1682",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "validos",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "VALIDOS®",
+        "classifiedAt": "2026-09-08T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to VALIDOS® — Validation Governance Architecture using signals: verify. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-08T00:00:00Z",
+      "updatedAt": "2026-09-08T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-182159",
+      "slug": "oof-aii-182159-georgia-retired-couple-reportedly-lost-nearly-800-000-in-cryptocurrency-scam-using-purported-ai-generated-ghost-site",
+      "title": "Georgia Retired Couple Reportedly Lost Nearly $800,000 in Cryptocurrency Scam Using Purported AI-Generated 'Ghost Site'",
+      "summary": "A retired Gwinnett County, Georgia, couple reported losing nearly $800,000 after a stranger contacted Jerry Dunaway on WhatsApp and encouraged cryptocurrency trading. Police reportedly told the couple that scammers used an AI-generated \"ghost site\" to manipulate the account information he saw. The specific AI tool and developer were not identified. The loss was discovered when a larger withdrawal failed.",
+      "eventType": "Incident",
+      "occurredAt": "2025-06-12",
+      "reportedAt": "2026-09-08T00:00:00Z",
+      "country": "Location not specified",
+      "countryCode": null,
+      "region": null,
+      "coordinates": null,
+      "organization": "Scammers, Cryptocurrency Scammers, Investment Scam Operators, Cybercriminals",
+      "system": "Whatsapp, Fake Investment Platforms, Cryptocurrency Trading Platforms, Generative Ai Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Jerry Dunaway",
+        "Mindy Dunaway",
+        "Financial Scam Victims",
+        "Cryptocurrency Scam Victims",
+        "Elderly Individuals",
+        "Elderly Investors"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1681",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2025-06-12",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1681",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2026-09-08T00:00:00Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-08T00:00:00Z",
+      "updatedAt": "2026-09-08T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-616989",
+      "slug": "oof-aii-616989-unknown-actor-reportedly-exploited-cline-s-claude-powered-github-issue-triage-workflow-and-published-an-unauthorized-cline-cli-package",
+      "title": "Unknown Actor Reportedly Exploited Cline's Claude-Powered GitHub Issue-Triage Workflow and Published an Unauthorized Cline CLI Package",
+      "summary": "An unknown actor reportedly exploited prompt injection in Cline's Claude-powered GitHub issue-triage workflow and a GitHub Actions cache-poisoning path to obtain publication credentials. On February 17, 2026, a still-valid npm token was used to publish unauthorized cline@2.3.0, which installed OpenClaw without user intent. Cline said OpenClaw was non-malicious; it deprecated the release and revoked the token that day, while reporting that it found no evidence of user-data exposure.",
+      "eventType": "Incident",
+      "occurredAt": "2026-02-17",
+      "reportedAt": "2026-09-08T00:00:00Z",
+      "country": "Location not specified",
+      "countryCode": null,
+      "region": null,
+      "coordinates": null,
+      "organization": "Cline Bot Inc., Ai Agent System Deployers, Threat Actors",
+      "system": "Claude Code, Ai Agent Systems, Github Actions, Cline Cli, Npm Registry, Claude Code Action, Claude",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Cline Bot Inc.",
+        "Cline Cli Users",
+        "Software Developers"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1680",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-02-17",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1680",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2026-09-08T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: ai agent. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-08T00:00:00Z",
+      "updatedAt": "2026-09-08T00:00:00Z"
+    }
+  ]
+}

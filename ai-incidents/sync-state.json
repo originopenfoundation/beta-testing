@@ -1,0 +1,37 @@
+{
+  "sources": {
+    "ManualOOFIncidentAdapter": {
+      "lastAttemptedSync": "2026-09-27T08:17:29Z",
+      "lastSuccessfulSync": "2026-09-27T08:17:29Z",
+      "recordsRetrieved": 0,
+      "recordsCreated": 0,
+      "recordsUpdated": 0,
+      "duplicatesDetected": 0,
+      "syncStatus": "success",
+      "sourceErrors": [],
+      "name": "ManualOOFIncidentAdapter",
+      "mode": "incremental"
+    },
+    "AIIDWeeklyExcelAdapter": {
+      "lastAttemptedSync": "2026-09-27T08:17:29Z",
+      "lastSuccessfulSync": "2026-09-27T08:17:40Z",
+      "recordsRetrieved": 240,
+      "recordsCreated": 0,
+      "recordsUpdated": 0,
+      "duplicatesDetected": 240,
+      "syncStatus": "success",
+      "sourceErrors": [],
+      "name": "AIIDWeeklyExcelAdapter",
+      "mode": "weekly-snapshot",
+      "snapshotUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx"
+    }
+  },
+  "lastDailySummary": {
+    "createdAt": "2026-09-27T08:17:40Z",
+    "recordsRetrieved": 240,
+    "recordsCreated": 0,
+    "recordsUpdated": 0,
+    "duplicatesDetected": 240,
+    "sourceErrors": []
+  }
+}

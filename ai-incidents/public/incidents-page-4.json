@@ -1,0 +1,1459 @@
+{
+  "page": 4,
+  "pageSize": 25,
+  "total": 240,
+  "items": [
+    {
+      "id": "OOF-AII-778902",
+      "slug": "oof-aii-778902-justice-department-s-recidivism-risk-algorithm-pattern-allegedly-caused-persistent-disparities-along-racial-lines",
+      "title": "Justice Department’s Recidivism Risk Algorithm PATTERN Allegedly Caused Persistent Disparities Along Racial Lines",
+      "summary": "Department of Justice’s inmate-recidivism risk assessment tool was reported to have produced racially uneven results, misclassifying risk levels for inmates of color.",
+      "eventType": "Incident",
+      "occurredAt": "2022-01-26",
+      "reportedAt": "2026-09-03T21:34:17.078000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "United States Department Of Justice",
+      "system": "Ai Enabled Decision Support Systems",
+      "technology": null,
+      "industry": "[\"law enforcement\"]",
+      "aiSystemType": "[\"risk assessment\", \"predict recidivism\", \"predict recidivism risk\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Inmates Of Color",
+        "Incarcerated People"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:154",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2022-01-26",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/154",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "clia",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLIA®",
+        "classifiedAt": "2026-09-03T21:34:17.078000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLIA® — Cognitive Governance Intelligence Architecture using signals: decision support. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-03T21:34:17.078000Z",
+      "updatedAt": "2026-09-03T21:34:17.078000Z"
+    },
+    {
+      "id": "OOF-AII-891675",
+      "slug": "oof-aii-891675-zillow-shut-down-zillow-offers-division-allegedly-due-to-predictive-pricing-tool-s-insufficient-accuracy",
+      "title": "Zillow Shut Down Zillow Offers Division Allegedly Due to Predictive Pricing Tool's Insufficient Accuracy",
+      "summary": "Zillow's AI-powered predictive pricing tool Zestimate was allegedly not able to accurately forecast housing prices three to six months in advance due to rapid market changes, prompting division shutdown and layoff of a few thousand employees.",
+      "eventType": "Incident",
+      "occurredAt": "2021-11-02",
+      "reportedAt": "2026-09-03T21:33:10.131000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Zillow",
+      "system": "Ai Enabled Decision Support Systems",
+      "technology": "[\"Regression\", \"Multimodal Learning\", \"Diverse Data\"]",
+      "industry": "[\"real estate activities\"]",
+      "aiSystemType": "[\"price determination\", \"home valuation\", \"estimating house prices\", \"real estate market forecasting\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Zillow Offers Staff",
+        "Zillow"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:149",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2021-11-02",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/149",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "clia",
+        "secondaryArchitectureIds": [
+          "vfm",
+          "aig"
+        ],
+        "architectureIndexState": "CLIA®",
+        "classifiedAt": "2026-09-03T21:33:10.131000Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to CLIA® — Cognitive Governance Intelligence Architecture using signals: decision support, predictive. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-03T21:33:10.131000Z",
+      "updatedAt": "2026-09-03T21:33:10.131000Z"
+    },
+    {
+      "id": "OOF-AII-046318",
+      "slug": "oof-aii-046318-ut-austin-s-grade-algorithm-reportedly-reduced-review-of-lower-scored-phd-applicants-amid-bias-concerns",
+      "title": "UT Austin's GRADE Algorithm Reportedly Reduced Review of Lower-Scored PhD Applicants Amid Bias Concerns",
+      "summary": "From the 2013 through 2019 admissions cycles, UT Austin's Department of Computer Science used GRADE, a statistical machine-learning system trained on past admissions decisions, to score and organize PhD applications. Critics said the system could reproduce historical admissions inequities and reduce attention to lower-scored applicants, while UT Austin said human reviewers still evaluated each file and later discontinued the tool.",
+      "eventType": "Incident",
+      "occurredAt": "2012-12-01",
+      "reportedAt": "2026-09-03T21:32:49.453000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "University Of Texas At Austin'S Department Of Computer Science, Risto Miikkulainen, Austin Waters",
+      "system": "Graduate Admissions Evaluator (Grade), Automated Admissions Screening Systems, Ai Enabled Decision Support Systems",
+      "technology": null,
+      "industry": "[\"Education\"]",
+      "aiSystemType": "[\"assess applicants\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "University Students",
+        "University Of Texas At Austin Phd Applicants Of Marginalized Groups",
+        "University Applicants",
+        "Students",
+        "Phd Applicants From Underrepresented Groups",
+        "Phd Applicants",
+        "Educational Communities",
+        "Computer Science Phd Applicants"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:135",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2012-12-01",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/135",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "clia",
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-09-03T21:32:49.453000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: screening. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-03T21:32:49.453000Z",
+      "updatedAt": "2026-09-03T21:32:49.453000Z"
+    },
+    {
+      "id": "OOF-AII-559322",
+      "slug": "oof-aii-559322-optum-algorithmic-health-risk-scores-reportedly-underestimated-black-patients-needs",
+      "title": "Optum Algorithmic Health Risk Scores Reportedly Underestimated Black Patients' Needs",
+      "summary": "Researchers analyzing an Optum algorithm used by a large academic hospital reportedly found evidence that it tended to under-predict the health care needs of Black patients, which in turn appeared to result in lower prioritization for extra care programs compared with white patients exhibiting similar health profiles.",
+      "eventType": "Incident",
+      "occurredAt": "2019-10-24",
+      "reportedAt": "2026-09-03T21:27:40.269000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Unnamed Large Academic Hospital",
+      "system": "Optum, Enterprise Ai Systems, Ai Enabled Decision Support Systems",
+      "technology": null,
+      "industry": "[\"human health and social work activities\"]",
+      "aiSystemType": "[\"assign risk \", \"predict healthcare needs\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Black Patients"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:124",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2019-10-24",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/124",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "clia",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLIA®",
+        "classifiedAt": "2026-09-03T21:27:40.269000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLIA® — Cognitive Governance Intelligence Architecture using signals: decision support. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-03T21:27:40.269000Z",
+      "updatedAt": "2026-09-03T21:27:40.269000Z"
+    },
+    {
+      "id": "OOF-AII-639895",
+      "slug": "oof-aii-639895-epic-systems-s-sepsis-prediction-algorithms-revealed-to-have-high-error-rates-on-seriously-ill-patients",
+      "title": "Epic Systems’s Sepsis Prediction Algorithms Revealed to Have High Error Rates on Seriously Ill Patients",
+      "summary": "Epic System's sepsis prediction algorithms was shown by investigators at the University of Michigan Hospital to have high rates of false positives and false negatives, allegedly delivering inaccurate and irrelevant information on patients, contrasting sharply with their published claims.",
+      "eventType": "Incident",
+      "occurredAt": "2021-08-01",
+      "reportedAt": "2026-09-03T21:27:24.734000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "University Of Michigan Hospital",
+      "system": "Enterprise Ai Systems, Ai Enabled Decision Support Systems",
+      "technology": null,
+      "industry": "[\"human health and social work activities\"]",
+      "aiSystemType": "[\"identify sepsis\", \"diagnose sepsis\", \"sepsis prediction\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Sepsis Patients"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:123",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2021-08-01",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/123",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "validos",
+        "secondaryArchitectureIds": [
+          "clia",
+          "aig"
+        ],
+        "architectureIndexState": "VALIDOS®",
+        "classifiedAt": "2026-09-03T21:27:24.734000Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to VALIDOS® — Validation Governance Architecture using signals: inaccurate, error. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-03T21:27:24.734000Z",
+      "updatedAt": "2026-09-03T21:27:24.734000Z"
+    },
+    {
+      "id": "OOF-AII-800840",
+      "slug": "oof-aii-800840-major-universities-are-reportedly-using-race-as-a-high-impact-predictor-of-student-success",
+      "title": "Major Universities Are Reportedly Using Race as a 'High Impact Predictor' of Student Success",
+      "summary": "Several major universities are reportedly using a tool that uses race as one factor to predict student success.",
+      "eventType": "Incident",
+      "occurredAt": "2012-01-01",
+      "reportedAt": "2026-09-03T21:27:10.492000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "University Of Wisconsin Milwaukee, University Of Massachusetts Amherst, University Of Houston, Texas Aandm University, More Than 500 Colleges, Georgia State University",
+      "system": "Eab Navigate, Ai Enabled Decision Support Systems",
+      "technology": null,
+      "industry": "[\"administrative and support service activities\", \"Education\"]",
+      "aiSystemType": "[\"risk prediction\", \"risk assessment\", \"performance prediction\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "University Students",
+        "Students",
+        "Latinx College Students",
+        "Indigenous Students",
+        "Educational Communities",
+        "Black College Students"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:99",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2012-01-01",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/99",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "clia",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLIA®",
+        "classifiedAt": "2026-09-03T21:27:10.492000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLIA® — Cognitive Governance Intelligence Architecture using signals: decision support. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-03T21:27:10.492000Z",
+      "updatedAt": "2026-09-03T21:27:10.492000Z"
+    },
+    {
+      "id": "OOF-AII-423123",
+      "slug": "oof-aii-423123-predictive-policing-biases-of-predpol",
+      "title": "Predictive Policing Biases of PredPol",
+      "summary": "Predictive policing algorithms meant to aid law enforcement by predicting future crime show signs of biased output.",
+      "eventType": "Incident",
+      "occurredAt": "2015-11-18",
+      "reportedAt": "2026-09-03T21:26:33.053000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Predpol, Oakland Police Department",
+      "system": "Ai Enabled Decision Support Systems",
+      "technology": null,
+      "industry": "[\"law enforcement\"]",
+      "aiSystemType": "[\"Predict Crimes\", \"predictive policing\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Oakland Residents"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:54",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2015-11-18",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/54",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "clia",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLIA®",
+        "classifiedAt": "2026-09-03T21:26:33.053000Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to CLIA® — Cognitive Governance Intelligence Architecture using signals: decision support, predictive. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-03T21:26:33.053000Z",
+      "updatedAt": "2026-09-03T21:26:33.053000Z"
+    },
+    {
+      "id": "OOF-AII-140599",
+      "slug": "oof-aii-140599-compas-algorithm-reportedly-performs-poorly-in-crime-recidivism-prediction",
+      "title": "COMPAS Algorithm Reportedly Performs Poorly in Crime Recidivism Prediction",
+      "summary": "Correctional Offender Management Profiling for Alternative Sanctions (COMPAS), a recidivism risk-assessment algorithmic tool used in the judicial system to assess likelihood of defendants' recidivism, is found to be less accurate than random untrained human evaluators.",
+      "eventType": "Incident",
+      "occurredAt": "2016-05-23",
+      "reportedAt": "2026-09-03T21:26:03.819000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Equivant",
+      "system": "Compas, Ai Enabled Decision Support Systems",
+      "technology": null,
+      "industry": "[\"law enforcement\", \"public administration\"]",
+      "aiSystemType": "[\"predict recidivism\", \"prediction\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Accused People"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:40",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2016-05-23",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/40",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "clia",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLIA®",
+        "classifiedAt": "2026-09-03T21:26:03.819000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLIA® — Cognitive Governance Intelligence Architecture using signals: decision support. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-03T21:26:03.819000Z",
+      "updatedAt": "2026-09-03T21:26:03.819000Z"
+    },
+    {
+      "id": "OOF-AII-221499",
+      "slug": "oof-aii-221499-northpointe-risk-models",
+      "title": "Northpointe Risk Models",
+      "summary": "An algorithm developed by Northpointe and used in the penal system is two times more likely to incorrectly label a black person as a high-risk re-offender and is two times more likely to incorrectly label a white person as low-risk for reoffense according to a ProPublica review.",
+      "eventType": "Incident",
+      "occurredAt": "2016-05-23",
+      "reportedAt": "2026-09-03T21:25:31.927000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Northpointe",
+      "system": "Ai Enabled Decision Support Systems",
+      "technology": null,
+      "industry": "[\"law enforcement\", \"public administration\"]",
+      "aiSystemType": "[\"predict recidivism\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Accused People"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:11",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2016-05-23",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/11",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "clia",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLIA®",
+        "classifiedAt": "2026-09-03T21:25:31.927000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLIA® — Cognitive Governance Intelligence Architecture using signals: decision support. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-09-03T21:25:31.927000Z",
+      "updatedAt": "2026-09-03T21:25:31.927000Z"
+    },
+    {
+      "id": "OOF-AII-388410",
+      "slug": "oof-aii-388410-oracle-s-algorithmic-data-processing-system-alleged-as-unlawful-and-violating-privacy-rights",
+      "title": "Oracle's Algorithmic Data Processing System Alleged as Unlawful and Violating Privacy Rights",
+      "summary": "Oracle's automated system involving algorithmic data processing was alleged in a lawsuit to have been unlawfully collecting personal data from millions of people and violating their privacy rights.",
+      "eventType": "Incident",
+      "occurredAt": "2014-12-22",
+      "reportedAt": "2026-08-31T16:48:03.812000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Oracle",
+      "system": "Oracle Algorithmic Data Processing System, Consumer Profiling Systems, Behavioral Advertising Systems, Surveillance Technology",
+      "technology": null,
+      "industry": "[\"information and communication\"]",
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Privacy & Security",
+        "yes"
+      ],
+      "affectedParties": [
+        "Internet Users",
+        "Privacy",
+        "Biometric Data Subjects"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:387",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2014-12-22",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/387",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2026-08-31T16:48:03.812000Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-08-31T16:48:03.812000Z",
+      "updatedAt": "2026-08-31T16:48:03.812000Z"
+    },
+    {
+      "id": "OOF-AII-443692",
+      "slug": "oof-aii-443692-mcdonald-s-ai-drive-thru-allegedly-collected-biometric-customer-data-without-consent-violating-bipa",
+      "title": "McDonald's AI Drive-Thru Allegedly Collected Biometric Customer Data without Consent, Violating BIPA",
+      "summary": "McDonald's use of chatbot in its AI drive-through in Chicago was alleged in a lawsuit to have collected and processed voice data without user consent to predict customer information, which violated Illinois Biometric Information Privacy Act (BIPA).",
+      "eventType": "Incident",
+      "occurredAt": "2021-10-15",
+      "reportedAt": "2026-08-31T16:25:38.495000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Mcdonald'S",
+      "system": "Mcdonald'S Ai Drive Thru Voice Recognition System, Voice Recognition Systems, Biometric Data Processing Systems",
+      "technology": null,
+      "industry": "[\"accommodation and food service activities\"]",
+      "aiSystemType": "[\"voice recognition\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Privacy & Security",
+        "yes"
+      ],
+      "affectedParties": [
+        "Shannon Carpenter",
+        "Mcdonald'S Customers Residing In Illinois",
+        "Mcdonald'S Customers",
+        "Privacy",
+        "Biometric Data Subjects"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:360",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2021-10-15",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/360",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "clia",
+          "obidenity",
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-08-31T16:25:38.495000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: recognition. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-08-31T16:25:38.495000Z",
+      "updatedAt": "2026-08-31T16:25:38.495000Z"
+    },
+    {
+      "id": "OOF-AII-571155",
+      "slug": "oof-aii-571155-google-s-face-grouping-allegedly-collected-and-analyzed-users-facial-structure-without-consent-violated-bipa",
+      "title": "Google's Face Grouping Allegedly Collected and Analyzed Users' Facial Structure without Consent, Violated BIPA",
+      "summary": "A class-action lawsuit alleged Google failing to provide notice, obtain informed written consent, or publish data retention policies about the collection, storage, and analysis of its face-grouping feature in Google Photos, which violated Illinois Biometric Information Privacy Act (BIPA).",
+      "eventType": "Incident",
+      "occurredAt": "2015-05-01",
+      "reportedAt": "2026-08-31T16:22:59.889000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Google",
+      "system": "Google Photos Face Grouping, Facial Recognition Systems, Faceprint Generation Systems, Biometric Data Processing Systems",
+      "technology": null,
+      "industry": "[\"information and communication\"]",
+      "aiSystemType": "[\"facial recognition\", \"facial grouping\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Privacy & Security",
+        "no"
+      ],
+      "affectedParties": [
+        "Illinois Residents",
+        "Google Photos Users Residing In Illinois",
+        "Google Photos Users",
+        "Privacy",
+        "Biometric Data Subjects"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:254",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2015-05-01",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/254",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "obidenity",
+        "secondaryArchitectureIds": [
+          "cla",
+          "mgia",
+          "aig"
+        ],
+        "architectureIndexState": "OBIDENITY®",
+        "classifiedAt": "2026-08-31T16:22:59.889000Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to OBIDENITY® — Origin-Bound Identity Governance Architecture using signals: biometric, facial. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-08-31T16:22:59.889000Z",
+      "updatedAt": "2026-08-31T16:22:59.889000Z"
+    },
+    {
+      "id": "OOF-AII-247774",
+      "slug": "oof-aii-247774-facebook-s-tag-suggestions-allegedly-stored-biometric-data-without-user-consent",
+      "title": "Facebook's 'Tag Suggestions' Allegedly Stored Biometric Data without User Consent",
+      "summary": "Facebook's initial version of the its Tag Suggestions feature where users were offered suggestions about the identity of people's faces in photos allegedly stored biometric data without consent, violating the Illinois Biometric Information Privacy Act.",
+      "eventType": "Incident",
+      "occurredAt": "2015-06-14",
+      "reportedAt": "2026-08-31T16:21:59.161000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Facebook",
+      "system": "Facebook, Social Media Platforms, Facebook Tag Suggestions, Facial Recognition Systems, Faceprint Generation Systems, Biometric Data Processing Systems",
+      "technology": null,
+      "industry": "[\"Arts, entertainment and recreation\", \"information and communication\"]",
+      "aiSystemType": "[\"facial recognition\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Privacy & Security",
+        "maybe"
+      ],
+      "affectedParties": [
+        "Facebook Users",
+        "Social Media Users",
+        "Privacy",
+        "Biometric Data Subjects"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:122",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2015-06-14",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/122",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "obidenity",
+        "secondaryArchitectureIds": [
+          "cla",
+          "aig"
+        ],
+        "architectureIndexState": "OBIDENITY®",
+        "classifiedAt": "2026-08-31T16:21:59.161000Z",
+        "confidence": 0.8,
+        "rationale": "Automated mapping matched incident descriptors to OBIDENITY® — Origin-Bound Identity Governance Architecture using signals: identity, biometric, facial. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-08-31T16:21:59.161000Z",
+      "updatedAt": "2026-08-31T16:21:59.161000Z"
+    },
+    {
+      "id": "OOF-AII-753141",
+      "slug": "oof-aii-753141-oura-smart-ring-purchaser-in-california-alleged-company-overstated-ai-sleep-tracking-accuracy-leading-to-overpayment",
+      "title": "Oura Smart Ring Purchaser in California Alleged Company Overstated AI Sleep-Tracking Accuracy, Leading to Overpayment",
+      "summary": "California consumer Madison Surber alleged that she bought an Oura Ring 4 for about $514 after relying on claims about its sleep-stage accuracy. Her proposed class action says Oura's machine-learning algorithm infers sleep stages from peripheral signals and that she would not have bought the ring or paid as much had she known its alleged limitations. Oura disputes the allegations.",
+      "eventType": "Incident",
+      "occurredAt": "2026-05-22",
+      "reportedAt": "2026-08-31T00:47:46.321000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Oura",
+      "system": "Wearable Health Tracking Systems, Oura Sleep Staging Algorithm, Oura Ring 4, Ai Sleep Tracking Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Oura Ring Users",
+        "Madison Surber",
+        "Consumers"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1666",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-05-22",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1666",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2026-08-31T00:47:46.321000Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-08-31T00:47:46.321000Z",
+      "updatedAt": "2026-08-31T00:47:46.321000Z"
+    },
+    {
+      "id": "OOF-AII-979799",
+      "slug": "oof-aii-979799-minnesota-attorney-reportedly-used-ai-generated-fabricated-citations-in-hennepin-county-civil-case-and-agreed-to-30-day-suspension",
+      "title": "Minnesota Attorney Reportedly Used AI-Generated Fabricated Citations in Hennepin County Civil Case and Agreed to 30-Day Suspension",
+      "summary": "Minnesota attorney Faisal S. Ahmed reportedly filed a 2025 legal memorandum containing AI-generated legal authorities that included invented cases and an inaccurate quotation from an actual decision. The errors reportedly burdened opposing counsel and the Hennepin County District Court, which later fined Ahmed $5,000. He subsequently agreed to a 30-day suspension of his law license and $900 in costs.",
+      "eventType": "Incident",
+      "occurredAt": "2025-08-21",
+      "reportedAt": "2026-08-30T22:04:34Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Lawyers, Faisal S. Ahmed",
+      "system": "Large Language Models, Ai Research Tools, Ai Assisted Legal Drafting Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Judicial Integrity",
+        "Hennepin County District Court",
+        "George Warner Jr.",
+        "Faisal S. Ahmed",
+        "Epistemic Integrity"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1667",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2025-08-21",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1667",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "validos",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "VALIDOS®",
+        "classifiedAt": "2026-08-30T22:04:34Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to VALIDOS® — Validation Governance Architecture using signals: inaccurate. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-08-30T22:04:34Z",
+      "updatedAt": "2026-08-30T22:04:34Z"
+    },
+    {
+      "id": "OOF-AII-533196",
+      "slug": "oof-aii-533196-purportedly-ai-generated-article-falsely-depicted-australian-broadcasting-corporation-finance-presenter-alan-kohler-interviewing-reserve-bank-governor-michele-bullock-to-promote-boulder-sparhaven",
+      "title": "Purportedly AI-Generated Article Falsely Depicted Australian Broadcasting Corporation Finance Presenter Alan Kohler Interviewing Reserve Bank Governor Michele Bullock to Promote Boulder Sparhaven",
+      "summary": "An online article reportedly used AI-generated imagery to falsely depict Australian Broadcasting Corporation (ABC) finance presenter Alan Kohler interviewing Reserve Bank of Australia governor Michele Bullock about Boulder Sparhaven, a cryptocurrency trading platform not licensed in Australia. The Australian Securities and Investments Commission (ASIC) cited it as an example of increasingly sophisticated AI-assisted investment scams targeting Australians.",
+      "eventType": "Incident",
+      "occurredAt": "2026-08-17",
+      "reportedAt": "2026-08-30T20:13:18Z",
+      "country": "Australia",
+      "countryCode": "AU",
+      "region": null,
+      "coordinates": null,
+      "organization": "Synthetic Media Creators, Scammers In Australia, Scammers, Investment Scam Operators, Deepfake Creators In Australia, Deepfake Creators, Cybercriminals",
+      "system": "Synthetic Media Generation Technology, Synthetic Image Generation Technology, Fake Investment Platforms, Deepfake Technology, Boulder Sparhaven",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Victims Of Impersonation Scams",
+        "Michele Bullock",
+        "Investors",
+        "General Public Of Australia",
+        "General Public",
+        "Epistemic Integrity",
+        "Australian Investors",
+        "Alan Kohler"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1665",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-08-17",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1665",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "obidenity",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "OBIDENITY®",
+        "classifiedAt": "2026-08-30T20:13:18Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to OBIDENITY® — Origin-Bound Identity Governance Architecture using signals: deepfake. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-08-30T20:13:18Z",
+      "updatedAt": "2026-08-30T20:13:18Z"
+    },
+    {
+      "id": "OOF-AII-126029",
+      "slug": "oof-aii-126029-purportedly-ai-generated-videos-impersonating-miami-immigration-attorney-were-reportedly-used-to-defraud-bronx-resident-of-4-820",
+      "title": "Purportedly AI-Generated Videos Impersonating Miami Immigration Attorney Were Reportedly Used to Defraud Bronx Resident of $4,820",
+      "summary": "Scammers reportedly used AI-generated videos impersonating Miami immigration attorney Angel Leal to solicit a Bronx legal resident seeking U.S. citizenship. The victim said he sent $4,820 through Zelle and provided Social Security and residency documents before discovering the scheme. He later reported falling behind on rent and utilities and said the scammers sought additional money.",
+      "eventType": "Incident",
+      "occurredAt": "2026-08-19",
+      "reportedAt": "2026-08-29T18:07:58.117000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Synthetic Media Creators, Scammers Impersonating Angel Leal, Scammers, Deepfake Creators, Cybercriminals",
+      "system": "Synthetic Video Generation Technology, Synthetic Media Generation Technology, Social Media Platforms, Deepfake Technology",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Victor Hernandez",
+        "Scam Victims",
+        "Immigrants In The United States",
+        "Immigrants",
+        "Financial Scam Victims",
+        "Angel Leal"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1660",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-08-19",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1660",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "integros",
+        "secondaryArchitectureIds": [
+          "obidenity",
+          "aig"
+        ],
+        "architectureIndexState": "INTEGROS®",
+        "classifiedAt": "2026-08-29T18:07:58.117000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to INTEGROS® — Integrity Governance Architecture using signals: security. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-08-29T18:07:58.117000Z",
+      "updatedAt": "2026-08-29T18:07:58.117000Z"
+    },
+    {
+      "id": "OOF-AII-481026",
+      "slug": "oof-aii-481026-broadway-performer-and-siriusxm-host-seth-rudetsky-reportedly-lost-facebook-page-access-in-purportedly-ai-assisted-scam-impersonating-comedian-nikki-glaser",
+      "title": "Broadway Performer and SiriusXM Host Seth Rudetsky Reportedly Lost Facebook Page Access in Purportedly AI-Assisted Scam Impersonating Comedian Nikki Glaser",
+      "summary": "Broadway performer and SiriusXM host Seth Rudetsky reportedly received a personalized invitation purportedly from comedian Nikki Glaser's podcast. After scammers guided him through Facebook permissions during a supposed technical setup, he lost access to his page; he said a former marketing company was also compromised. Reporting described the invitation as most likely AI-composed.",
+      "eventType": "Incident",
+      "occurredAt": "2026-08-18",
+      "reportedAt": "2026-08-29T17:44:04.180000Z",
+      "country": "Location not specified",
+      "countryCode": null,
+      "region": null,
+      "coordinates": null,
+      "organization": "Scammers, Cybercriminals",
+      "system": "Social Media Platforms, Large Language Models, Facebook, Ai Generated Phishing Content, Ai Assisted Email Impersonation Workflows",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Targets Of Fraudulent Professional Opportunities",
+        "Social Media Users",
+        "Seth Rudetsky",
+        "Public Figures",
+        "Nikki Glaser",
+        "Facebook Users",
+        "Epistemic Integrity",
+        "Companies"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1664",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-08-18",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1664",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "integros",
+        "secondaryArchitectureIds": [
+          "obidenity",
+          "aig"
+        ],
+        "architectureIndexState": "INTEGROS®",
+        "classifiedAt": "2026-08-29T17:44:04.180000Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to INTEGROS® — Integrity Governance Architecture using signals: phishing, compromised. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-08-29T17:44:04.180000Z",
+      "updatedAt": "2026-08-29T17:44:04.180000Z"
+    },
+    {
+      "id": "OOF-AII-998473",
+      "slug": "oof-aii-998473-granola-ai-notetaker-allegedly-captured-and-transcribed-florida-meeting-participant-without-notice-or-consent",
+      "title": "Granola AI Notetaker Allegedly Captured and Transcribed Florida Meeting Participant Without Notice or Consent",
+      "summary": "Tarra Chamberlain, a Florida resident, alleged that Granola captured and transcribed her speech during a virtual meeting without her knowledge or consent after another participant used the AI notetaker. Her July 2026 lawsuit further alleged that Granola uses meeting data to improve its AI models by default, while non-user participants have no comparable opt-out.",
+      "eventType": "Incident",
+      "occurredAt": "2026-07-30",
+      "reportedAt": "2026-08-29T15:03:17.890000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Granola, Ai Transcription Tool Users",
+      "system": "Granola, Ai Transcription Tools, Enterprise Ai Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Tarra Chamberlain",
+        "Privacy",
+        "People Recorded Without Consent"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1652",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-07-30",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1652",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2026-08-29T15:03:17.890000Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-08-29T15:03:17.890000Z",
+      "updatedAt": "2026-08-29T15:03:17.890000Z"
+    },
+    {
+      "id": "OOF-AII-598529",
+      "slug": "oof-aii-598529-fireflies-ai-meeting-assistant-allegedly-collected-biometric-voice-data-from-illinois-meeting-participant-without-consent",
+      "title": "Fireflies.AI Meeting Assistant Allegedly Collected Biometric Voice Data from Illinois Meeting Participant Without Consent",
+      "summary": "On November 18, 2025, Fireflies.AI reportedly recorded and analyzed the voice of Illinois resident Katelin Cruz during a virtual meeting hosted by Western Illinois Dreamers, although Cruz had no Fireflies account and had not provided written consent. Her lawsuit alleges the system used speaker-recognition functions to create and retain biometric voice data and attribute statements to her in the meeting transcript.",
+      "eventType": "Incident",
+      "occurredAt": "2025-11-18",
+      "reportedAt": "2026-08-29T15:03:04.129000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Western Illinois Dreamers, Organizations, Ai Transcription Tool Users",
+      "system": "Fireflies.Ai Meeting Assistant, Biometric Voice Modeling, Ai Transcription Tools, Enterprise Ai Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Privacy",
+        "People Recorded Without Consent",
+        "Katelin Cruz",
+        "Biometric Data Subjects"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1651",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2025-11-18",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1651",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "obidenity",
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-08-29T15:03:04.129000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: recognition. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-08-29T15:03:04.129000Z",
+      "updatedAt": "2026-08-29T15:03:04.129000Z"
+    },
+    {
+      "id": "OOF-AII-976322",
+      "slug": "oof-aii-976322-otter-ai-notetaker-allegedly-recorded-meeting-conversations-without-participants-informed-consent-and-used-data-for-ai-training",
+      "title": "Otter.ai Notetaker Allegedly Recorded Meeting Conversations Without Participants' Informed Consent and Used Data for AI Training",
+      "summary": "In February 2025, Otter.ai's Notetaker reportedly recorded and transcribed a Zoom conversation involving Justin Brewer, a San Jacinto, California resident who was not an Otter account holder, without his informed consent. Brewer later alleged that Otter obtained and retained his meeting communications and used captured data to train its speech-recognition and machine-learning systems.",
+      "eventType": "Incident",
+      "occurredAt": "2025-02-24",
+      "reportedAt": "2026-08-29T15:02:51.959000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": null,
+      "coordinates": null,
+      "organization": "Otter.Ai Users, Otter.Ai, Ai Transcription Tool Users",
+      "system": "Otter Notetaker, Ai Transcription Tools, Enterprise Ai Systems",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Privacy",
+        "People Recorded Without Consent",
+        "Otter.Ai Users",
+        "Justin Brewer",
+        "Employees"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1650",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2025-02-24",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1650",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-08-29T15:02:51.959000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: recognition. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-08-29T15:02:51.959000Z",
+      "updatedAt": "2026-08-29T15:02:51.959000Z"
+    },
+    {
+      "id": "OOF-AII-650176",
+      "slug": "oof-aii-650176-job-screening-service-halts-facial-analysis-of-applicants",
+      "title": "Job Screening Service Halts Facial Analysis of Applicants",
+      "summary": "In January 2021, HireVue removed the controversial AI expression tracking tool from its virtual job interview software.",
+      "eventType": "Incident",
+      "occurredAt": "2019-11-06",
+      "reportedAt": "2026-08-29T14:30:11.092000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Hirevue",
+      "system": "Enterprise Ai Systems",
+      "technology": null,
+      "industry": "[\"administrative and support service activities\", \"professional, scientific and technical activities\"]",
+      "aiSystemType": "[\"candidate assessment\", \"virtual interview\", \"emotion recognition\", \"facial expression recognition\", \"speech recognition\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Job Applicants Using Hirevue",
+        "Hirevue Customers"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:95",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2019-11-06",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/95",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "obidenity",
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-08-29T14:30:11.092000Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: screening, recognition. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-08-29T14:30:11.092000Z",
+      "updatedAt": "2026-08-29T14:30:11.092000Z"
+    },
+    {
+      "id": "OOF-AII-367584",
+      "slug": "oof-aii-367584-workday-s-ai-tools-allegedly-enabled-employers-to-discriminate-against-applicants-of-protected-groups",
+      "title": "Workday's AI Tools Allegedly Enabled Employers to Discriminate against Applicants of Protected Groups",
+      "summary": "Workday's algorithmic screening systems were alleged in a lawsuit allowing employers to discriminate against African-Americans, people over 40, and people with disabilities.",
+      "eventType": "Incident",
+      "occurredAt": "2019-06-03",
+      "reportedAt": "2026-08-29T14:27:20.596000Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Workday",
+      "system": "Enterprise Ai Systems",
+      "technology": null,
+      "industry": "[\"professional, scientific and technical activities\", \"information and communication\"]",
+      "aiSystemType": "[\"recruitment screening\", \"job screening\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "maybe"
+      ],
+      "affectedParties": [
+        "Derek Mobley",
+        "Applicants With Disabilities",
+        "Applicants Over 40",
+        "African American Applicants"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:489",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2019-06-03",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/489",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2026-08-29T14:27:20.596000Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: screening. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-08-29T14:27:20.596000Z",
+      "updatedAt": "2026-08-29T14:27:20.596000Z"
+    },
+    {
+      "id": "OOF-AII-541634",
+      "slug": "oof-aii-541634-comedy-writer-bruce-vilanch-reportedly-sent-money-in-purportedly-ai-assisted-scam-impersonating-fresh-air-host-terry-gross",
+      "title": "Comedy Writer Bruce Vilanch Reportedly Sent Money in Purportedly AI-Assisted Scam Impersonating Fresh Air Host Terry Gross",
+      "summary": "Comedy writer Bruce Vilanch reportedly received highly personalized messages impersonating Terry Gross, host of NPR's Fresh Air, and sent money after being asked to support NPR. He discovered the invitation was fraudulent when Gross did not appear for the scheduled interview. Reporting described the broader fake-podcast scheme as likely AI-assisted, though no specific AI system was identified.",
+      "eventType": "Incident",
+      "occurredAt": "2026-08-18",
+      "reportedAt": "2026-08-29T00:00:00Z",
+      "country": "Location not specified",
+      "countryCode": null,
+      "region": null,
+      "coordinates": null,
+      "organization": "Scammers, Scammers Impersonating Terry Gross",
+      "system": "Large Language Models",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Bruce Vilanch",
+        "Terry Gross",
+        "Whyy",
+        "Npr",
+        "Public Figures",
+        "Epistemic Integrity",
+        "Targets Of Fraudulent Professional Opportunities"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1663",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-08-18",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1663",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2026-08-29T00:00:00Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-08-29T00:00:00Z",
+      "updatedAt": "2026-08-29T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-641739",
+      "slug": "oof-aii-641739-aurora-ransomware-operator-reportedly-used-cursor-agent-to-assist-intrusions-against-multiple-organizations",
+      "title": "Aurora Ransomware Operator Reportedly Used Cursor Agent to Assist Intrusions Against Multiple Organizations",
+      "summary": "Between April 8 and May 21, 2026, a Russian-speaking operator linked to the Aurora ransomware group reportedly used Cursor Agent, running Anthropic's Claude Sonnet 4.5, to assist exploitation across multiple organizations. Researchers said some AI-directed tasks succeeded while others failed; independent reporting identified six affected companies but could not determine how much the AI facilitated each breach or whether all led to data theft or extortion.",
+      "eventType": "Incident",
+      "occurredAt": "2026-04-08",
+      "reportedAt": "2026-08-29T00:00:00Z",
+      "country": "Russia",
+      "countryCode": "RU",
+      "region": null,
+      "coordinates": null,
+      "organization": "Aurora Ransomware Affiliate, Cybercriminals, Ransomware Operators, Agentic Threat Actors, Ai Agent System Deployers",
+      "system": "Cursor, Claude Sonnet 4.5, Claude, Ai Agent Systems, Claude Ai Models, Large Language Models, Aurora Ransomware, Ransomware, Llm Integrated Code Assistants",
+      "technology": null,
+      "industry": null,
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [],
+      "affectedParties": [
+        "Christeyns",
+        "Teckentrup",
+        "Helideck Certification Agency",
+        "Bayou Title",
+        "Companies",
+        "Organizations"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1661",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2026-04-08",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1661",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "clia",
+          "integros",
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2026-08-29T00:00:00Z",
+        "confidence": 0.74,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: agentic, ai agent. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2026-08-29T00:00:00Z",
+      "updatedAt": "2026-08-29T00:00:00Z"
+    }
+  ]
+}

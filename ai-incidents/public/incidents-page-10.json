@@ -1,0 +1,835 @@
+{
+  "page": 10,
+  "pageSize": 25,
+  "total": 240,
+  "items": [
+    {
+      "id": "OOF-AII-419498",
+      "slug": "oof-aii-419498-arkansas-s-opaque-algorithm-to-allocate-health-care-excessively-cut-down-hours-for-beneficiaries",
+      "title": "Arkansas's Opaque Algorithm to Allocate Health Care Excessively Cut Down Hours for Beneficiaries",
+      "summary": "Beneficiaries of the Arkansas Department of Human Services (DHS)'s Medicaid waiver program were allocated excessively fewer hours of caretaker visit via an algorithm deployed to boost efficiency, which reportedly contained errors and whose outputs varied wildly despite small input changes.",
+      "eventType": "Incident",
+      "occurredAt": "2016-01-01",
+      "reportedAt": "2016-01-01T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Arkansas Department Of Human Services",
+      "system": "no",
+      "technology": null,
+      "industry": "[\"human health and social work activities\"]",
+      "aiSystemType": "[]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Arkansas Medicaid Waiver Program Beneficiaries",
+        "Arkansas Healthcare Workers"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:110",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2016-01-01",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/110",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2016-01-01T00:00:00Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2016-01-01T00:00:00Z",
+      "updatedAt": "2016-01-01T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-250451",
+      "slug": "oof-aii-250451-amazon-alexa-responding-to-environmental-inputs",
+      "title": "Amazon Alexa Responding to Environmental Inputs",
+      "summary": "There are multiple reports of Amazon Alexa products (Echo, Echo Dot) reacting and acting upon unintended stimulus, usually from television commercials or news reporter's voices.",
+      "eventType": "Incident",
+      "occurredAt": "2015-12-05",
+      "reportedAt": "2015-12-05T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Amazon",
+      "system": "yes",
+      "technology": "[\"Automatic Speech Recognition\", \"Language Modeling\", \"Acoustic Fingerprint\"]",
+      "industry": "[\"wholesale and retail trade\", \"information and communication\"]",
+      "aiSystemType": "[\"virtual assistant technology\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Alexa Device Owners"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:34",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2015-12-05",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/34",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2015-12-05T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: recognition. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2015-12-05T00:00:00Z",
+      "updatedAt": "2015-12-05T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-867858",
+      "slug": "oof-aii-867858-youtube-recommendations-allegedly-promoted-radicalizing-material-contributing-to-terrorist-acts",
+      "title": "YouTube Recommendations Allegedly Promoted Radicalizing Material Contributing to Terrorist Acts",
+      "summary": "Family of Nohemi Gonzalez alleged YouTube recommendation systems led people to propaganda videos for the Islamic State which subsequently radicalized them to carry out the killing of 130 people in the 2015 Paris terrorist attack, including Ms. Gonzalez.",
+      "eventType": "Incident",
+      "occurredAt": "2015-11-13",
+      "reportedAt": "2015-11-13T00:00:00Z",
+      "country": "France",
+      "countryCode": "FR",
+      "region": "Europe",
+      "coordinates": null,
+      "organization": "Youtube",
+      "system": "yes",
+      "technology": null,
+      "industry": "[\"information and communication\"]",
+      "aiSystemType": "[\"content recommendation\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Malicious Actors & Misuse",
+        "maybe"
+      ],
+      "affectedParties": [
+        "Victims In Paris Attacks",
+        "Nohemi Gonzalez Family",
+        "Nohemi Gonzalez"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:476",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2015-11-13",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/476",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2015-11-13T00:00:00Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2015-11-13T00:00:00Z",
+      "updatedAt": "2015-11-13T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-222064",
+      "slug": "oof-aii-222064-collection-of-robotic-surgery-malfunctions",
+      "title": "Collection of Robotic Surgery Malfunctions",
+      "summary": "Study on database reports of robotic surgery malfunctions (8,061), including those ending in injury (1,391) and death (144), between 2000 and 2013.",
+      "eventType": "Incident",
+      "occurredAt": "2015-07-13",
+      "reportedAt": "2015-07-13T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Hospitals, Doctors",
+      "system": "no",
+      "technology": null,
+      "industry": "[\"human health and social work activities\"]",
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Patients"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:5",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2015-07-13",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/5",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2015-07-13T00:00:00Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2015-07-13T00:00:00Z",
+      "updatedAt": "2015-07-13T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-724490",
+      "slug": "oof-aii-724490-worker-killed-by-robot-in-welding-accident-at-car-parts-factory-in-india",
+      "title": "Worker killed by robot in welding accident at car parts factory in India",
+      "summary": "A factory robot at the SKH Metals Factory in Manesar, India pierced and killed 24-year-old worker Ramji Lal when Lal reached behind the machine to dislodge a piece of metal stuck in the machine.",
+      "eventType": "Incident",
+      "occurredAt": "2015-07-02",
+      "reportedAt": "2015-07-02T00:00:00Z",
+      "country": "India",
+      "countryCode": "IN",
+      "region": "Asia",
+      "coordinates": null,
+      "organization": "Skh Metals",
+      "system": "no",
+      "technology": null,
+      "industry": "[\"manufacturing\"]",
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Ramji Lal"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:69",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2015-07-02",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/69",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2015-07-02T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: robot. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2015-07-02T00:00:00Z",
+      "updatedAt": "2015-07-02T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-675073",
+      "slug": "oof-aii-675073-australian-automated-debt-assessment-system-issued-false-notices-to-thousands",
+      "title": "Australian Automated Debt Assessment System Issued False Notices to Thousands",
+      "summary": "Australian Department of Human Services (DHS)’s automated debt assessment system issued false or incorrect debt notices to hundreds of thousands of people, resulting in years-long lawsuits and damages to welfare recipients.",
+      "eventType": "Incident",
+      "occurredAt": "2015-07-01",
+      "reportedAt": "2015-07-01T00:00:00Z",
+      "country": "Australia",
+      "countryCode": "AU",
+      "region": "Oceania",
+      "coordinates": null,
+      "organization": "Australian Department Of Human Services",
+      "system": "no",
+      "technology": null,
+      "industry": "[\"public administration\"]",
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Australian Welfare Recipients"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:57",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2015-07-01",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/57",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "validos",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "VALIDOS®",
+        "classifiedAt": "2015-07-01T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to VALIDOS® — Validation Governance Architecture using signals: incorrect. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2015-07-01T00:00:00Z",
+      "updatedAt": "2015-07-01T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-264476",
+      "slug": "oof-aii-264476-google-s-youtube-kids-app-presents-inappropriate-content",
+      "title": "Google’s YouTube Kids App Presents Inappropriate Content",
+      "summary": "YouTube’s content filtering and recommendation algorithms exposed children to disturbing and inappropriate videos.",
+      "eventType": "Incident",
+      "occurredAt": "2015-05-19",
+      "reportedAt": "2015-05-19T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Youtube",
+      "system": "yes",
+      "technology": "[\"Content-based Filtering\", \"Collaborative Filtering\"]",
+      "industry": "[\"Arts, entertainment and recreation\", \"information and communication\"]",
+      "aiSystemType": "[\"content moderation\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Minors"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:1",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2015-05-19",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/1",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2015-05-19T00:00:00Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2015-05-19T00:00:00Z",
+      "updatedAt": "2015-05-19T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-986239",
+      "slug": "oof-aii-986239-employee-automatically-terminated-by-computer-program",
+      "title": "Employee Automatically Terminated by Computer Program",
+      "summary": "An employee was laid off, allegedly by an artificially intelligent personnel system, and blocked from access to the building and computer systems without their knowledge.",
+      "eventType": "Incident",
+      "occurredAt": "2014-10-18",
+      "reportedAt": "2014-10-18T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Unknown",
+      "system": "no",
+      "technology": null,
+      "industry": "[\"administrative and support service activities\"]",
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Ibrahim Diallo"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:35",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2014-10-18",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/35",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2014-10-18T00:00:00Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2014-10-18T00:00:00Z",
+      "updatedAt": "2014-10-18T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-983827",
+      "slug": "oof-aii-983827-uber-autonomous-cars-running-red-lights",
+      "title": "Uber Autonomous Cars Running Red Lights",
+      "summary": "Uber vehicles equipped with technology allowing for autonomous driving running red lights in San Francisco street testing.",
+      "eventType": "Incident",
+      "occurredAt": "2014-08-15",
+      "reportedAt": "2014-08-15T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Uber",
+      "system": "yes",
+      "technology": null,
+      "industry": "[\"transportation and storage\"]",
+      "aiSystemType": "[\"navigation\", \"driving\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Pedestrians",
+        "Motorists"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:8",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2014-08-15",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/8",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2014-08-15T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: autonomous. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2014-08-15T00:00:00Z",
+      "updatedAt": "2014-08-15T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-238670",
+      "slug": "oof-aii-238670-robot-kills-worker-at-german-volkswagen-plant",
+      "title": "Robot kills worker at German Volkswagen plant",
+      "summary": "A Volkswagen plant robot \"crushed to death\" a worker by pinning him to a metal plate.",
+      "eventType": "Incident",
+      "occurredAt": "2014-07-15",
+      "reportedAt": "2014-07-15T00:00:00Z",
+      "country": "Germany",
+      "countryCode": "DE",
+      "region": "Europe",
+      "coordinates": null,
+      "organization": "Volkswagen",
+      "system": "no",
+      "technology": null,
+      "industry": "[\"manufacturing\"]",
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Robotics Consultant"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:24",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2014-07-15",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/24",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "asga",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "ASGA™",
+        "classifiedAt": "2014-07-15T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to ASGA™ — Autonomous Systems Governance Architecture using signals: robot. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2014-07-15T00:00:00Z",
+      "updatedAt": "2014-07-15T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-657804",
+      "slug": "oof-aii-657804-nest-smoke-alarm-erroneously-stops-alarming",
+      "title": "Nest Smoke Alarm Erroneously Stops Alarming",
+      "summary": "In testing, Google Nest engineers demonstrated that the Nest Wave feature of their Nest Protect: Smoke + CO Alarm could inadvertently silence genuine alarms.",
+      "eventType": "Incident",
+      "occurredAt": "2014-01-21",
+      "reportedAt": "2014-01-21T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Nest Labs",
+      "system": "no",
+      "technology": "[\"Gesture Recognition\"]",
+      "industry": "[\"other\"]",
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "Fire Victims"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:46",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2014-01-21",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/46",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "cla",
+        "secondaryArchitectureIds": [
+          "aig"
+        ],
+        "architectureIndexState": "CLA™",
+        "classifiedAt": "2014-01-21T00:00:00Z",
+        "confidence": 0.68,
+        "rationale": "Automated mapping matched incident descriptors to CLA™ — Classification Architecture using signals: recognition. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2014-01-21T00:00:00Z",
+      "updatedAt": "2014-01-21T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-737519",
+      "slug": "oof-aii-737519-google-instant-s-allegedly-anti-semitic-results-lead-to-lawsuit-in-france",
+      "title": "Google Instant's Allegedly 'Anti-Semitic' Results Lead To Lawsuit In France",
+      "summary": "The organizations SOS Racisme, Union of Jewish Students of France, Movement Against Racism and for Friendship Among Peoples are suing Google due to its autocomplete software suggesting \"jewish\" when the names of certain public figures were searched on the platform.",
+      "eventType": "Incident",
+      "occurredAt": "2012-01-05",
+      "reportedAt": "2012-01-05T00:00:00Z",
+      "country": "France",
+      "countryCode": "FR",
+      "region": "Europe",
+      "coordinates": null,
+      "organization": "Google",
+      "system": "yes",
+      "technology": null,
+      "industry": "[\"information and communication\"]",
+      "aiSystemType": "[\"autocomplete\", \"search optimization\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Jewish People",
+        "Jewish Public Figures"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:75",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2012-01-05",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/75",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2012-01-05T00:00:00Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2012-01-05T00:00:00Z",
+      "updatedAt": "2012-01-05T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-315781",
+      "slug": "oof-aii-315781-machine-personal-assistants-failed-to-maintain-social-norms",
+      "title": "Machine Personal Assistants Failed to Maintain Social Norms",
+      "summary": "During an experiment of software personal assistants at the Information Sciences Institute (ISI) at the University of Southern California (USC), researchers found that the assistants violated the privacy of their principals and were unable to respect the social norms of the office.",
+      "eventType": "Incident",
+      "occurredAt": "2008-07-01",
+      "reportedAt": "2008-07-01T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Usc Information Sciences Institute",
+      "system": "yes",
+      "technology": null,
+      "industry": "[\"administrative and support service activities\"]",
+      "aiSystemType": "[\"Personal Assistant\"]",
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Privacy & Security",
+        "no"
+      ],
+      "affectedParties": [
+        "Usc Information Sciences Institute"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:44",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "2008-07-01",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/44",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "2008-07-01T00:00:00Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "2008-07-01T00:00:00Z",
+      "updatedAt": "2008-07-01T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-002783",
+      "slug": "oof-aii-002783-kidney-testing-method-allegedly-underestimated-risk-of-black-patients",
+      "title": "Kidney Testing Method Allegedly Underestimated Risk of Black Patients",
+      "summary": "Decades-long use of the estimated glomerular filtration rate (eGFR) method to test kidney function which considers race has been criticized by physicians and medical students for its racist history and inaccuracy against Black patients.",
+      "eventType": "Incident",
+      "occurredAt": "1999-03-16",
+      "reportedAt": "1999-03-16T00:00:00Z",
+      "country": "United States of America",
+      "countryCode": "US",
+      "region": "North America",
+      "coordinates": null,
+      "organization": "Chronic Kidney Disease Epidemiology Collaboration",
+      "system": "no",
+      "technology": null,
+      "industry": "[\"human health and social work activities\"]",
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [
+        "Discrimination and Toxicity",
+        "yes"
+      ],
+      "affectedParties": [
+        "Black Patients",
+        "African American Patients"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:79",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "1999-03-16",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/79",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "1999-03-16T00:00:00Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "1999-03-16T00:00:00Z",
+      "updatedAt": "1999-03-16T00:00:00Z"
+    },
+    {
+      "id": "OOF-AII-952674",
+      "slug": "oof-aii-952674-nuclear-false-alarm",
+      "title": "Nuclear False Alarm",
+      "summary": "An alert of five incoming intercontinental ballistic missiles was properly identified as a false-positive by the Soviet Union operator Stanislov Petrov.",
+      "eventType": "Incident",
+      "occurredAt": "1983-09-26",
+      "reportedAt": "1983-09-26T00:00:00Z",
+      "country": "Russia",
+      "countryCode": "RU",
+      "region": "Europe",
+      "coordinates": null,
+      "organization": "Soviet Union",
+      "system": "no",
+      "technology": null,
+      "industry": "[\"defense\"]",
+      "aiSystemType": null,
+      "severity": "Unclassified",
+      "impactTypes": [
+        "AI system safety, failures, and limitations",
+        "yes"
+      ],
+      "affectedParties": [
+        "All Life On Earth"
+      ],
+      "evidenceConfidence": "Moderate Confidence",
+      "verificationState": "Source Catalogued / OOF Not Assessed",
+      "publicationStatus": "Monitored",
+      "sources": [
+        {
+          "sourceId": "aiid:27",
+          "publisher": "AI Incident Database (Responsible AI Collaborative)",
+          "publicationDate": "1983-09-26",
+          "sourceType": "Official weekly data export",
+          "url": "https://incidentdatabase.ai/cite/27",
+          "datasetUrl": "https://pub-72b2b2fc36ec423189843747af98f80e.r2.dev/AIID_Excel_Export-20260921.xlsx",
+          "retrievedAt": "2026-09-21T00:00:00Z",
+          "verificationStatus": "Source Catalogued / OOF Not Assessed"
+        }
+      ],
+      "architectureRelevance": {
+        "status": "ARCHITECTURE_IDENTIFIED",
+        "classification": "Automated",
+        "primaryArchitectureId": "aig",
+        "secondaryArchitectureIds": [],
+        "architectureIndexState": "AIG®",
+        "classifiedAt": "1983-09-26T00:00:00Z",
+        "confidence": 0.55,
+        "rationale": "Automated mapping assigned the general AI governance architecture because no more specific approved architecture signal was sufficiently explicit. Human review remains available."
+      },
+      "assessment": null,
+      "createdAt": "1983-09-26T00:00:00Z",
+      "updatedAt": "1983-09-26T00:00:00Z"
+    }
+  ]
+}

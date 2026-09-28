@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-09-27T08:17:40Z",
+  "datasetScope": "Public AI incident records catalogued from identified external sources for OOF® monitoring; architecture relevance is not assessed automatically.",
+  "totalIncidents": 240,
+  "incidentsThisMonth": 84,
+  "criticalIncidents": 0,
+  "countriesAffected": 36,
+  "architecturesExposed": 12,
+  "potentialGovernanceGaps": 0,
+  "crossArchitectureIncidents": 177,
+  "stressTestsCompleted": 0,
+  "coverage": {
+    "identified": 240,
+    "reviewRequired": 0,
+    "notIdentified": 0,
+    "notAssessed": 0
+  }
+}

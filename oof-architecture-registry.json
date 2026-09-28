@@ -1,0 +1,1099 @@
+{
+  "schemaVersion": "2.0",
+  "sourceOfTruth": "oof-structured-architecture-index.html",
+  "architectures": [
+    {
+      "id": "trega",
+      "acronym": "TREGA",
+      "acronymLabel": "TREGA™",
+      "displayName": "TREGA™ — Tax-Relevant Event Governance Architecture",
+      "name": "Tax-Relevant Event Governance Architecture",
+      "status": "completed",
+      "source": "oof-structured-architecture-index.html",
+      "standards": [
+        {
+          "name": "Tax-Relevant Event Context Standard - (TRECS)",
+          "url": "Tax-Relevant Event Context Standard - (TRECS).html"
+        },
+        {
+          "name": "Tax-Relevant Event Recognition Standard - (TRERS)",
+          "url": "Tax-Relevant Event Recognition Standard - (TRERS).html"
+        },
+        {
+          "name": "Tax-Relevant Event Formation Standard - (TREFS)",
+          "url": "Tax-Relevant Event Formation Standard - (TREFS).html"
+        },
+        {
+          "name": "Tax-Relevant Event Boundary Standard - (TREBS)",
+          "url": "Tax-Relevant Event Boundary Standard - (TREBS).html"
+        },
+        {
+          "name": "Tax-Relevant Event Timing Standard - (TRETS)",
+          "url": "Tax-Relevant Event Timing Standard - (TRETS).html"
+        },
+        {
+          "name": "Tax-Relevant Event Location Standard - (TRELS)",
+          "url": "Tax-Relevant Event Location Standard - (TRELS).html"
+        },
+        {
+          "name": "Tax-Relevant Event Participation Standard - (TREPS)",
+          "url": "Tax-Relevant Event Participation Standard - (TREPS).html"
+        },
+        {
+          "name": "Tax-Relevant Value Association Standard - (TRVAS)",
+          "url": "Tax-Relevant Value Association Standard - (TRVAS).html"
+        },
+        {
+          "name": "Tax-Relevant Event Relationship Standard - (TRERLS)",
+          "url": "Tax-Relevant Event Relationship Standard - (TRERLS).html"
+        },
+        {
+          "name": "Tax-Relevant Event Determination Standard - (TREDS)",
+          "url": "Tax-Relevant Event Determination Standard - (TREDS).html"
+        },
+        {
+          "name": "Tax-Relevant Event Record Governance Standard - (TREGS)",
+          "url": "Tax-Relevant Event Record Governance Standard - (TREGS).html"
+        },
+        {
+          "name": "Tax-Relevant Event Lifecycle & Continuity Standard - (TRECLS)",
+          "url": "Tax-Relevant Event Lifecycle & Continuity Standard - (TRECLS).html"
+        }
+      ],
+      "standardCount": 12,
+      "pages": [
+        {
+          "url": "TREGA™ Architecture Map.html",
+          "label": "TREGA™ Architecture Map"
+        },
+        {
+          "url": "About TREGA™ - Tax-Relevant Event Governance Architecture.html",
+          "label": "About TREGA™ — Tax-Relevant Event Governance Architecture"
+        },
+        {
+          "url": "TREGA™ Tax-Relevant Event Governance Architecture - Tax-Relevant Event Governance Layer.html",
+          "label": "TREGA™ — Tax-Relevant Event Governance Architecture"
+        },
+        {
+          "url": "TREGA™ Complete Standards & Modules Index.html",
+          "label": "TREGA™ Complete Standards & Modules Index"
+        }
+      ],
+      "primaryPage": {
+        "url": "About TREGA™ - Tax-Relevant Event Governance Architecture.html",
+        "label": "About TREGA™ — Tax-Relevant Event Governance Architecture"
+      }
+    },
+    {
+      "id": "simulos",
+      "acronym": "SIMULOS",
+      "acronymLabel": "SIMULOS®",
+      "displayName": "SIMULOS® — Simulation Governance Architecture",
+      "name": "Simulation Governance Architecture",
+      "status": "completed",
+      "source": "oof-structured-architecture-index.html",
+      "standards": [
+        {
+          "name": "Simulation Object Standard - (SOS)",
+          "url": "Simulation Object Standard - (SOS).html"
+        },
+        {
+          "name": "Simulation Purpose & Scope Standard - (SPSS)",
+          "url": "Simulation Purpose & Scope Standard - (SPSS).html"
+        },
+        {
+          "name": "Reality Representation Standard - (RRS)",
+          "url": "Reality Representation Standard - (RRS).html"
+        },
+        {
+          "name": "Simulation Assumption Standard - (SAS)",
+          "url": "Simulation Assumption Standard - (SAS).html"
+        },
+        {
+          "name": "Simulation Model & Environment Standard - (SMES)",
+          "url": "Simulation Model & Environment Standard - (SMES).html"
+        },
+        {
+          "name": "Simulation Input & Data Standard - (SIDS)",
+          "url": "Simulation Input & Data Standard - (SIDS).html"
+        },
+        {
+          "name": "Simulation Scenario Standard - (SSS)",
+          "url": "Simulation Scenario Standard - (SSS).html"
+        },
+        {
+          "name": "Simulation Execution Standard - (SES)",
+          "url": "Simulation Execution Standard - (SES).html"
+        },
+        {
+          "name": "Simulation Output Governance Standard - (SOGS)",
+          "url": "Simulation Output Governance Standard - (SOGS).html"
+        },
+        {
+          "name": "Simulation-to-Reality Correlation Standard - (SRCS)",
+          "url": "Simulation-to-Reality Correlation Standard - (SRCS).html"
+        },
+        {
+          "name": "Simulation Evidence & Reliance Boundary Standard - (SERBS)",
+          "url": "Simulation Evidence & Reliance Boundary Standard - (SERBS).html"
+        },
+        {
+          "name": "Simulation Lifecycle & Resimulation Standard - (SLRS)",
+          "url": "Simulation Lifecycle & Resimulation Standard - (SLRS).html"
+        }
+      ],
+      "standardCount": 12,
+      "pages": [
+        {
+          "url": "SIMULOS® Architecture Map.html",
+          "label": "SIMULOS® Architecture Map"
+        },
+        {
+          "url": "About SIMULOS® - Simulation Governance Architecture.html",
+          "label": "About SIMULOS® — Simulation Governance Architecture"
+        },
+        {
+          "url": "SIMULOS® Simulation Governance Architecture - Simulation Governance Layer.html",
+          "label": "SIMULOS® — Simulation Governance Architecture"
+        },
+        {
+          "url": "SIMULOS® Complete Standards & Modules Index.html",
+          "label": "SIMULOS® Complete Standards & Modules Index"
+        }
+      ],
+      "primaryPage": {
+        "url": "About SIMULOS® - Simulation Governance Architecture.html",
+        "label": "About SIMULOS® — Simulation Governance Architecture"
+      }
+    },
+    {
+      "id": "validos",
+      "acronym": "VALIDOS",
+      "acronymLabel": "VALIDOS®",
+      "displayName": "VALIDOS® — Validation Governance Architecture",
+      "name": "Validation Governance Architecture",
+      "status": "completed",
+      "source": "oof-structured-architecture-index.html",
+      "standards": [
+        {
+          "name": "Validation Object Standard (VOBS)",
+          "url": "content/v/validos-vobs.html"
+        },
+        {
+          "name": "Validation Purpose & Scope Standard (VPSS)",
+          "url": "content/v/validos-vpss.html"
+        },
+        {
+          "name": "Validation Criteria Standard (VCRS)",
+          "url": "content/v/validos-vcrs.html"
+        },
+        {
+          "name": "Validation Method Standard (VMTS)",
+          "url": "content/v/validos-vmts.html"
+        },
+        {
+          "name": "Validation Evidence Fitness Standard (VEFS)",
+          "url": "content/v/validos-vefs.html"
+        },
+        {
+          "name": "Validation Source Reliability Standard (VSRS)",
+          "url": "content/v/validos-vsrs.html"
+        },
+        {
+          "name": "Validation Execution Standard (VEXS)",
+          "url": "content/v/validos-vexs.html"
+        },
+        {
+          "name": "Validation Determination Standard (VDTS)",
+          "url": "content/v/validos-vdts.html"
+        },
+        {
+          "name": "Validation State Governance Standard (VSGS)",
+          "url": "content/v/validos-vsgs.html"
+        },
+        {
+          "name": "Validation Reliance & Revalidation Standard (VRRS)",
+          "url": "content/v/validos-vrrs.html"
+        }
+      ],
+      "standardCount": 10,
+      "pages": [
+        {
+          "url": "content/v/validos-architecture-map.html",
+          "label": "VALIDOS® Architecture Map"
+        },
+        {
+          "url": "content/v/validos-about.html",
+          "label": "About VALIDOS® — Validation Governance Architecture"
+        },
+        {
+          "url": "content/v/validos-architecture.html",
+          "label": "VALIDOS® — Validation Governance Architecture"
+        },
+        {
+          "url": "content/v/validos-complete-index.html",
+          "label": "VALIDOS® Complete Standards & Modules Index"
+        },
+        {
+          "url": "content/v/validos-four-layer-validation-protocol.html",
+          "label": "VALIDOS® — Four-Layer Validation Protocol™"
+        }
+      ],
+      "primaryPage": {
+        "url": "content/v/validos-about.html",
+        "label": "About VALIDOS® — Validation Governance Architecture"
+      }
+    },
+    {
+      "id": "vfm",
+      "acronym": "VFM",
+      "acronymLabel": "VFM®",
+      "displayName": "VFM® — Value Flow Mechanisms Architecture",
+      "name": "Value Flow Mechanisms Architecture",
+      "status": "completed",
+      "source": "oof-structured-architecture-index.html",
+      "standards": [
+        {
+          "name": "Value Identification Standard (VIS)",
+          "url": "content/vfm/vfm-vis.html"
+        },
+        {
+          "name": "Value Origin Standard (VOS)",
+          "url": "content/vfm/vfm-vos.html"
+        },
+        {
+          "name": "Value Emergence Standard (VES)",
+          "url": "content/vfm/vfm-ves.html"
+        },
+        {
+          "name": "Value Recognition Standard (VRS)",
+          "url": "content/vfm/vfm-vrs.html"
+        },
+        {
+          "name": "Value State Standard (VSS)",
+          "url": "content/vfm/vfm-vss.html"
+        },
+        {
+          "name": "Value Change Standard (VCS)",
+          "url": "content/vfm/vfm-vcs.html"
+        },
+        {
+          "name": "Value Development Standard (VDS)",
+          "url": "content/vfm/vfm-vds.html"
+        },
+        {
+          "name": "Value Degradation Standard (VDGS)",
+          "url": "content/vfm/vfm-vdgs.html"
+        },
+        {
+          "name": "Value Nullification Standard (VNS)",
+          "url": "content/vfm/vfm-vns.html"
+        },
+        {
+          "name": "Value Restoration Standard (VRSS)",
+          "url": "content/vfm/vfm-vrss.html"
+        },
+        {
+          "name": "Value Extinction Standard (VXSS)",
+          "url": "content/vfm/vfm-vxss.html"
+        }
+      ],
+      "standardCount": 11,
+      "pages": [
+        {
+          "url": "content/v/vfm.html",
+          "label": "VFM-Value Flow Mechanism"
+        },
+        {
+          "url": "content/vfm/vfm-architecture-map.html",
+          "label": "VFM® Architecture Map"
+        },
+        {
+          "url": "content/vfm/vfm-about.html",
+          "label": "About VFM® — Value Flow Mechanisms Architecture"
+        },
+        {
+          "url": "content/vfm/vfm-architecture.html",
+          "label": "VFM® — Value Flow Mechanisms Architecture"
+        },
+        {
+          "url": "content/vfm/vfm-complete-index.html",
+          "label": "VFM® Complete Standards & Modules Index"
+        }
+      ],
+      "primaryPage": {
+        "url": "content/vfm/vfm-about.html",
+        "label": "About VFM® — Value Flow Mechanisms Architecture"
+      }
+    },
+    {
+      "id": "integros",
+      "acronym": "INTEGROS",
+      "acronymLabel": "INTEGROS®",
+      "displayName": "INTEGROS® — Integrity Governance Architecture",
+      "name": "Integrity Governance Architecture",
+      "status": "completed",
+      "source": "oof-structured-architecture-index.html",
+      "standards": [
+        {
+          "name": "Integrity Definition Standard (INDS)",
+          "url": "content/integros/Integrity Definition Standard - (INDS).html"
+        },
+        {
+          "name": "Structural Integrity Standard (STIS)",
+          "url": "content/integros/Structural Integrity Standard - (STIS).html"
+        },
+        {
+          "name": "Integrity Condition Standard (ICS)",
+          "url": "content/integros/Integrity Condition Standard - (ICS).html"
+        },
+        {
+          "name": "Integrity Measurement Standard (IMS)",
+          "url": "content/integros/Integrity Measurement Standard - (IMS).html"
+        },
+        {
+          "name": "Integrity State Standard (ISS)",
+          "url": "content/integros/Integrity State Standard - (ISS).html"
+        },
+        {
+          "name": "Integrity Deviation Standard (IDS)",
+          "url": "content/integros/Integrity Deviation Standard - (IDS).html"
+        },
+        {
+          "name": "Integrity Breach Standard (IBS)",
+          "url": "content/integros/Integrity Breach Standard - (IBS).html"
+        },
+        {
+          "name": "Integrity Response Standard (IRS)",
+          "url": "content/integros/Integrity Response Standard - (IRS).html"
+        },
+        {
+          "name": "Integrity Restoration Standard (IRRS)",
+          "url": "content/integros/Integrity Restoration Standard - (IRRS).html"
+        },
+        {
+          "name": "Integrity Assurance Standard (IAS)",
+          "url": "content/integros/Integrity Assurance Standard - (IAS).html"
+        }
+      ],
+      "standardCount": 10,
+      "pages": [
+        {
+          "url": "content/integros/INTEGROS® Architecture Map.html",
+          "label": "INTEGROS® Architecture Map"
+        },
+        {
+          "url": "content/integros/INTEGROS® Complete Standards & Modules Index.html",
+          "label": "INTEGROS® Complete Standards & Modules Index"
+        },
+        {
+          "url": "content/integros/About Integrity Governance Architecture (INTEGROS®).html",
+          "label": "About Integrity Governance Architecture (INTEGROS®)"
+        },
+        {
+          "url": "content/integros/INTEGROS® Integrity Governance Architecture - Integrity Governance Layer.html",
+          "label": "INTEGROS® Integrity Governance Architecture - Integrity Governance Layer"
+        }
+      ],
+      "primaryPage": {
+        "url": "content/integros/About Integrity Governance Architecture (INTEGROS®).html",
+        "label": "About Integrity Governance Architecture (INTEGROS®)"
+      }
+    },
+    {
+      "id": "cla",
+      "acronym": "CLA",
+      "acronymLabel": "CLA™",
+      "displayName": "CLA™ — Classification Architecture",
+      "name": "Classification Architecture",
+      "status": "completed",
+      "source": "oof-structured-architecture-index.html",
+      "standards": [
+        {
+          "name": "Classification Foundation Standard",
+          "url": "content/c/cla-cfs.html"
+        },
+        {
+          "name": "Classification Scope Standard (CSS)",
+          "url": "content/c/cla-css.html"
+        },
+        {
+          "name": "Classification Context Standard (CCXS)",
+          "url": "content/c/cla-ccxs.html"
+        },
+        {
+          "name": "Classification Assignment Standard (CAS)",
+          "url": "content/c/cla-cas-assignment.html"
+        },
+        {
+          "name": "Classification Validation Standard (CVS)",
+          "url": "content/c/cla-cvs.html"
+        },
+        {
+          "name": "Classification Lifecycle Standard (CLS)",
+          "url": "content/c/cla-cls.html"
+        },
+        {
+          "name": "Classification Registry Standard (CRS)",
+          "url": "content/c/cla-crs.html"
+        },
+        {
+          "name": "Classification Interoperability Standard (CIS)",
+          "url": "content/c/cla-cis-interoperability.html"
+        },
+        {
+          "name": "Classification Intelligence Standard (CIS)",
+          "url": "content/c/cla-cis-intelligence.html"
+        },
+        {
+          "name": "Classification Assurance Standard (CAS)",
+          "url": "content/c/cla-cas-assurance.html"
+        }
+      ],
+      "standardCount": 10,
+      "pages": [
+        {
+          "url": "content/c/cla-architecture-map.html",
+          "label": "CLA™ Architecture Map"
+        },
+        {
+          "url": "content/c/cla-about.html",
+          "label": "About Classification Architecture (CLA™)"
+        },
+        {
+          "url": "content/c/cla-architecture.html",
+          "label": "CLA™ — Classification Architecture"
+        },
+        {
+          "url": "content/c/cla-complete-index.html",
+          "label": "CLA™ Complete Standards & Modules Index"
+        }
+      ],
+      "primaryPage": {
+        "url": "content/c/cla-about.html",
+        "label": "About Classification Architecture (CLA™)"
+      }
+    },
+    {
+      "id": "obidenity",
+      "acronym": "OBIDENITY",
+      "acronymLabel": "OBIDENITY®",
+      "displayName": "OBIDENITY® — Origin-Bound Identity Governance Architecture",
+      "name": "Origin-Bound Identity Governance Architecture",
+      "status": "completed",
+      "source": "oof-structured-architecture-index.html",
+      "standards": [
+        {
+          "name": "Auditability Integrity Standard (AUDIS)",
+          "url": "content/o/obid-audis.html"
+        },
+        {
+          "name": "Continuity Integrity Standard (CIS)",
+          "url": "content/o/obid-cis.html"
+        },
+        {
+          "name": "Transfer Integrity Standard (TIS)",
+          "url": "content/o/obid-tis.html"
+        },
+        {
+          "name": "Provenance Integrity Standard (PRIS)",
+          "url": "content/o/obid-pris.html"
+        },
+        {
+          "name": "Responsibility Integrity Standard (RIS)",
+          "url": "content/o/obid-ris.html"
+        },
+        {
+          "name": "Permission Integrity Standard (PIS)",
+          "url": "content/o/obid-pis.html"
+        },
+        {
+          "name": "Authority Integrity Standard (AIS)",
+          "url": "content/o/obid-ais.html"
+        },
+        {
+          "name": "Ownership Integrity Standard (OWIS)",
+          "url": "content/o/obid-owis.html"
+        },
+        {
+          "name": "Identity Integrity Standard (IIS)",
+          "url": "content/o/obid-iis.html"
+        },
+        {
+          "name": "Origin Integrity Standard (OIS)",
+          "url": "content/o/obid-ois.html"
+        }
+      ],
+      "standardCount": 10,
+      "pages": [
+        {
+          "url": "content/o/obidenity-architecture-map.html",
+          "label": "OBIDENITY® Architecture Map"
+        },
+        {
+          "url": "content/o/obidenity-about.html",
+          "label": "About Origin-Bound Identity Governance Architecture (OBIDENITY®)"
+        },
+        {
+          "url": "content/o/obidenity-architecture.html",
+          "label": "OBIDENITY® — Origin-Bound Identity Governance Architecture"
+        },
+        {
+          "url": "content/o/obidenity-complete-index.html",
+          "label": "OBIDENITY® Complete Standards & Modules Index"
+        }
+      ],
+      "primaryPage": {
+        "url": "content/o/obidenity-about.html",
+        "label": "About Origin-Bound Identity Governance Architecture (OBIDENITY®)"
+      }
+    },
+    {
+      "id": "aig",
+      "acronym": "AIG",
+      "acronymLabel": "AIG®",
+      "displayName": "AIG® - Governance Architecture",
+      "name": "Governance Architecture",
+      "status": "completed",
+      "source": "oof-structured-architecture-index.html",
+      "standards": [
+        {
+          "name": "Behavioral Auditability Standard - (BAS)",
+          "url": "content/aig/Behavioral Auditability Standard - (BAS).html"
+        },
+        {
+          "name": "Behavioral Boundary Standard - (BBS)",
+          "url": "content/aig/Behavioral Boundary Standard - (BBS).html"
+        },
+        {
+          "name": "Behavioral Correction Standard - (BCS)",
+          "url": "content/aig/Behavioral Correction Standard - (BCS).html"
+        },
+        {
+          "name": "Behavioral Escalation Standard - (BES)",
+          "url": "content/aig/Behavioral Escalation Standard - (BES).html"
+        },
+        {
+          "name": "Behavioral Evidence Standard - (BVES)",
+          "url": "content/aig/Behavioral Evidence Standard - (BVES).html"
+        },
+        {
+          "name": "Behavioral Integrity Standard - (BIS)",
+          "url": "content/aig/Behavioral Integrity Standard - (BIS).html"
+        },
+        {
+          "name": "Behavioral Interoperability Standard - (BIS)",
+          "url": "content/aig/Behavioral Interoperability Standard - (BIS).html"
+        },
+        {
+          "name": "Behavioral Safety Standard - (BSS)",
+          "url": "content/aig/Behavioral Safety Standard - (BSS).html"
+        },
+        {
+          "name": "Behavioral Trust Standard - (BTS)",
+          "url": "content/aig/Behavioral Trust Standard - (BTS).html"
+        },
+        {
+          "name": "Behavioral Continuity Standard - (BCNS)",
+          "url": "content/aig/Behavioral Continuity Standard - (BCNS).html"
+        }
+      ],
+      "standardCount": 10,
+      "pages": [
+        {
+          "url": "content/aig/AIG® Architecture Map.html",
+          "label": "AIG® Architecture Map"
+        },
+        {
+          "url": "content/aig/About AI Governance Architecture (AIG®).html",
+          "label": "About AI Governance Architecture (AIG®)"
+        },
+        {
+          "url": "content/aig/AIG® Complete Standards & Modules Index.html",
+          "label": "AIG® Complete Standards & Modules Index"
+        }
+      ],
+      "primaryPage": {
+        "url": "content/aig/About AI Governance Architecture (AIG®).html",
+        "label": "About AI Governance Architecture (AIG®)"
+      }
+    },
+    {
+      "id": "goa",
+      "acronym": "GOA",
+      "acronymLabel": "GOA™",
+      "displayName": "GOA™ - Governance Architecture",
+      "name": "Governance Architecture",
+      "status": "completed",
+      "source": "oof-structured-architecture-index.html",
+      "standards": [
+        {
+          "name": "Governance Accountability Standard - (GAS-A)",
+          "url": "content/g/Governance Accountability Standard - (GAS-A).html"
+        },
+        {
+          "name": "Governance Authority Standard - (GAS)",
+          "url": "content/g/Governance Authority Standard - (GAS).html"
+        },
+        {
+          "name": "Governance Boundary Standard - (GBS)",
+          "url": "content/g/Governance Boundary Standard - (GBS).html"
+        },
+        {
+          "name": "Governance Continuity Standard - (GCS)",
+          "url": "content/g/Governance Continuity Standard - (GCS).html"
+        },
+        {
+          "name": "Governance Delegation Standard - (GDS)",
+          "url": "content/g/Governance Delegation Standard - (GDS).html"
+        },
+        {
+          "name": "Governance Integrity Standard - (GIS)",
+          "url": "content/g/Governance Integrity Standard - (GIS).html"
+        },
+        {
+          "name": "Governance Interoperability Standard - (GOIS)",
+          "url": "content/g/Governance Interoperability Standard - (GOIS).html"
+        },
+        {
+          "name": "Governance Scope Standard - (GSS)",
+          "url": "content/g/Governance Scope Standard - (GSS).html"
+        },
+        {
+          "name": "Governance Transparency Standard - (GTS)",
+          "url": "content/g/Governance Transparency Standard - (GTS).html"
+        },
+        {
+          "name": "Governance Validation Standard - (GVS)",
+          "url": "content/g/Governance Validation Standard - (GVS).html"
+        }
+      ],
+      "standardCount": 10,
+      "pages": [
+        {
+          "url": "content/g/GOA™ Architecture Map.html",
+          "label": "GOA™ Architecture Map"
+        },
+        {
+          "url": "content/a/About Governance Architecture (GOA™).html",
+          "label": "About Governance Architecture (GOA™)"
+        },
+        {
+          "url": "content/g/GOA™.html",
+          "label": "GOA™ Architecture Index"
+        },
+        {
+          "url": "content/g/GOA™ Complete Standards & Modules Index.html",
+          "label": "GOA™ Complete Standards & Modules Index"
+        }
+      ],
+      "primaryPage": {
+        "url": "content/a/About Governance Architecture (GOA™).html",
+        "label": "About Governance Architecture (GOA™)"
+      }
+    },
+    {
+      "id": "aga",
+      "acronym": "AGA",
+      "acronymLabel": "AGA™",
+      "displayName": "AGA™ — Accountability Governance Architecture",
+      "name": "Accountability Governance Architecture",
+      "status": "completed",
+      "source": "oof-structured-architecture-index.html",
+      "standards": [
+        {
+          "name": "Relationship Accountability Standard - (RAS)",
+          "url": "content/r/ras.html"
+        },
+        {
+          "name": "Authority Governance Standard - (AGS)",
+          "url": "content/a/ags.html"
+        },
+        {
+          "name": "Authority Delegation Standard - (ADS)",
+          "url": "content/a/ads.html"
+        },
+        {
+          "name": "Authority Validation Standard - (AVS)",
+          "url": "content/a/avs.html"
+        },
+        {
+          "name": "Authority Escalation Standard - (AES)",
+          "url": "content/a/aes.html"
+        },
+        {
+          "name": "Responsibility Governance Standard - (RGS)",
+          "url": "content/r/rgs.html"
+        },
+        {
+          "name": "Capability Readiness Governance Standard - (CRGS)",
+          "url": "content/c/crgs.html"
+        },
+        {
+          "name": "Chain of Control Standard - (CCS)",
+          "url": "content/c/ccs.html"
+        },
+        {
+          "name": "Governance Oversight Standard - (GOS)",
+          "url": "content/g/gos.html"
+        },
+        {
+          "name": "Evidence Accountability Standard - (EAS)",
+          "url": "content/e/eas.html"
+        },
+        {
+          "name": "Accountability Governance Standard - (AGS-A)",
+          "url": "content/a/ags-a.html"
+        },
+        {
+          "name": "Responsibility Assignment Standard - (RAS-A)",
+          "url": "content/r/ras-a.html"
+        },
+        {
+          "name": "Responsibility Continuity Standard - (RCS)",
+          "url": "content/r/rcs.html"
+        },
+        {
+          "name": "Responsibility Traceability Standard - (RTS)",
+          "url": "content/r/rts.html"
+        },
+        {
+          "name": "Decision Accountability Standard - (DAS)",
+          "url": "content/d/das.html"
+        },
+        {
+          "name": "Accountability Continuity Standard - (ACS)",
+          "url": "content/a/acs.html"
+        },
+        {
+          "name": "Accountability Chain Standard - (ACS-C)",
+          "url": "content/a/acs-c.html"
+        },
+        {
+          "name": "CAP™ — Chain of Accountability Protocol",
+          "url": "content/c/cap-aga-protocol.html"
+        },
+        {
+          "name": "Chain Accountability Protocol - (CAP)",
+          "url": "content/c/cap.html"
+        }
+      ],
+      "standardCount": 19,
+      "pages": [
+        {
+          "url": "content/a/ais-aga-map.html",
+          "label": "AGA™ Architecture Map"
+        },
+        {
+          "url": "content/r/ref-aga-architecture-index.html",
+          "label": "AGA™ Architecture Index"
+        },
+        {
+          "url": "content/r/ref-aga-complete-index.html",
+          "label": "AGA™ Complete Standards & Modules Index"
+        }
+      ],
+      "primaryPage": {
+        "url": "content/a/ais-aga-map.html",
+        "label": "AGA™ Architecture Map"
+      }
+    },
+    {
+      "id": "asga",
+      "acronym": "ASGA",
+      "acronymLabel": "ASGA™",
+      "displayName": "ASGA™ — Autonomous Systems Governance Architecture",
+      "name": "Autonomous Systems Governance Architecture",
+      "status": "completed",
+      "source": "oof-structured-architecture-index.html",
+      "standards": [
+        {
+          "name": "Autonomous Identity Standard (AIS)",
+          "url": "content/a/asga-ais.html"
+        },
+        {
+          "name": "Autonomous Authority Standard (AAS)",
+          "url": "content/a/asga-aas.html"
+        },
+        {
+          "name": "Autonomous Execution Standard (AES)",
+          "url": "content/a/asga-aes.html"
+        },
+        {
+          "name": "Autonomous Constraint Standard (ACS)",
+          "url": "content/a/asga-acs.html"
+        },
+        {
+          "name": "Autonomous Risk & Trust Standard (ARTS)",
+          "url": "content/a/asga-arts.html"
+        },
+        {
+          "name": "Autonomous Coordination Standard (ACOS)",
+          "url": "content/a/asga-acos.html"
+        },
+        {
+          "name": "Autonomous Escalation Standard (AESS)",
+          "url": "content/a/asga-aess.html"
+        },
+        {
+          "name": "Autonomous Operational Accountability Standard (AOAS)",
+          "url": "content/a/asga-aoas.html"
+        },
+        {
+          "name": "Autonomous Compatibility Standard (ACPS)",
+          "url": "content/a/asga-acps.html"
+        },
+        {
+          "name": "Autonomous Evolution Standard (AEVS)",
+          "url": "content/a/asga-aevs.html"
+        }
+      ],
+      "standardCount": 10,
+      "pages": [
+        {
+          "url": "content/a/asga-architecture-map.html",
+          "label": "ASGA™ Architecture Map"
+        },
+        {
+          "url": "content/a/asga-about.html",
+          "label": "About Autonomous Systems Governance Architecture (ASGA™)"
+        },
+        {
+          "url": "content/a/asga-architecture.html",
+          "label": "ASGA™ Autonomous Systems Governance Architecture"
+        },
+        {
+          "url": "content/a/asga-complete-index.html",
+          "label": "ASGA™ Complete Standards & Modules Index"
+        }
+      ],
+      "primaryPage": {
+        "url": "content/a/asga-about.html",
+        "label": "About Autonomous Systems Governance Architecture (ASGA™)"
+      }
+    },
+    {
+      "id": "ora",
+      "acronym": "ORA",
+      "acronymLabel": "ORA™",
+      "displayName": "ORA™ - Operational Reality Architecture",
+      "name": "Operational Reality Architecture",
+      "status": "completed",
+      "source": "oof-structured-architecture-index.html",
+      "standards": [
+        {
+          "name": "Operational Reality Standard (ORS)",
+          "url": "content/o/ors.html"
+        },
+        {
+          "name": "Operational Boundary Synchronization Standard (OBS)",
+          "url": "content/o/obs.html"
+        },
+        {
+          "name": "Operational Responsibility Continuity Standard (ORCS)",
+          "url": "content/o/orcs.html"
+        },
+        {
+          "name": "Operational Risk & Trust Integrity Standard (ORTIS)",
+          "url": "content/o/ortis.html"
+        },
+        {
+          "name": "Operational Validity Continuity Standard (OVCS)",
+          "url": "content/o/ovcs.html"
+        },
+        {
+          "name": "Operational Constraint Integrity Standard (OCNS)",
+          "url": "content/o/ocns.html"
+        },
+        {
+          "name": "Operational Escalation Integrity Standard (OESIS)",
+          "url": "content/o/oesis.html"
+        },
+        {
+          "name": "Operational Authority Integrity Standard (OAIS)",
+          "url": "content/o/oais.html"
+        },
+        {
+          "name": "Operational Decision Integrity Standard (ODIS)",
+          "url": "content/o/odis.html"
+        },
+        {
+          "name": "Operational Dependency & Coordination Standard (ODCS)",
+          "url": "content/o/odcs.html"
+        },
+        {
+          "name": "Operational Evidence & Auditability Standard (OEAS)",
+          "url": "content/o/oeas.html"
+        },
+        {
+          "name": "System Recovery & Continuity Standard (SRCS)",
+          "url": "content/s/srcs.html"
+        }
+      ],
+      "standardCount": 12,
+      "pages": [
+        {
+          "url": "content/a/ais-ora-map.html",
+          "label": "ORA™ Architecture Map"
+        },
+        {
+          "url": "content/o/ora-about.html",
+          "label": "About Operational Reality Architecture (ORA™)"
+        },
+        {
+          "url": "content/o/ora-architecture.html",
+          "label": "ORA™ Operational Reality Architecture"
+        },
+        {
+          "url": "content/o/ora-complete-index.html",
+          "label": "ORA™ Complete Standards & Modules Index"
+        }
+      ],
+      "primaryPage": {
+        "url": "content/o/ora-about.html",
+        "label": "About Operational Reality Architecture (ORA™)"
+      }
+    },
+    {
+      "id": "clia",
+      "acronym": "CLIA",
+      "acronymLabel": "CLIA®",
+      "displayName": "CLIA® — Cognitive Governance Intelligence Architecture",
+      "name": "Cognitive Governance Intelligence Architecture",
+      "status": "completed",
+      "source": "oof-structured-architecture-index.html",
+      "standards": [
+        {
+          "name": "Cognitive Integrity Standard (CIS)",
+          "url": "content/c/CIS.html"
+        },
+        {
+          "name": "Human Cognition Integrity Standard (HCIS)",
+          "url": "content/h/HCIS.html"
+        },
+        {
+          "name": "Agent Cognition Integrity Standard (ACIS)",
+          "url": "content/a/ACIS.html"
+        },
+        {
+          "name": "Multi-Agent Cognition Integrity Standard (MCIS)",
+          "url": "content/m/MCIS.html"
+        },
+        {
+          "name": "Cognitive Interpretation Integrity Standard (CIIS)",
+          "url": "content/c/CIIS.html"
+        },
+        {
+          "name": "Cognitive Reasoning Integrity Standard (CRIS)",
+          "url": "content/c/CRIS.html"
+        },
+        {
+          "name": "Cognitive Reality Modeling Standard (CRMS)",
+          "url": "content/c/CRMS.html"
+        },
+        {
+          "name": "Collective Cognition Integrity Standard (CCIS)",
+          "url": "content/c/CCIS.html"
+        },
+        {
+          "name": "Human-AI Cognition Integrity Standard (HAICS)",
+          "url": "content/h/HAICS.html"
+        },
+        {
+          "name": "Cognitive Evolution Governance Standard (CEGS)",
+          "url": "content/c/CEGS.html"
+        }
+      ],
+      "standardCount": 10,
+      "pages": [
+        {
+          "url": "content/a/ais-clia-map.html",
+          "label": "CLIA® Architecture Map"
+        },
+        {
+          "url": "content/r/ref-clia-architecture-index.html",
+          "label": "CLIA® Architecture Index"
+        },
+        {
+          "url": "content/r/ref-clia-complete-index.html",
+          "label": "CLIA® Complete Standards & Modules Index"
+        }
+      ],
+      "primaryPage": {
+        "url": "content/a/ais-clia-map.html",
+        "label": "CLIA® Architecture Map"
+      }
+    },
+    {
+      "id": "mgia",
+      "acronym": "MGIA",
+      "acronymLabel": "MGIA™",
+      "displayName": "MGIA™ — Memory Governance Intelligence Architecture",
+      "name": "Memory Governance Intelligence Architecture",
+      "status": "completed",
+      "source": "oof-structured-architecture-index.html",
+      "standards": [
+        {
+          "name": "Memory Integrity Standard (MIS)",
+          "url": "content/m/Memory Integrity Standard.html"
+        },
+        {
+          "name": "Memory Governance Standard (MGS)",
+          "url": "content/m/Memory Governance Standard - (MGS).html"
+        },
+        {
+          "name": "Agent Memory Integrity Standard (AMIS)",
+          "url": "content/a/Agent Memory Integrity Standard - (AMIS).html"
+        },
+        {
+          "name": "User Memory Integrity Standard (UMIS)",
+          "url": "content/u/User Memory Integrity Standard - (UMIS).html"
+        },
+        {
+          "name": "Group Memory Integrity Standard (GMIS)",
+          "url": "content/g/Group Memory Integrity Standard - (GMIS).html"
+        },
+        {
+          "name": "Temporal Memory Integrity Standard (TMIS)",
+          "url": "content/t/Temporal Memory Integrity Standard - (TMIS).html"
+        },
+        {
+          "name": "Multimodal Memory Integrity Standard (MMIS)",
+          "url": "content/m/Multimodal Memory Integrity Standard - (MMIS).html"
+        },
+        {
+          "name": "Collective Memory Integrity Standard (CMIS)",
+          "url": "content/c/Collective Memory Integrity Standard - (CMIS).html"
+        },
+        {
+          "name": "Memory Evolution Integrity Standard (MEIS)",
+          "url": "content/m/Memory Evolution Integrity Standard - (MEIS).html"
+        },
+        {
+          "name": "Skill Formation Integrity Standard (SFIS)",
+          "url": "content/s/Skill Formation Integrity Standard - (SFIS).html"
+        }
+      ],
+      "standardCount": 10,
+      "pages": [
+        {
+          "url": "content/a/ais-mgia-map.html",
+          "label": "MGIA™ Architecture Map"
+        },
+        {
+          "url": "content/r/ref-mgia-architecture-index.html",
+          "label": "MGIA™ Architecture Index"
+        },
+        {
+          "url": "content/r/ref-mgia-complete-index.html",
+          "label": "MGIA™ Complete Standards & Modules Index"
+        }
+      ],
+      "primaryPage": {
+        "url": "content/a/ais-mgia-map.html",
+        "label": "MGIA™ Architecture Map"
+      }
+    }
+  ],
+  "developmentArchitectures": []
+}
