@@ -1,0 +1,252 @@
+{
+  "source": "World Bank Country API",
+  "sourceUrl": "https://api.worldbank.org/v2/country",
+  "countries": [
+    {
+      "iso": "AD",
+      "name": "Andorra",
+      "lat": 42.5075,
+      "lng": 1.5218
+    },
+    {
+      "iso": "AG",
+      "name": "Antigua and Barbuda",
+      "lat": 17.1175,
+      "lng": -61.8456
+    },
+    {
+      "iso": "AS",
+      "name": "American Samoa",
+      "lat": -14.2846,
+      "lng": -170.691
+    },
+    {
+      "iso": "AW",
+      "name": "Aruba",
+      "lat": 12.5167,
+      "lng": -70.0167
+    },
+    {
+      "iso": "BB",
+      "name": "Barbados",
+      "lat": 13.0935,
+      "lng": -59.6105
+    },
+    {
+      "iso": "BH",
+      "name": "Bahrain",
+      "lat": 26.1921,
+      "lng": 50.5354
+    },
+    {
+      "iso": "BM",
+      "name": "Bermuda",
+      "lat": 32.3293,
+      "lng": -64.706
+    },
+    {
+      "iso": "CV",
+      "name": "Cabo Verde",
+      "lat": 14.9218,
+      "lng": -23.5087
+    },
+    {
+      "iso": "DM",
+      "name": "Dominica",
+      "lat": 15.2976,
+      "lng": -61.39
+    },
+    {
+      "iso": "FM",
+      "name": "Micronesia, Fed. Sts.",
+      "lat": 6.91771,
+      "lng": 158.185
+    },
+    {
+      "iso": "FO",
+      "name": "Faroe Islands",
+      "lat": 61.8926,
+      "lng": -6.91181
+    },
+    {
+      "iso": "GD",
+      "name": "Grenada",
+      "lat": 12.0653,
+      "lng": -61.7449
+    },
+    {
+      "iso": "GU",
+      "name": "Guam",
+      "lat": 13.4443,
+      "lng": 144.794
+    },
+    {
+      "iso": "HK",
+      "name": "Hong Kong SAR, China",
+      "lat": 22.3964,
+      "lng": 114.109
+    },
+    {
+      "iso": "IM",
+      "name": "Isle of Man",
+      "lat": 54.1509,
+      "lng": -4.47928
+    },
+    {
+      "iso": "KI",
+      "name": "Kiribati",
+      "lat": 1.32905,
+      "lng": 172.979
+    },
+    {
+      "iso": "KM",
+      "name": "Comoros",
+      "lat": -11.6986,
+      "lng": 43.2418
+    },
+    {
+      "iso": "KN",
+      "name": "St. Kitts and Nevis",
+      "lat": 17.3,
+      "lng": -62.7309
+    },
+    {
+      "iso": "KY",
+      "name": "Cayman Islands",
+      "lat": 19.3022,
+      "lng": -81.3857
+    },
+    {
+      "iso": "LC",
+      "name": "St. Lucia",
+      "lat": 14.0,
+      "lng": -60.9832
+    },
+    {
+      "iso": "LI",
+      "name": "Liechtenstein",
+      "lat": 47.1411,
+      "lng": 9.52148
+    },
+    {
+      "iso": "MC",
+      "name": "Monaco",
+      "lat": 43.7325,
+      "lng": 7.41891
+    },
+    {
+      "iso": "MH",
+      "name": "Marshall Islands",
+      "lat": 7.11046,
+      "lng": 171.135
+    },
+    {
+      "iso": "MO",
+      "name": "Macao SAR, China",
+      "lat": 22.1667,
+      "lng": 113.55
+    },
+    {
+      "iso": "MP",
+      "name": "Northern Mariana Islands",
+      "lat": 15.1935,
+      "lng": 145.765
+    },
+    {
+      "iso": "MT",
+      "name": "Malta",
+      "lat": 35.9042,
+      "lng": 14.5189
+    },
+    {
+      "iso": "MU",
+      "name": "Mauritius",
+      "lat": -20.1605,
+      "lng": 57.4977
+    },
+    {
+      "iso": "MV",
+      "name": "Maldives",
+      "lat": 4.1742,
+      "lng": 73.5109
+    },
+    {
+      "iso": "NR",
+      "name": "Naoero",
+      "lat": -0.5477,
+      "lng": 166.920867
+    },
+    {
+      "iso": "PF",
+      "name": "French Polynesia",
+      "lat": -17.535,
+      "lng": -149.57
+    },
+    {
+      "iso": "PW",
+      "name": "Palau",
+      "lat": 7.34194,
+      "lng": 134.479
+    },
+    {
+      "iso": "SC",
+      "name": "Seychelles",
+      "lat": -4.6309,
+      "lng": 55.4466
+    },
+    {
+      "iso": "SG",
+      "name": "Singapore",
+      "lat": 1.28941,
+      "lng": 103.85
+    },
+    {
+      "iso": "SM",
+      "name": "San Marino",
+      "lat": 43.9322,
+      "lng": 12.4486
+    },
+    {
+      "iso": "ST",
+      "name": "Sao Tome and Principe",
+      "lat": 0.20618,
+      "lng": 6.6071
+    },
+    {
+      "iso": "TC",
+      "name": "Turks and Caicos Islands",
+      "lat": 21.4602778,
+      "lng": -71.141389
+    },
+    {
+      "iso": "TO",
+      "name": "Tonga",
+      "lat": -21.136,
+      "lng": -175.216
+    },
+    {
+      "iso": "TV",
+      "name": "Tuvalu",
+      "lat": -8.6314877,
+      "lng": 179.089567
+    },
+    {
+      "iso": "VC",
+      "name": "St. Vincent and the Grenadines",
+      "lat": 13.2035,
+      "lng": -61.2653
+    },
+    {
+      "iso": "VG",
+      "name": "British Virgin Islands",
+      "lat": 18.431389,
+      "lng": -64.623056
+    },
+    {
+      "iso": "VI",
+      "name": "Virgin Islands (U.S.)",
+      "lat": 18.3358,
+      "lng": -64.8963
+    }
+  ]
+}

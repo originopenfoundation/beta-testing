@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en" data-ai-incidents-view="countries">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<base href="/" />
+<title>AI Incidents by Country | OOF®</title>
+<link rel="stylesheet" href="/style.css" />
+<link rel="stylesheet" href="/assets/vendor/leaflet-1.9.4/leaflet.css" />
+<link rel="stylesheet" href="/assets/css/oof-ai-incidents.css?v=4" />
+<!-- OOF AI DISCOVERY START -->
+<meta name="description" content="AI Incidents by Country | OOF®. OOF® Global AI Incident Intelligence™ The world produces the incidents. OOF® turns them into governance intelligence. Public." />
+<link rel="canonical" href="https://originopenfoundation.org/ai-incidents/countries/" />
+<link rel="alternate" hreflang="en" href="https://originopenfoundation.org/ai-incidents/countries/" />
+<link rel="alternate" hreflang="x-default" href="https://originopenfoundation.org/ai-incidents/countries/" />
+<link rel="alternate" type="application/ld+json" href="https://originopenfoundation.org/data/oof-site-knowledge-graph.json" title="OOF Site Knowledge Graph" />
+<link rel="alternate" type="text/plain" href="https://originopenfoundation.org/llms.txt" title="OOF LLM Index" />
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="content-language" content="en" />
+<meta property="og:title" content="AI Incidents by Country | OOF®" />
+<meta property="og:description" content="AI Incidents by Country | OOF®. OOF® Global AI Incident Intelligence™ The world produces the incidents. OOF® turns them into governance intelligence. Public." />
+<meta property="og:url" content="https://originopenfoundation.org/ai-incidents/countries/" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="OOF® — OriginOpen® Foundation" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="AI Incidents by Country | OOF®" />
+<meta name="twitter:description" content="AI Incidents by Country | OOF®. OOF® Global AI Incident Intelligence™ The world produces the incidents. OOF® turns them into governance intelligence. Public." />
+<meta name="DC.title" content="AI Incidents by Country | OOF®" />
+<meta name="DC.language" content="en" />
+<meta name="DC.identifier" content="https://originopenfoundation.org/ai-incidents/countries/" />
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","@id":"https://originopenfoundation.org/ai-incidents/countries/#webpage","url":"https://originopenfoundation.org/ai-incidents/countries/","name":"AI Incidents by Country | OOF®","description":"AI Incidents by Country | OOF®. OOF® Global AI Incident Intelligence™ The world produces the incidents. OOF® turns them into governance intelligence. Public.","inLanguage":"en","isPartOf":{"@id":"https://originopenfoundation.org/#website"},"publisher":{"@id":"https://originopenfoundation.org/#organization"},"breadcrumb":{"@type":"BreadcrumbList","@id":"https://originopenfoundation.org/ai-incidents/countries/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"OOF® — OriginOpen® Foundation","item":"https://originopenfoundation.org/"},{"@type":"ListItem","position":2,"name":"AI Incidents by Country | OOF®","item":"https://originopenfoundation.org/ai-incidents/countries/"}]}}</script>
+<!-- OOF AI DISCOVERY END -->
+</head>
+<body>
+<div id="header"></div>
+<main class="oof-incident-app">
+<!-- OOF SEMANTIC CONTENT START -->
+<article class="oof-semantic-article">
+<header class="oof-incident-header">
+<div>
+<h1 id="oof-global-ai-incident-intelligence" data-oof-section-id="true" role="heading" aria-level="1">OOF® Global AI Incident Intelligence™</h1>
+<p>The world produces the incidents. OOF® turns them into governance intelligence.</p>
+</div>
+<p id="incident-data-time" class="oof-incident-data-time">Public dataset synchronizes daily from identified sources.</p>
+</header>
+
+<nav class="oof-incident-nav" aria-label="AI Incident Intelligence views">
+<a href="/ai-incidents/">Monitor</a>
+<a href="/ai-incidents/map/">Map</a>
+<a href="/ai-incidents/latest/">Latest</a>
+<a href="/ai-incidents/critical/">Critical</a>
+<a href="/ai-incidents/architectures/">Architectures</a>
+<a href="/ai-incidents/industries/">Industries</a>
+<a href="/ai-incidents/countries/">Countries</a>
+<a href="/ai-incidents/trends/">Trends</a>
+<a href="/ai-incidents/stress-tests/">Stress Tests</a>
+<a href="/ai-incidents/methodology/">Methodology</a>
+</nav>
+
+<section id="incident-monitor-view">
+<dl class="oof-incident-metrics" aria-label="Public incident dataset summary">
+<div><dt>Total Incidents</dt><dd data-metric="totalIncidents">0</dd></div>
+<div><dt>This Month</dt><dd data-metric="incidentsThisMonth">0</dd></div>
+<div><dt>Critical</dt><dd data-metric="criticalIncidents">0</dd></div>
+<div><dt>Countries</dt><dd data-metric="countriesAffected">0</dd></div>
+<div><dt>Architectures Exposed</dt><dd data-metric="architecturesExposed">0</dd></div>
+<div><dt>Potential Gaps</dt><dd data-metric="potentialGovernanceGaps">0</dd></div>
+<div><dt>Cross-Architecture</dt><dd data-metric="crossArchitectureIncidents">0</dd></div>
+<div><dt>Stress Tests</dt><dd data-metric="stressTestsCompleted">0</dd></div>
+</dl>
+
+<form id="incident-filters" class="oof-incident-filters" aria-label="Filter incidents">
+<label>Search<input name="q" type="search" placeholder="Incident, country, system, architecture" /></label>
+<label>Severity<select name="severity"><option value="">All</option><option>Critical</option><option>High</option><option>Moderate</option><option>Low</option></select></label>
+<label>Event Type<select name="eventType"><option value="">All</option><option>Incident</option><option>Hazard</option><option>Near Miss</option><option>Emerging Risk</option></select></label>
+<label>Coverage<select name="coverage"><option value="">All</option><option value="ARCHITECTURE_IDENTIFIED">Architecture Identified</option><option value="ARCHITECTURE_REVIEW_REQUIRED">Review Required</option><option value="NO_ARCHITECTURE_IDENTIFIED">No Architecture Identified</option><option value="NOT_ASSESSED">Not Assessed</option></select></label>
+<button type="submit">Apply</button>
+<button type="reset">Reset</button>
+</form>
+
+<div class="oof-incident-workspace">
+<section class="oof-incident-map-pane" aria-labelledby="incident-map-title">
+<div class="oof-incident-section-heading"><h2 id="incident-map-title" data-oof-section-id="true" role="heading" aria-level="2">Global Incident Map</h2><p>Countries are colored by the number of public incident records.</p></div>
+<div id="incident-map" aria-label="World map of public AI incidents"></div>
+<div class="oof-incident-map-legend" aria-label="Incident count legend">
+<span><i class="low"></i>1–2 incidents</span>
+<span><i class="moderate"></i>3–5 incidents</span>
+<span><i class="high"></i>6–14 incidents</span>
+<span><i class="very-high"></i>15+ incidents</span>
+<span><i class="neutral"></i>No public incident data</span>
+</div>
+</section>
+
+<section class="oof-incident-list-pane" aria-labelledby="incident-list-title">
+<div class="oof-incident-section-heading"><h2 id="incident-list-title" data-oof-section-id="true" role="heading" aria-level="2">Incident Monitor</h2><p id="incident-result-count">0 public records</p></div>
+<div id="incident-list" class="oof-incident-list"></div>
+<p id="incident-empty" class="oof-incident-empty">No approved public incident records currently match this view.</p>
+</section>
+</div>
+</section>
+
+<section id="incident-methodology-view" class="oof-incident-methodology" hidden>
+<h2 id="methodology" data-oof-section-id="true" role="heading" aria-level="2">Methodology</h2>
+<p>The platform separates three layers: <b>Verified Fact</b>, <b>OOF® Classification</b>, and <b>OOF® Governance Assessment</b>. OOF® analysis is never presented as an externally established fact.</p>
+<h3 id="source-collection-and-verification" data-oof-section-id="true" role="heading" aria-level="2">Source Collection and Verification</h3>
+<p>Each factual field retains source provenance. Public records require review status and evidence confidence. Copyrighted articles are not reproduced.</p>
+<h3 id="incident-monitoring-and-assessment" data-oof-section-id="true" role="heading" aria-level="2">Incident Monitoring and Assessment</h3>
+<p>Monitoring is broad and lightweight. Full architecture assessment and stress testing are selective, evidence-based, versioned, and subject to human review.</p>
+<h3 id="architecture-mapping" data-oof-section-id="true" role="heading" aria-level="2">Architecture Mapping</h3>
+<p>Architecture identities come from the official OOF® Architecture Index. Automated relevance does not constitute an approved Architecture Assessment and never creates or modifies OOF® methodology.</p>
+<h3 id="coverage-states" data-oof-section-id="true" role="heading" aria-level="2">Coverage States</h3>
+<p>Public monitoring distinguishes Architecture Identified, Architecture Review Required, No OOF® Architecture Identified, and Not Assessed. A missing automated match is not a confirmed governance gap.</p>
+<h3 id="dataset-scope" data-oof-section-id="true" role="heading" aria-level="2">Dataset Scope</h3>
+<p>Counts and rates describe only the approved public dataset and must not be treated as absolute proof of architecture quality, company fault, legal liability, regulatory non-compliance, or global incident prevalence.</p>
+</section>
+</article>
+<!-- OOF SEMANTIC CONTENT END -->
+</main>
+<div id="footer"></div>
+<script src="/header.js"></script>
+<script src="/assets/vendor/leaflet-1.9.4/leaflet.js"></script>
+<script type="module" src="/assets/js/ai-incidents/app.js?v=5"></script>
+<script>
+fetch("/header.html").then(r => r.text()).then(v => { document.getElementById("header").innerHTML = v; if (window.normalizePageLinks) window.normalizePageLinks(); });
+fetch("/footer.html").then(r => r.text()).then(v => { document.getElementById("footer").innerHTML = v; if (window.normalizePageLinks) window.normalizePageLinks(); });
+</script>
+</body>
+</html>

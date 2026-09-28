@@ -1,0 +1,244 @@
+.oof-map-shell {
+  max-width: 1240px;
+}
+
+.oof-map-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 16px;
+}
+
+.oof-map-heading h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.oof-map-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  font-size: 13px;
+}
+
+.oof-map-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.oof-map-key {
+  width: 12px;
+  height: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.oof-map-key-completed {
+  background: #075938;
+}
+
+.oof-map-key-development {
+  background: #075da8;
+}
+
+.oof-map-territories {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: repeat(4, minmax(130px, 1fr));
+  grid-template-areas:
+    "GOA INTEGROS AIG ORA"
+    "GOA ASGA CLIA MGIA"
+    "TREGA AGA OBIDENITY CLA"
+    "SIMULOS VFM VALIDOS VALIDOS";
+  gap: 2px;
+  container-type: inline-size;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  min-height: 620px;
+  padding: 2px;
+  overflow: clip;
+  border: 1px solid rgba(255, 255, 255, 0.82);
+  background: #737775;
+  isolation: isolate;
+}
+
+.oof-map-territory {
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  padding: clamp(7px, 1.35cqw, 17px);
+  border: 1px solid rgba(255, 255, 255, 0.92);
+  color: #fff;
+  text-align: left;
+  cursor: pointer;
+  background: #075938;
+  overflow: hidden;
+  transition: filter 150ms ease, background-color 150ms ease, box-shadow 150ms ease;
+}
+
+.oof-map-territory[data-status="development"] {
+  background: #075da8;
+}
+
+.oof-map-territory:hover,
+.oof-map-territory:focus-visible {
+  filter: brightness(1.22);
+  outline: 2px solid #fff;
+  outline-offset: -3px;
+  z-index: 4;
+}
+
+.oof-map-territory[aria-pressed="true"] {
+  background: #0a7650;
+  box-shadow: inset 0 0 0 4px #fff;
+  z-index: 3;
+}
+
+.oof-map-territory[data-status="development"][aria-pressed="true"] {
+  background: #0874c8;
+}
+
+.oof-map-acronym {
+  display: block;
+  max-width: 100%;
+  white-space: nowrap;
+  font-size: clamp(17px, 2.8cqw, 34px);
+  font-weight: 800;
+  line-height: 1;
+}
+
+.oof-map-name {
+  display: block;
+  max-width: 28ch;
+  overflow-wrap: anywhere;
+  font-size: clamp(11px, 1.65cqw, 16px);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.oof-map-territory-status {
+  display: block;
+  margin-top: 2px;
+  font-size: clamp(8px, 1cqw, 11px);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.oof-map-status {
+  margin: 12px 0 0;
+  font-size: 13px;
+}
+
+.oof-map-selection {
+  max-width: 1240px;
+  border-top: 1px solid rgba(255, 255, 255, 0.55);
+}
+
+.oof-map-selection-header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 16px 0;
+}
+
+.oof-map-selection-header h2,
+.oof-map-selection-status {
+  margin: 0;
+}
+
+.oof-map-selection-status {
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.oof-map-selection-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px 16px;
+}
+
+.oof-map-selection-links a {
+  color: #fff;
+  text-decoration-color: rgba(255, 255, 255, 0.7);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.oof-map-selection-links a:hover,
+.oof-map-selection-links a:focus-visible {
+  color: #fff;
+  text-decoration-color: #fff;
+}
+
+.oof-map-frame {
+  width: 100%;
+  min-height: 760px;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  background: #8d8d8d;
+}
+
+.oof-map-development-note {
+  padding: 22px 0;
+  font-weight: 700;
+}
+
+@media (max-width: 760px) {
+  .oof-map-heading,
+  .oof-map-selection-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .oof-map-selection-links {
+    justify-content: flex-start;
+  }
+
+  .oof-map-territories {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    grid-template-areas: none;
+    grid-auto-rows: minmax(112px, auto);
+    gap: 2px;
+    padding: 0;
+    min-height: 0;
+    aspect-ratio: auto;
+    overflow: visible;
+    border: 0;
+    background: transparent;
+  }
+
+  .oof-map-territory {
+    grid-area: auto !important;
+    width: 100%;
+    min-height: 112px;
+    height: auto;
+  }
+
+  .oof-map-acronym {
+    font-size: 29px;
+  }
+
+  .oof-map-name {
+    font-size: 15px;
+  }
+
+  .oof-map-frame {
+    min-height: 620px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .oof-map-territory {
+    transition: none;
+  }
+}
