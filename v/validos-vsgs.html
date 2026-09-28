@@ -1,0 +1,1423 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Validation State Governance Standard</title>
+<link rel="stylesheet" href="../../style.css" />
+<link rel="alternate" type="application/json" href="../../data/oof-relationship-registry.json" title="OOF Governed Relationship Registry" />
+<!-- OOF AI DISCOVERY START -->
+<meta name="description" content="Validation State Governance Standard. Standard ID: VSGS OriginID: OOF-OID-AI-VALIDOS-VSGS-2026-08-12-0009 Architecture: VALIDOS® — Validation Governance." />
+<link rel="canonical" href="https://originopenfoundation.org/content/v/validos-vsgs.html" />
+<link rel="alternate" hreflang="en" href="https://originopenfoundation.org/content/v/validos-vsgs.html" />
+<link rel="alternate" hreflang="x-default" href="https://originopenfoundation.org/content/v/validos-vsgs.html" />
+<link rel="alternate" type="application/ld+json" href="https://originopenfoundation.org/data/oof-site-knowledge-graph.json" title="OOF Site Knowledge Graph" />
+<link rel="alternate" type="text/plain" href="https://originopenfoundation.org/llms.txt" title="OOF LLM Index" />
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="content-language" content="en" />
+<meta property="og:title" content="Validation State Governance Standard" />
+<meta property="og:description" content="Validation State Governance Standard. Standard ID: VSGS OriginID: OOF-OID-AI-VALIDOS-VSGS-2026-08-12-0009 Architecture: VALIDOS® — Validation Governance." />
+<meta property="og:url" content="https://originopenfoundation.org/content/v/validos-vsgs.html" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="OOF® — OriginOpen® Foundation" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Validation State Governance Standard" />
+<meta name="twitter:description" content="Validation State Governance Standard. Standard ID: VSGS OriginID: OOF-OID-AI-VALIDOS-VSGS-2026-08-12-0009 Architecture: VALIDOS® — Validation Governance." />
+<meta name="DC.title" content="Validation State Governance Standard" />
+<meta name="DC.language" content="en" />
+<meta name="DC.identifier" content="https://originopenfoundation.org/content/v/validos-vsgs.html" />
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","@id":"https://originopenfoundation.org/content/v/validos-vsgs.html#webpage","url":"https://originopenfoundation.org/content/v/validos-vsgs.html","name":"Validation State Governance Standard","description":"Validation State Governance Standard. Standard ID: VSGS OriginID: OOF-OID-AI-VALIDOS-VSGS-2026-08-12-0009 Architecture: VALIDOS® — Validation Governance.","inLanguage":"en","isPartOf":[{"@id":"https://originopenfoundation.org/#website"},{"@id":"https://originopenfoundation.org/content/v/validos-architecture-map.html#webpage"},{"@id":"https://originopenfoundation.org/content/v/validos-complete-index.html#webpage"},{"@id":"https://originopenfoundation.org/content/v/validos-four-layer-validation-protocol.html#webpage"}],"publisher":{"@id":"https://originopenfoundation.org/#organization"},"breadcrumb":{"@type":"BreadcrumbList","@id":"https://originopenfoundation.org/content/v/validos-vsgs.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"OOF® — OriginOpen® Foundation","item":"https://originopenfoundation.org/"},{"@type":"ListItem","position":2,"name":"Validation State Governance Standard","item":"https://originopenfoundation.org/content/v/validos-vsgs.html"}]},"headline":"Validation State Governance Standard","author":{"@id":"https://originopenfoundation.org/#organization"},"mainEntityOfPage":{"@id":"https://originopenfoundation.org/content/v/validos-vsgs.html#webpage"},"keywords":["VALIDOS® — Validation Governance Architecture","AI & Interpretation","Validation Governance","Validation State Governance"],"about":[{"@type":"Thing","name":"VALIDOS® — Validation Governance Architecture"},{"@type":"Thing","name":"AI & Interpretation"},{"@type":"Thing","name":"Validation Governance"},{"@type":"Thing","name":"Validation State Governance"}],"relatedLink":["https://originopenfoundation.org/content/v/validos-vsgs-vsaem-1.html","https://originopenfoundation.org/content/v/validos-vsgs-vscam-2.html","https://originopenfoundation.org/content/v/validos-vsgs-vmcsmm-3.html","https://originopenfoundation.org/content/v/validos-vsgs-vstrm-4.html","https://originopenfoundation.org/content/v/validos-vsgs-vsclrm-5.html","https://originopenfoundation.org/content/v/validos-architecture-map.html","https://originopenfoundation.org/content/v/validos-complete-index.html","https://originopenfoundation.org/content/v/validos-four-layer-validation-protocol.html","https://originopenfoundation.org/content/v/validos-vobs.html","https://originopenfoundation.org/content/v/validos-vexs.html","https://originopenfoundation.org/content/v/validos-vdts.html","https://originopenfoundation.org/content/v/validos-vrrs.html","https://originopenfoundation.org/content/v/validos-vsgs-about.html","https://originopenfoundation.org/content/v/validos-architecture.html"],"citation":["https://originopenfoundation.org/content/v/validos-vobs.html","https://originopenfoundation.org/content/v/validos-vexs.html","https://originopenfoundation.org/content/v/validos-vdts.html","https://originopenfoundation.org/content/v/validos-vrrs.html","https://originopenfoundation.org/content/v/validos-vsgs-about.html","https://originopenfoundation.org/content/v/validos-architecture.html"],"hasPart":[{"@id":"https://originopenfoundation.org/content/v/validos-vsgs-vsaem-1.html#webpage"},{"@id":"https://originopenfoundation.org/content/v/validos-vsgs-vscam-2.html#webpage"},{"@id":"https://originopenfoundation.org/content/v/validos-vsgs-vmcsmm-3.html#webpage"},{"@id":"https://originopenfoundation.org/content/v/validos-vsgs-vstrm-4.html#webpage"},{"@id":"https://originopenfoundation.org/content/v/validos-vsgs-vsclrm-5.html#webpage"}],"identifier":"OOF-OID-AI-VALIDOS-VSGS-2026-08-12-0009","version":"1.0","creativeWorkStatus":"Canonical · Open Standard","additionalProperty":[{"@type":"PropertyValue","name":"OriginID","value":"OOF-OID-AI-VALIDOS-VSGS-2026-08-12-0009"},{"@type":"PropertyValue","name":"Architecture","value":"VALIDOS® — Validation Governance Architecture"},{"@type":"PropertyValue","name":"Category","value":"AI & Interpretation"},{"@type":"PropertyValue","name":"Subcategory","value":"Validation Governance"},{"@type":"PropertyValue","name":"Type","value":"Parent Standard"},{"@type":"PropertyValue","name":"Governed Space","value":"Validation State Governance"},{"@type":"PropertyValue","name":"Version","value":"1.0"},{"@type":"PropertyValue","name":"Status","value":"Canonical · Open Standard"},{"@type":"PropertyValue","name":"Canonical Language","value":"English (UCL™)"}]}</script>
+<!-- OOF AI DISCOVERY END -->
+</head>
+<body>
+<div id="header"></div>
+<!-- OOF SEMANTIC CONTENT START -->
+<main class="oof-semantic-main"><article class="oof-semantic-article">
+
+<section class="container">
+<h2 id="validation-state-governance-standard" data-oof-section-id="true" role="heading" aria-level="1">Validation State Governance Standard</h2>
+</section>
+
+<section class="container">
+<div class="oof-warning3">
+<p class="podstand"><b>Standard ID: </b>VSGS<br>
+<b>OriginID: </b>OOF-OID-AI-VALIDOS-VSGS-2026-08-12-0009<br>
+<b>Architecture: </b>VALIDOS® — Validation Governance Architecture<br>
+<b>Category: </b>AI &amp; Interpretation<br>
+<b>Subcategory: </b>Validation Governance<br>
+<b>Type: </b>Parent Standard<br>
+<b>Governed Space: </b>Validation State Governance<br>
+<b>Version: </b>1.0<br>
+<b>Status: </b>Canonical · Open Standard<br>
+<b>Effective Date: </b>12 August 2026<br>
+<b>Compatibility: </b>OOF® Methodology OS™ · GOA™ · OBIDENITY® · INTEGROS®<br>
+· ORA™ · AGA™ · AIG® · CLIA® · MGIA™ · ASGA™ · RIS™<br>
+<b>AI-Readable: </b>Yes<br>
+<b>Authority: </b>OOF®<br>
+<b>Protection: </b>MIP® — Methodological Intellectual Property<br>
+<b>Canonical Language: </b>English (UCL™)
+</p><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="canonical-definition" data-oof-section-id="true" role="heading" aria-level="2">Canonical Definition</h1>
+<a><b>Validation State Governance Standard (VSGS) </b>defines the governance<br>
+conditions under which Validation Objects are assigned, maintained,<br>
+transitioned, restricted, suspended, invalidated, expired,<br>
+superseded, and reclassified across formal Validation States based<br>
+upon applicable Validation Determinations, object identity, object<br>
+version, scope, conditions, lifecycle events, material change,<br>
+temporal validity, unresolved limitations, and<br>
+revalidation requirements.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="canonical-definition-extension" data-oof-section-id="true" role="heading" aria-level="2">Canonical Definition Extension</h1>
+<a>A Validation Determination describes what a governed validation<br>
+event demonstrated.</a><br><br>
+<a>A Validation State describes the current formal validation condition<br>
+of the Validation Object.</a><br><br>
+<a>These are not the same.</a><br><br>
+<a>A system may receive a Positive Validation Determination today.</a><br><br>
+<a>Tomorrow:</a><br><br>
+<a><ul>
+<li>the object may change,</li>
+<li>its configuration may change,</li>
+<li>relevant evidence may become outdated,</li>
+<li>a source may become unreliable,</li>
+<li>an operational environment may materially change,</li>
+<li>a validation condition may no longer hold,</li>
+<li>the determination may expire,</li>
+<li>or new contradictory information may emerge.</li>
+</ul></a><br><br>
+<a>The original determination remains historically valid as a record of<br>
+what the validation event demonstrated.</a><br><br>
+<a>But the Validation State of the object may no longer<br>
+remain unchanged.</a><br><br>
+<a>Validation State Governance Standard therefore governs<br>
+the transition:</a><br><br>
+<a><b>Validation Determination → Validation State → Validation State</b><br>
+<b>Change → Validation State Continuity</b></a><br><br>
+<a>The standard establishes the conditions necessary to determine:</a><br><br>
+<a><ul>
+<li>which Validation Determination governs the current object state,</li>
+<li>whether the determination remains applicable,</li>
+<li>whether the Validation Object remains materially equivalent to the validated object,</li>
+<li>whether determination conditions remain satisfied,</li>
+<li>whether temporal validity remains active,</li>
+<li>whether material change has occurred,</li>
+<li>whether new evidence or information affects the state,</li>
+<li>whether revalidation is required,</li>
+<li>whether the current state must be restricted,</li>
+<li>whether the state must be suspended,</li>
+<li>whether prior validation has expired,</li>
+<li>whether validation has been invalidated,</li>
+<li>whether a newer determination supersedes an earlier state,</li>
+<li>and what formal Validation State the Validation Object currently holds.</li>
+</ul></a><br><br>
+<a>VSGS does not determine whether reliance upon that state<br>
+is permitted.</a><br><br>
+<a>It governs the <b>current validation condition of the object itself.</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="core-question" data-oof-section-id="true" role="heading" aria-level="2">Core Question</h1>
+<a><b>What formal Validation State does the Validation Object currently</b><br>
+<b>hold, and under which conditions may that state remain, change,</b><br>
+<b>expire, suspend, or require revalidation?</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="purpose" data-oof-section-id="true" role="heading" aria-level="2">Purpose</h1>
+<a>The purpose of Validation State Governance Standard is to prevent<br>
+historical validation conclusions from being treated as<br>
+permanently current.</a><br><br>
+<a>The standard addresses a fundamental lifecycle problem:</a><br><br>
+<a><b>Validated once does not mean validated forever.</b></a><br><br>
+<a>Validation Objects evolve.</a><br><br>
+<a>Systems change.</a><br><br>
+<a>Models are updated.</a><br><br>
+<a>Data changes.</a><br><br>
+<a>Dependencies change.</a><br><br>
+<a>Operating environments change.</a><br><br>
+<a>Threat conditions change.</a><br><br>
+<a>Regulatory requirements change.</a><br><br>
+<a>Evidence ages.</a><br><br>
+<a>New information appears.</a><br><br>
+<a>Validation State Governance ensures that validation remains<br>
+connected to the current reality of the Validation Object rather<br>
+than only to a historical validation event.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="governance-objective" data-oof-section-id="true" role="heading" aria-level="2">Governance Objective</h1>
+<a>VSGS establishes a governed Validation State layer capable of<br>
+maintaining a current and traceable validation condition across the<br>
+complete lifecycle of a Validation Object.</a><br><br>
+<a>The standard seeks to ensure that:</a><br><br>
+<a><ul>
+<li>every formal Validation State is connected to a legitimate Validation Determination,</li>
+<li>Validation State remains object-specific,</li>
+<li>Validation State remains version-specific where required,</li>
+<li>scope and conditions remain attached,</li>
+<li>state validity periods remain visible,</li>
+<li>state changes are governed,</li>
+<li>material object changes are detected,</li>
+<li>revalidation triggers are identifiable,</li>
+<li>outdated determinations do not remain silently active,</li>
+<li>suspended states remain distinguishable from invalidated states,</li>
+<li>expired validation remains distinguishable from negative validation,</li>
+<li>superseded determinations remain historically visible,</li>
+<li>and the current Validation State can be reconstructed throughout the object lifecycle.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="operational-role" data-oof-section-id="true" role="heading" aria-level="2">Operational Role</h1>
+<a>Validation State Governance Standard serves as the <b>lifecycle-state</b><br>
+<b>layer of VALIDOS®.</b></a><br><br>
+<a>The preceding standards establish:</a><br><br>
+<a><b>Validation Object → Validation Purpose &amp; Scope → Validation Criteria</b><br>
+<b>→ Validation Method → Validation Evidence Fitness → Validation</b><br>
+<b>Source Reliability → Validation Execution → Validation Determination</b></a><br><br>
+<a>VSGS then asks:</a><br><br>
+<a><b>What Validation State should the object now hold, and how does that</b><br>
+<b>state evolve over time?</b></a><br><br>
+<a>Its structural progression is:</a><br><br>
+<a><b>Validation Determination → State Eligibility Assessment → Validation</b><br>
+<b>State Assignment → State Activation → State Monitoring → State</b><br>
+<b>Change Detection → State Transition → State Continuity</b></a><br><br>
+<a>The resulting state becomes the governed basis upon which Validation<br>
+Reliance &amp; Revalidation governance can operate.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="governance-scope" data-oof-section-id="true" role="heading" aria-level="2">Governance Scope</h1>
+<a>Validation State Governance Standard governs:</a><br><br>
+<a><ul>
+<li>Validation State definition,</li>
+<li>state assignment,</li>
+<li>state activation,</li>
+<li>state applicability,</li>
+<li>state scope,</li>
+<li>state conditions,</li>
+<li>state limitations,</li>
+<li>state restrictions,</li>
+<li>state effective point,</li>
+<li>state validity period,</li>
+<li>state expiration,</li>
+<li>state suspension,</li>
+<li>state resumption,</li>
+<li>state invalidation,</li>
+<li>state supersession,</li>
+<li>state withdrawal,</li>
+<li>state transition,</li>
+<li>state continuity,</li>
+<li>state history,</li>
+<li>state change detection,</li>
+<li>object-change detection,</li>
+<li>material-change assessment,</li>
+<li>state reassessment,</li>
+<li>revalidation-required status,</li>
+<li>state uncertainty,</li>
+<li>state authority where applicable,</li>
+<li>and Validation State traceability.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="validation-state" data-oof-section-id="true" role="heading" aria-level="2">Validation State</h1>
+<a>A <b>Validation State </b>is the formal lifecycle condition assigned to a<br>
+Validation Object based upon the currently applicable governed<br>
+validation record.</a><br><br>
+<a>A Validation State is not merely a label.</a><br><br>
+<a>It should remain connected to:</a><br><br>
+<a><ul>
+<li>Validation Object,</li>
+<li>object version,</li>
+<li>applicable determination,</li>
+<li>Validation Purpose,</li>
+<li>Validation Scope,</li>
+<li>Validation Depth,</li>
+<li>conditions,</li>
+<li>restrictions,</li>
+<li>limitations,</li>
+<li>effective point,</li>
+<li>validity period,</li>
+<li>change triggers,</li>
+<li>and revalidation requirements.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="validation-determination-and-validation-state" data-oof-section-id="true" role="heading" aria-level="2">Validation Determination and Validation State</h1>
+<a>VALIDOS® establishes a strict architectural distinction:</a><br><br>
+<a><b>Validation Determination asks:</b></a><br><br>
+<a><b>What did the governed validation event demonstrate?</b></a><br><br>
+<a><b>Validation State asks:</b></a><br><br>
+<a><b>What validation condition does the Validation Object currently hold?</b></a><br><br>
+<a>A determination is an event-level conclusion.</a><br><br>
+<a>A state is a lifecycle-level condition.</a><br><br>
+<a>This distinction allows historical validation evidence to remain<br>
+intact while current validation status changes.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="canonical-validation-states" data-oof-section-id="true" role="heading" aria-level="2">Canonical Validation States</h1>
+<a>VSGS may establish formal Validation States including:</a><br><br>
+<a><b>Validation Required</b></a><br><br>
+<a>The Validation Object requires formal validation before an<br>
+applicable governed validation state can be established.</a><br><br>
+<a><b>Validation Pending</b></a><br><br>
+<a>Validation has been initiated or scheduled but has not yet produced<br>
+a formal Validation Determination sufficient for state assignment.</a><br><br>
+<a><b>Partially Validated</b></a><br><br>
+<a>Only part of the Validation Object, Validation Scope, criterion<br>
+structure, operating environment, population, or other governed<br>
+domain possesses a positive or conditional validation basis.</a><br><br>
+<a><b>Conditionally Validated</b></a><br><br>
+<a>The Validation Object possesses a positive validation basis only<br>
+while explicit conditions, limitations, restrictions, or operating<br>
+boundaries remain satisfied.</a><br><br>
+<a><b>Validated</b></a><br><br>
+<a>The Validation Object possesses a currently applicable Positive<br>
+Validation Determination sufficient to support an active Validation<br>
+State within the defined scope, version, depth, and<br>
+validity conditions.</a><br><br>
+<a><b>Validation Conflicted</b></a><br><br>
+<a>Material unresolved validation conflict prevents one coherent<br>
+unrestricted state from being represented.</a><br><br>
+<a><b>Validation Suspended</b></a><br><br>
+<a>A previously active Validation State has been temporarily placed<br>
+into non-active status because material uncertainty, change,<br>
+investigation, or unresolved condition requires reassessment.</a><br><br>
+<a><b>Invalidated</b></a><br><br>
+<a>A previously supported Validation State has lost its governing<br>
+validation basis because the validation conclusion or its<br>
+applicability has been materially destroyed.</a><br><br>
+<a><b>Validation Expired</b></a><br><br>
+<a>The temporal validity or defined lifecycle period of the active<br>
+validation state has ended.</a><br><br>
+<a><b>Revalidation Required</b></a><br><br>
+<a>Material change, expiration, new evidence, changed risk, changed<br>
+environment, or another governed trigger requires new validation<br>
+before the object can regain or maintain an applicable<br>
+validation state.</a><br><br>
+<a>Additional state subcategories may be defined where justified by<br>
+domain-specific requirements.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-assignment" data-oof-section-id="true" role="heading" aria-level="2">State Assignment</h1>
+<a>A Validation State should not be assigned directly from intuition,<br>
+reputation, or historical claims.</a><br><br>
+<a>State Assignment should derive from:</a><br><br>
+<a><ul>
+<li>applicable Overall Validation Determination,</li>
+<li>current Validation Object identity,</li>
+<li>current object version,</li>
+<li>current scope,</li>
+<li>current conditions,</li>
+<li>current environment,</li>
+<li>current validity period,</li>
+<li>and any material changes occurring after determination.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="positive-determination-and-validated-state" data-oof-section-id="true" role="heading" aria-level="2">Positive Determination and Validated State</h1>
+<a>A Positive Validation Determination may support assignment of:</a><br><br>
+<a><b>Validated</b></a><br><br>
+<a>but only where:</a><br><br>
+<a><ul>
+<li>the determination remains applicable,</li>
+<li>the object remains materially equivalent,</li>
+<li>scope remains valid,</li>
+<li>determination conditions remain satisfied,</li>
+<li>no suspension or invalidation condition exists,</li>
+<li>and the validation has not expired.</li>
+</ul></a><br><br>
+<a>Therefore:</a><br><br>
+<a><b>Positive Validation Determination ≠ Automatically Permanent</b><br>
+<b>Validated State</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="conditional-determination-and-state" data-oof-section-id="true" role="heading" aria-level="2">Conditional Determination and State</h1>
+<a>A Conditional Validation Determination may normally support:</a><br><br>
+<a><b>Conditionally Validated</b></a><br><br>
+<a>rather than unrestricted:</a><br><br>
+<a><b>Validated</b></a><br><br>
+<a>The conditions defining that state must remain attached.</a><br><br>
+<a>If the conditions cease to hold, the state may transition.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="partial-determination-and-state" data-oof-section-id="true" role="heading" aria-level="2">Partial Determination and State</h1>
+<a>A Partial Validation Determination may support:</a><br><br>
+<a><b>Partially Validated</b></a><br><br>
+<a>where only defined portions of the object or scope possess<br>
+sufficient validation basis.</a><br><br>
+<a>The validated and non-validated portions must<br>
+remain distinguishable.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="negative-determination-and-state" data-oof-section-id="true" role="heading" aria-level="2">Negative Determination and State</h1>
+<a>A Negative Validation Determination does not necessarily imply that<br>
+the object must be permanently categorized as Invalidated.</a><br><br>
+<a>The actual state may depend upon whether:</a><br><br>
+<a><ul>
+<li>the object was previously Validated,</li>
+<li>this is the first validation,</li>
+<li>scope differs,</li>
+<li>only one domain failed,</li>
+<li>the determination is partial,</li>
+<li>or remediation is underway.</li>
+</ul></a><br><br>
+<a>VSGS therefore governs lifecycle meaning separately from the<br>
+determination itself.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="indeterminate-determination-and-state" data-oof-section-id="true" role="heading" aria-level="2">Indeterminate Determination and State</h1>
+<a>An Indeterminate Validation Determination may produce:</a><br><br>
+<a><ul>
+<li>Validation Pending,</li>
+<li>Validation Conflicted,</li>
+<li>Validation Suspended,</li>
+<li>Revalidation Required,</li>
+<li>or another appropriate state</li>
+</ul></a><br><br>
+<a>depending upon context.</a><br><br>
+<a>It should not automatically become:</a><br><br>
+<a><b>Validated</b></a><br><br>
+<a>or:</a><br><br>
+<a><b>Invalidated.</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="validation-state-scope" data-oof-section-id="true" role="heading" aria-level="2">Validation State Scope</h1>
+<a>Every state must remain bounded to the scope supported by its<br>
+governing determination.</a><br><br>
+<a>A system may simultaneously be:</a><br><br>
+<a><b>Validated for Function A</b></a><br><br>
+<a>and:</a><br><br>
+<a><b>Validation Required for Function B</b></a><br><br>
+<a>where these scopes can be legitimately separated.</a><br><br>
+<a>VSGS therefore permits multidimensional Validation State<br>
+where necessary.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="validation-state-depth" data-oof-section-id="true" role="heading" aria-level="2">Validation State Depth</h1>
+<a>State should remain connected to the Validation Depth supporting it.</a><br><br>
+<a>For example:</a><br><br>
+<a><b>Validated — Preliminary Depth</b></a><br><br>
+<a>and:</a><br><br>
+<a><b>Validated — High-Assurance Depth</b></a><br><br>
+<a>may represent materially different assurance conditions.</a><br><br>
+<a>The state should not imply stronger validation than its<br>
+determination supports.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-conditions" data-oof-section-id="true" role="heading" aria-level="2">State Conditions</h1>
+<a>A Validation State may depend upon conditions.</a><br><br>
+<a>Examples include:</a><br><br>
+<a><ul>
+<li>specific system configuration,</li>
+<li>continued human oversight,</li>
+<li>defined operating environment,</li>
+<li>specific population,</li>
+<li>continued source availability,</li>
+<li>active safety control,</li>
+<li>restricted autonomy,</li>
+<li>specific jurisdiction,</li>
+<li>or ongoing monitoring.</li>
+</ul></a><br><br>
+<a>Conditions form part of the state.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-restrictions" data-oof-section-id="true" role="heading" aria-level="2">State Restrictions</h1>
+<a>Restrictions define what the Validation State must not be<br>
+interpreted to cover.</a><br><br>
+<a>Examples include:</a><br><br>
+<a><ul>
+<li>not valid for autonomous deployment,</li>
+<li>not valid outside defined temperature range,</li>
+<li>not validated for pediatric use,</li>
+<li>not validated for Version 5,</li>
+<li>not validated outside defined jurisdiction,</li>
+<li>or not valid after material modification.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-limitation" data-oof-section-id="true" role="heading" aria-level="2">State Limitation</h1>
+<a>A Validation State may remain active while carrying<br>
+known limitations.</a><br><br>
+<a>Limitations may concern:</a><br><br>
+<a><ul>
+<li>evidence depth,</li>
+<li>rare-event coverage,</li>
+<li>population representation,</li>
+<li>long-term operating data,</li>
+<li>external validation,</li>
+<li>or unresolved low-level uncertainty.</li>
+</ul></a><br><br>
+<a>Limitations remain visible throughout the state lifecycle.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-effective-point" data-oof-section-id="true" role="heading" aria-level="2">State Effective Point</h1>
+<a>A Validation State should have an identifiable point at which it<br>
+becomes active.</a><br><br>
+<a>This may be:</a><br><br>
+<a><ul>
+<li>determination issuance,</li>
+<li>determination approval,</li>
+<li>state assignment,</li>
+<li>deployment approval,</li>
+<li>or another governed event.</li>
+</ul></a><br><br>
+<a>VSGS distinguishes state effective point from determination date<br>
+where necessary.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-validity-period" data-oof-section-id="true" role="heading" aria-level="2">State Validity Period</h1>
+<a>Some Validation States may be time-bounded.</a><br><br>
+<a>Validity may be expressed through:</a><br><br>
+<a><ul>
+<li>fixed expiration date,</li>
+<li>maximum validity period,</li>
+<li>event-based validity,</li>
+<li>version-based validity,</li>
+<li>condition-based validity,</li>
+<li>or continuous validity subject to monitoring.</li>
+</ul></a><br><br>
+<a>Not every object requires fixed-time expiration.</a><br><br>
+<a>The validity model should match the nature of the Validation Object.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-expiration" data-oof-section-id="true" role="heading" aria-level="2">State Expiration</h1>
+<a>A Validation State becomes <b>Validation Expired </b>when its defined<br>
+validity period or applicability condition ends without sufficient<br>
+renewal or revalidation.</a><br><br>
+<a>Expiration does not mean the object failed validation.</a><br><br>
+<a>VALIDOS® establishes:</a><br><br>
+<a><b>Validation Expired ≠ Validation Failed</b></a><br><br>
+<a>Expiration means the previous validation basis is no longer<br>
+sufficient to represent the object as currently validated.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="material-change" data-oof-section-id="true" role="heading" aria-level="2">Material Change</h1>
+<a>A <b>Material Change </b>is a change capable of affecting whether the<br>
+existing Validation State remains applicable.</a><br><br>
+<a>Material changes may include:</a><br><br>
+<a><ul>
+<li>model update,</li>
+<li>software update,</li>
+<li>architecture change,</li>
+<li>dataset change,</li>
+<li>configuration change,</li>
+<li>hardware replacement,</li>
+<li>operating environment change,</li>
+<li>population expansion,</li>
+<li>new use case,</li>
+<li>jurisdiction change,</li>
+<li>source change,</li>
+<li>evidence change,</li>
+<li>method change,</li>
+<li>risk change,</li>
+<li>or newly discovered failure condition.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="material-change-assessment" data-oof-section-id="true" role="heading" aria-level="2">Material Change Assessment</h1>
+<a>Not every change requires revalidation.</a><br><br>
+<a>VSGS therefore distinguishes:</a><br><br>
+<a><b>Immaterial Change Minor Validation-Relevant Change</b></a><br><br>
+<a><b>Material Change</b></a><br><br>
+<a><b>Critical Validation-Relevant Change</b></a><br><br>
+<a>The appropriate response depends upon whether the existing<br>
+validation basis still represents the changed object.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="object-equivalence" data-oof-section-id="true" role="heading" aria-level="2">Object Equivalence</h1>
+<a>After change, VSGS may assess whether the changed object remains<br>
+sufficiently equivalent to the validated object.</a><br><br>
+<a>Possible outcomes include:</a><br><br>
+<a><b>Validation Equivalence Maintained</b></a><br><br>
+<a><b>Validation Equivalence Conditionally Maintained</b></a><br><br>
+<a><b>Validation Equivalence Undetermined</b></a><br><br>
+<a><b>Validation Equivalence Lost</b></a><br><br>
+<a>Loss of equivalence may trigger revalidation.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-change-trigger" data-oof-section-id="true" role="heading" aria-level="2">State Change Trigger</h1>
+<a>A State Change Trigger is an event requiring reassessment of the<br>
+current Validation State.</a><br><br>
+<a>Triggers may include:</a><br><br>
+<a><ul>
+<li>object modification,</li>
+<li>new evidence,</li>
+<li>critical incident,</li>
+<li>source reliability change,</li>
+<li>determination reassessment,</li>
+<li>operating environment change,</li>
+<li>new regulation,</li>
+<li>changed Validation Purpose,</li>
+<li>scope expansion,</li>
+<li>time expiration,</li>
+<li>repeated anomaly,</li>
+<li>drift,</li>
+<li>or another material development.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-reassessment" data-oof-section-id="true" role="heading" aria-level="2">State Reassessment</h1>
+<a>State reassessment determines whether the current Validation<br>
+State should:</a><br><br>
+<a><ul>
+<li>remain unchanged,</li>
+<li>become conditional,</li>
+<li>become partial,</li>
+<li>be suspended,</li>
+<li>expire,</li>
+<li>be invalidated,</li>
+<li>require revalidation,</li>
+<li>or transition to another formal state.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-transition" data-oof-section-id="true" role="heading" aria-level="2">State Transition</h1>
+<a>A Validation State may transition through governed paths.</a><br><br>
+<a>Examples include:</a><br><br>
+<a><b>Validation Required → Validation Pending → Validated</b></a><br><br>
+<a><b>Validated → Conditionally Validated</b></a><br><br>
+<a><b>Validated → Validation Suspended</b></a><br><br>
+<a><b>Validated → Validation Expired</b></a><br><br>
+<a><b>Validated → Revalidation Required</b></a><br><br>
+<a><b>Conditionally Validated → Validated</b></a><br><br>
+<a><b>Conditionally Validated → Validation Suspended</b></a><br><br>
+<a><b>Validation Suspended → Validated</b></a><br><br>
+<a><b>Validation Suspended → Revalidation Required</b></a><br><br>
+<a><b>Revalidation Required → Validation Pending</b></a><br><br>
+<a><b>Validation Pending → Validated</b></a><br><br>
+<a><b>Validated → Invalidated</b></a><br><br>
+<a>Transitions must remain traceable.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-transition-is-not-free-form" data-oof-section-id="true" role="heading" aria-level="2">State Transition Is Not Free-Form</h1>
+<a>VALIDOS® may define permitted state transitions.</a><br><br>
+<a>For example:</a><br><br>
+<a>A Validation Object should not ordinarily transition directly from:</a><br><br>
+<a><b>Validation Required</b></a><br><br>
+<a>to:</a><br><br>
+<a><b>Validated</b></a><br><br>
+<a>without an applicable Validation Determination.</a><br><br>
+<a>Likewise:</a><br><br>
+<a><b>Validation Expired</b></a><br><br>
+<a>should not become:</a><br><br>
+<a><b>Validated</b></a><br><br>
+<a>merely because the object has not changed.</a><br><br>
+<a>The validation basis must be restored.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="validation-suspended" data-oof-section-id="true" role="heading" aria-level="2">Validation Suspended</h1>
+<a>Suspension is temporary.</a><br><br>
+<a>It may be appropriate where:</a><br><br>
+<a><ul>
+<li>serious new evidence emerges,</li>
+<li>incident investigation is underway,</li>
+<li>source reliability is questioned,</li>
+<li>object change is being assessed,</li>
+<li>determination is suspended,</li>
+<li>a safety concern exists,</li>
+<li>or revalidation is pending.</li>
+</ul></a><br><br>
+<a>Suspension prevents continued representation of the state as<br>
+unrestricted while preserving the historical validation basis.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="suspension-does-not-equal-invalidation" data-oof-section-id="true" role="heading" aria-level="2">Suspension Does Not Equal Invalidation</h1>
+<a>VALIDOS® establishes:</a><br><br>
+<a><b>Validation Suspended ≠ Invalidated</b></a><br><br>
+<a>Suspension means:</a><br><br>
+<a><b>Current applicability is temporarily unresolved.</b></a><br><br>
+<a>Invalidation means:</a><br><br>
+<a><b>The validation basis has been materially destroyed or determined no</b><br>
+<b>longer applicable.</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-resumption" data-oof-section-id="true" role="heading" aria-level="2">State Resumption</h1>
+<a>A suspended state may resume where:</a><br><br>
+<a><ul>
+<li>the concern is resolved,</li>
+<li>the object remains equivalent,</li>
+<li>the original determination remains applicable,</li>
+<li>required controls are restored,</li>
+<li>or additional evidence supports resumption.</li>
+</ul></a><br><br>
+<a>Resumption must remain traceable.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="invalidated-state" data-oof-section-id="true" role="heading" aria-level="2">Invalidated State</h1>
+<a>Invalidation occurs where the previous validation state can no<br>
+longer legitimately remain active.</a><br><br>
+<a>Possible causes include:</a><br><br>
+<a><ul>
+<li>fundamental object change,</li>
+<li>invalid determination,</li>
+<li>invalid execution,</li>
+<li>compromised decisive evidence,</li>
+<li>critical source failure,</li>
+<li>discovered methodological defect,</li>
+<li>or new evidence conclusively contradicting the prior validation basis.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="invalidation-scope" data-oof-section-id="true" role="heading" aria-level="2">Invalidation Scope</h1>
+<a>Invalidation may apply to:</a><br><br>
+<a><ul>
+<li>complete object,</li>
+<li>specific version,</li>
+<li>one subsystem,</li>
+<li>one criterion domain,</li>
+<li>one environment,</li>
+<li>or one scope.</li>
+</ul></a><br><br>
+<a>VSGS therefore permits bounded invalidation where<br>
+methodologically separable.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="revalidation-required" data-oof-section-id="true" role="heading" aria-level="2">Revalidation Required</h1>
+<a>A Validation Object enters <b>Revalidation Required </b>where the existing<br>
+validation basis cannot remain sufficient without new validation.</a><br><br>
+<a>Possible triggers include:</a><br><br>
+<a><ul>
+<li>material object change,</li>
+<li>validity expiration,</li>
+<li>significant scope expansion,</li>
+<li>changed operational environment,</li>
+<li>new risk profile,</li>
+<li>new critical evidence,</li>
+<li>regulatory requirement,</li>
+<li>accumulated drift,</li>
+<li>or unresolved Validation Suspension.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="revalidation-required-is-not-invalidated" data-oof-section-id="true" role="heading" aria-level="2">Revalidation Required Is Not Invalidated</h1>
+<a>The state:</a><br><br>
+<a><b>Revalidation Required</b></a><br><br>
+<a>means the previous validation basis no longer provides sufficient<br>
+current assurance.</a><br><br>
+<a>It does not necessarily demonstrate that the object fails.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="validation-conflicted" data-oof-section-id="true" role="heading" aria-level="2">Validation Conflicted</h1>
+<a>A Validation Object may enter <b>Validation Conflicted </b>where multiple<br>
+legitimate determinations or material findings create incompatible<br>
+current validation implications.</a><br><br>
+<a>For example:</a><br><br>
+<a><ul>
+<li>different environments produce incompatible states,</li>
+<li>concurrent determinations conflict,</li>
+<li>or unresolved critical evidence prevents a single current state.</li>
+</ul></a><br><br>
+<a>Conflict must remain explicit until resolved, bounded, or converted<br>
+into Partial Validation State.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="partially-validated-state" data-oof-section-id="true" role="heading" aria-level="2">Partially Validated State</h1>
+<a>A Validation Object may be Partially Validated where valid<br>
+separation exists between:</a><br><br>
+<a><ul>
+<li>subsystems,</li>
+<li>populations,</li>
+<li>operating modes,</li>
+<li>jurisdictions,</li>
+<li>functions,</li>
+<li>environments,</li>
+<li>or criterion domains.</li>
+</ul></a><br><br>
+<a>A partial state should identify both:</a><br><br>
+<a><b>Validated Portion</b></a><br><br>
+<a>and: <b>Unvalidated / Conditional / Negative Portion</b></a><br><br>
+<a>where applicable.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-multiplicity" data-oof-section-id="true" role="heading" aria-level="2">State Multiplicity</h1>
+<a>Complex Validation Objects may legitimately possess multiple<br>
+concurrent state dimensions.</a><br><br>
+<a>For example:</a><br><br>
+<a><b>Performance State: Validated</b></a><br><br>
+<a><b>Safety State: Conditionally Validated</b></a><br><br>
+<a><b>Autonomy State: Validation Required</b></a><br><br>
+<a>VSGS permits multidimensional state representation where one global<br>
+state would obscure material differences.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-hierarchy" data-oof-section-id="true" role="heading" aria-level="2">State Hierarchy</h1>
+<a>Validation State may be represented hierarchically.</a><br><br>
+<a>For example:</a><br><br>
+<a><b>Component State → Subsystem State → System State</b></a><br><br>
+<a>Higher-level state must remain traceable to the lower-level<br>
+validation states supporting it.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-precedence" data-oof-section-id="true" role="heading" aria-level="2">State Precedence</h1>
+<a>Where several states apply simultaneously, governance may<br>
+define precedence.</a><br><br>
+<a>For example:</a><br><br>
+<a><b>Validation Suspended</b></a><br><br>
+<a>may override an otherwise Validated state for current<br>
+operational representation.</a><br><br>
+<a>Similarly:</a><br><br>
+<a><b>Validation Expired</b></a><br><br>
+<a>may prevent historical positive determination from being represented<br>
+as currently active validation.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="historical-state-and-current-state" data-oof-section-id="true" role="heading" aria-level="2">Historical State and Current State</h1>
+<a>VALIDOS® distinguishes:</a><br><br>
+<a><b>Historical Validation State</b></a><br><br>
+<a>from:</a><br><br>
+<a><b>Current Validation State</b></a><br><br>
+<a>A system may historically have been:</a><br><br>
+<a><b>Validated</b></a><br><br>
+<a>while currently being:</a><br><br>
+<a><b>Revalidation Required </b>Both facts remain true.</a><br><br>
+<a>The architecture must preserve both.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-continuity" data-oof-section-id="true" role="heading" aria-level="2">State Continuity</h1>
+<a>Validation State Continuity preserves the full lifecycle:</a><br><br>
+<a><b>State Assignment → State Activation → State Change → State</b><br>
+<b>Transition → Current State</b></a><br><br>
+<a>Historical states must not be overwritten when new states<br>
+are assigned.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-record" data-oof-section-id="true" role="heading" aria-level="2">State Record</h1>
+<a>A formal Validation State Record may preserve:</a><br><br>
+<a><ul>
+<li>Validation State Identifier,</li>
+<li>Validation Object,</li>
+<li>object version,</li>
+<li>applicable Validation Determination,</li>
+<li>state classification,</li>
+<li>scope,</li>
+<li>Validation Depth,</li>
+<li>conditions,</li>
+<li>restrictions,</li>
+<li>limitations,</li>
+<li>effective point,</li>
+<li>validity period,</li>
+<li>expiration condition,</li>
+<li>state-change triggers,</li>
+<li>material change assessment,</li>
+<li>current status,</li>
+<li>transition history,</li>
+<li>revalidation requirement,</li>
+<li>and sufficient traceability.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-authority" data-oof-section-id="true" role="heading" aria-level="2">State Authority</h1>
+<a>Where state assignment or transition requires formal authority, VSGS<br>
+may govern:</a><br><br>
+<a><ul>
+<li>state issuer,</li>
+<li>state approval authority,</li>
+<li>delegated authority,</li>
+<li>state transition authority,</li>
+<li>suspension authority,</li>
+<li>invalidation authority,</li>
+<li>and reactivation authority.</li>
+</ul></a><br><br>
+<a>VSGS does not create legal authority where none exists.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="automated-validation-state-governance" data-oof-section-id="true" role="heading" aria-level="2">Automated Validation State Governance</h1>
+<a>Some state transitions may be automated where rules are<br>
+sufficiently explicit.</a><br><br>
+<a>For example:</a><br><br>
+<a><b>Validity Period Ends → Validation Expired</b></a><br><br>
+<a>or: <b>Critical Configuration Change Detected → Revalidation Required</b></a><br><br>
+<a>Automation should remain traceable and governed.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="ai-assisted-validation-state-governance" data-oof-section-id="true" role="heading" aria-level="2">AI-Assisted Validation State Governance</h1>
+<a>AI may assist with:</a><br><br>
+<a><ul>
+<li>change detection,</li>
+<li>state-condition monitoring,</li>
+<li>determination comparison,</li>
+<li>drift identification,</li>
+<li>revalidation trigger detection,</li>
+<li>and state-record maintenance.</li>
+</ul></a><br><br>
+<a>AI must not silently invent new state-transition logic outside the<br>
+governed architecture.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-monitoring" data-oof-section-id="true" role="heading" aria-level="2">State Monitoring</h1>
+<a>Validation State may require ongoing monitoring of conditions<br>
+capable of affecting validity.</a><br><br>
+<a>Monitoring may include:</a><br><br>
+<a><ul>
+<li>object version,</li>
+<li>configuration,</li>
+<li>operating environment,</li>
+<li>incidents,</li>
+<li>performance drift,</li>
+<li>model drift,</li>
+<li>evidence changes,</li>
+<li>source changes,</li>
+<li>or expiration conditions.</li>
+</ul></a><br><br>
+<a>State monitoring does not itself constitute revalidation.</a><br><br>
+<a>It detects conditions requiring governance response.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-drift" data-oof-section-id="true" role="heading" aria-level="2">State Drift</h1>
+<a>A Validation State may gradually lose applicability without one<br>
+obvious material event.</a><br><br>
+<a>Examples include:</a><br><br>
+<a><ul>
+<li>accumulated model drift,</li>
+<li>changing population,</li>
+<li>slowly changing environment,</li>
+<li>dependency evolution,</li>
+<li>repeated small modifications,</li>
+<li>or cumulative evidence degradation.</li>
+</ul></a><br><br>
+<a>VSGS may govern <b>Validation State Drift </b>as a trigger<br>
+for reassessment.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-confidence" data-oof-section-id="true" role="heading" aria-level="2">State Confidence</h1>
+<a>Where useful, implementations may represent confidence in the<br>
+current state.</a><br><br>
+<a>However:</a><br><br>
+<a><b>State Confidence ≠ Validation State </b>A state may be Validated while<br>
+carrying moderate confidence within its legitimate scope.</a><br><br>
+<a>Confidence is supplementary and must not replace formal<br>
+state classification.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-uncertainty" data-oof-section-id="true" role="heading" aria-level="2">State Uncertainty</h1>
+<a>Where current state applicability cannot be established with<br>
+sufficient confidence, the object may require:</a><br><br>
+<a><ul>
+<li>Validation Suspended,</li>
+<li>Validation Conflicted,</li>
+<li>Revalidation Required,</li>
+<li>or another governed state.</li>
+</ul></a><br><br>
+<a>State uncertainty must not be hidden behind historical validation.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-and-operational-reality" data-oof-section-id="true" role="heading" aria-level="2">State and Operational Reality</h1>
+<a>The current Validation State should remain connected to the current<br>
+operational reality of the Validation Object.</a><br><br>
+<a>Where the object materially diverges from the validated state,<br>
+historical validation should not continue to create current-<br>
+state confidence.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-and-integrity" data-oof-section-id="true" role="heading" aria-level="2">State and Integrity</h1>
+<a>Material integrity failures may affect Validation State.</a><br><br>
+<a>Where required, INTEGROS® may establish whether relevant objects,<br>
+evidence, records, or systems retain sufficient integrity.</a><br><br>
+<a>VSGS consumes such information only insofar as it affects<br>
+state applicability.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-and-determination-reassessment" data-oof-section-id="true" role="heading" aria-level="2">State and Determination Reassessment</h1>
+<a>If an Overall Validation Determination is:</a><br><br>
+<a><ul>
+<li>modified,</li>
+<li>suspended,</li>
+<li>withdrawn,</li>
+<li>or superseded,</li>
+</ul></a><br><br>
+<a>the applicable Validation State should be reassessed.</a><br><br>
+<a>Determination lifecycle changes and State lifecycle changes remain<br>
+separate but connected.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-supersession" data-oof-section-id="true" role="heading" aria-level="2">State Supersession</h1>
+<a>A new valid state may supersede an earlier state.</a><br><br>
+<a>For example:</a><br><br>
+<a><b>Validated Version 3.0</b></a><br><br>
+<a>may be superseded by:</a><br><br>
+<a><b>Conditionally Validated Version 4.0</b></a><br><br>
+<a>The earlier state remains part of validation history.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-withdrawal" data-oof-section-id="true" role="heading" aria-level="2">State Withdrawal</h1>
+<a>A Validation State may be withdrawn where it was incorrectly<br>
+assigned or where the underlying basis never legitimately<br>
+supported it.</a><br><br>
+<a>Withdrawal should preserve historical accountability.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="validation-state-is-not-reliance-authorization" data-oof-section-id="true" role="heading" aria-level="2">Validation State Is Not Reliance Authorization</h1>
+<a>This boundary is fundamental.</a><br><br>
+<a>VSGS answers:</a><br><br>
+<a><b>What validation condition does the Validation Object currently hold?</b></a><br><br>
+<a>It does not answer:</a><br><br>
+<a><b>Who may rely upon that state?</b></a><br><br>
+<a>A Validation Object may be:</a><br><br>
+<a><b>Validated</b></a><br><br>
+<a>while reliance is still prohibited for a specific use, jurisdiction,<br>
+organization, or risk context.</a><br><br>
+<a>Therefore:</a><br><br>
+<a><b>Validated State ≠ Reliance Authorization</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="validation-state-is-not-deployment-approval" data-oof-section-id="true" role="heading" aria-level="2">Validation State Is Not Deployment Approval</h1>
+<a>Likewise:</a><br><br>
+<a><b>Validation State ≠ Deployment Approval</b></a><br><br>
+<a>Deployment may require:</a><br><br>
+<a><ul>
+<li>regulatory approval,</li>
+<li>organizational authorization,</li>
+<li>risk acceptance,</li>
+<li>operational readiness,</li>
+<li>safety approval,</li>
+<li>or other independent governance.</li>
+</ul></a><br><br>
+<a>VALIDOS® preserves validation as its own methodological domain.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="governance-boundary" data-oof-section-id="true" role="heading" aria-level="2">Governance Boundary</h1>
+<a>Validation State Governance Standard begins when an applicable<br>
+Validation Determination exists or when a Validation Object requires<br>
+formal state classification.</a><br><br>
+<a>It ends when the current Validation State, its scope, conditions,<br>
+validity, lifecycle transitions, state-change triggers, and<br>
+revalidation implications have been sufficiently established<br>
+and maintained.</a><br><br>
+<a>VSGS does not determine:</a><br><br>
+<a><ul>
+<li>operational reliance authorization,</li>
+<li>relying-party eligibility,</li>
+<li>reliance transfer,</li>
+<li>reliance conditions,</li>
+<li>reliance consequences,</li>
+<li>or the complete revalidation process.</li>
+</ul></a><br><br>
+<a>These responsibilities belong to the final VALIDOS® Parent Standard.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="minimum-governance-requirements" data-oof-section-id="true" role="heading" aria-level="2">Minimum Governance Requirements</h1>
+<a>A conforming implementation of VSGS should establish:</a><br><br>
+<a><ul>
+<li>1. an identifiable Validation Object,</li>
+<li>2. the applicable Validation Determination,</li>
+<li>3. the current object version or state,</li>
+<li>4. an explicit Validation State,</li>
+<li>5. state scope,</li>
+<li>6. Validation Depth,</li>
+<li>7. state conditions,</li>
+<li>8. state restrictions,</li>
+<li>9. state limitations,</li>
+</ul></a><br><br>
+<a>10. an effective point, 11. state validity or expiration logic, 12.<br>
+material-change triggers, 13. state-change and transition rules, 14.<br>
+suspension and invalidation conditions, 15. revalidation-required<br>
+triggers, 16. historical state continuity, 17. a current Validation<br>
+State Record, 18. and sufficient lifecycle traceability.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="governance-outputs" data-oof-section-id="true" role="heading" aria-level="2">Governance Outputs</h1>
+<a>VSGS may produce:</a><br><br>
+<a><ul>
+<li>Validation State,</li>
+<li>Validation State Record,</li>
+<li>Validation State Identifier,</li>
+<li>Validation State Assignment,</li>
+<li>Validation State Scope Record,</li>
+<li>Validation State Depth Record,</li>
+<li>Validation State Condition Register,</li>
+<li>Validation State Restriction Record,</li>
+<li>Validation State Limitation Record,</li>
+<li>Validation State Effective Point,</li>
+<li>Validation State Validity Period,</li>
+<li>Validation State Expiration Condition,</li>
+<li>Validation State Monitoring Record,</li>
+<li>Material Change Record,</li>
+<li>Validation Change Materiality Assessment,</li>
+<li>Validation Equivalence Assessment,</li>
+<li>Validation State Change Trigger,</li>
+<li>Validation State Reassessment,</li>
+<li>Validation State Transition Record,</li>
+<li>Validation Suspension Record,</li>
+<li>Validation Resumption Record,</li>
+<li>Validation Invalidation Record,</li>
+<li>Validation Expiration Record,</li>
+<li>Revalidation Required Record,</li>
+<li>Validation Conflict State Record,</li>
+<li>Partial Validation State Record,</li>
+<li>Multidimensional Validation State Map,</li>
+<li>Validation State Hierarchy,</li>
+<li>Validation State Supersession Record,</li>
+<li>Validation State Withdrawal Record,</li>
+<li>Validation State History,</li>
+<li>and Validation State Continuity Reference.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="operational-applications" data-oof-section-id="true" role="heading" aria-level="2">Operational Applications</h1>
+<a>Validation State Governance Standard may be applied across:</a><br><br>
+<a><ul>
+<li>artificial intelligence,</li>
+<li>machine learning,</li>
+<li>autonomous systems,</li>
+<li>AI agents,</li>
+<li>software systems,</li>
+<li>digital infrastructure,</li>
+<li>datasets,</li>
+<li>predictions,</li>
+<li>simulations,</li>
+<li>scientific validation,</li>
+<li>medical systems,</li>
+<li>financial models,</li>
+<li>industrial systems,</li>
+<li>cybersecurity systems,</li>
+<li>critical infrastructure,</li>
+<li>digital identities,</li>
+<li>regulatory environments,</li>
+<li>public-sector systems,</li>
+<li>and any governed environment in which validation status must remain current over time.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="relationship-to-other-oof-architectures" data-oof-section-id="true" role="heading" aria-level="2">Relationship to Other OOF Architectures</h1>
+<a>Validation State Governance Standard interoperates with:</a><br><br>
+<a><ul>
+<li><b>GOA™</b></li>
+<li><b>OBIDENITY®</b></li>
+<li><b>INTEGROS®</b></li>
+<li><b>ORA™</b></li>
+<li><b>AGA™</b></li>
+<li><b>AIG®</b></li>
+<li><b>CLIA®</b></li>
+<li><b>MGIA™</b></li>
+<li><b>ASGA™</b></li>
+<li><b>RIS™</b></li>
+</ul></a><br><br>
+<a>by providing the canonical validation-governance methodology through<br>
+which validation conclusions are transformed into current,<br>
+lifecycle-aware Validation States.</a><br><br>
+<a><b>GOA™ </b>may establish authority governing state assignment, suspension,<br>
+transition, and withdrawal.</a><br><br>
+<a><b>OBIDENITY® </b>may preserve object identity, version continuity,<br>
+provenance, and ownership relationships required for<br>
+state continuity.</a><br><br>
+<a><b>INTEGROS® </b>may establish integrity conditions affecting whether an<br>
+existing Validation State remains applicable.</a><br><br>
+<a><b>ORA™ </b>may identify changes in operational reality affecting current<br>
+state validity.</a><br><br>
+<a><b>AGA™ </b>may establish accountability for state assignment, monitoring,<br>
+transition, suspension, and invalidation.</a><br><br>
+<a><b>RIS™ </b>may influence the sensitivity of change triggers and<br>
+revalidation requirements according to risk and consequence.</a><br><br>
+<a><b>AIG®, CLIA®, MGIA™, </b>and <b>ASGA™ </b>may contribute domain-specific<br>
+state-change signals for AI behavior, cognition, memory, and<br>
+autonomous systems.</a><br><br>
+<a>VSGS does not replace these architectures.</a><br><br>
+<a>It governs specifically the <b>current validation lifecycle condition</b><br>
+<b>of a Validation Object.</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="foundational-principle" data-oof-section-id="true" role="heading" aria-level="2">Foundational Principle</h1>
+<a><b>Validation is not a permanent property of an object; it is a</b><br>
+<b>governed state that must remain connected to the object, conditions,</b><br>
+<b>evidence, and reality that continue to justify it.</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="canonical-closing-statement" data-oof-section-id="true" role="heading" aria-level="2">Canonical Closing Statement</h1>
+<a><b>Validation State Governance Standard establishes the lifecycle-state</b><br>
+<b>layer of VALIDOS® — Validation Governance Architecture by</b><br>
+<b>transforming validation determinations into formal, current,</b><br>
+<b>bounded, traceable, and change-aware Validation States. Through</b><br>
+<b>governance of state assignment, scope, depth, conditions,</b><br>
+<b>limitations, validity periods, material change, equivalence,</b><br>
+<b>monitoring, suspension, invalidation, expiration, conflict, partial</b><br>
+<b>validation, revalidation triggers, state transitions, supersession,</b><br>
+<b>withdrawal, and historical continuity, VSGS ensures that validation</b><br>
+<b>cannot remain active merely because it was once established and that</b><br>
+<b>every current validation claim remains connected to the present</b><br>
+<b>condition of the Validation Object and the governed basis that</b><br>
+<b>continues to support it.</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="validation-state-governance-standard-3" data-oof-section-id="true" role="heading" aria-level="2">Validation State Governance Standard</h1>
+<a><b>Architecture: </b>VALIDOS® — Validation Governance Architecture<br>
+<b>Category: </b>AI &amp; Interpretation · <b>Subcategory: </b>Validation Governance</a><br><br>
+<a><b>Canonical Definition: Validation State Governance Standard (VSGS)</b><br>
+defines the governance conditions under which Validation Objects are<br>
+assigned, maintained, transitioned, restricted, suspended,<br>
+invalidated, expired, superseded, and reclassified across formal<br>
+Validation States based upon applicable Validation Determinations,<br>
+object identity, object version, scope, conditions, lifecycle<br>
+events, material change, temporal validity, unresolved limitations,<br>
+and revalidation requirements.</a><br><br>
+<a><b>Governed Space: </b>Validation State Governance</a><br><br>
+<a><b>Validation is not a permanent property of an object; it is a</b><br>
+<b>governed state that must remain connected to the object, conditions,</b><br>
+<b>evidence, and reality that continue to justify it.</b></a><br><br>
+<a>→ View Standard</a><br><br>
+<a>Aboit standard</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<h1 id="module-architecture" data-oof-section-id="true" role="heading" aria-level="2">Module Architecture</h1>
+<div class="oof-warning20">
+<a href="../../content/v/validos-vsgs-vsaem-1.html">&rarr; Validation State Assignment &amp; Eligibility Module (VSAEM)</a><br><br>
+<a href="../../content/v/validos-vsgs-vscam-2.html">&rarr; Validation State Conditions &amp; Applicability Module (VSCAM)</a><br><br>
+<a href="../../content/v/validos-vsgs-vmcsmm-3.html">&rarr; Validation Material Change &amp; State Monitoring Module (VMCSMM)</a><br><br>
+<a href="../../content/v/validos-vsgs-vstrm-4.html">&rarr; Validation State Transition &amp; Revalidation Trigger Module (VSTRM)</a><br><br>
+<a href="../../content/v/validos-vsgs-vsclrm-5.html">&rarr; Validation State Continuity &amp; Lifecycle Record Module (VSCLRM)</a>
+</div><br><br><br><br>
+</section>
+<!-- OOF GOVERNED LINKS START -->
+<section class="container governed-links">
+<h1 id="parent-resources" data-oof-section-id="true" role="heading" aria-level="2">Parent Resources</h1>
+<div class="oof-warning20">
+<a href="../../content/v/validos-architecture-map.html">&rarr; VALIDOS® Architecture Map</a>
+<br><br>
+<a href="../../content/v/validos-complete-index.html">&rarr; VALIDOS® Complete Standards &amp; Modules Index</a>
+<br><br>
+<a href="../../content/v/validos-four-layer-validation-protocol.html">&rarr; VALIDOS® — Four-Layer Validation Protocol™</a>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container governed-links">
+<h1 id="standards-compatibility" data-oof-section-id="true" role="heading" aria-level="2">Standards Compatibility</h1>
+<div class="oof-warning20">
+<a href="../../content/v/validos-vobs.html">&rarr; Validation Object Standard</a>
+<br><span class="governed-link-context">Operational compatibility within the governed validation lifecycle.</span>
+<br><br>
+<a href="../../content/v/validos-vexs.html">&rarr; Validation Execution Standard</a>
+<br><span class="governed-link-context">Operational compatibility within the governed validation lifecycle.</span>
+<br><br>
+<a href="../../content/v/validos-vdts.html">&rarr; Validation Determination Standard</a>
+<br><span class="governed-link-context">Operational compatibility within the governed validation lifecycle.</span>
+<br><br>
+<a href="../../content/v/validos-vrrs.html">&rarr; Validation Reliance &amp; Revalidation Standard</a>
+<br><span class="governed-link-context">Operational compatibility within the governed validation lifecycle.</span>
+</div>
+<section class="viewbor"></section>
+</section>
+<!-- OOF GOVERNED LINKS END -->
+<section class="container">
+<h1 id="related-documents" data-oof-section-id="true" role="heading" aria-level="2">Related Documents</h1>
+<div class="oof-warning20">
+<a href="../../content/v/validos-vsgs-about.html">&rarr; About Validation State Governance Standard</a><br><br>
+<a href="../../content/v/validos-architecture.html">&rarr; VALIDOS® Validation Governance Architecture — Validation Governance Layer</a>
+</div><br><br><br><br>
+</section>
+
+</article></main>
+<!-- OOF SEMANTIC CONTENT END -->
+<div id="footer"></div>
+<script src="../../header.js"></script>
+<script>
+fetch("../../header.html").then(res => res.text()).then(data => { document.getElementById("header").innerHTML = data; if (window.normalizePageLinks) window.normalizePageLinks(); });
+fetch("../../footer.html").then(res => res.text()).then(data => { document.getElementById("footer").innerHTML = data; if (window.normalizePageLinks) window.normalizePageLinks(); });
+</script>
+</body>
+</html>

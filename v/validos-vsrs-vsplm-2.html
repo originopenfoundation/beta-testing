@@ -1,0 +1,955 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Validation Source Provenance &amp; Lineage Module (VSPLM)</title>
+<link rel="stylesheet" href="../../style.css" />
+<link rel="alternate" type="application/json" href="../../data/oof-relationship-registry.json" title="OOF Governed Relationship Registry" />
+<!-- OOF AI DISCOVERY START -->
+<meta name="description" content="Validation Source Provenance &amp; Lineage Module (VSPLM). Architecture Ecosystem: Structured Reality Standards™ Architecture Family: VALIDOS® — Validation." />
+<link rel="canonical" href="https://originopenfoundation.org/content/v/validos-vsrs-vsplm-2.html" />
+<link rel="alternate" hreflang="en" href="https://originopenfoundation.org/content/v/validos-vsrs-vsplm-2.html" />
+<link rel="alternate" hreflang="x-default" href="https://originopenfoundation.org/content/v/validos-vsrs-vsplm-2.html" />
+<link rel="alternate" type="application/ld+json" href="https://originopenfoundation.org/data/oof-site-knowledge-graph.json" title="OOF Site Knowledge Graph" />
+<link rel="alternate" type="text/plain" href="https://originopenfoundation.org/llms.txt" title="OOF LLM Index" />
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="content-language" content="en" />
+<meta property="og:title" content="Validation Source Provenance &amp; Lineage Module (VSPLM)" />
+<meta property="og:description" content="Validation Source Provenance &amp; Lineage Module (VSPLM). Architecture Ecosystem: Structured Reality Standards™ Architecture Family: VALIDOS® — Validation." />
+<meta property="og:url" content="https://originopenfoundation.org/content/v/validos-vsrs-vsplm-2.html" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="OOF® — OriginOpen® Foundation" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Validation Source Provenance &amp; Lineage Module (VSPLM)" />
+<meta name="twitter:description" content="Validation Source Provenance &amp; Lineage Module (VSPLM). Architecture Ecosystem: Structured Reality Standards™ Architecture Family: VALIDOS® — Validation." />
+<meta name="DC.title" content="Validation Source Provenance &amp; Lineage Module (VSPLM)" />
+<meta name="DC.language" content="en" />
+<meta name="DC.identifier" content="https://originopenfoundation.org/content/v/validos-vsrs-vsplm-2.html" />
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","@id":"https://originopenfoundation.org/content/v/validos-vsrs-vsplm-2.html#webpage","url":"https://originopenfoundation.org/content/v/validos-vsrs-vsplm-2.html","name":"Validation Source Provenance & Lineage Module (VSPLM)","description":"Validation Source Provenance & Lineage Module (VSPLM). Architecture Ecosystem: Structured Reality Standards™ Architecture Family: VALIDOS® — Validation.","inLanguage":"en","isPartOf":[{"@id":"https://originopenfoundation.org/#website"},{"@id":"https://originopenfoundation.org/content/v/validos-architecture.html#webpage"},{"@id":"https://originopenfoundation.org/content/v/validos-architecture-map.html#webpage"},{"@id":"https://originopenfoundation.org/content/v/validos-complete-index.html#webpage"}],"publisher":{"@id":"https://originopenfoundation.org/#organization"},"breadcrumb":{"@type":"BreadcrumbList","@id":"https://originopenfoundation.org/content/v/validos-vsrs-vsplm-2.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"OOF® — OriginOpen® Foundation","item":"https://originopenfoundation.org/"},{"@type":"ListItem","position":2,"name":"Validation Source Provenance & Lineage Module (VSPLM)","item":"https://originopenfoundation.org/content/v/validos-vsrs-vsplm-2.html"}]},"headline":"Validation Source Provenance & Lineage Module (VSPLM)","author":{"@id":"https://originopenfoundation.org/#organization"},"mainEntityOfPage":{"@id":"https://originopenfoundation.org/content/v/validos-vsrs-vsplm-2.html#webpage"},"keywords":["AI & Interpretation","Validation Governance"],"about":[{"@type":"Thing","name":"AI & Interpretation"},{"@type":"Thing","name":"Validation Governance"}],"relatedLink":["https://originopenfoundation.org/content/v/validos-architecture.html","https://originopenfoundation.org/content/v/validos-architecture-map.html","https://originopenfoundation.org/content/v/validos-complete-index.html","https://originopenfoundation.org/content/v/validos-vsrs-vsiam-1.html","https://originopenfoundation.org/content/v/validos-vsrs-vsccm-3.html","https://originopenfoundation.org/content/v/validos-vsrs.html","https://originopenfoundation.org/content/v/validos-vsrs-about.html"],"citation":["https://originopenfoundation.org/content/v/validos-vsrs.html","https://originopenfoundation.org/content/v/validos-vsrs-about.html"],"hasPart":[{"@id":"https://originopenfoundation.org/content/v/validos-vsrs-vsiam-1.html#webpage"},{"@id":"https://originopenfoundation.org/content/v/validos-vsrs-vsccm-3.html#webpage"}],"version":"1.0","creativeWorkStatus":"Canonical · Open Module","additionalProperty":[{"@type":"PropertyValue","name":"Category","value":"AI & Interpretation"},{"@type":"PropertyValue","name":"Subcategory","value":"Validation Governance"},{"@type":"PropertyValue","name":"Type","value":"Parent Standard Module"},{"@type":"PropertyValue","name":"Version","value":"1.0"},{"@type":"PropertyValue","name":"Status","value":"Canonical · Open Module"},{"@type":"PropertyValue","name":"Canonical Language","value":"English (UCL™)"}]}</script>
+<!-- OOF AI DISCOVERY END -->
+</head>
+<body>
+<div id="header"></div>
+<!-- OOF SEMANTIC CONTENT START -->
+<main class="oof-semantic-main"><article class="oof-semantic-article">
+
+<section class="container">
+<h2 id="validation-source-provenance-and-lineage-module-vsplm" data-oof-section-id="true" role="heading" aria-level="1">Validation Source Provenance &amp; Lineage Module (VSPLM)</h2>
+</section>
+
+<section class="container">
+<div class="oof-warning3">
+<p class="podstand"><b>Architecture Ecosystem: </b>Structured Reality Standards™<br>
+<b>Architecture Family: VALIDOS® — Validation Governance Architecture</b><br>
+<b>Parent Standard: Validation Source Reliability Standard (VSRS)</b><br>
+<b>Operational Layer: </b>Validation Source Reliability Governance Layer<br>
+<b>Category: </b>AI &amp; Interpretation<br>
+<b>Subcategory: </b>Validation Governance<br>
+<b>Type: </b>Parent Standard Module<br>
+<b>Governed Space: Validation Source Provenance &amp; Lineage</b><br>
+<b>Version: </b>1.0<br>
+<b>Status: </b>Canonical · Open Module<br>
+<b>Effective Date: 9 August 2026</b><br>
+<b>Compatibility: </b>OOF® Methodology OS™ · GOA™ · OBIDENITY® · INTEGROS®<br>
+· ORA™ · AGA™ · AIG® · CLIA® · MGIA™ · ASGA™ · RIS™<br>
+<b>AI-Readable: </b>Yes<br>
+<b>Authority: </b>OOF®<br>
+<b>Protection: MIP® — Methodological Intellectual Property</b><br>
+<b>Canonical Language: </b>English (UCL™)
+</p><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="governed-space" data-oof-section-id="true" role="heading" aria-level="2">Governed Space</h1>
+<a><b>Validation Source Provenance &amp; Lineage</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="canonical-definition" data-oof-section-id="true" role="heading" aria-level="2">Canonical Definition</h1>
+<a><b>Validation Source Provenance &amp; Lineage Module (VSPLM) </b>defines the<br>
+governance framework for reconstructing, representing, assessing,<br>
+and maintaining the material origin history, evidentiary pathway,<br>
+upstream dependencies, intermediary relationships, transformations,<br>
+and lineage through which Validation Evidence progresses from its<br>
+originating conditions to its use within a governed<br>
+validation process.</a><br><br>
+<a>It establishes the conditions under which an identified and<br>
+attributed source relationship becomes a <b>traceable Validation</b><br>
+<b>Source Chain.</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="operational-role" data-oof-section-id="true" role="heading" aria-level="2">Operational Role</h1>
+<a>VSPLM serves as the second internal governance space of the<br>
+Validation Source Reliability Standard.</a><br><br>
+<a>The preceding module asks:</a><br><br>
+<a><b>Who or what is the source, and can the evidence be attributed to it?</b></a><br><br>
+<a>VSPLM asks:</a><br><br>
+<a><b>Where did the evidence originate, through which pathway did it reach</b><br>
+<b>validation, what happened to it along that pathway, and upon which</b><br>
+<b>upstream sources does it depend?</b></a><br><br>
+<a>The governed progression is:</a><br><br>
+<a><b>Identified &amp; Attributed Source → Origin Establishment → Provenance</b><br>
+<b>Reconstruction → Lineage Mapping → Intermediary Identification →</b><br>
+<b>Transformation Mapping → Dependency Assessment → Traceable</b><br>
+<b>Validation Source Chain</b></a><br><br>
+<a>VSPLM does not determine whether the source is ultimately reliable.</a><br><br>
+<a>It establishes the provenance and lineage structure required for<br>
+that later determination.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="module-operational-space" data-oof-section-id="true" role="heading" aria-level="2">Module Operational Space</h1>
+<a>VSPLM governs:</a><br><br>
+<a><ul>
+<li>validation-source provenance,</li>
+<li>evidence origin,</li>
+<li>source origin,</li>
+<li>provenance depth,</li>
+<li>provenance continuity,</li>
+<li>source lineage,</li>
+<li>upstream-source identification,</li>
+<li>downstream-source relationships,</li>
+<li>source chains,</li>
+<li>source dependency,</li>
+<li>shared-source dependency,</li>
+<li>intermediary relationships,</li>
+<li>transformation pathways,</li>
+<li>evidence derivation,</li>
+<li>aggregation lineage,</li>
+<li>provenance gaps,</li>
+<li>lineage gaps,</li>
+<li>provenance conflicts,</li>
+<li>lineage conflicts,</li>
+<li>provenance uncertainty,</li>
+<li>provenance boundaries,</li>
+<li>provenance change,</li>
+<li>lineage change,</li>
+<li>and provenance traceability.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="module-function" data-oof-section-id="true" role="heading" aria-level="2">Module Function</h1>
+<a>VSPLM applies after material Validation Sources have been<br>
+sufficiently identified and evidence attribution has been<br>
+established or bounded.</a><br><br>
+<a>Its function is to prevent:</a><br><br>
+<a><ul>
+<li>immediate evidence providers being mistaken for original sources,</li>
+<li>downstream reports concealing upstream evidence origins,</li>
+<li>multiple derived sources being treated as independent origins,</li>
+<li>shared datasets creating artificial source diversity,</li>
+<li>intermediary transformations remaining invisible,</li>
+<li>aggregated evidence losing its source structure,</li>
+<li>source chains being collapsed into single-source labels,</li>
+<li>missing provenance being interpreted as complete provenance,</li>
+<li>derived evidence being represented as primary evidence,</li>
+<li>historical source changes being overwritten,</li>
+<li>and source-based confidence being assigned without understanding material upstream dependencies.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="provenance-and-lineage-are-related-but-distinct" data-oof-section-id="true" role="heading" aria-level="2">Provenance and Lineage Are Related but Distinct</h1>
+<a>VALIDOS® distinguishes:</a><br><br>
+<a><b>Provenance</b></a><br><br>
+<a>from:</a><br><br>
+<a><b>Lineage</b></a><br><br>
+<a><b>Provenance </b>asks:</a><br><br>
+<a><b>What material history brought this evidence from origin to</b><br>
+<b>validation use?</b></a><br><br>
+<a><b>Lineage </b>asks:</a><br><br>
+<a><b>Which upstream sources, derived sources, dependencies, and source</b><br>
+<b>relationships contributed to the evidence?</b></a><br><br>
+<a>Together they create a reconstructable source structure.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="evidence-origin" data-oof-section-id="true" role="heading" aria-level="2">Evidence Origin</h1>
+<a>Evidence origin represents the earliest materially relevant point at<br>
+which the evidentiary content was:</a><br><br>
+<a><ul>
+<li>observed,</li>
+<li>measured,</li>
+<li>generated,</li>
+<li>recorded,</li>
+<li>produced,</li>
+<li>or otherwise established.</li>
+</ul></a><br><br>
+<a>The first entity encountered by a validator is not necessarily the<br>
+evidence origin.</a><br><br>
+<a>For example:</a><br><br>
+<a><b>Website → Report → Research Paper → Dataset → Original Measurement</b></a><br><br>
+<a>The website may be the immediate provider.</a><br><br>
+<a>The measurement may be the relevant evidentiary origin.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="origin-precision" data-oof-section-id="true" role="heading" aria-level="2">Origin Precision</h1>
+<a>Not every validation requires identical origin precision.</a><br><br>
+<a>Depending upon the Validation Purpose, Scope, Depth, consequence,<br>
+and evidentiary role, origin may need to identify:</a><br><br>
+<a><ul>
+<li>an organization,</li>
+<li>a specific system,</li>
+<li>a specific instrument,</li>
+<li>a particular dataset,</li>
+<li>a model version,</li>
+<li>an operational event,</li>
+<li>a person,</li>
+<li>a laboratory,</li>
+<li>a repository,</li>
+<li>or another source instance.</li>
+</ul></a><br><br>
+<a>VSPLM requires sufficient origin precision for the reliability<br>
+question being governed.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="provenance-chain" data-oof-section-id="true" role="heading" aria-level="2">Provenance Chain</h1>
+<a>A Validation Evidence provenance chain may conceptually include:</a><br><br>
+<a><b>Origin → Generation → Recording → Processing → Transformation →</b><br>
+<b>Transmission → Aggregation → Storage → Retrieval → Validation Use</b></a><br><br>
+<a>Not every evidence item will contain every stage.</a><br><br>
+<a>VSPLM identifies the material stages relevant to source reliability.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="provenance-depth" data-oof-section-id="true" role="heading" aria-level="2">Provenance Depth</h1>
+<a>The required depth of provenance reconstruction should be<br>
+proportionate to the validation role.</a><br><br>
+<a>Low-consequence validation may require limited provenance.</a><br><br>
+<a>High-consequence validation may require substantially<br>
+deeper reconstruction.</a><br><br>
+<a>Factors affecting provenance depth may include:</a><br><br>
+<a><ul>
+<li>Validation Depth,</li>
+<li>intended reliance,</li>
+<li>consequence of error,</li>
+<li>evidence criticality,</li>
+<li>number of intermediaries,</li>
+<li>degree of transformation,</li>
+<li>source uncertainty,</li>
+<li>and dependency complexity.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="provenance-continuity" data-oof-section-id="true" role="heading" aria-level="2">Provenance Continuity</h1>
+<a>Provenance continuity exists where the material evidentiary pathway<br>
+can be followed without unexplained breaks that materially affect<br>
+source reliability.</a><br><br>
+<a>Continuity does not require every technical action to be documented.</a><br><br>
+<a>It requires that the material source transitions remain<br>
+sufficiently reconstructable.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="provenance-gap" data-oof-section-id="true" role="heading" aria-level="2">Provenance Gap</h1>
+<a>A <b>Provenance Gap </b>exists where a material portion of the evidentiary<br>
+pathway cannot be sufficiently established.</a><br><br>
+<a>Examples include:</a><br><br>
+<a><ul>
+<li>unknown original dataset,</li>
+<li>missing measurement origin,</li>
+<li>unidentified intermediary,</li>
+<li>undocumented transformation,</li>
+<li>unknown historical source,</li>
+<li>missing model version,</li>
+<li>or unavailable source records.</li>
+</ul></a><br><br>
+<a>A Provenance Gap does not automatically make evidence unusable.</a><br><br>
+<a>It creates a source-reliability condition that must remain visible.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="critical-provenance-gap" data-oof-section-id="true" role="heading" aria-level="2">Critical Provenance Gap</h1>
+<a>A Provenance Gap may become critical where the missing information<br>
+prevents meaningful assessment of:</a><br><br>
+<a><ul>
+<li>source identity,</li>
+<li>source capability,</li>
+<li>independence,</li>
+<li>transformation integrity,</li>
+<li>evidence origin,</li>
+<li>shared dependency,</li>
+<li>or another material reliability condition.</li>
+</ul></a><br><br>
+<a>Criticality must be determined relative to the validation role.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="source-lineage" data-oof-section-id="true" role="heading" aria-level="2">Source Lineage</h1>
+<a>Source lineage represents the relational structure connecting<br>
+evidence to the sources from which it derives.</a><br><br>
+<a>A simple lineage may be:</a><br><br>
+<a><b>Measurement Instrument → Dataset → Validation Evidence</b></a><br><br>
+<a>A complex lineage may be:</a><br><br>
+<a><b>Sensor Network → Local Database → Aggregation System → External Data</b><br>
+<b>Provider → Analytical Model → Human Report → Validation Evidence</b></a><br><br>
+<a>VSPLM makes these dependencies visible.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="upstream-source" data-oof-section-id="true" role="heading" aria-level="2">Upstream Source</h1>
+<a>An <b>Upstream Source </b>is a source upon which another source or evidence<br>
+object materially depends.</a><br><br>
+<a>Upstream sources may include:</a><br><br>
+<a><ul>
+<li>primary datasets,</li>
+<li>original measurements,</li>
+<li>external databases,</li>
+<li>prior models,</li>
+<li>sensor systems,</li>
+<li>research studies,</li>
+<li>operational records,</li>
+<li>or other evidence origins.</li>
+</ul></a><br><br>
+<a>Upstream dependency can materially affect downstream<br>
+Source Reliability.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="downstream-source" data-oof-section-id="true" role="heading" aria-level="2">Downstream Source</h1>
+<a>A <b>Downstream Source </b>receives, processes, transforms, interprets,<br>
+aggregates, or republishes evidentiary content derived from one or<br>
+more upstream sources.</a><br><br>
+<a>Downstream sources may add legitimate value.</a><br><br>
+<a>However, their existence does not create a new independent<br>
+evidentiary origin automatically.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="derived-source-lineage" data-oof-section-id="true" role="heading" aria-level="2">Derived Source Lineage</h1>
+<a>Derived sources must remain connected to material upstream origins<br>
+where those origins affect validation reliability.</a><br><br>
+<a>VALIDOS® establishes:</a><br><br>
+<a><b>New Presentation ≠ New Evidentiary Origin</b></a><br><br>
+<a>and:</a><br><br>
+<a><b>New Analysis ≠ Independent Underlying Evidence</b></a><br><br>
+<a>A derived source may contribute independent interpretation while<br>
+still depending upon non-independent underlying evidence.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="shared-source-dependency" data-oof-section-id="true" role="heading" aria-level="2">Shared Source Dependency</h1>
+<a>Two or more apparently separate sources may share the same<br>
+upstream origin.</a><br><br>
+<a>For example:</a><br><br>
+<a><b>Source A → Dataset X</b></a><br><br>
+<a><b>Source B → Dataset X</b></a><br><br>
+<a><b>Source C → Dataset X</b></a><br><br>
+<a>A superficial source count would produce three sources.</a><br><br>
+<a>Lineage analysis reveals one shared upstream evidentiary dependency.</a><br><br>
+<a>VSPLM therefore establishes:</a><br><br>
+<a><b>Source Multiplicity ≠ Source Independence</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="dependency-concentration" data-oof-section-id="true" role="heading" aria-level="2">Dependency Concentration</h1>
+<a>A validation evidence basis may appear diverse while depending<br>
+heavily upon one source.</a><br><br>
+<a>VSPLM may identify <b>Dependency Concentration </b>where a significant<br>
+portion of the evidence basis ultimately depends upon:</a><br><br>
+<a><ul>
+<li>one dataset,</li>
+<li>one organization,</li>
+<li>one model,</li>
+<li>one measurement system,</li>
+<li>one repository,</li>
+<li>one methodology,</li>
+<li>or another shared upstream source.</li>
+</ul></a><br><br>
+<a>Dependency concentration does not automatically make<br>
+evidence unreliable.</a><br><br>
+<a>It identifies a structural reliability condition.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="source-chain" data-oof-section-id="true" role="heading" aria-level="2">Source Chain</h1>
+<a>A <b>Validation Source Chain </b>represents the sequence of materially<br>
+relevant source relationships through which evidence progresses.</a><br><br>
+<a>Source chains may be:</a><br><br>
+<a><b>Direct</b></a><br><br>
+<a><b>Derived</b></a><br><br>
+<a><b>Intermediated</b></a><br><br>
+<a><b>Aggregated</b></a><br><br>
+<a><b>Multi-Source</b></a><br><br>
+<a>or:</a><br><br>
+<a><b>Hybrid</b></a><br><br>
+<a>The chain structure should remain sufficiently visible for<br>
+subsequent reliability assessment.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="intermediary-identification" data-oof-section-id="true" role="heading" aria-level="2">Intermediary Identification</h1>
+<a>An intermediary is an entity or system that materially handles<br>
+evidence between its upstream origin and validation use.</a><br><br>
+<a>Intermediaries may:</a><br><br>
+<a><ul>
+<li>transmit,</li>
+<li>translate,</li>
+<li>normalize,</li>
+<li>aggregate,</li>
+<li>filter,</li>
+<li>classify,</li>
+<li>summarize,</li>
+<li>store,</li>
+<li>reformat,</li>
+<li>or interpret evidence.</li>
+</ul></a><br><br>
+<a>VSPLM identifies intermediaries and their position in the<br>
+provenance chain.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="intermediary-role" data-oof-section-id="true" role="heading" aria-level="2">Intermediary Role</h1>
+<a>Each intermediary may perform a different function.</a><br><br>
+<a>Examples include:</a><br><br>
+<a><b>Transmission Intermediary</b></a><br><br>
+<a><b>Storage Intermediary</b></a><br><br>
+<a><b>Transformation Intermediary</b></a><br><br>
+<a><b>Aggregation Intermediary</b></a><br><br>
+<a><b>Interpretation Intermediary</b></a><br><br>
+<a><b>Publication Intermediary</b></a><br><br>
+<a><b>Distribution Intermediary </b>Role identification helps later governance<br>
+determine which intermediaries materially affect Source Reliability.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="transformation-pathway" data-oof-section-id="true" role="heading" aria-level="2">Transformation Pathway</h1>
+<a>Evidence may change between origin and validation use.</a><br><br>
+<a>VSPLM maps material transformations such as:</a><br><br>
+<a><ul>
+<li>filtering,</li>
+<li>cleaning,</li>
+<li>normalization,</li>
+<li>aggregation,</li>
+<li>translation,</li>
+<li>anonymization,</li>
+<li>statistical processing,</li>
+<li>compression,</li>
+<li>summarization,</li>
+<li>model processing,</li>
+<li>classification,</li>
+<li>or interpretation.</li>
+</ul></a><br><br>
+<a>VSPLM does not determine whether each transformation was<br>
+methodologically correct.</a><br><br>
+<a>It establishes that the transformation occurred and where it sits<br>
+within the source chain.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="transformation-visibility" data-oof-section-id="true" role="heading" aria-level="2">Transformation Visibility</h1>
+<a>VALIDOS® establishes:</a><br><br>
+<a><b>A transformed evidence object should not be represented as if it</b><br>
+<b>were identical to its original source evidence.</b></a><br><br>
+<a>Where transformation materially changes evidentiary representation,<br>
+the transformation must remain visible.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="aggregation-lineage" data-oof-section-id="true" role="heading" aria-level="2">Aggregation Lineage</h1>
+<a>Aggregated evidence may combine multiple origins.</a><br><br>
+<a>For example:</a><br><br>
+<a><b>Dataset A + Dataset B + Dataset C → Aggregated Dataset D</b></a><br><br>
+<a>VSPLM preserves the relationship between the aggregated object and<br>
+its material contributing sources.</a><br><br>
+<a>Where source-level separation is impossible, that limitation must<br>
+remain explicit.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="lineage-branching" data-oof-section-id="true" role="heading" aria-level="2">Lineage Branching</h1>
+<a>One evidence object may derive from multiple upstream sources.</a><br><br>
+<a>Likewise, one upstream source may contribute to many downstream<br>
+evidence objects.</a><br><br>
+<a>VSPLM therefore permits branching lineage structures rather than<br>
+forcing evidence into a simple linear chain.</a><br><br>
+<a>Conceptually:</a><br><br>
+<a><b>Source A + Source B → Derived Evidence C</b></a><br><br>
+<a>and:</a><br><br>
+<a><b>Source A → Evidence D + Evidence E </b>This becomes particularly<br>
+important for large AI, scientific, financial, and operational<br>
+evidence ecosystems.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="circular-lineage" data-oof-section-id="true" role="heading" aria-level="2">Circular Lineage</h1>
+<a>A source chain may sometimes contain circular dependencies.</a><br><br>
+<a>For example:</a><br><br>
+<a><b>Model A uses Dataset B</b></a><br><br>
+<a>while:</a><br><br>
+<a><b>Dataset B includes outputs previously generated by Model A.</b></a><br><br>
+<a>Circular lineage may create hidden dependence, reinforcement,<br>
+contamination, or false corroboration.</a><br><br>
+<a>VSPLM requires material circular relationships to remain visible.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="provenance-conflict" data-oof-section-id="true" role="heading" aria-level="2">Provenance Conflict</h1>
+<a>A Provenance Conflict exists where available records provide<br>
+materially incompatible accounts of the evidence pathway.</a><br><br>
+<a>Examples include:</a><br><br>
+<a><ul>
+<li>conflicting origin claims,</li>
+<li>incompatible timestamps,</li>
+<li>inconsistent source records,</li>
+<li>disputed transformations,</li>
+<li>or contradictory intermediary histories.</li>
+</ul></a><br><br>
+<a>VSPLM preserves the conflict rather than forcing a single provenance<br>
+narrative without sufficient basis.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="lineage-conflict" data-oof-section-id="true" role="heading" aria-level="2">Lineage Conflict</h1>
+<a>A Lineage Conflict exists where the upstream dependency structure<br>
+cannot be reconciled.</a><br><br>
+<a>For example:</a><br><br>
+<a>one source claims an independent dataset,</a><br><br>
+<a>while another record indicates that the dataset derives from a<br>
+shared upstream repository.</a><br><br>
+<a>Material lineage conflicts must remain visible for later Source<br>
+Reliability Determination.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="provenance-uncertainty" data-oof-section-id="true" role="heading" aria-level="2">Provenance Uncertainty</h1>
+<a>Complete provenance may not always be obtainable.</a><br><br>
+<a>Where evidence origin or pathway can only be partially<br>
+reconstructed, VSPLM may classify provenance conditions such as:</a><br><br>
+<a><b>Provenance Established</b></a><br><br>
+<a><b>Provenance Substantially Established</b></a><br><br>
+<a><b>Provenance Partially Established</b></a><br><br>
+<a><b>Provenance Uncertain</b></a><br><br>
+<a><b>Provenance Unavailable </b>These classifications describe<br>
+provenance quality.</a><br><br>
+<a>They do not determine Source Reliability by themselves.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="lineage-uncertainty" data-oof-section-id="true" role="heading" aria-level="2">Lineage Uncertainty</h1>
+<a>Likewise, lineage may be:</a><br><br>
+<a><b>Lineage Established</b></a><br><br>
+<a><b>Lineage Partially Established</b></a><br><br>
+<a><b>Lineage Uncertain</b></a><br><br>
+<a>or:</a><br><br>
+<a><b>Lineage Unknown</b></a><br><br>
+<a>The required certainty should remain proportionate to the<br>
+validation role.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="provenance-boundary" data-oof-section-id="true" role="heading" aria-level="2">Provenance Boundary</h1>
+<a>VSPLM does not require infinite backward tracing.</a><br><br>
+<a>Every provenance reconstruction must eventually establish a<br>
+reasonable boundary.</a><br><br>
+<a>A Provenance Boundary may be reached when:</a><br><br>
+<a><ul>
+<li>sufficient origin has been established,</li>
+<li>further upstream information is immaterial,</li>
+<li>additional reconstruction is impossible,</li>
+<li>or the required Validation Depth has been satisfied.</li>
+</ul></a><br><br>
+<a>The boundary should be explicit where it materially<br>
+affects reliance.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="provenance-and-primary-evidence" data-oof-section-id="true" role="heading" aria-level="2">Provenance and Primary Evidence</h1>
+<a>Primary evidence may possess a shorter provenance chain.</a><br><br>
+<a>However:</a><br><br>
+<a><b>Primary Evidence ≠ Automatically Reliable Evidence</b></a><br><br>
+<a>The originating instrument may be defective.</a><br><br>
+<a>The observer may lack competence.</a><br><br>
+<a>The source may be conflicted.</a><br><br>
+<a>The recording mechanism may be compromised.</a><br><br>
+<a>VSPLM establishes provenance.</a><br><br>
+<a>Subsequent VSRS modules govern those other reliability dimensions.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="provenance-and-derived-evidence" data-oof-section-id="true" role="heading" aria-level="2">Provenance and Derived Evidence</h1>
+<a>Derived evidence is not inherently inferior.</a><br><br>
+<a>Derived evidence may provide:</a><br><br>
+<a><ul>
+<li>stronger analysis,</li>
+<li>useful aggregation,</li>
+<li>improved interpretation,</li>
+<li>cross-source comparison,</li>
+<li>or higher operational value.</li>
+</ul></a><br><br>
+<a>The governance requirement is that material derivation<br>
+remains visible.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="provenance-and-source-independence" data-oof-section-id="true" role="heading" aria-level="2">Provenance and Source Independence</h1>
+<a>VSPLM provides critical input into later independence assessment.</a><br><br>
+<a>Two sources cannot be confidently treated as independent until their<br>
+material lineage relationships are understood.</a><br><br>
+<a>Therefore:</a><br><br>
+<a><b>Apparent Independence → Lineage Assessment → Actual</b><br>
+<b>Independence Assessment</b></a><br><br>
+<a>This prevents duplicated upstream evidence from producing false<br>
+validation confidence.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="provenance-and-corroboration" data-oof-section-id="true" role="heading" aria-level="2">Provenance and Corroboration</h1>
+<a>Corroboration requires more than agreement.</a><br><br>
+<a>If three sources agree because all three reproduce the same upstream<br>
+dataset, they may represent:</a><br><br>
+<a><b>Three Presentations</b></a><br><br>
+<a>but:</a><br><br>
+<a><b>One Evidentiary Origin</b></a><br><br>
+<a>VSPLM exposes this distinction before corroboration is used within<br>
+Source Reliability governance.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="provenance-change" data-oof-section-id="true" role="heading" aria-level="2">Provenance Change</h1>
+<a>Provenance knowledge may change when:</a><br><br>
+<a><ul>
+<li>new origin information emerges,</li>
+<li>hidden intermediaries are discovered,</li>
+<li>transformations become known,</li>
+<li>source records are corrected,</li>
+<li>upstream dependencies are identified,</li>
+<li>or historical records become available.</li>
+</ul></a><br><br>
+<a>Material changes should update the provenance structure without<br>
+erasing previous records.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="lineage-change" data-oof-section-id="true" role="heading" aria-level="2">Lineage Change</h1>
+<a>Lineage may change because:</a><br><br>
+<a><ul>
+<li>a dataset is replaced,</li>
+<li>a model changes training sources,</li>
+<li>a provider changes upstream supplier,</li>
+<li>a system begins using new external data,</li>
+<li>or a source dependency is removed.</li>
+</ul></a><br><br>
+<a>Material lineage changes may affect existing Source<br>
+Reliability Determinations.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="provenance-continuity-across-validos" data-oof-section-id="true" role="heading" aria-level="2">Provenance Continuity Across VALIDOS®</h1>
+<a>Provenance information should remain connected to the<br>
+evidence throughout:</a><br><br>
+<a><b>Source Reliability → Validation Execution → Validation Determination</b><br>
+<b>→ Validation State → Reliance</b></a><br><br>
+<a>This allows later users of the validation result to reconstruct the<br>
+material evidentiary origins behind it.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="minimum-implementation-framework" data-oof-section-id="true" role="heading" aria-level="2">Minimum Implementation Framework</h1>
+<a><b>1. Establish Evidence Origin</b></a><br><br>
+<a>Identify the earliest materially relevant evidence origin that can<br>
+reasonably be established.</a><br><br>
+<a><b>2. Reconstruct Material Provenance</b></a><br><br>
+<a>Map the material pathway from origin to validation use.</a><br><br>
+<a><b>3. Identify Upstream and Downstream Sources</b></a><br><br>
+<a>Determine the relevant source relationships and dependencies.</a><br><br>
+<a><b>4. Identify Intermediaries</b></a><br><br>
+<a>Record material entities or systems through which evidence passed.</a><br><br>
+<a><b>5. Map Material Transformations</b></a><br><br>
+<a>Identify transformations capable of affecting<br>
+evidentiary representation.</a><br><br>
+<a><b>6. Assess Shared Dependencies</b></a><br><br>
+<a>Determine whether apparently separate sources rely upon common<br>
+upstream origins.</a><br><br>
+<a><b>7. Identify Provenance and Lineage Gaps</b></a><br><br>
+<a>Record missing, uncertain, disputed, or unreconstructable portions<br>
+of the source structure.</a><br><br>
+<a><b>8. Establish Provenance Boundary</b></a><br><br>
+<a>Determine where provenance reconstruction can reasonably stop for<br>
+the governed validation role.</a><br><br>
+<a><b>9. Preserve Provenance &amp; Lineage Traceability</b></a><br><br>
+<a>Maintain:</a><br><br>
+<a><ul>
+<li>Validation Evidence reference,</li>
+<li>source identity references,</li>
+<li>evidence origin,</li>
+<li>provenance chain,</li>
+<li>source lineage,</li>
+<li>upstream sources,</li>
+<li>downstream sources,</li>
+<li>intermediaries,</li>
+<li>transformations,</li>
+<li>shared dependencies,</li>
+<li>dependency concentration,</li>
+<li>provenance gaps,</li>
+<li>lineage gaps,</li>
+<li>conflicts,</li>
+<li>uncertainty,</li>
+<li>provenance boundary,</li>
+<li>changes,</li>
+<li>version,</li>
+<li>and sufficient lifecycle traceability.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="provenance-and-lineage-outputs" data-oof-section-id="true" role="heading" aria-level="2">Provenance &amp; Lineage Outputs</h1>
+<a>VSPLM may produce:</a><br><br>
+<a><ul>
+<li>Validation Evidence Origin Record,</li>
+<li>Validation Source Provenance Record,</li>
+<li>Validation Source Chain,</li>
+<li>Source Lineage Map,</li>
+<li>Upstream Source Register,</li>
+<li>Downstream Source Relationship Record,</li>
+<li>Source Dependency Map,</li>
+<li>Shared Dependency Record,</li>
+<li>Dependency Concentration Record,</li>
+<li>Intermediary Map,</li>
+<li>Evidence Transformation Pathway,</li>
+<li>Aggregation Lineage Record,</li>
+<li>Circular Lineage Record,</li>
+<li>Provenance Gap Record,</li>
+<li>Lineage Gap Record,</li>
+<li>Provenance Conflict Record,</li>
+<li>Lineage Conflict Record,</li>
+<li>Provenance Boundary,</li>
+<li>Provenance Change Record,</li>
+<li>and Provenance &amp; Lineage Determination.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="use-case-1-ai-benchmark-evidence" data-oof-section-id="true" role="heading" aria-level="2">Use Case 1 — AI Benchmark Evidence</h1>
+<a><b>Scenario</b></a><br><br>
+<a>Five organizations publish benchmark results supporting the<br>
+performance of an AI system.</a><br><br>
+<a><b>Application</b></a><br><br>
+<a>VSPLM reconstructs their source lineage.</a><br><br>
+<a>All five organizations used benchmark datasets derived from the same<br>
+original dataset.</a><br><br>
+<a>Three also used the same evaluation framework.</a><br><br>
+<a><b>Result</b></a><br><br>
+<a>The validation process no longer interprets the five reports as five<br>
+completely independent evidentiary origins.</a><br><br>
+<a>Their shared dependencies become visible for subsequent independence<br>
+and reliability assessment.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="use-case-2-healthcare-dataset" data-oof-section-id="true" role="heading" aria-level="2">Use Case 2 — Healthcare Dataset</h1>
+<a><b>Scenario </b>A healthcare AI validation relies upon a commercial dataset<br>
+supplied by a data provider.</a><br><br>
+<a><b>Application</b></a><br><br>
+<a>VSPLM determines that the dataset combines:</a><br><br>
+<a><ul>
+<li>hospital records,</li>
+<li>laboratory data,</li>
+<li>historical public datasets,</li>
+<li>and transformed records from another commercial provider.</li>
+</ul></a><br><br>
+<a>Several transformation stages occurred before delivery.</a><br><br>
+<a><b>Result</b></a><br><br>
+<a>The commercial provider remains an identifiable source, but the<br>
+validation process now possesses a lineage map revealing the<br>
+upstream origins and transformations upon which the dataset depends.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="use-case-3-internet-claim" data-oof-section-id="true" role="heading" aria-level="2">Use Case 3 — Internet Claim</h1>
+<a><b>Scenario</b></a><br><br>
+<a>The same factual claim appears across dozens of online sources.</a><br><br>
+<a><b>Application</b></a><br><br>
+<a>VSPLM traces the available source chains.</a><br><br>
+<a>Most sources ultimately derive from one original report.</a><br><br>
+<a>Several others cite articles that themselves cite that same report.</a><br><br>
+<a><b>Result</b></a><br><br>
+<a>Apparent widespread corroboration becomes correctly represented as a<br>
+highly repeated but strongly concentrated evidentiary lineage.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="architectural-position" data-oof-section-id="true" role="heading" aria-level="2">Architectural Position</h1>
+<a>Validation Source Provenance &amp; Lineage is the second internal<br>
+governance space of the <b>Validation Source Reliability</b><br>
+<b>Standard (VSRS).</b></a><br><br>
+<a>The progression now becomes:</a><br><br>
+<a><b>Validation Evidence → Source Identity &amp; Attribution → Source</b><br>
+<b>Provenance &amp; Lineage</b></a><br><br>
+<a>VSIAM establishes:</a><br><br>
+<a><b>Who or what contributed the evidence?</b></a><br><br>
+<a>VSPLM establishes:</a><br><br>
+<a><b>Where did that evidence originate, how did it reach validation, and</b><br>
+<b>upon what upstream sources does it depend?</b></a><br><br>
+<a>The next governance stage can then ask:</a><br><br>
+<a><b>Are those sources actually capable and competent to perform the</b><br>
+<b>evidentiary roles assigned to them?</b></a><br><br>
+<a>The VSRS progression therefore continues: <b>Identity &amp; Attribution →</b><br>
+<b>Provenance &amp; Lineage → Capability &amp; Competence → Independence &amp;</b><br>
+<b>Conflict → Source Reliability Determination</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="foundational-principle" data-oof-section-id="true" role="heading" aria-level="2">Foundational Principle</h1>
+<a><b>Source diversity cannot be established until the lineage behind the</b><br>
+<b>sources is understood.</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="canonical-closing-statement" data-oof-section-id="true" role="heading" aria-level="2">Canonical Closing Statement</h1>
+<a><b>Validation Source Provenance &amp; Lineage Module establishes the</b><br>
+<b>traceability structure through which VALIDOS® reconstructs the</b><br>
+<b>material origins, pathways, dependencies, intermediaries,</b><br>
+<b>transformations, and source relationships underlying Validation</b><br>
+<b>Evidence. By distinguishing immediate providers from evidentiary</b><br>
+<b>origins, source multiplicity from independent lineage, and</b><br>
+<b>transformed evidence from its upstream foundations, VSPLM prevents</b><br>
+<b>hidden dependencies and incomplete provenance from creating</b><br>
+<b>artificial source confidence while establishing the traceable source</b><br>
+<b>chain required for subsequent capability, independence, conflict,</b><br>
+<b>corroboration, and Source Reliability governance.</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<!-- OOF GOVERNED LINKS START -->
+<section class="container governed-links">
+<h1 id="parent-resources" data-oof-section-id="true" role="heading" aria-level="2">Parent Resources</h1>
+<div class="oof-warning20">
+<a href="../../content/v/validos-architecture.html">&rarr; VALIDOS® Validation Governance Architecture — Validation Governance Layer</a>
+<br><br>
+<a href="../../content/v/validos-architecture-map.html">&rarr; VALIDOS® Architecture Map</a>
+<br><br>
+<a href="../../content/v/validos-complete-index.html">&rarr; VALIDOS® Complete Standards &amp; Modules Index</a>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container governed-links">
+<h1 id="internal-module-flow" data-oof-section-id="true" role="heading" aria-level="2">Internal Module Flow</h1>
+<div class="oof-warning20">
+<a href="../../content/v/validos-vsrs-vsiam-1.html">&rarr; Previous module: Validation Source Identity &amp; Attribution Module (VSIAM)</a>
+<br><br>
+<a href="../../content/v/validos-vsrs-vsccm-3.html">&rarr; Next module: Validation Source Capability &amp; Competence Module (VSCCM)</a>
+</div>
+<section class="viewbor"></section>
+</section>
+<!-- OOF GOVERNED LINKS END -->
+<section class="container">
+<h1 id="related-documents" data-oof-section-id="true" role="heading" aria-level="2">Related Documents</h1>
+<div class="oof-warning20">
+<a href="../../content/v/validos-vsrs.html">&rarr; Validation Source Reliability Standard</a><br><br>
+<a href="../../content/v/validos-vsrs-about.html">&rarr; About Validation Source Reliability Standard</a>
+</div><br><br><br><br>
+</section>
+
+</article></main>
+<!-- OOF SEMANTIC CONTENT END -->
+<div id="footer"></div>
+<script src="../../header.js"></script>
+<script>
+fetch("../../header.html").then(res => res.text()).then(data => { document.getElementById("header").innerHTML = data; if (window.normalizePageLinks) window.normalizePageLinks(); });
+fetch("../../footer.html").then(res => res.text()).then(data => { document.getElementById("footer").innerHTML = data; if (window.normalizePageLinks) window.normalizePageLinks(); });
+</script>
+</body>
+</html>

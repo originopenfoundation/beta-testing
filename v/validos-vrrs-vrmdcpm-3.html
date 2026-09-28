@@ -1,0 +1,1379 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Validation Reliance Monitoring, Dependency &amp; Change Propagation Module (VRMDCPM)</title>
+<link rel="stylesheet" href="../../style.css" />
+<link rel="alternate" type="application/json" href="../../data/oof-relationship-registry.json" title="OOF Governed Relationship Registry" />
+<!-- OOF AI DISCOVERY START -->
+<meta name="description" content="Validation Reliance Monitoring, Dependency &amp; Change Propagation Module (VRMDCPM). Architecture Ecosystem: Structured Reality Standards™ Architecture Family." />
+<link rel="canonical" href="https://originopenfoundation.org/content/v/validos-vrrs-vrmdcpm-3.html" />
+<link rel="alternate" hreflang="en" href="https://originopenfoundation.org/content/v/validos-vrrs-vrmdcpm-3.html" />
+<link rel="alternate" hreflang="x-default" href="https://originopenfoundation.org/content/v/validos-vrrs-vrmdcpm-3.html" />
+<link rel="alternate" type="application/ld+json" href="https://originopenfoundation.org/data/oof-site-knowledge-graph.json" title="OOF Site Knowledge Graph" />
+<link rel="alternate" type="text/plain" href="https://originopenfoundation.org/llms.txt" title="OOF LLM Index" />
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="content-language" content="en" />
+<meta property="og:title" content="Validation Reliance Monitoring, Dependency &amp; Change Propagation Module (VRMDCPM)" />
+<meta property="og:description" content="Validation Reliance Monitoring, Dependency &amp; Change Propagation Module (VRMDCPM). Architecture Ecosystem: Structured Reality Standards™ Architecture Family." />
+<meta property="og:url" content="https://originopenfoundation.org/content/v/validos-vrrs-vrmdcpm-3.html" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="OOF® — OriginOpen® Foundation" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Validation Reliance Monitoring, Dependency &amp; Change Propagation Module (VRMDCPM)" />
+<meta name="twitter:description" content="Validation Reliance Monitoring, Dependency &amp; Change Propagation Module (VRMDCPM). Architecture Ecosystem: Structured Reality Standards™ Architecture Family." />
+<meta name="DC.title" content="Validation Reliance Monitoring, Dependency &amp; Change Propagation Module (VRMDCPM)" />
+<meta name="DC.language" content="en" />
+<meta name="DC.identifier" content="https://originopenfoundation.org/content/v/validos-vrrs-vrmdcpm-3.html" />
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","@id":"https://originopenfoundation.org/content/v/validos-vrrs-vrmdcpm-3.html#webpage","url":"https://originopenfoundation.org/content/v/validos-vrrs-vrmdcpm-3.html","name":"Validation Reliance Monitoring, Dependency & Change Propagation Module (VRMDCPM)","description":"Validation Reliance Monitoring, Dependency & Change Propagation Module (VRMDCPM). Architecture Ecosystem: Structured Reality Standards™ Architecture Family.","inLanguage":"en","isPartOf":[{"@id":"https://originopenfoundation.org/#website"},{"@id":"https://originopenfoundation.org/content/v/validos-architecture.html#webpage"},{"@id":"https://originopenfoundation.org/content/v/validos-architecture-map.html#webpage"},{"@id":"https://originopenfoundation.org/content/v/validos-complete-index.html#webpage"}],"publisher":{"@id":"https://originopenfoundation.org/#organization"},"breadcrumb":{"@type":"BreadcrumbList","@id":"https://originopenfoundation.org/content/v/validos-vrrs-vrmdcpm-3.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"OOF® — OriginOpen® Foundation","item":"https://originopenfoundation.org/"},{"@type":"ListItem","position":2,"name":"Validation Reliance Monitoring, Dependency & Change Propagation Module (VRMDCPM)","item":"https://originopenfoundation.org/content/v/validos-vrrs-vrmdcpm-3.html"}]},"headline":"Validation Reliance Monitoring, Dependency & Change Propagation Module (VRMDCPM)","author":{"@id":"https://originopenfoundation.org/#organization"},"mainEntityOfPage":{"@id":"https://originopenfoundation.org/content/v/validos-vrrs-vrmdcpm-3.html#webpage"},"keywords":["AI & Interpretation","Validation Governance"],"about":[{"@type":"Thing","name":"AI & Interpretation"},{"@type":"Thing","name":"Validation Governance"}],"relatedLink":["https://originopenfoundation.org/content/v/validos-architecture.html","https://originopenfoundation.org/content/v/validos-architecture-map.html","https://originopenfoundation.org/content/v/validos-complete-index.html","https://originopenfoundation.org/content/v/validos-vrrs-vrcaocm-2.html","https://originopenfoundation.org/content/v/validos-vrrs-rsdvrm-4.html","https://originopenfoundation.org/content/v/validos-vrrs.html","https://originopenfoundation.org/content/v/validos-vrrs-about.html"],"citation":["https://originopenfoundation.org/content/v/validos-vrrs.html","https://originopenfoundation.org/content/v/validos-vrrs-about.html"],"hasPart":[{"@id":"https://originopenfoundation.org/content/v/validos-vrrs-vrcaocm-2.html#webpage"},{"@id":"https://originopenfoundation.org/content/v/validos-vrrs-rsdvrm-4.html#webpage"}],"version":"1.0","creativeWorkStatus":"Canonical · Open Module","additionalProperty":[{"@type":"PropertyValue","name":"Category","value":"AI & Interpretation"},{"@type":"PropertyValue","name":"Subcategory","value":"Validation Governance"},{"@type":"PropertyValue","name":"Type","value":"Parent Standard Module"},{"@type":"PropertyValue","name":"Version","value":"1.0"},{"@type":"PropertyValue","name":"Status","value":"Canonical · Open Module"},{"@type":"PropertyValue","name":"Canonical Language","value":"English (UCL™)"}]}</script>
+<!-- OOF AI DISCOVERY END -->
+</head>
+<body>
+<div id="header"></div>
+<!-- OOF SEMANTIC CONTENT START -->
+<main class="oof-semantic-main"><article class="oof-semantic-article">
+
+<section class="container">
+<h2 id="validation-reliance-monitoring-dependency-and-change-propagation-module-vrmdcpm" data-oof-section-id="true" role="heading" aria-level="1">Validation Reliance Monitoring, Dependency &amp; Change Propagation Module (VRMDCPM)</h2>
+</section>
+
+<section class="container">
+<div class="oof-warning3">
+<p class="podstand"><b>Architecture Ecosystem: </b>Structured Reality Standards™<br>
+<b>Architecture Family: VALIDOS® — Validation Governance Architecture</b><br>
+<b>Parent Standard: Validation Reliance &amp; Revalidation Standard (VRRS)</b><br>
+<b>Operational Layer: </b>Validation Reliance &amp; Revalidation Layer<br>
+<b>Category: </b>AI &amp; Interpretation<br>
+<b>Subcategory: </b>Validation Governance<br>
+<b>Type: </b>Parent Standard Module<br>
+<b>Governed Space: Validation Reliance Monitoring, Dependency &amp;</b><br>
+<b>Change Propagation</b><br>
+<b>Version: </b>1.0<br>
+<b>Status: </b>Canonical · Open Module<br>
+<b>Effective Date: 12 August 2026</b><br>
+<b>Compatibility: </b>OOF® Methodology OS™ · GOA™ · OBIDENITY® · INTEGROS®<br>
+· ORA™ · AGA™ · AIG® · CLIA® · MGIA™ · ASGA™ · RIS™<br>
+<b>AI-Readable: </b>Yes<br>
+<b>Authority: </b>OOF®<br>
+<b>Protection: MIP® — Methodological Intellectual Property</b><br>
+<b>Canonical Language: </b>English (UCL™)
+</p><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="governed-space" data-oof-section-id="true" role="heading" aria-level="2">Governed Space</h1>
+<a><b>Validation Reliance Monitoring, Dependency &amp; Change Propagation</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="canonical-definition" data-oof-section-id="true" role="heading" aria-level="2">Canonical Definition</h1>
+<a><b>Validation Reliance Monitoring, Dependency &amp; Change Propagation</b><br>
+<b>Module (VRMDCPM) </b>defines the governance framework for continuously<br>
+or periodically monitoring active Validation Reliance relationships,<br>
+identifying upstream and downstream dependencies, detecting changes<br>
+capable of affecting reliance legitimacy, and propagating Validation<br>
+State, applicability, object, condition, evidence, source,<br>
+dependency, context, consequence, and authorization changes through<br>
+affected reliance chains.</a><br><br>
+<a>It establishes the operational continuity layer through which active<br>
+reliance remains synchronized with the validation reality that<br>
+continues to justify it.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="operational-role" data-oof-section-id="true" role="heading" aria-level="2">Operational Role</h1>
+<a>VRMDCPM serves as the third internal governance space of the<br>
+<b>Validation Reliance &amp; Revalidation Standard (VRRS).</b></a><br><br>
+<a>The preceding modules establish:</a><br><br>
+<a><b>VRESM — Is reliance methodologically eligible and</b><br>
+<b>sufficiently supported?</b></a><br><br>
+<a><b>VRCAOCM — Under what authority, conditions, restrictions, and</b><br>
+<b>controls may that reliance become operational?</b></a><br><br>
+<a>VRMDCPM asks:</a><br><br>
+<a><b>Once reliance is active, what must be monitored, what does this</b><br>
+<b>reliance depend upon, and how must changes in the validation basis</b><br>
+<b>propagate through the reliance relationship?</b></a><br><br>
+<a>The governed progression is:</a><br><br>
+<a><b>Active Reliance → Reliance Monitoring Baseline → Dependency Mapping</b><br>
+<b>→ Change Detection → Change Relevance Assessment → Reliance Impact</b><br>
+<b>Assessment → Change Propagation → Reliance Reassessment Signal</b></a><br><br>
+<a>VRMDCPM does not determine the final revalidation scope.</a><br><br>
+<a>It identifies when active reliance no longer cleanly matches the<br>
+validation basis that originally supported it.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="module-operational-space" data-oof-section-id="true" role="heading" aria-level="2">Module Operational Space</h1>
+<a>VRMDCPM governs:</a><br><br>
+<a><ul>
+<li>active reliance monitoring,</li>
+<li>reliance-state monitoring,</li>
+<li>reliance-condition monitoring,</li>
+<li>reliance-scope monitoring,</li>
+<li>reliance-context monitoring,</li>
+<li>consequence monitoring,</li>
+<li>object-version monitoring,</li>
+<li>Validation State monitoring,</li>
+<li>applicability monitoring,</li>
+<li>authorization monitoring,</li>
+<li>reliance dependency mapping,</li>
+<li>upstream validation dependencies,</li>
+<li>downstream reliance dependencies,</li>
+<li>dependency criticality,</li>
+<li>reliance-chain mapping,</li>
+<li>change detection,</li>
+<li>change propagation,</li>
+<li>Validation State change propagation,</li>
+<li>object-change propagation,</li>
+<li>scope-change propagation,</li>
+<li>condition-change propagation,</li>
+<li>evidence-change propagation,</li>
+<li>source-change propagation,</li>
+<li>dependency-change propagation,</li>
+<li>authorization-change propagation,</li>
+<li>reliance-context change propagation,</li>
+<li>consequence-escalation propagation,</li>
+<li>monitoring blind spots,</li>
+<li>impact localization,</li>
+<li>cascading reliance effects,</li>
+<li>reliance reassessment signals,</li>
+<li>and reliance-monitoring traceability.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="module-function" data-oof-section-id="true" role="heading" aria-level="2">Module Function</h1>
+<a>VRMDCPM applies while operational reliance remains active,<br>
+conditional, partial, restricted, paused, or otherwise subject to<br>
+ongoing governance.</a><br><br>
+<a>Its function is to prevent:</a><br><br>
+<a><ul>
+<li>downstream systems continuing to rely after upstream Validation State changes,</li>
+<li>object-version changes remaining invisible to relying actors,</li>
+<li>expired validation remaining embedded in operational dependencies,</li>
+<li>condition failure failing to propagate into reliance,</li>
+<li>reliance scope expanding without reassessment,</li>
+<li>downstream systems inheriting validation confidence indefinitely,</li>
+<li>hidden dependencies undermining reliance without detection,</li>
+<li>new evidence remaining disconnected from reliance decisions,</li>
+<li>source failure remaining trapped upstream,</li>
+<li>consequence escalation occurring without stronger validation review,</li>
+<li>and reliance chains becoming opaque after multiple system integrations.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="reliance-monitoring-baseline" data-oof-section-id="true" role="heading" aria-level="2">Reliance Monitoring Baseline</h1>
+<a>Effective reliance monitoring requires a governed baseline.</a><br><br>
+<a>VRMDCPM therefore establishes a <b>Reliance Monitoring Baseline.</b></a><br><br>
+<a>The baseline may include:</a><br><br>
+<a><ul>
+<li>Relying Actor,</li>
+<li>Validation Object,</li>
+<li>object version,</li>
+<li>current Validation State,</li>
+<li>Reliance Eligibility Status,</li>
+<li>Reliance Authorization,</li>
+<li>Reliance Purpose,</li>
+<li>Reliance Scope,</li>
+<li>Reliance Context,</li>
+<li>consequence level,</li>
+<li>conditions,</li>
+<li>restrictions,</li>
+<li>limitations,</li>
+<li>operational controls,</li>
+<li>dependencies,</li>
+<li>authorization validity,</li>
+<li>and revalidation status.</li>
+</ul></a><br><br>
+<a>This baseline represents the operational reliance reality that<br>
+was approved.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="reliance-monitoring" data-oof-section-id="true" role="heading" aria-level="2">Reliance Monitoring</h1>
+<a>Reliance Monitoring observes whether active reliance remains aligned<br>
+with the approved baseline.</a><br><br>
+<a>Monitoring may be:</a><br><br>
+<a><ul>
+<li>continuous,</li>
+<li>periodic,</li>
+<li>event-triggered,</li>
+<li>risk-triggered,</li>
+<li>change-triggered,</li>
+<li>or hybrid.</li>
+</ul></a><br><br>
+<a>Monitoring intensity should remain proportionate to reliance<br>
+criticality and system dynamism.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="what-reliance-monitoring-watches" data-oof-section-id="true" role="heading" aria-level="2">What Reliance Monitoring Watches</h1>
+<a>Relevant monitoring dimensions may include:</a><br><br>
+<a><ul>
+<li>Validation State,</li>
+<li>object identity,</li>
+<li>object version,</li>
+<li>configuration,</li>
+<li>purpose,</li>
+<li>scope,</li>
+<li>operating environment,</li>
+<li>population,</li>
+<li>autonomy level,</li>
+<li>authorization,</li>
+<li>conditions,</li>
+<li>restrictions,</li>
+<li>controls,</li>
+<li>evidence signals,</li>
+<li>source signals,</li>
+<li>dependency status,</li>
+<li>consequence,</li>
+<li>and expiration.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="validation-state-monitoring" data-oof-section-id="true" role="heading" aria-level="2">Validation State Monitoring</h1>
+<a>The current Validation State supporting reliance should<br>
+remain observable.</a><br><br>
+<a>Relevant state changes include:</a><br><br>
+<a><b>Validated → Conditionally Validated</b></a><br><br>
+<a><b>Validated → Validation Suspended</b></a><br><br>
+<a><b>Validated → Validation Expired</b></a><br><br>
+<a><b>Validated → Revalidation Required</b></a><br><br>
+<a><b>Conditionally Validated → Invalidated</b></a><br><br>
+<a>or another lifecycle transition.</a><br><br>
+<a>These changes may materially affect active reliance.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="state-change-propagation" data-oof-section-id="true" role="heading" aria-level="2">State Change Propagation</h1>
+<a>VALIDOS® establishes:</a><br><br>
+<a><b>Validation State Change → Reliance Reassessment Signal</b></a><br><br>
+<a>where the changed state may affect reliance legitimacy.</a><br><br>
+<a>A state transition should not remain isolated within validation<br>
+records while downstream actors continue unchanged.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="object-version-monitoring" data-oof-section-id="true" role="heading" aria-level="2">Object-Version Monitoring</h1>
+<a>A relying actor may begin reliance on:</a><br><br>
+<a><b>Object Version 4.2</b></a><br><br>
+<a>while the operational system later updates to: <b>Version 4.3</b></a><br><br>
+<a>VRMDCPM monitors whether the relied-upon object remains the same<br>
+governed object version or an accepted equivalent.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="version-drift" data-oof-section-id="true" role="heading" aria-level="2">Version Drift</h1>
+<a>Repeated minor version changes may create <b>Reliance Version Drift.</b></a><br><br>
+<a>Even where each update appears small, accumulated change may<br>
+undermine the original reliance basis.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="configuration-monitoring" data-oof-section-id="true" role="heading" aria-level="2">Configuration Monitoring</h1>
+<a>Reliance may depend upon specific configuration.</a><br><br>
+<a>Monitoring may include:</a><br><br>
+<a><ul>
+<li>enabled tools,</li>
+<li>system permissions,</li>
+<li>human oversight settings,</li>
+<li>safety controls,</li>
+<li>model parameters,</li>
+<li>memory settings,</li>
+<li>data connections,</li>
+<li>or external integrations.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="reliance-scope-monitoring" data-oof-section-id="true" role="heading" aria-level="2">Reliance Scope Monitoring</h1>
+<a>Active operational use may gradually exceed the authorized<br>
+reliance scope.</a><br><br>
+<a>For example:</a><br><br>
+<a><b>Authorized: </b>Internal Decision Support</a><br><br>
+<a>may gradually become:</a><br><br>
+<a><b>Used for Customer-Facing Automated Decisions</b></a><br><br>
+<a>VRMDCPM identifies this as a scope-change signal.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="reliance-context-monitoring" data-oof-section-id="true" role="heading" aria-level="2">Reliance Context Monitoring</h1>
+<a>The same technical use may become materially different because<br>
+context changes.</a><br><br>
+<a>Examples include:</a><br><br>
+<a><ul>
+<li>scale increases,</li>
+<li>human oversight decreases,</li>
+<li>decisions become irreversible,</li>
+<li>user population changes,</li>
+<li>jurisdiction changes,</li>
+<li>deployment becomes continuous,</li>
+<li>or operational dependency increases.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="consequence-monitoring" data-oof-section-id="true" role="heading" aria-level="2">Consequence Monitoring</h1>
+<a>Reliance consequence may increase over time even where the object<br>
+and purpose remain nominally similar.</a><br><br>
+<a>For example:</a><br><br>
+<a>A model initially used for low-value transactions may later<br>
+influence very large financial exposure.</a><br><br>
+<a>VRMDCPM monitors consequence escalation as a<br>
+validation-relevance signal.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="reliance-consequence-escalation" data-oof-section-id="true" role="heading" aria-level="2">Reliance Consequence Escalation</h1>
+<a>A <b>Reliance Consequence Escalation </b>occurs where the significance of<br>
+reliance failure materially increases beyond the assurance level<br>
+originally assessed.</a><br><br>
+<a>This may trigger:</a><br><br>
+<a><ul>
+<li>Reliance Eligibility reassessment,</li>
+<li>stronger controls,</li>
+<li>authorization escalation,</li>
+<li>Validation Depth escalation,</li>
+<li>or revalidation.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="condition-monitoring" data-oof-section-id="true" role="heading" aria-level="2">Condition Monitoring</h1>
+<a>Continuing reliance conditions should remain observable.</a><br><br>
+<a>Examples include:</a><br><br>
+<a><ul>
+<li>human oversight,</li>
+<li>required safety control,</li>
+<li>monitoring availability,</li>
+<li>specified environment,</li>
+<li>dependency status,</li>
+<li>object version,</li>
+<li>or required corroboration.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="condition-failure-propagation" data-oof-section-id="true" role="heading" aria-level="2">Condition Failure Propagation</h1>
+<a>When a mandatory reliance condition fails, VRMDCPM generates a<br>
+propagation signal to the operational reliance layer.</a><br><br>
+<a>Possible responses may include:</a><br><br>
+<a><ul>
+<li>pause,</li>
+<li>restriction,</li>
+<li>suspension,</li>
+<li>fallback,</li>
+<li>escalation,</li>
+<li>or revalidation assessment.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="authorization-monitoring" data-oof-section-id="true" role="heading" aria-level="2">Authorization Monitoring</h1>
+<a>Reliance Authorization may:</a><br><br>
+<a><ul>
+<li>expire,</li>
+<li>be modified,</li>
+<li>be suspended,</li>
+<li>be revoked,</li>
+<li>or be superseded.</li>
+</ul></a><br><br>
+<a>VRMDCPM ensures authorization changes remain connected to<br>
+active reliance.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="authorization-change-propagation" data-oof-section-id="true" role="heading" aria-level="2">Authorization Change Propagation</h1>
+<a>A revoked authorization must not remain operationally active merely<br>
+because the Validation State itself remains Validated.</a><br><br>
+<a>This preserves:</a><br><br>
+<a><b>Validation Sufficiency</b></a><br><br>
+<a>separately from:</a><br><br>
+<a><b>Permission to Rely</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="reliance-dependency" data-oof-section-id="true" role="heading" aria-level="2">Reliance Dependency</h1>
+<a>A <b>Reliance Dependency </b>is any upstream object, service, system,<br>
+control, evidence source, validation artifact, or operational<br>
+condition upon which active reliance materially depends.</a><br><br>
+<a>Dependencies may be:</a><br><br>
+<a><ul>
+<li>validation dependencies,</li>
+<li>technical dependencies,</li>
+<li>data dependencies,</li>
+<li>source dependencies,</li>
+<li>infrastructure dependencies,</li>
+<li>human dependencies,</li>
+<li>or governance dependencies.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="upstream-validation-dependency" data-oof-section-id="true" role="heading" aria-level="2">Upstream Validation Dependency</h1>
+<a>An upstream Validation Dependency is an object whose validation<br>
+condition materially supports another reliance relationship.</a><br><br>
+<a>For example:</a><br><br>
+<a><b>Validated Dataset → AI Model</b></a><br><br>
+<a>or:</a><br><br>
+<a><b>Validated Sensor → Autonomous Controller</b></a><br><br>
+<a>or:</a><br><br>
+<a><b>Validated Prediction Model → Decision Engine</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="downstream-reliance-dependency" data-oof-section-id="true" role="heading" aria-level="2">Downstream Reliance Dependency</h1>
+<a>A downstream dependency is a person, system, or process that<br>
+materially relies upon the Validation Object.</a><br><br>
+<a>For example:</a><br><br>
+<a><b>AI Model → Recommendation Platform</b></a><br><br>
+<a><b>Recommendation Platform → Human Decision</b></a><br><br>
+<a><b>Human Decision → Operational Action</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="reliance-dependency-map" data-oof-section-id="true" role="heading" aria-level="2">Reliance Dependency Map</h1>
+<a>VRMDCPM may create a <b>Reliance Dependency Map </b>identifying:</a><br><br>
+<a><ul>
+<li>Validation Object,</li>
+<li>Relying Actors,</li>
+<li>upstream validation dependencies,</li>
+<li>downstream systems,</li>
+<li>reliance purposes,</li>
+<li>reliance scopes,</li>
+<li>consequence levels,</li>
+<li>and dependency criticality.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="dependency-criticality" data-oof-section-id="true" role="heading" aria-level="2">Dependency Criticality</h1>
+<a>Not every dependency has equal significance.</a><br><br>
+<a>A dependency may be:</a><br><br>
+<a><b>Non-Critical</b></a><br><br>
+<a><b>Supporting</b></a><br><br>
+<a><b>Material</b></a><br><br>
+<a><b>Critical</b></a><br><br>
+<a>or another governed classification.</a><br><br>
+<a>Critical dependencies may require faster change propagation.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="single-point-of-validation-dependence" data-oof-section-id="true" role="heading" aria-level="2">Single Point of Validation Dependence</h1>
+<a>A reliance chain may depend heavily upon one validation object.</a><br><br>
+<a>Where loss of that object's Validation State can undermine many<br>
+downstream systems, VRMDCPM may identify a:</a><br><br>
+<a><b>Single Point of Validation Dependence</b></a><br><br>
+<a>This becomes important for resilience and revalidation planning.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="reliance-chain" data-oof-section-id="true" role="heading" aria-level="2">Reliance Chain</h1>
+<a>A Reliance Chain represents successive<br>
+validation-dependent relationships.</a><br><br>
+<a>For example:</a><br><br>
+<a><b>Validated Data</b></a><br><br>
+<a>↓</a><br><br>
+<a><b>Validated Model</b></a><br><br>
+<a>↓</a><br><br>
+<a><b>Authorized Decision Engine Reliance</b></a><br><br>
+<a>↓</a><br><br>
+<a><b>Autonomous Agent Reliance</b></a><br><br>
+<a>↓</a><br><br>
+<a><b>Operational Action </b>Each layer can introduce new<br>
+governance requirements.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="reliance-chain-depth" data-oof-section-id="true" role="heading" aria-level="2">Reliance Chain Depth</h1>
+<a>Long reliance chains may amplify uncertainty, dependency, and<br>
+governance complexity.</a><br><br>
+<a>VRMDCPM preserves chain depth rather than assuming validation<br>
+strength transfers unchanged across each downstream layer.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="validation-confidence-decay-across-chains" data-oof-section-id="true" role="heading" aria-level="2">Validation Confidence Decay Across Chains</h1>
+<a>VALIDOS® establishes:</a><br><br>
+<a><b>Validation confidence should not be assumed to remain unchanged</b><br>
+<b>across downstream transformations.</b></a><br><br>
+<a>Each integration may introduce:</a><br><br>
+<a><ul>
+<li>new scope,</li>
+<li>new interpretation,</li>
+<li>new system behavior,</li>
+<li>new dependencies,</li>
+<li>new consequence,</li>
+<li>or new operational conditions.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="dependency-change" data-oof-section-id="true" role="heading" aria-level="2">Dependency Change</h1>
+<a>A dependency may change while the primary Validation Object<br>
+remains unchanged.</a><br><br>
+<a>Examples include:</a><br><br>
+<a><ul>
+<li>API update,</li>
+<li>new model provider,</li>
+<li>sensor replacement,</li>
+<li>infrastructure migration,</li>
+<li>source change,</li>
+<li>dataset change,</li>
+<li>human-role change,</li>
+<li>or control-system change.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="dependency-change-propagation" data-oof-section-id="true" role="heading" aria-level="2">Dependency Change Propagation</h1>
+<a>Where a dependency materially changes, affected reliance<br>
+relationships should receive a change signal.</a><br><br>
+<a>The required response depends upon:</a><br><br>
+<a><ul>
+<li>dependency criticality,</li>
+<li>change materiality,</li>
+<li>affected scope,</li>
+<li>and whether validation equivalence remains.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="evidence-change-propagation" data-oof-section-id="true" role="heading" aria-level="2">Evidence Change Propagation</h1>
+<a>New evidence may materially strengthen or weaken the current<br>
+reliance basis.</a><br><br>
+<a>Examples include:</a><br><br>
+<a><ul>
+<li>adverse incident data,</li>
+<li>improved performance data,</li>
+<li>independent validation,</li>
+<li>newly discovered limitation,</li>
+<li>corrected measurement,</li>
+<li>or newly observed failure.</li>
+</ul></a><br><br>
+<a>VRMDCPM propagates material evidence change into<br>
+reliance reassessment.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="source-change-propagation" data-oof-section-id="true" role="heading" aria-level="2">Source Change Propagation</h1>
+<a>Changes in Source Reliability may also affect reliance.</a><br><br>
+<a>For example:</a><br><br>
+<a>A decisive upstream source may become:</a><br><br>
+<a><b>Conditionally Reliable</b></a><br><br>
+<a><b>Unreliable</b></a><br><br>
+<a>or:</a><br><br>
+<a><b>Reliability Undetermined</b></a><br><br>
+<a>VRMDCPM identifies which reliance relationships depend upon that<br>
+source-derived validation basis.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="applicability-change-propagation" data-oof-section-id="true" role="heading" aria-level="2">Applicability Change Propagation</h1>
+<a>A Validation State may remain active but lose applicability in<br>
+one domain.</a><br><br>
+<a>For example:</a><br><br>
+<a><b>Validated generally</b></a><br><br>
+<a>but:</a><br><br>
+<a><b>Validation Applicability Lost for Environment B</b></a><br><br>
+<a>Downstream reliance within Environment B must be reassessed.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="restriction-change-propagation" data-oof-section-id="true" role="heading" aria-level="2">Restriction Change Propagation</h1>
+<a>A new restriction may narrow reliance.</a><br><br>
+<a>For example:</a><br><br>
+<a><b>New Restriction: No Autonomous Use</b></a><br><br>
+<a>Any downstream autonomous system relying upon the object becomes<br>
+affected immediately.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="limitation-change-propagation" data-oof-section-id="true" role="heading" aria-level="2">Limitation Change Propagation</h1>
+<a>A newly identified limitation may not require full suspension but<br>
+may justify:</a><br><br>
+<a><ul>
+<li>additional oversight,</li>
+<li>reduced consequence,</li>
+<li>shorter reliance duration,</li>
+<li>or targeted revalidation.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="reliance-context-change" data-oof-section-id="true" role="heading" aria-level="2">Reliance Context Change</h1>
+<a>The Relying Actor itself may change the operational use.</a><br><br>
+<a>Examples include:</a><br><br>
+<a><ul>
+<li>higher autonomy,</li>
+<li>broader population,</li>
+<li>higher stakes,</li>
+<li>more frequent use,</li>
+<li>larger scale,</li>
+<li>new jurisdiction,</li>
+<li>or new purpose.</li>
+</ul></a><br><br>
+<a>VRMDCPM treats changes in reliance context as first-class<br>
+governance signals.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="reliance-drift" data-oof-section-id="true" role="heading" aria-level="2">Reliance Drift</h1>
+<a><b>Reliance Drift </b>is the progressive divergence between actual<br>
+operational reliance and the Reliance Authorization or<br>
+Eligibility basis.</a><br><br>
+<a>Drift may involve:</a><br><br>
+<a><ul>
+<li>scope,</li>
+<li>purpose,</li>
+<li>autonomy,</li>
+<li>consequence,</li>
+<li>duration,</li>
+<li>population,</li>
+<li>environment,</li>
+<li>or controls.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="authorization-drift" data-oof-section-id="true" role="heading" aria-level="2">Authorization Drift</h1>
+<a>Authorization Drift is a specific form of reliance drift where<br>
+actual use moves beyond formal authorization.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="reliance-creep" data-oof-section-id="true" role="heading" aria-level="2">Reliance Creep</h1>
+<a>Reliance Creep occurs where systems or organizations gradually<br>
+become more dependent upon the Validation Object than<br>
+originally intended.</a><br><br>
+<a>Examples include:</a><br><br>
+<a><ul>
+<li>advisory outputs become default decisions,</li>
+<li>manual review becomes nominal,</li>
+<li>backup systems are removed,</li>
+<li>transaction limits rise,</li>
+<li>or one validated model becomes a central infrastructure dependency.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="dependency-creep" data-oof-section-id="true" role="heading" aria-level="2">Dependency Creep</h1>
+<a>Dependency Creep occurs where a system accumulates additional<br>
+upstream validation dependencies without corresponding<br>
+governance reassessment.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="change-signal" data-oof-section-id="true" role="heading" aria-level="2">Change Signal</h1>
+<a>A <b>Reliance Change Signal </b>is an observed event indicating possible<br>
+divergence from the approved reliance basis.</a><br><br>
+<a>Signals may come from:</a><br><br>
+<a><ul>
+<li>VSGS,</li>
+<li>system monitoring,</li>
+<li>incident records,</li>
+<li>authorization systems,</li>
+<li>dependency monitors,</li>
+<li>evidence updates,</li>
+<li>source updates,</li>
+<li>or operational analytics.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="change-signal-vs-confirmed-reliance-change" data-oof-section-id="true" role="heading" aria-level="2">Change Signal vs Confirmed Reliance Change</h1>
+<a>VALIDOS® distinguishes:</a><br><br>
+<a><b>Reliance Change Signal</b></a><br><br>
+<a>from:</a><br><br>
+<a><b>Confirmed Material Reliance Change</b></a><br><br>
+<a>A signal triggers assessment.</a><br><br>
+<a>Confirmation establishes that the relevant change occurred.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="reliance-change-materiality" data-oof-section-id="true" role="heading" aria-level="2">Reliance Change Materiality</h1>
+<a>A confirmed change may be classified as:</a><br><br>
+<a><b>Immaterial Reliance Change</b></a><br><br>
+<a>No material impact on active reliance is expected.</a><br><br>
+<a><b>Minor Reliance-Relevant Change</b></a><br><br>
+<a>Limited governance response or monitoring may be sufficient.</a><br><br>
+<a><b>Material Reliance Change</b></a><br><br>
+<a>Formal reliance reassessment is required.</a><br><br>
+<a><b>Critical Reliance Change</b></a><br><br>
+<a>Immediate protective action may be required.</a><br><br>
+<a><b>Materiality Undetermined</b></a><br><br>
+<a>Available information is insufficient to classify the change.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="reliance-impact-assessment" data-oof-section-id="true" role="heading" aria-level="2">Reliance Impact Assessment</h1>
+<a>A Reliance Impact Assessment asks:</a><br><br>
+<a><ul>
+<li>Which Relying Actors are affected?</li>
+<li>Which Reliance Purposes are affected?</li>
+<li>Which scopes are affected?</li>
+<li>Which downstream systems depend upon the changed object?</li>
+<li>Which conditions have changed?</li>
+<li>Does current authorization remain valid?</li>
+<li>Is Validation Depth still sufficient?</li>
+<li>Has consequence changed?</li>
+<li>Does reliance need restriction, suspension, or revalidation assessment?</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="impact-localization" data-oof-section-id="true" role="heading" aria-level="2">Impact Localization</h1>
+<a>A change may affect only one portion of a Reliance Chain.</a><br><br>
+<a>For example:</a><br><br>
+<a>One environment may become unsupported while other environments<br>
+remain valid.</a><br><br>
+<a>VRMDCPM localizes impact where possible rather than automatically<br>
+treating all downstream reliance as invalid.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="cascading-reliance-effect" data-oof-section-id="true" role="heading" aria-level="2">Cascading Reliance Effect</h1>
+<a>A change in one Validation Object may produce multiple<br>
+downstream consequences.</a><br><br>
+<a>This is a <b>Cascading Reliance Effect.</b></a><br><br>
+<a>For example:</a><br><br>
+<a><b>Source Reliability Failure</b></a><br><br>
+<a>↓</a><br><br>
+<a><b>Validation State Reassessment</b></a><br><br>
+<a>↓</a><br><br>
+<a><b>Model Reliance Restricted</b></a><br><br>
+<a>↓</a><br><br>
+<a><b>Decision Engine Reliance Suspended</b></a><br><br>
+<a>↓</a><br><br>
+<a><b>Autonomous Process Fallback Activated</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="propagation-priority" data-oof-section-id="true" role="heading" aria-level="2">Propagation Priority</h1>
+<a>High-consequence or high-dependency changes may require<br>
+faster propagation.</a><br><br>
+<a>A propagation priority may consider:</a><br><br>
+<a><ul>
+<li>criticality,</li>
+<li>number of downstream actors,</li>
+<li>consequence,</li>
+<li>immediacy,</li>
+<li>reversibility,</li>
+<li>and operational exposure.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="propagation-latency" data-oof-section-id="true" role="heading" aria-level="2">Propagation Latency</h1>
+<a>Reliance governance should consider how long it takes for validation<br>
+changes to reach downstream relying actors.</a><br><br>
+<a>Excessive propagation latency may allow invalid or unsupported<br>
+reliance to continue.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="critical-propagation-requirement" data-oof-section-id="true" role="heading" aria-level="2">Critical Propagation Requirement</h1>
+<a>For critical reliance chains, certain validation-state changes may<br>
+require immediate propagation.</a><br><br>
+<a>Examples include:</a><br><br>
+<a><ul>
+<li>Validation Invalidated,</li>
+<li>critical suspension,</li>
+<li>critical evidence compromise,</li>
+<li>or severe source failure.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="reliance-reassessment-signal" data-oof-section-id="true" role="heading" aria-level="2">Reliance Reassessment Signal</h1>
+<a>VRMDCPM may generate a formal <b>Reliance Reassessment Signal </b>when the<br>
+active reliance basis may no longer be sufficient.</a><br><br>
+<a>Possible signals include:</a><br><br>
+<a><b>No Reassessment Required</b></a><br><br>
+<a><b>Reliance Review Recommended</b></a><br><br>
+<a><b>Reliance Reassessment Required</b></a><br><br>
+<a><b>Reliance Restriction Recommended</b></a><br><br>
+<a><b>Reliance Suspension Recommended</b></a><br><br>
+<a><b>Revalidation Assessment Required</b></a><br><br>
+<a>These are governance signals, not final reliance decisions.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="revalidation-assessment-signal" data-oof-section-id="true" role="heading" aria-level="2">Revalidation Assessment Signal</h1>
+<a>Where the detected change appears capable of exceeding the existing<br>
+validation basis, VRMDCPM may generate:</a><br><br>
+<a><b>Revalidation Assessment Required</b></a><br><br>
+<a>The fourth VRRS module then determines:</a><br><br>
+<a><b>What exactly must be revalidated?</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="monitoring-blind-spot" data-oof-section-id="true" role="heading" aria-level="2">Monitoring Blind Spot</h1>
+<a>A <b>Reliance Monitoring Blind Spot </b>exists where a material dependency,<br>
+validation-state condition, authorization change, or operational-use<br>
+dimension is insufficiently observable.</a><br><br>
+<a>Blind spots may include:</a><br><br>
+<a><ul>
+<li>hidden third-party model updates,</li>
+<li>undocumented downstream use,</li>
+<li>inaccessible external dependency status,</li>
+<li>unlogged scope expansion,</li>
+<li>or unknown system configuration.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="monitoring-coverage" data-oof-section-id="true" role="heading" aria-level="2">Monitoring Coverage</h1>
+<a>Reliance Monitoring Coverage may be:</a><br><br>
+<a><b>Sufficient</b></a><br><br>
+<a><b>Conditionally Sufficient</b></a><br><br>
+<a><b>Partial</b></a><br><br>
+<a><b>Insufficient</b></a><br><br>
+<a>or:</a><br><br>
+<a><b>Undetermined</b></a><br><br>
+<a>Insufficient coverage may itself create reliance uncertainty.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="monitoring-freshness" data-oof-section-id="true" role="heading" aria-level="2">Monitoring Freshness</h1>
+<a>Reliance monitoring information must remain sufficiently current for<br>
+the pace at which relevant conditions can change.</a><br><br>
+<a>A monthly validation-state check may be insufficient for a system<br>
+that updates daily.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="monitoring-frequency" data-oof-section-id="true" role="heading" aria-level="2">Monitoring Frequency</h1>
+<a>Monitoring frequency should correspond to:</a><br><br>
+<a><ul>
+<li>object update frequency,</li>
+<li>Reliance Criticality,</li>
+<li>dependency volatility,</li>
+<li>Validation State volatility,</li>
+<li>consequence,</li>
+<li>and operational scale.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="event-triggered-propagation" data-oof-section-id="true" role="heading" aria-level="2">Event-Triggered Propagation</h1>
+<a>Certain events may trigger immediate reliance reassessment.</a><br><br>
+<a>Examples include:</a><br><br>
+<a><ul>
+<li>Validation State transition,</li>
+<li>object major-version change,</li>
+<li>critical incident,</li>
+<li>authorization revocation,</li>
+<li>condition failure,</li>
+<li>critical dependency update,</li>
+<li>source retraction,</li>
+<li>or state expiration.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="automated-change-propagation" data-oof-section-id="true" role="heading" aria-level="2">Automated Change Propagation</h1>
+<a>Machine-readable validation and reliance records may permit<br>
+automatic propagation.</a><br><br>
+<a>For example:</a><br><br>
+<a><b>Validation State = Suspended</b></a><br><br>
+<a>could automatically produce:</a><br><br>
+<a><b>Affected Reliance Authorizations = Suspended </b>where the authorization<br>
+rules require it.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="ai-assisted-impact-propagation" data-oof-section-id="true" role="heading" aria-level="2">AI-Assisted Impact Propagation</h1>
+<a>AI may assist with:</a><br><br>
+<a><ul>
+<li>dependency discovery,</li>
+<li>impact mapping,</li>
+<li>change summarization,</li>
+<li>affected-scope detection,</li>
+<li>reliance-chain analysis,</li>
+<li>and prioritization.</li>
+</ul></a><br><br>
+<a>AI should not invent unobserved dependencies as facts.</a><br><br>
+<a>Uncertain inferred dependencies must remain distinguishable from<br>
+confirmed ones.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="human-change-propagation" data-oof-section-id="true" role="heading" aria-level="2">Human Change Propagation</h1>
+<a>Human governance may remain necessary where:</a><br><br>
+<a><ul>
+<li>downstream dependencies are organizational,</li>
+<li>consequence is contextual,</li>
+<li>scope relationships are complex,</li>
+<li>or authorization rules require judgment.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="reliance-monitoring-record" data-oof-section-id="true" role="heading" aria-level="2">Reliance Monitoring Record</h1>
+<a>A formal record may preserve:</a><br><br>
+<a><ul>
+<li>Relying Actor,</li>
+<li>Validation Object,</li>
+<li>current Validation State,</li>
+<li>Reliance Authorization,</li>
+<li>Monitoring Baseline,</li>
+<li>monitored dimensions,</li>
+<li>dependencies,</li>
+<li>dependency criticality,</li>
+<li>detected changes,</li>
+<li>change materiality,</li>
+<li>affected downstream actors,</li>
+<li>propagation actions,</li>
+<li>impact assessment,</li>
+<li>reassessment signals,</li>
+<li>revalidation signals,</li>
+<li>monitoring blind spots,</li>
+<li>monitoring time,</li>
+<li>and sufficient traceability.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="dependency-record" data-oof-section-id="true" role="heading" aria-level="2">Dependency Record</h1>
+<a>A Reliance Dependency Record may preserve:</a><br><br>
+<a><ul>
+<li>Dependency Identifier,</li>
+<li>dependency type,</li>
+<li>upstream object,</li>
+<li>downstream actor,</li>
+<li>reliance purpose,</li>
+<li>affected scope,</li>
+<li>criticality,</li>
+<li>Validation State dependency,</li>
+<li>conditions,</li>
+<li>change sensitivity,</li>
+<li>and propagation rule.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="reliance-impact-map" data-oof-section-id="true" role="heading" aria-level="2">Reliance Impact Map</h1>
+<a>A <b>Reliance Impact Map </b>may represent:</a><br><br>
+<a><b>Changed Validation Object</b></a><br><br>
+<a>↓</a><br><br>
+<a><b>Affected Validation States</b></a><br><br>
+<a>↓</a><br><br>
+<a><b>Affected Relying Actors</b></a><br><br>
+<a>↓</a><br><br>
+<a><b>Affected Reliance Authorizations</b></a><br><br>
+<a>↓</a><br><br>
+<a><b>Affected Decisions / Systems / Operations</b></a><br><br>
+<a>This supports rapid response to validation change.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="minimum-implementation-framework" data-oof-section-id="true" role="heading" aria-level="2">Minimum Implementation Framework</h1>
+<a><b>1. Establish Reliance Monitoring Baseline</b></a><br><br>
+<a>Preserve the approved active reliance relationship.</a><br><br>
+<a><b>2. Identify Reliance Dependencies</b></a><br><br>
+<a>Map upstream validation dependencies and downstream relying actors.</a><br><br>
+<a><b>3. Classify Dependency Criticality</b></a><br><br>
+<a>Determine which dependencies can materially affect<br>
+reliance legitimacy.</a><br><br>
+<a><b>4. Establish Monitoring Dimensions</b></a><br><br>
+<a>Monitor relevant:</a><br><br>
+<a><ul>
+<li>Validation State,</li>
+<li>object version,</li>
+<li>configuration,</li>
+<li>conditions,</li>
+<li>authorization,</li>
+<li>scope,</li>
+<li>context,</li>
+<li>consequence,</li>
+<li>evidence,</li>
+<li>sources,</li>
+<li>and dependencies.</li>
+</ul></a><br><br>
+<a><b>5. Detect Change Signals</b></a><br><br>
+<a>Identify changes relative to the approved reliance baseline.</a><br><br>
+<a><b>6. Verify Material Changes</b></a><br><br>
+<a>Confirm significant signals where possible.</a><br><br>
+<a><b>7. Assess Reliance Change Materiality</b></a><br><br>
+<a>Classify the impact potential of the change.</a><br><br>
+<a><b>8. Perform Reliance Impact Assessment</b></a><br><br>
+<a>Identify affected actors, scopes, authorizations, and<br>
+downstream systems.</a><br><br>
+<a><b>9. Propagate Change</b></a><br><br>
+<a>Communicate or machine-propagate material validation changes through<br>
+affected reliance chains.</a><br><br>
+<a><b>10. Generate Reassessment Signal</b></a><br><br>
+<a>Determine whether:</a><br><br>
+<a><ul>
+<li>no action,</li>
+<li>review,</li>
+<li>reassessment,</li>
+<li>restriction,</li>
+<li>suspension,</li>
+<li>or revalidation assessment</li>
+</ul></a><br><br>
+<a>is required.</a><br><br>
+<a><b>11. Preserve Monitoring &amp; Dependency Traceability</b></a><br><br>
+<a>Maintain the complete monitoring, dependency, change, impact, and<br>
+propagation history.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="governance-outputs" data-oof-section-id="true" role="heading" aria-level="2">Governance Outputs</h1>
+<a>VRMDCPM may produce:</a><br><br>
+<a><ul>
+<li>Reliance Monitoring Baseline,</li>
+<li>Validation Reliance Monitoring Record,</li>
+<li>Reliance Monitoring Plan,</li>
+<li>Reliance Monitoring Dimension Register,</li>
+<li>Reliance Monitoring Coverage Assessment,</li>
+<li>Reliance Monitoring Blind Spot Record,</li>
+<li>Reliance Monitoring Freshness Assessment,</li>
+<li>Validation State Change Signal,</li>
+<li>Object Version Change Signal,</li>
+<li>Configuration Change Signal,</li>
+<li>Reliance Scope Change Signal,</li>
+<li>Reliance Context Change Signal,</li>
+<li>Reliance Consequence Escalation Record,</li>
+<li>Reliance Condition Failure Signal,</li>
+<li>Authorization Change Signal,</li>
+<li>Reliance Dependency Map,</li>
+<li>Reliance Dependency Record,</li>
+<li>Upstream Validation Dependency Map,</li>
+<li>Downstream Reliance Dependency Map,</li>
+<li>Dependency Criticality Assessment,</li>
+<li>Single Point of Validation Dependence Record,</li>
+<li>Reliance Chain Map,</li>
+<li>Reliance Chain Depth Record,</li>
+<li>Dependency Change Record,</li>
+<li>Evidence Change Propagation Record,</li>
+<li>Source Change Propagation Record,</li>
+<li>Applicability Change Propagation Record,</li>
+<li>Restriction Change Propagation Record,</li>
+<li>Reliance Drift Record,</li>
+<li>Authorization Drift Record,</li>
+<li>Reliance Creep Record,</li>
+<li>Dependency Creep Record,</li>
+<li>Reliance Change Materiality Assessment,</li>
+<li>Reliance Impact Assessment,</li>
+<li>Reliance Impact Map,</li>
+<li>Cascading Reliance Effect Record,</li>
+<li>Change Propagation Record,</li>
+<li>Propagation Priority Record,</li>
+<li>Reliance Reassessment Signal,</li>
+<li>Reliance Restriction Signal,</li>
+<li>Reliance Suspension Signal,</li>
+<li>Revalidation Assessment Required Signal,</li>
+<li>and Reliance Change Traceability Record.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="use-case-1-ai-model-shared-across-multiple-systems" data-oof-section-id="true" role="heading" aria-level="2">Use Case 1 — AI Model Shared Across Multiple Systems</h1>
+<a><b>Scenario</b></a><br><br>
+<a>One Validated AI model is used by:</a><br><br>
+<a><ul>
+<li>an internal research tool,</li>
+<li>a customer-support platform,</li>
+<li>a financial decision engine,</li>
+<li>and an autonomous workflow agent.</li>
+</ul></a><br><br>
+<a>The model's Validation State changes:</a><br><br>
+<a><b>Validated → Conditionally Validated</b></a><br><br>
+<a>because a newly identified failure mode requires human review for<br>
+high-consequence outputs.</a><br><br>
+<a><b>Application</b></a><br><br>
+<a>VRMDCPM uses the Reliance Dependency Map to identify all downstream<br>
+relying systems.</a><br><br>
+<a><b>Result</b></a><br><br>
+<a>The impact differs by context:</a><br><br>
+<a><ul>
+<li>internal research may remain eligible,</li>
+<li>customer support may require additional review,</li>
+<li>financial automated decisions may require suspension,</li>
+<li>autonomous workflow use may require reassessment or revalidation.</li>
+</ul></a><br><br>
+<a>One upstream state change therefore produces differentiated<br>
+downstream governance rather than one universal response.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="use-case-2-healthcare-ai-dependency-change" data-oof-section-id="true" role="heading" aria-level="2">Use Case 2 — Healthcare AI Dependency Change</h1>
+<a><b>Scenario</b></a><br><br>
+<a>A diagnostic AI relies upon an external laboratory-data service that<br>
+was part of the validated configuration.</a><br><br>
+<a>The service materially changes its data-processing methodology.</a><br><br>
+<a><b>Application</b></a><br><br>
+<a>VRMDCPM detects a Dependency Change and identifies which validation<br>
+and reliance relationships depend upon that service.</a><br><br>
+<a><b>Result</b></a><br><br>
+<a>A <b>Revalidation Assessment Required </b>signal is generated for the<br>
+affected diagnostic pathway rather than assuming the unchanged AI<br>
+model remains fully validated in the new dependency reality.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="use-case-3-autonomous-financial-agent" data-oof-section-id="true" role="heading" aria-level="2">Use Case 3 — Autonomous Financial Agent</h1>
+<a><b>Scenario</b></a><br><br>
+<a>An autonomous financial agent was authorized to rely upon a<br>
+validated prediction model for transactions below a defined<br>
+exposure limit.</a><br><br>
+<a>Over time, the organization gradually increases transaction size<br>
+without formally updating the reliance authorization.</a><br><br>
+<a><b>Application</b></a><br><br>
+<a>VRMDCPM detects:</a><br><br>
+<a><b>Reliance Consequence Escalation</b></a><br><br>
+<a>and:</a><br><br>
+<a><b>Authorization Drift</b></a><br><br>
+<a><b>Result</b></a><br><br>
+<a>The active reliance relationship receives:</a><br><br>
+<a><b>Reliance Reassessment Required</b></a><br><br>
+<a>and potentially:</a><br><br>
+<a><b>Validation Depth Escalation / Revalidation Assessment Required</b></a><br><br>
+<a>before the higher-consequence use can continue legitimately.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="architectural-position" data-oof-section-id="true" role="heading" aria-level="2">Architectural Position</h1>
+<a>Validation Reliance Monitoring, Dependency &amp; Change Propagation is<br>
+the third internal governance space of the <b>Validation Reliance &amp;</b><br>
+<b>Revalidation Standard (VRRS).</b></a><br><br>
+<a>The progression now becomes:</a><br><br>
+<a><b>Reliance Eligibility &amp; Sufficiency → Reliance Conditions &amp;</b><br>
+<b>Authorization → Reliance Monitoring, Dependency &amp; Change Propagation</b><br>
+VRESM establishes:</a><br><br>
+<a><b>Can validation support the reliance?</b></a><br><br>
+<a>VRCAOCM establishes:</a><br><br>
+<a><b>How may that reliance become operational and controlled?</b></a><br><br>
+<a>VRMDCPM establishes:</a><br><br>
+<a><b>Does the active reliance still match the validation basis, what does</b><br>
+<b>it depend upon, and how do validation-relevant changes propagate</b><br>
+<b>through the reliance chain?</b></a><br><br>
+<a>The next VRRS governance stage can then ask:</a><br><br>
+<a><b>Given the detected material change or Revalidation Assessment</b><br>
+<b>Required signal, what exactly has changed, which parts of previous</b><br>
+<b>validation remain reusable, and what scope and depth of revalidation</b><br>
+<b>are now required?</b></a><br><br>
+<a>The VRRS progression therefore continues:</a><br><br>
+<a><b>Reliance Eligibility &amp; Sufficiency → Reliance Conditions &amp;</b><br>
+<b>Authorization → Reliance Monitoring, Dependency &amp; Change Propagation</b><br>
+<b>→ Revalidation Scope, Delta &amp; Validation Reuse → Revalidation</b><br>
+<b>Execution, Renewal &amp; Reliance Continuity</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="foundational-principle" data-oof-section-id="true" role="heading" aria-level="2">Foundational Principle</h1>
+<a><b>Reliance remains legitimate only while changes in the validation</b><br>
+<b>basis, the relied-upon object, the relying context, and the</b><br>
+<b>dependency chain remain visible enough to propagate to every</b><br>
+<b>materially affected reliance relationship.</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="canonical-closing-statement" data-oof-section-id="true" role="heading" aria-level="2">Canonical Closing Statement</h1>
+<a><b>Validation Reliance Monitoring, Dependency &amp; Change Propagation</b><br>
+<b>Module establishes the operational continuity layer of VALIDOS®</b><br>
+<b>reliance governance by monitoring active reliance, mapping upstream</b><br>
+<b>and downstream validation dependencies, detecting object, state,</b><br>
+<b>condition, authorization, evidence, source, context, consequence,</b><br>
+<b>and dependency change, assessing materiality, localizing impact, and</b><br>
+<b>propagating validation-relevant changes through reliance chains.</b><br>
+<b>VRMDCPM ensures that operational reliance cannot remain frozen while</b><br>
+<b>the validation reality supporting it changes and creates the</b><br>
+<b>governed connection through which material upstream change becomes</b><br>
+<b>downstream review, restriction, suspension, or revalidation</b><br>
+<b>assessment wherever continued reliance may no longer be</b><br>
+<b>legitimately supported.</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<!-- OOF GOVERNED LINKS START -->
+<section class="container governed-links">
+<h1 id="parent-resources" data-oof-section-id="true" role="heading" aria-level="2">Parent Resources</h1>
+<div class="oof-warning20">
+<a href="../../content/v/validos-architecture.html">&rarr; VALIDOS® Validation Governance Architecture — Validation Governance Layer</a>
+<br><br>
+<a href="../../content/v/validos-architecture-map.html">&rarr; VALIDOS® Architecture Map</a>
+<br><br>
+<a href="../../content/v/validos-complete-index.html">&rarr; VALIDOS® Complete Standards &amp; Modules Index</a>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container governed-links">
+<h1 id="internal-module-flow" data-oof-section-id="true" role="heading" aria-level="2">Internal Module Flow</h1>
+<div class="oof-warning20">
+<a href="../../content/v/validos-vrrs-vrcaocm-2.html">&rarr; Previous module: Validation Reliance Conditions, Authorization &amp; Operational Control Module (VRCAOCM)</a>
+<br><br>
+<a href="../../content/v/validos-vrrs-rsdvrm-4.html">&rarr; Next module: Revalidation Scope, Delta &amp; Validation Reuse Module (RSDVRM)</a>
+</div>
+<section class="viewbor"></section>
+</section>
+<!-- OOF GOVERNED LINKS END -->
+<section class="container">
+<h1 id="related-documents" data-oof-section-id="true" role="heading" aria-level="2">Related Documents</h1>
+<div class="oof-warning20">
+<a href="../../content/v/validos-vrrs.html">&rarr; Validation Reliance &amp; Revalidation Standard</a><br><br>
+<a href="../../content/v/validos-vrrs-about.html">&rarr; About Validation Reliance &amp; Revalidation Standard</a>
+</div><br><br><br><br>
+</section>
+
+</article></main>
+<!-- OOF SEMANTIC CONTENT END -->
+<div id="footer"></div>
+<script src="../../header.js"></script>
+<script>
+fetch("../../header.html").then(res => res.text()).then(data => { document.getElementById("header").innerHTML = data; if (window.normalizePageLinks) window.normalizePageLinks(); });
+fetch("../../footer.html").then(res => res.text()).then(data => { document.getElementById("footer").innerHTML = data; if (window.normalizePageLinks) window.normalizePageLinks(); });
+</script>
+</body>
+</html>

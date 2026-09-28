@@ -1,0 +1,1564 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Revalidation Scope, Delta &amp; Validation Reuse Module (RSDVRM)</title>
+<link rel="stylesheet" href="../../style.css" />
+<link rel="alternate" type="application/json" href="../../data/oof-relationship-registry.json" title="OOF Governed Relationship Registry" />
+<!-- OOF AI DISCOVERY START -->
+<meta name="description" content="Revalidation Scope, Delta &amp; Validation Reuse Module (RSDVRM). Architecture Ecosystem: Structured Reality Standards™ Architecture Family: VALIDOS® — Validation." />
+<link rel="canonical" href="https://originopenfoundation.org/content/v/validos-vrrs-rsdvrm-4.html" />
+<link rel="alternate" hreflang="en" href="https://originopenfoundation.org/content/v/validos-vrrs-rsdvrm-4.html" />
+<link rel="alternate" hreflang="x-default" href="https://originopenfoundation.org/content/v/validos-vrrs-rsdvrm-4.html" />
+<link rel="alternate" type="application/ld+json" href="https://originopenfoundation.org/data/oof-site-knowledge-graph.json" title="OOF Site Knowledge Graph" />
+<link rel="alternate" type="text/plain" href="https://originopenfoundation.org/llms.txt" title="OOF LLM Index" />
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="content-language" content="en" />
+<meta property="og:title" content="Revalidation Scope, Delta &amp; Validation Reuse Module (RSDVRM)" />
+<meta property="og:description" content="Revalidation Scope, Delta &amp; Validation Reuse Module (RSDVRM). Architecture Ecosystem: Structured Reality Standards™ Architecture Family: VALIDOS® — Validation." />
+<meta property="og:url" content="https://originopenfoundation.org/content/v/validos-vrrs-rsdvrm-4.html" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="OOF® — OriginOpen® Foundation" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Revalidation Scope, Delta &amp; Validation Reuse Module (RSDVRM)" />
+<meta name="twitter:description" content="Revalidation Scope, Delta &amp; Validation Reuse Module (RSDVRM). Architecture Ecosystem: Structured Reality Standards™ Architecture Family: VALIDOS® — Validation." />
+<meta name="DC.title" content="Revalidation Scope, Delta &amp; Validation Reuse Module (RSDVRM)" />
+<meta name="DC.language" content="en" />
+<meta name="DC.identifier" content="https://originopenfoundation.org/content/v/validos-vrrs-rsdvrm-4.html" />
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","@id":"https://originopenfoundation.org/content/v/validos-vrrs-rsdvrm-4.html#webpage","url":"https://originopenfoundation.org/content/v/validos-vrrs-rsdvrm-4.html","name":"Revalidation Scope, Delta & Validation Reuse Module (RSDVRM)","description":"Revalidation Scope, Delta & Validation Reuse Module (RSDVRM). Architecture Ecosystem: Structured Reality Standards™ Architecture Family: VALIDOS® — Validation.","inLanguage":"en","isPartOf":[{"@id":"https://originopenfoundation.org/#website"},{"@id":"https://originopenfoundation.org/content/v/validos-architecture.html#webpage"},{"@id":"https://originopenfoundation.org/content/v/validos-architecture-map.html#webpage"},{"@id":"https://originopenfoundation.org/content/v/validos-complete-index.html#webpage"}],"publisher":{"@id":"https://originopenfoundation.org/#organization"},"breadcrumb":{"@type":"BreadcrumbList","@id":"https://originopenfoundation.org/content/v/validos-vrrs-rsdvrm-4.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"OOF® — OriginOpen® Foundation","item":"https://originopenfoundation.org/"},{"@type":"ListItem","position":2,"name":"Revalidation Scope, Delta & Validation Reuse Module (RSDVRM)","item":"https://originopenfoundation.org/content/v/validos-vrrs-rsdvrm-4.html"}]},"headline":"Revalidation Scope, Delta & Validation Reuse Module (RSDVRM)","author":{"@id":"https://originopenfoundation.org/#organization"},"mainEntityOfPage":{"@id":"https://originopenfoundation.org/content/v/validos-vrrs-rsdvrm-4.html#webpage"},"keywords":["AI & Interpretation","Validation Governance"],"about":[{"@type":"Thing","name":"AI & Interpretation"},{"@type":"Thing","name":"Validation Governance"}],"relatedLink":["https://originopenfoundation.org/content/v/validos-architecture.html","https://originopenfoundation.org/content/v/validos-architecture-map.html","https://originopenfoundation.org/content/v/validos-complete-index.html","https://originopenfoundation.org/content/v/validos-vrrs-vrmdcpm-3.html","https://originopenfoundation.org/content/v/validos-vrrs-rerrcm-5.html","https://originopenfoundation.org/content/v/validos-vrrs.html","https://originopenfoundation.org/content/v/validos-vrrs-about.html"],"citation":["https://originopenfoundation.org/content/v/validos-vrrs.html","https://originopenfoundation.org/content/v/validos-vrrs-about.html"],"hasPart":[{"@id":"https://originopenfoundation.org/content/v/validos-vrrs-vrmdcpm-3.html#webpage"},{"@id":"https://originopenfoundation.org/content/v/validos-vrrs-rerrcm-5.html#webpage"}],"version":"1.0","creativeWorkStatus":"Canonical · Open Module","additionalProperty":[{"@type":"PropertyValue","name":"Category","value":"AI & Interpretation"},{"@type":"PropertyValue","name":"Subcategory","value":"Validation Governance"},{"@type":"PropertyValue","name":"Type","value":"Parent Standard Module"},{"@type":"PropertyValue","name":"Version","value":"1.0"},{"@type":"PropertyValue","name":"Status","value":"Canonical · Open Module"},{"@type":"PropertyValue","name":"Canonical Language","value":"English (UCL™)"}]}</script>
+<!-- OOF AI DISCOVERY END -->
+</head>
+<body>
+<div id="header"></div>
+<!-- OOF SEMANTIC CONTENT START -->
+<main class="oof-semantic-main"><article class="oof-semantic-article">
+
+<section class="container">
+<h2 id="revalidation-scope-delta-and-validation-reuse-module-rsdvrm" data-oof-section-id="true" role="heading" aria-level="1">Revalidation Scope, Delta &amp; Validation Reuse Module (RSDVRM)</h2>
+</section>
+
+<section class="container">
+<div class="oof-warning3">
+<p class="podstand"><b>Architecture Ecosystem: </b>Structured Reality Standards™<br>
+<b>Architecture Family: VALIDOS® — Validation Governance Architecture</b><br>
+<b>Parent Standard: Validation Reliance &amp; Revalidation Standard (VRRS)</b><br>
+<b>Operational Layer: </b>Validation Reliance &amp; Revalidation Layer<br>
+<b>Category: </b>AI &amp; Interpretation<br>
+<b>Subcategory: </b>Validation Governance<br>
+<b>Type: </b>Parent Standard Module<br>
+<b>Governed Space: Revalidation Scope, Delta &amp; Validation Reuse</b><br>
+<b>Version: </b>1.0<br>
+<b>Status: </b>Canonical · Open Module<br>
+<b>Effective Date: 12 August 2026</b><br>
+<b>Compatibility: </b>OOF® Methodology OS™ · GOA™ · OBIDENITY® · INTEGROS®<br>
+· ORA™ · AGA™ · AIG® · CLIA® · MGIA™ · ASGA™ · RIS™<br>
+<b>AI-Readable: </b>Yes<br>
+<b>Authority: </b>OOF®<br>
+<b>Protection: MIP® — Methodological Intellectual Property</b><br>
+<b>Canonical Language: </b>English (UCL™)
+</p><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="governed-space" data-oof-section-id="true" role="heading" aria-level="2">Governed Space</h1>
+<a><b>Revalidation Scope, Delta &amp; Validation Reuse</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="canonical-definition" data-oof-section-id="true" role="heading" aria-level="2">Canonical Definition</h1>
+<a><b>Revalidation Scope, Delta &amp; Validation Reuse Module (RSDVRM) </b>defines<br>
+the governance framework for determining what has materially changed<br>
+since a previous governed validation cycle, which parts of the<br>
+previous validation basis remain applicable and reusable, which<br>
+parts have become insufficient or obsolete, and what exact scope,<br>
+depth, criteria, methods, evidence, source reassessments, and<br>
+execution activities are required for proportionate revalidation.</a><br><br>
+<a>It establishes the methodological bridge between:</a><br><br>
+<a><b>Revalidation Trigger</b></a><br><br>
+<a>and:</a><br><br>
+<a><b>Revalidation Execution</b></a><br><br>
+<a>by converting change into a structured <b>Validation Delta </b>and using<br>
+that delta to determine the minimum sufficient revalidation required<br>
+to restore a legitimate validation basis.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="operational-role" data-oof-section-id="true" role="heading" aria-level="2">Operational Role</h1>
+<a>RSDVRM serves as the fourth internal governance space of the<br>
+<b>Validation Reliance &amp; Revalidation Standard (VRRS).</b></a><br><br>
+<a>The preceding modules establish:</a><br><br>
+<a><b>VRESM — Is reliance methodologically eligible and</b><br>
+<b>sufficiently supported?</b></a><br><br>
+<a><b>VRCAOCM — Under what conditions and authority may reliance</b><br>
+<b>become operational?</b></a><br><br>
+<a><b>VRMDCPM — What changed, which reliance relationships are affected,</b><br>
+<b>and is revalidation assessment required?</b></a><br><br>
+<a>RSDVRM asks:</a><br><br>
+<a><b>What exactly changed, which previous validation components remain</b><br>
+<b>valid, and what must now be validated again?</b></a><br><br>
+<a>The governed progression is:</a><br><br>
+<a><b>Revalidation Trigger → Previous Validation Baseline → Current</b><br>
+<b>Validation Reality → Validation Delta → Affected-Layer Mapping →</b><br>
+<b>Validation Reuse Assessment → Revalidation Scope → Revalidation</b><br>
+<b>Depth → Revalidation Plan</b></a><br><br>
+<a>RSDVRM does not perform revalidation itself.</a><br><br>
+<a>It determines what revalidation must contain.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="module-operational-space" data-oof-section-id="true" role="heading" aria-level="2">Module Operational Space</h1>
+<a>RSDVRM governs:</a><br><br>
+<a><ul>
+<li>Revalidation Trigger intake,</li>
+<li>previous validation baseline,</li>
+<li>current validation reality,</li>
+<li>Validation Delta,</li>
+<li>object-change mapping,</li>
+<li>version-change mapping,</li>
+<li>configuration-change mapping,</li>
+<li>capability-change mapping,</li>
+<li>environment-change mapping,</li>
+<li>population-change mapping,</li>
+<li>scope-change mapping,</li>
+<li>purpose-change mapping,</li>
+<li>consequence-change mapping,</li>
+<li>dependency-change mapping,</li>
+<li>evidence-change mapping,</li>
+<li>source-change mapping,</li>
+<li>criteria-impact mapping,</li>
+<li>method-impact mapping,</li>
+<li>execution-impact mapping,</li>
+<li>determination-impact mapping,</li>
+<li>state-impact mapping,</li>
+<li>Validation Reuse,</li>
+<li>validation-artifact reuse,</li>
+<li>evidence reuse,</li>
+<li>source assessment reuse,</li>
+<li>method reuse,</li>
+<li>execution-result reuse,</li>
+<li>determination reuse limits,</li>
+<li>state reuse limits,</li>
+<li>reuse eligibility,</li>
+<li>reuse exclusions,</li>
+<li>revalidation scope,</li>
+<li>targeted revalidation,</li>
+<li>partial revalidation,</li>
+<li>full revalidation,</li>
+<li>critical revalidation,</li>
+<li>revalidation depth,</li>
+<li>lifecycle re-entry point,</li>
+<li>and revalidation planning traceability.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="module-function" data-oof-section-id="true" role="heading" aria-level="2">Module Function</h1>
+<a>RSDVRM applies when a governed Revalidation Trigger or Revalidation<br>
+Assessment Required signal exists.</a><br><br>
+<a>Its function is to prevent:</a><br><br>
+<a><ul>
+<li>every change automatically causing full revalidation,</li>
+<li>material changes being underestimated,</li>
+<li>previous validation being reused merely because it exists,</li>
+<li>obsolete evidence carrying forward,</li>
+<li>changed sources retaining old reliability status,</li>
+<li>changed methods being treated as equivalent,</li>
+<li>unaffected validation work being unnecessarily repeated,</li>
+<li>affected criteria being missed,</li>
+<li>revalidation scope being determined administratively rather than methodologically,</li>
+<li>and revalidation starting without an explicit understanding of what changed and why.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="revalidation-begins-with-difference" data-oof-section-id="true" role="heading" aria-level="2">Revalidation Begins With Difference</h1>
+<a>A revalidation process should not begin by asking:</a><br><br>
+<a><b>What did we validate last time?</b></a><br><br>
+<a>It should first ask:</a><br><br>
+<a><b>What is different now?</b></a><br><br>
+<a>This is the central role of the Validation Delta.</a><br><br>
+<a>VALIDOS® establishes:</a><br><br>
+<a><b>Revalidation should be driven by material difference, not by</b><br>
+<b>repetition for its own sake.</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="previous-validation-baseline" data-oof-section-id="true" role="heading" aria-level="2">Previous Validation Baseline</h1>
+<a>RSDVRM reconstructs the relevant prior validation basis.</a><br><br>
+<a>The <b>Previous Validation Baseline </b>may include:</a><br><br>
+<a><ul>
+<li>Validation Object identity,</li>
+<li>object version,</li>
+<li>Validation Purpose,</li>
+<li>Validation Scope,</li>
+<li>Validation Criteria,</li>
+<li>Validation Method,</li>
+<li>Evidence Fitness assessments,</li>
+<li>Source Reliability assessments,</li>
+<li>Validation Execution Record,</li>
+<li>Validation Determination,</li>
+<li>Validation State,</li>
+<li>reliance conditions,</li>
+<li>restrictions,</li>
+<li>limitations,</li>
+<li>and prior revalidation history.</li>
+</ul></a><br><br>
+<a>This baseline establishes the reference reality against which change<br>
+is measured.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="current-validation-reality" data-oof-section-id="true" role="heading" aria-level="2">Current Validation Reality</h1>
+<a>The current state of the Validation Object and its context must then<br>
+be established.</a><br><br>
+<a>This may include:</a><br><br>
+<a><ul>
+<li>current object version,</li>
+<li>current configuration,</li>
+<li>current capabilities,</li>
+<li>current data,</li>
+<li>current environment,</li>
+<li>current dependencies,</li>
+<li>current operating mode,</li>
+<li>current population,</li>
+<li>current use case,</li>
+<li>current risk,</li>
+<li>current reliance context,</li>
+<li>current evidence,</li>
+<li>and current source landscape.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="validation-delta" data-oof-section-id="true" role="heading" aria-level="2">Validation Delta</h1>
+<a>The <b>Validation Delta </b>is the governed representation of the material<br>
+difference between:</a><br><br>
+<a><b>Previously Validated Reality</b></a><br><br>
+<a>and:</a><br><br>
+<a><b>Current Validation Reality</b></a><br><br>
+<a>It asks:</a><br><br>
+<a><b>What changed?</b></a><br><br>
+<a><b>What remained equivalent?</b></a><br><br>
+<a><b>What became uncertain?</b></a><br><br>
+<a><b>What previous assumptions no longer hold?</b></a><br><br>
+<a><b>Which validation layers are affected?</b></a><br><br>
+<a><b>Which prior validation components may still be reused?</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="delta-is-not-merely-a-change-list" data-oof-section-id="true" role="heading" aria-level="2">Delta Is Not Merely a Change List</h1>
+<a>A change list may show what was modified.</a><br><br>
+<a>A Validation Delta must show what the modification means<br>
+for validation.</a><br><br>
+<a>For example:</a><br><br>
+<a><b>New tool added</b></a><br><br>
+<a>is a change.</a><br><br>
+<a>The Validation Delta asks:</a><br><br>
+<a><ul>
+<li>Does the new tool affect Validation Object boundaries?</li>
+<li>Does it introduce new criteria?</li>
+<li>Does it alter method requirements?</li>
+<li>Does it require new evidence?</li>
+<li>Does it introduce new source dependencies?</li>
+<li>Does it affect autonomous behavior?</li>
+<li>Does it change reliance consequence?</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="delta-dimensions" data-oof-section-id="true" role="heading" aria-level="2">Delta Dimensions</h1>
+<a>The Validation Delta may include:</a><br><br>
+<a><b>Object Delta</b></a><br><br>
+<a>Changes to the Validation Object itself.</a><br><br>
+<a><b>Purpose Delta</b></a><br><br>
+<a>Changes to why the object is being validated or relied upon.</a><br><br>
+<a><b>Scope Delta </b>Changes to the intended validation or reliance boundary.</a><br><br>
+<a><b>Criteria Delta</b></a><br><br>
+<a>Changes in applicable validation requirements.</a><br><br>
+<a><b>Method Delta</b></a><br><br>
+<a>Changes affecting how validation should be performed.</a><br><br>
+<a><b>Evidence Delta</b></a><br><br>
+<a>Changes in the evidence basis.</a><br><br>
+<a><b>Source Delta</b></a><br><br>
+<a>Changes in Validation Sources or their reliability.</a><br><br>
+<a><b>Execution Delta</b></a><br><br>
+<a>Changes affecting required validation execution.</a><br><br>
+<a><b>Environment Delta</b></a><br><br>
+<a>Changes in operating reality.</a><br><br>
+<a><b>Dependency Delta</b></a><br><br>
+<a>Changes in systems or services upon which the object depends.</a><br><br>
+<a><b>Consequence Delta</b></a><br><br>
+<a>Changes in the significance of relying upon the object.</a><br><br>
+<a><b>State Delta</b></a><br><br>
+<a>Changes in current Validation State or lifecycle condition.</a><br><br>
+<a>These dimensions may overlap.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="object-delta" data-oof-section-id="true" role="heading" aria-level="2">Object Delta</h1>
+<a>Object Delta may include:</a><br><br>
+<a><ul>
+<li>model retraining,</li>
+<li>architecture change,</li>
+<li>software update,</li>
+<li>hardware change,</li>
+<li>component replacement,</li>
+<li>dataset revision,</li>
+<li>prompt change,</li>
+<li>memory change,</li>
+<li>permission change,</li>
+<li>autonomy expansion,</li>
+<li>or capability addition.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="purpose-delta" data-oof-section-id="true" role="heading" aria-level="2">Purpose Delta</h1>
+<a>A Validation Object may remain technically unchanged while the<br>
+intended purpose changes.</a><br><br>
+<a>For example:</a><br><br>
+<a><b>Internal Research</b></a><br><br>
+<a>becomes:</a><br><br>
+<a><b>Clinical Decision Support</b></a><br><br>
+<a>The purpose change alone may create major revalidation requirements.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="scope-delta" data-oof-section-id="true" role="heading" aria-level="2">Scope Delta</h1>
+<a>Scope expansion may include:</a><br><br>
+<a><ul>
+<li>new population,</li>
+<li>new jurisdiction,</li>
+<li>new operating mode,</li>
+<li>new environment,</li>
+<li>new subsystem,</li>
+<li>new decision type,</li>
+<li>or expanded autonomy.</li>
+</ul></a><br><br>
+<a>The new scope should not inherit validation automatically.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="criteria-delta" data-oof-section-id="true" role="heading" aria-level="2">Criteria Delta</h1>
+<a>Applicable criteria may change because:</a><br><br>
+<a><ul>
+<li>purpose changes,</li>
+<li>regulation changes,</li>
+<li>risk changes,</li>
+<li>autonomy changes,</li>
+<li>system architecture changes,</li>
+<li>or new failure modes are discovered.</li>
+</ul></a><br><br>
+<a>RSDVRM identifies which criteria remain unchanged and which must be<br>
+added, revised, or reassessed.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="method-delta" data-oof-section-id="true" role="heading" aria-level="2">Method Delta</h1>
+<a>A previous Validation Method may no longer be appropriate.</a><br><br>
+<a>For example:</a><br><br>
+<a>A method suitable for deterministic software may be insufficient<br>
+after adaptive AI functionality is introduced.</a><br><br>
+<a>Method reuse therefore depends upon continuing methodological fit.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="evidence-delta" data-oof-section-id="true" role="heading" aria-level="2">Evidence Delta</h1>
+<a>Evidence may change because it is:</a><br><br>
+<a><ul>
+<li>outdated,</li>
+<li>replaced,</li>
+<li>expanded,</li>
+<li>contradicted,</li>
+<li>superseded,</li>
+<li>newly available,</li>
+<li>or no longer representative.</li>
+</ul></a><br><br>
+<a>RSDVRM determines which evidence remains eligible for reuse.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="source-delta" data-oof-section-id="true" role="heading" aria-level="2">Source Delta</h1>
+<a>Sources may change in:</a><br><br>
+<a><ul>
+<li>identity,</li>
+<li>capability,</li>
+<li>independence,</li>
+<li>provenance,</li>
+<li>methodology,</li>
+<li>version,</li>
+<li>reliability,</li>
+<li>or availability.</li>
+</ul></a><br><br>
+<a>A reused evidence item may require renewed source assessment if the<br>
+source conditions have changed.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="execution-delta" data-oof-section-id="true" role="heading" aria-level="2">Execution Delta</h1>
+<a>New Validation Criteria or changed methods may require<br>
+different execution.</a><br><br>
+<a>The Validation Delta therefore identifies:</a><br><br>
+<a><ul>
+<li>which activities remain valid,</li>
+<li>which must be repeated,</li>
+<li>which new activities must be added,</li>
+<li>and which prior execution outputs can no longer support current determination.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="environment-delta" data-oof-section-id="true" role="heading" aria-level="2">Environment Delta</h1>
+<a>The object may be unchanged while operating reality changes.</a><br><br>
+<a>Examples include:</a><br><br>
+<a><ul>
+<li>new infrastructure,</li>
+<li>new threat environment,</li>
+<li>different network conditions,</li>
+<li>new geography,</li>
+<li>new clinical setting,</li>
+<li>or changed user behavior.</li>
+</ul></a><br><br>
+<a>Environment change may require revalidation even without<br>
+object change.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="dependency-delta" data-oof-section-id="true" role="heading" aria-level="2">Dependency Delta</h1>
+<a>A changed external dependency can create a new validation problem.</a><br><br>
+<a>The relevant question is:</a><br><br>
+<a><b>Does the previous validation still describe the integrated system</b><br>
+<b>now operating?</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="consequence-delta" data-oof-section-id="true" role="heading" aria-level="2">Consequence Delta</h1>
+<a>A validation basis sufficient for one consequence level may become<br>
+insufficient after reliance escalates.</a><br><br>
+<a>For example:</a><br><br>
+<a><b>Advisory Use → Autonomous Action</b></a><br><br>
+<a>This may require deeper validation even where the technical object<br>
+remains unchanged.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="validation-delta-materiality" data-oof-section-id="true" role="heading" aria-level="2">Validation Delta Materiality</h1>
+<a>Delta elements may be classified as:</a><br><br>
+<a><b>Immaterial</b></a><br><br>
+<a><b>Minor Validation-Relevant</b></a><br><br>
+<a><b>Material</b></a><br><br>
+<a><b>Critical</b></a><br><br>
+<a>or:</a><br><br>
+<a><b>Materiality Undetermined</b></a><br><br>
+<a>This allows revalidation scope to remain proportionate.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="cumulative-validation-delta" data-oof-section-id="true" role="heading" aria-level="2">Cumulative Validation Delta</h1>
+<a>A series of small changes may produce a large cumulative difference.</a><br><br>
+<a>RSDVRM therefore considers:</a><br><br>
+<a><b>Current Reality vs Last Validated Baseline</b></a><br><br>
+<a>rather than only:</a><br><br>
+<a><b>Current Reality vs Immediately Previous Version</b></a><br><br>
+<a>This prevents incremental change from bypassing revalidation.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="validation-equivalence" data-oof-section-id="true" role="heading" aria-level="2">Validation Equivalence</h1>
+<a>For each relevant unchanged or changed component, RSDVRM may assess<br>
+whether validation equivalence remains.</a><br><br>
+<a>Possible statuses include:</a><br><br>
+<a><b>Equivalent</b></a><br><br>
+<a><b>Conditionally Equivalent</b></a><br><br>
+<a><b>Equivalence Undetermined</b></a><br><br>
+<a><b>Not Equivalent</b></a><br><br>
+<a>Equivalence supports reuse.</a><br><br>
+<a>Loss of equivalence limits reuse.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="validation-reuse" data-oof-section-id="true" role="heading" aria-level="2">Validation Reuse</h1>
+<a><b>Validation Reuse </b>is the governed use of previously established<br>
+validation components in a new revalidation cycle where their<br>
+applicability remains sufficiently intact.</a><br><br>
+<a>Reuse may apply to:</a><br><br>
+<a><ul>
+<li>Validation Object records,</li>
+<li>criteria,</li>
+<li>methods,</li>
+<li>evidence,</li>
+<li>Source Reliability assessments,</li>
+<li>execution results,</li>
+<li>determination components,</li>
+<li>and state-history records.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="reuse-is-a-methodological-decision" data-oof-section-id="true" role="heading" aria-level="2">Reuse Is a Methodological Decision</h1>
+<a>VALIDOS® establishes:</a><br><br>
+<a><b>Previously Validated ≠ Automatically Reusable</b></a><br><br>
+<a>Every reused component should remain:</a><br><br>
+<a><ul>
+<li>applicable,</li>
+<li>current,</li>
+<li>traceable,</li>
+<li>sufficiently equivalent,</li>
+<li>sufficiently complete,</li>
+<li>and methodologically compatible.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="reuse-eligibility" data-oof-section-id="true" role="heading" aria-level="2">Reuse Eligibility</h1>
+<a>A validation artifact may be:</a><br><br>
+<a><b>Reusable</b></a><br><br>
+<a>The artifact remains fully applicable to the current<br>
+revalidation context.</a><br><br>
+<a><b>Conditionally Reusable</b></a><br><br>
+<a>The artifact may be reused only within explicit conditions or after<br>
+limited reassessment.</a><br><br>
+<a><b>Partially Reusable</b></a><br><br>
+<a>Only part of the artifact remains applicable.</a><br><br>
+<a><b>Reuse Eligibility Undetermined</b></a><br><br>
+<a>Insufficient basis exists to establish reuse.</a><br><br>
+<a><b>Not Reusable</b></a><br><br>
+<a>The artifact cannot legitimately support the current<br>
+revalidation cycle.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="validation-object-record-reuse" data-oof-section-id="true" role="heading" aria-level="2">Validation Object Record Reuse</h1>
+<a>Object identity and prior lifecycle records may usually remain<br>
+historically reusable.</a><br><br>
+<a>However, the current Validation Object still requires updated<br>
+representation where material change occurred.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="criteria-reuse" data-oof-section-id="true" role="heading" aria-level="2">Criteria Reuse</h1>
+<a>Criteria may be reused where:</a><br><br>
+<a><ul>
+<li>purpose remains aligned,</li>
+<li>scope remains aligned,</li>
+<li>criterion version remains applicable,</li>
+<li>and no new validation requirement supersedes them.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="method-reuse" data-oof-section-id="true" role="heading" aria-level="2">Method Reuse</h1>
+<a>A method may be reused where:</a><br><br>
+<a><ul>
+<li>object type remains compatible,</li>
+<li>validation question remains equivalent,</li>
+<li>execution context remains relevant,</li>
+<li>and no known methodological limitation prevents reuse.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="evidence-reuse" data-oof-section-id="true" role="heading" aria-level="2">Evidence Reuse</h1>
+<a>Evidence may be reusable where it remains:</a><br><br>
+<a><ul>
+<li>current,</li>
+<li>representative,</li>
+<li>applicable,</li>
+<li>intact,</li>
+<li>and fit for the current Validation Purpose and Scope.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="evidence-refresh" data-oof-section-id="true" role="heading" aria-level="2">Evidence Refresh</h1>
+<a>Some evidence may not require complete replacement but may<br>
+require refresh.</a><br><br>
+<a>For example:</a><br><br>
+<a><ul>
+<li>updated sample,</li>
+<li>extended time period,</li>
+<li>new subgroup data,</li>
+<li>refreshed operational performance,</li>
+<li>or new external validation.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="source-assessment-reuse" data-oof-section-id="true" role="heading" aria-level="2">Source Assessment Reuse</h1>
+<a>A prior Source Reliability assessment may be reused where source<br>
+identity, capability, methodology, provenance, and relevant<br>
+conditions remain materially unchanged.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="source-reassessment-trigger" data-oof-section-id="true" role="heading" aria-level="2">Source Reassessment Trigger</h1>
+<a>Reassessment may be required where:</a><br><br>
+<a><ul>
+<li>source ownership changed,</li>
+<li>source methodology changed,</li>
+<li>provenance changed,</li>
+<li>reliability changed,</li>
+<li>conflict appeared,</li>
+<li>or a source became materially more important to the determination.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="execution-result-reuse" data-oof-section-id="true" role="heading" aria-level="2">Execution Result Reuse</h1>
+<a>Prior execution results may be reusable where:</a><br><br>
+<a><ul>
+<li>the Validation Object portion remains equivalent,</li>
+<li>method remains applicable,</li>
+<li>environment remains relevant,</li>
+<li>execution conformity remains sufficient,</li>
+<li>and no changed criterion requires new evidence.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="execution-result-reuse-limitation" data-oof-section-id="true" role="heading" aria-level="2">Execution Result Reuse Limitation</h1>
+<a>A result generated against Version 3.0 should not automatically<br>
+support Version 5.0 merely because one functional component<br>
+appears similar.</a><br><br>
+<a>The exact validated dependency must remain clear.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="determination-reuse" data-oof-section-id="true" role="heading" aria-level="2">Determination Reuse</h1>
+<a>A prior Validation Determination is primarily a<br>
+historical conclusion.</a><br><br>
+<a>It may inform revalidation but should not be treated as a substitute<br>
+for a new determination where a new revalidation cycle is required.</a><br><br>
+<a>VALIDOS® establishes:</a><br><br>
+<a><b>Prior Determination ≠ New Determination</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="validation-state-reuse" data-oof-section-id="true" role="heading" aria-level="2">Validation State Reuse</h1>
+<a>Likewise, a prior Validation State may inform lifecycle history but<br>
+cannot simply be copied forward after material change.</a><br><br>
+<a>The new Validation State must follow from the new or<br>
+reaffirmed determination.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="reuse-exclusion" data-oof-section-id="true" role="heading" aria-level="2">Reuse Exclusion</h1>
+<a>A component should be excluded from reuse where:</a><br><br>
+<a><ul>
+<li>object equivalence is lost,</li>
+<li>evidence is obsolete,</li>
+<li>source reliability is compromised,</li>
+<li>method is inapplicable,</li>
+<li>execution was invalid,</li>
+<li>scope materially changed,</li>
+<li>or a prior validation defect affects the artifact.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="reuse-exclusion-must-be-traceable" data-oof-section-id="true" role="heading" aria-level="2">Reuse Exclusion Must Be Traceable</h1>
+<a>An excluded prior artifact should remain in history together with<br>
+the reason it was not reused.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="affected-layer-mapping" data-oof-section-id="true" role="heading" aria-level="2">Affected-Layer Mapping</h1>
+<a>RSDVRM maps each material Validation Delta to the VALIDOS® layers<br>
+it affects.</a><br><br>
+<a>Conceptually:</a><br><br>
+<a><b>Change → Affected Parent Standard(s) → Required Revalidation Work</b></a><br><br>
+<a>For example:</a><br><br>
+<a><b>New Source</b></a><br><br>
+<a>may affect:</a><br><br>
+<a><b>Validation Source Reliability</b></a><br><br>
+<a>and downstream:</a><br><br>
+<a><b>Execution → Determination → State → Reliance</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="selective-lifecycle-re-entry" data-oof-section-id="true" role="heading" aria-level="2">Selective Lifecycle Re-Entry</h1>
+<a>VALIDOS® does not require every revalidation cycle to restart from<br>
+Parent Standard 1.</a><br><br>
+<a>RSDVRM determines the <b>earliest materially affected lifecycle layer.</b></a><br><br>
+<a>This becomes the recommended re-entry point.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="re-entry-at-validation-object" data-oof-section-id="true" role="heading" aria-level="2">Re-Entry at Validation Object</h1>
+<a>Re-entry may begin at Validation Object governance where:</a><br><br>
+<a><ul>
+<li>object identity fundamentally changes,</li>
+<li>major architecture change occurs,</li>
+<li>a new system replaces the prior object,</li>
+<li>or object boundaries materially change.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="re-entry-at-purpose-and-scope" data-oof-section-id="true" role="heading" aria-level="2">Re-Entry at Purpose &amp; Scope</h1>
+<a>Where the object remains stable but intended use or scope changes,<br>
+revalidation may begin at Purpose &amp; Scope.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="re-entry-at-criteria" data-oof-section-id="true" role="heading" aria-level="2">Re-Entry at Criteria</h1>
+<a>Where new requirements arise but object, purpose, and scope remain<br>
+materially stable, revalidation may begin with Criteria governance.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="re-entry-at-method" data-oof-section-id="true" role="heading" aria-level="2">Re-Entry at Method</h1>
+<a>Where the validation question remains the same but the method<br>
+becomes obsolete or insufficient, re-entry may begin at<br>
+Validation Method.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="re-entry-at-evidence" data-oof-section-id="true" role="heading" aria-level="2">Re-Entry at Evidence</h1>
+<a>Where only evidence becomes outdated or insufficient, revalidation<br>
+may begin with Evidence Fitness.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="re-entry-at-source-reliability" data-oof-section-id="true" role="heading" aria-level="2">Re-Entry at Source Reliability</h1>
+<a>Where source conditions change materially, revalidation may begin at<br>
+Source Reliability.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="re-entry-at-execution" data-oof-section-id="true" role="heading" aria-level="2">Re-Entry at Execution</h1>
+<a>Where the existing validation design remains intact but specific<br>
+tests must be repeated, re-entry may begin at Validation Execution.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="re-entry-at-determination" data-oof-section-id="true" role="heading" aria-level="2">Re-Entry at Determination</h1>
+<a>In rare cases, corrected interpretation of already-valid execution<br>
+records may require determination reassessment without<br>
+complete re-execution.</a><br><br>
+<a>This must remain tightly governed.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="revalidation-scope" data-oof-section-id="true" role="heading" aria-level="2">Revalidation Scope</h1>
+<a>RSDVRM establishes exactly what the new validation cycle must cover.</a><br><br>
+<a>The scope may include:</a><br><br>
+<a><ul>
+<li>specific criteria,</li>
+<li>specific components,</li>
+<li>specific environments,</li>
+<li>specific populations,</li>
+<li>specific dependencies,</li>
+<li>specific capabilities,</li>
+<li>specific object versions,</li>
+<li>specific methods,</li>
+<li>or the complete Validation Object.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="targeted-revalidation" data-oof-section-id="true" role="heading" aria-level="2">Targeted Revalidation</h1>
+<a><b>Targeted Revalidation </b>addresses one or more narrowly defined<br>
+validation-relevant changes.</a><br><br>
+<a>Examples include:</a><br><br>
+<a><ul>
+<li>one new tool,</li>
+<li>one dependency replacement,</li>
+<li>one safety-control modification,</li>
+<li>one new population subgroup,</li>
+<li>or one criterion affected by new evidence.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="partial-revalidation" data-oof-section-id="true" role="heading" aria-level="2">Partial Revalidation</h1>
+<a><b>Partial Revalidation </b>applies where multiple related validation<br>
+domains require renewed validation but unaffected domains<br>
+remain reusable.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="full-revalidation" data-oof-section-id="true" role="heading" aria-level="2">Full Revalidation</h1>
+<a><b>Full Revalidation </b>is appropriate where the prior validation basis is<br>
+no longer sufficiently representative across the intended scope.</a><br><br>
+<a>Possible causes include:</a><br><br>
+<a><ul>
+<li>major object replacement,</li>
+<li>broad architecture change,</li>
+<li>major purpose change,</li>
+<li>major scope expansion,</li>
+<li>large cumulative delta,</li>
+<li>compromised prior validation,</li>
+<li>or loss of reliable separability between changed and unchanged parts.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="critical-revalidation" data-oof-section-id="true" role="heading" aria-level="2">Critical Revalidation</h1>
+<a>Critical Revalidation may be required where:</a><br><br>
+<a><ul>
+<li>consequence is high,</li>
+<li>prior validation is materially questioned,</li>
+<li>safety-critical behavior changed,</li>
+<li>autonomy significantly expanded,</li>
+<li>or a severe incident occurred.</li>
+</ul></a><br><br>
+<a>Critical Revalidation may require strengthened Validation Depth.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="revalidation-depth" data-oof-section-id="true" role="heading" aria-level="2">Revalidation Depth</h1>
+<a>RSDVRM determines how deeply the affected scope must be revalidated.</a><br><br>
+<a>Revalidation Depth may depend upon:</a><br><br>
+<a><ul>
+<li>delta materiality,</li>
+<li>affected criteria,</li>
+<li>reliance consequence,</li>
+<li>uncertainty,</li>
+<li>prior validation depth,</li>
+<li>historical incidents,</li>
+<li>current risk,</li>
+<li>source reliability,</li>
+<li>and object complexity.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="depth-may-increase" data-oof-section-id="true" role="heading" aria-level="2">Depth May Increase</h1>
+<a>A revalidation cycle may require greater depth than the<br>
+original validation.</a><br><br>
+<a>For example:</a><br><br>
+<a>A system moves from:</a><br><br>
+<a><b>Human-Supervised Decision Support</b></a><br><br>
+<a>to:</a><br><br>
+<a><b>High-Autonomy Operational Control</b></a><br><br>
+<a>The technical object may have changed only slightly.</a><br><br>
+<a>The required validation assurance may change substantially.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="depth-may-remain-limited" data-oof-section-id="true" role="heading" aria-level="2">Depth May Remain Limited</h1>
+<a>A narrow documentation or low-impact configuration change may<br>
+require only limited targeted reassessment.</a><br><br>
+<a>VALIDOS® seeks proportionality rather than maximal repetition.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="revalidation-coverage" data-oof-section-id="true" role="heading" aria-level="2">Revalidation Coverage</h1>
+<a>The planned revalidation should identify:</a><br><br>
+<a><ul>
+<li>affected object areas,</li>
+<li>affected criteria,</li>
+<li>affected methods,</li>
+<li>affected evidence,</li>
+<li>affected sources,</li>
+<li>required execution,</li>
+<li>and downstream determination/state/reliance consequences.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="revalidation-sufficiency" data-oof-section-id="true" role="heading" aria-level="2">Revalidation Sufficiency</h1>
+<a>The key planning question is:</a><br><br>
+<a><b>Will the proposed revalidation scope and depth be sufficient to</b><br>
+<b>close the Validation Delta that triggered revalidation?</b></a><br><br>
+<a>A narrow revalidation is inappropriate if material uncertainty<br>
+remains outside the proposed scope.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="residual-delta" data-oof-section-id="true" role="heading" aria-level="2">Residual Delta</h1>
+<a>After planned reuse and revalidation scope are established, any<br>
+unresolved validation-relevant difference becomes a <b>Residual</b><br>
+<b>Validation Delta.</b></a><br><br>
+<a>Residual Delta may indicate:</a><br><br>
+<a><ul>
+<li>additional validation needed,</li>
+<li>scope restriction,</li>
+<li>conditional reliance,</li>
+<li>or inability to restore the prior Validation State.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="revalidation-plan" data-oof-section-id="true" role="heading" aria-level="2">Revalidation Plan</h1>
+<a>RSDVRM may produce a formal Revalidation Plan identifying:</a><br><br>
+<a><ul>
+<li>Revalidation Trigger,</li>
+<li>Previous Validation Baseline,</li>
+<li>Current Validation Reality,</li>
+<li>Validation Delta,</li>
+<li>reusable validation components,</li>
+<li>non-reusable components,</li>
+<li>affected VALIDOS® layers,</li>
+<li>lifecycle re-entry point,</li>
+<li>revalidation scope,</li>
+<li>revalidation depth,</li>
+<li>required criteria,</li>
+<li>required methods,</li>
+<li>required evidence,</li>
+<li>required source reassessment,</li>
+<li>required execution,</li>
+<li>and expected downstream reassessment.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="revalidation-plan-is-not-validation-outcome" data-oof-section-id="true" role="heading" aria-level="2">Revalidation Plan Is Not Validation Outcome</h1>
+<a>A well-designed Revalidation Plan does not predetermine the result.</a><br><br>
+<a>VALIDOS® establishes:</a><br><br>
+<a><b>Revalidation Scope Selection ≠ Revalidation Success </b>Revalidation<br>
+must remain capable of producing:</a><br><br>
+<a><ul>
+<li>reaffirmed,</li>
+<li>conditional,</li>
+<li>partial,</li>
+<li>negative,</li>
+<li>or indeterminate conclusions.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="reuse-bias" data-oof-section-id="true" role="heading" aria-level="2">Reuse Bias</h1>
+<a>Organizations may have incentives to reuse as much previous<br>
+validation as possible.</a><br><br>
+<a>RSDVRM therefore treats reuse eligibility independently from cost<br>
+or convenience.</a><br><br>
+<a>VALIDOS® establishes:</a><br><br>
+<a><b>Cheaper to Reuse ≠ Methodologically Reusable</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="full-restart-bias" data-oof-section-id="true" role="heading" aria-level="2">Full-Restart Bias</h1>
+<a>The opposite error also exists.</a><br><br>
+<a>Organizations may repeat entire validation cycles even where only<br>
+one narrow domain changed.</a><br><br>
+<a>This can create unnecessary cost without increasing assurance.</a><br><br>
+<a>RSDVRM therefore also establishes:</a><br><br>
+<a><b>More Revalidation ≠ Automatically Better Revalidation</b></a><br><br>
+<a>The goal is:</a><br><br>
+<a><b>Sufficient Revalidation</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="revalidation-efficiency" data-oof-section-id="true" role="heading" aria-level="2">Revalidation Efficiency</h1>
+<a>A strong revalidation architecture should minimize unnecessary<br>
+repetition while preserving validation integrity.</a><br><br>
+<a>Conceptually:</a><br><br>
+<a><b>Reuse What Remains Governed</b></a><br><br>
+<a><b>Revalidate What Materially Changed</b></a><br><br>
+<a><b>Expand Validation Where Reliance Requires More</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="revalidation-boundary" data-oof-section-id="true" role="heading" aria-level="2">Revalidation Boundary</h1>
+<a>The revalidation boundary should be neither narrower nor broader<br>
+than necessary.</a><br><br>
+<a>Too narrow:</a><br><br>
+<a>→ material validation gaps remain.</a><br><br>
+<a>Too broad:</a><br><br>
+<a>→ unnecessary cost, time, and operational friction.</a><br><br>
+<a>RSDVRM governs the balance.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="machine-readable-validation-delta" data-oof-section-id="true" role="heading" aria-level="2">Machine-Readable Validation Delta</h1>
+<a>In advanced implementations, the Validation Delta may<br>
+be machine-readable.</a><br><br>
+<a>For example:</a><br><br>
+<a><b>Object Version Change: 4.2 → 4.3</b></a><br><br>
+<a><b>Changed Component: Retrieval Layer</b></a><br><br>
+<a><b>Unchanged Components: Core Model, Safety Controller</b></a><br><br>
+<a><b>Affected Criteria: Source Accuracy, Retrieval Robustness</b></a><br><br>
+<a><b>Evidence Reuse: Partial</b></a><br><br>
+<a><b>Source Reassessment: Required</b></a><br><br>
+<a><b>Execution Reuse: Safety Tests Reusable</b></a><br><br>
+<a><b>Recommended Revalidation: Targeted</b></a><br><br>
+<a>This enables systematic revalidation planning.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="automated-delta-detection" data-oof-section-id="true" role="heading" aria-level="2">Automated Delta Detection</h1>
+<a>Where object configurations and validation records are<br>
+machine-readable, automated systems may compare:</a><br><br>
+<a><b>Previous Validated Configuration</b></a><br><br>
+<a>with:</a><br><br>
+<a><b>Current Configuration</b></a><br><br>
+<a>to identify potential Validation Delta elements.</a><br><br>
+<a>Automation should not make final materiality decisions where<br>
+governance judgment is required.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="ai-assisted-revalidation-scoping" data-oof-section-id="true" role="heading" aria-level="2">AI-Assisted Revalidation Scoping</h1>
+<a>AI may assist with:</a><br><br>
+<a><ul>
+<li>change comparison,</li>
+<li>affected-criterion mapping,</li>
+<li>affected-method mapping,</li>
+<li>evidence reuse analysis,</li>
+<li>source-change analysis,</li>
+<li>likely lifecycle re-entry point,</li>
+<li>and proposed revalidation scope.</li>
+</ul></a><br><br>
+<a>AI proposals must remain distinguishable from governed<br>
+revalidation decisions.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="human-revalidation-scoping" data-oof-section-id="true" role="heading" aria-level="2">Human Revalidation Scoping</h1>
+<a>Human expertise may be required where:</a><br><br>
+<a><ul>
+<li>architectural change is complex,</li>
+<li>causality is uncertain,</li>
+<li>cross-domain effects exist,</li>
+<li>or validation boundaries are difficult to isolate.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="revalidation-scope-authority" data-oof-section-id="true" role="heading" aria-level="2">Revalidation Scope Authority</h1>
+<a>Where formal authority is required, RSDVRM may identify who<br>
+may approve:</a><br><br>
+<a><ul>
+<li>Validation Delta,</li>
+<li>reuse eligibility,</li>
+<li>reuse exclusion,</li>
+<li>lifecycle re-entry point,</li>
+<li>revalidation scope,</li>
+<li>and revalidation depth.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="scope-change-during-revalidation" data-oof-section-id="true" role="heading" aria-level="2">Scope Change During Revalidation</h1>
+<a>New information discovered during revalidation may reveal that the<br>
+original scope was insufficient.</a><br><br>
+<a>The Revalidation Plan may therefore require controlled expansion.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="revalidation-scope-freeze" data-oof-section-id="true" role="heading" aria-level="2">Revalidation Scope Freeze</h1>
+<a>Before formal revalidation execution begins, the planned scope<br>
+should be sufficiently version-fixed.</a><br><br>
+<a>Changes after that point should remain traceable.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="revalidation-scope-reassessment" data-oof-section-id="true" role="heading" aria-level="2">Revalidation Scope Reassessment</h1>
+<a>Scope may require reassessment if:</a><br><br>
+<a><ul>
+<li>new material change is discovered,</li>
+<li>reuse becomes invalid,</li>
+<li>a new affected criterion emerges,</li>
+<li>source reliability deteriorates,</li>
+<li>or execution reveals broader impact.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="validation-reuse-record" data-oof-section-id="true" role="heading" aria-level="2">Validation Reuse Record</h1>
+<a>A formal Validation Reuse Record may preserve:</a><br><br>
+<a><ul>
+<li>prior validation artifact,</li>
+<li>artifact type,</li>
+<li>original object/version,</li>
+<li>current object/version,</li>
+<li>equivalence assessment,</li>
+<li>applicability assessment,</li>
+<li>reuse status,</li>
+<li>conditions,</li>
+<li>affected scope,</li>
+<li>rationale,</li>
+<li>and traceability.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="validation-delta-record" data-oof-section-id="true" role="heading" aria-level="2">Validation Delta Record</h1>
+<a>A formal Validation Delta Record may preserve:</a><br><br>
+<a><ul>
+<li>Revalidation Trigger,</li>
+<li>previous baseline,</li>
+<li>current reality,</li>
+<li>identified changes,</li>
+<li>unchanged validated components,</li>
+<li>uncertain components,</li>
+<li>materiality,</li>
+<li>affected criteria,</li>
+<li>affected methods,</li>
+<li>affected evidence,</li>
+<li>affected sources,</li>
+<li>affected execution,</li>
+<li>affected reliance,</li>
+<li>and sufficient traceability.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="minimum-implementation-framework" data-oof-section-id="true" role="heading" aria-level="2">Minimum Implementation Framework</h1>
+<a><b>1. Receive Revalidation Trigger</b></a><br><br>
+<a>Identify why revalidation is being considered.</a><br><br>
+<a><b>2. Reconstruct Previous Validation Baseline</b></a><br><br>
+<a>Establish the validation reality previously governed.</a><br><br>
+<a><b>3. Establish Current Validation Reality</b></a><br><br>
+<a>Identify the current object, context, scope, dependencies, evidence,<br>
+sources, and reliance conditions.</a><br><br>
+<a><b>4. Build Validation Delta</b></a><br><br>
+<a>Compare previous and current validation reality.</a><br><br>
+<a><b>5. Assess Delta Materiality</b></a><br><br>
+<a>Classify changes according to validation significance.</a><br><br>
+<a><b>6. Map Changes to VALIDOS® Layers</b></a><br><br>
+<a>Identify which Parent Standards and validation components<br>
+are affected.</a><br><br>
+<a><b>7. Assess Validation Reuse</b></a><br><br>
+<a>Classify prior artifacts as:</a><br><br>
+<a><ul>
+<li>Reusable,</li>
+<li>Conditionally Reusable,</li>
+<li>Partially Reusable,</li>
+<li>Undetermined,</li>
+<li>or Not Reusable.</li>
+</ul></a><br><br>
+<a><b>8. Identify Reuse Exclusions</b></a><br><br>
+<a>Preserve which prior validation components cannot participate.</a><br><br>
+<a><b>9. Determine Lifecycle Re-Entry Point</b></a><br><br>
+<a>Identify the earliest materially affected VALIDOS® layer.</a><br><br>
+<a><b>10. Establish Revalidation Scope </b>Classify required revalidation as:</a><br><br>
+<a><ul>
+<li>Targeted,</li>
+<li>Partial,</li>
+<li>Full,</li>
+<li>or Critical.</li>
+</ul></a><br><br>
+<a><b>11. Establish Revalidation Depth</b></a><br><br>
+<a>Determine the assurance strength required for the affected scope.</a><br><br>
+<a><b>12. Assess Residual Validation Delta</b></a><br><br>
+<a>Ensure the planned revalidation can address all material<br>
+unresolved differences.</a><br><br>
+<a><b>13. Freeze and Version Revalidation Scope</b></a><br><br>
+<a>Preserve the approved revalidation basis entering execution.</a><br><br>
+<a><b>14. Preserve Lifecycle Traceability</b></a><br><br>
+<a>Maintain:</a><br><br>
+<a><ul>
+<li>trigger,</li>
+<li>prior baseline,</li>
+<li>current reality,</li>
+<li>Validation Delta,</li>
+<li>materiality,</li>
+<li>reuse assessments,</li>
+<li>reuse exclusions,</li>
+<li>affected VALIDOS® layers,</li>
+<li>re-entry point,</li>
+<li>scope,</li>
+<li>depth,</li>
+<li>changes,</li>
+<li>versions,</li>
+<li>and sufficient lifecycle continuity.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="governance-outputs" data-oof-section-id="true" role="heading" aria-level="2">Governance Outputs</h1>
+<a>RSDVRM may produce:</a><br><br>
+<a><ul>
+<li>Previous Validation Baseline,</li>
+<li>Current Validation Reality Record,</li>
+<li>Validation Delta,</li>
+<li>Validation Delta Record,</li>
+<li>Object Delta Record,</li>
+<li>Purpose Delta Record,</li>
+<li>Scope Delta Record,</li>
+<li>Criteria Delta Record,</li>
+<li>Method Delta Record,</li>
+<li>Evidence Delta Record,</li>
+<li>Source Delta Record,</li>
+<li>Execution Delta Record,</li>
+<li>Environment Delta Record,</li>
+<li>Dependency Delta Record,</li>
+<li>Consequence Delta Record,</li>
+<li>State Delta Record,</li>
+<li>Validation Delta Materiality Assessment,</li>
+<li>Cumulative Validation Delta Record,</li>
+<li>Validation Equivalence Assessment,</li>
+<li>Affected VALIDOS® Layer Map,</li>
+<li>Change-to-Criterion Map,</li>
+<li>Change-to-Method Map,</li>
+<li>Change-to-Evidence Map,</li>
+<li>Change-to-Source Map,</li>
+<li>Validation Reuse Assessment,</li>
+<li>Validation Reuse Record,</li>
+<li>Criteria Reuse Record,</li>
+<li>Method Reuse Record,</li>
+<li>Evidence Reuse Record,</li>
+<li>Source Assessment Reuse Record,</li>
+<li>Execution Result Reuse Record,</li>
+<li>Reuse Exclusion Record,</li>
+<li>Lifecycle Re-Entry Point,</li>
+<li>Targeted Revalidation Scope,</li>
+<li>Partial Revalidation Scope,</li>
+<li>Full Revalidation Scope,</li>
+<li>Critical Revalidation Scope,</li>
+<li>Revalidation Depth Determination,</li>
+<li>Residual Validation Delta,</li>
+<li>Revalidation Plan,</li>
+<li>Revalidation Scope Freeze Record,</li>
+<li>Revalidation Scope Reassessment Record,</li>
+<li>and Revalidation Planning Traceability Record.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="use-case-1-ai-system-gains-tool-access" data-oof-section-id="true" role="heading" aria-level="2">Use Case 1 — AI System Gains Tool Access</h1>
+<a><b>Scenario</b></a><br><br>
+<a>An AI model was previously validated for text-only advisory use.</a><br><br>
+<a>The core model remains unchanged, but the system now receives access<br>
+to external tools and may execute actions.</a><br><br>
+<a><b>Application</b></a><br><br>
+<a>RSDVRM identifies:</a><br><br>
+<a><b>Core Model Delta: Minimal</b></a><br><br>
+<a><b>Capability Delta: Material</b></a><br><br>
+<a><b>Autonomy Delta: Material</b></a><br><br>
+<a><b>Scope Delta: Expanded</b></a><br><br>
+<a>Affected criteria include:</a><br><br>
+<a><ul>
+<li>tool-use safety,</li>
+<li>authorization boundaries,</li>
+<li>action execution,</li>
+<li>escalation,</li>
+<li>and autonomous control.</li>
+</ul></a><br><br>
+<a>Prior language-quality validation may remain reusable.</a><br><br>
+<a><b>Result</b></a><br><br>
+<a>The architecture may select:</a><br><br>
+<a><b>Targeted or Partial Revalidation</b></a><br><br>
+<a>focused on the newly introduced execution and autonomy space rather<br>
+than repeating all prior model validation.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="use-case-2-healthcare-ai-population-expansion" data-oof-section-id="true" role="heading" aria-level="2">Use Case 2 — Healthcare AI Population Expansion</h1>
+<a><b>Scenario</b></a><br><br>
+<a>A healthcare AI is Validated for adults.</a><br><br>
+<a>The hospital wants to use the same system for pediatric patients.</a><br><br>
+<a>The model itself has not changed.</a><br><br>
+<a><b>Application</b></a><br><br>
+<a>RSDVRM identifies:</a><br><br>
+<a><b>Object Delta: None</b></a><br><br>
+<a><b>Population Delta: Material</b></a><br><br>
+<a><b>Scope Delta: Material</b></a><br><br>
+<a><b>Evidence Delta: Pediatric evidence missing</b></a><br><br>
+<a><b>Criteria Delta: Potentially additional population-specific criteria</b></a><br><br>
+<a><b>Result</b></a><br><br>
+<a>Adult validation artifacts may remain reusable for unaffected<br>
+domains, while pediatric evidence and execution require targeted or<br>
+partial revalidation.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="use-case-3-major-autonomous-system-upgrade" data-oof-section-id="true" role="heading" aria-level="2">Use Case 3 — Major Autonomous System Upgrade</h1>
+<a><b>Scenario</b></a><br><br>
+<a>An autonomous industrial system receives:</a><br><br>
+<a><ul>
+<li>new hardware,</li>
+<li>new software architecture,</li>
+<li>a new perception model,</li>
+<li>new sensors,</li>
+<li>expanded autonomous authority,</li>
+<li>and a new operating environment.</li>
+</ul></a><br><br>
+<a><b>Application</b></a><br><br>
+<a>RSDVRM identifies extensive deltas across:</a><br><br>
+<a><ul>
+<li>object,</li>
+<li>configuration,</li>
+<li>capability,</li>
+<li>dependency,</li>
+<li>environment,</li>
+<li>criteria,</li>
+<li>method,</li>
+<li>evidence,</li>
+<li>sources,</li>
+<li>and reliance consequence.</li>
+</ul></a><br><br>
+<a><b>Result</b></a><br><br>
+<a>The module determines:</a><br><br>
+<a><b>Full Revalidation</b></a><br><br>
+<a>with increased Validation Depth.</a><br><br>
+<a>Historical validation remains part of lifecycle continuity but<br>
+cannot substitute for the new validation cycle.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="architectural-position" data-oof-section-id="true" role="heading" aria-level="2">Architectural Position</h1>
+<a>Revalidation Scope, Delta &amp; Validation Reuse is the fourth internal<br>
+governance space of the <b>Validation Reliance &amp; Revalidation</b><br>
+<b>Standard (VRRS).</b></a><br><br>
+<a>The progression now becomes:</a><br><br>
+<a><b>Reliance Eligibility &amp; Sufficiency → Reliance Conditions &amp;</b><br>
+<b>Authorization → Reliance Monitoring, Dependency &amp; Change Propagation</b><br>
+<b>→ Revalidation Scope, Delta &amp; Validation Reuse</b></a><br><br>
+<a>VRESM establishes:</a><br><br>
+<a><b>Can validation support reliance?</b></a><br><br>
+<a>VRCAOCM establishes:</a><br><br>
+<a><b>How may reliance become operational?</b></a><br><br>
+<a>VRMDCPM establishes:</a><br><br>
+<a><b>What changed and which reliance relationships are affected?</b></a><br><br>
+<a>RSDVRM establishes:</a><br><br>
+<a><b>What exactly must now be validated again, what can legitimately be</b><br>
+<b>reused, and where should VALIDOS® re-enter the</b><br>
+<b>validation lifecycle?</b></a><br><br>
+<a>The fifth and final VRRS module can then govern:</a><br><br>
+<a><b>How is the approved revalidation scope executed through VALIDOS®,</b><br>
+<b>how is a new determination and Validation State created, and how is</b><br>
+<b>reliance renewed, restricted, suspended, or terminated as a result?</b></a><br><br>
+<a>The complete VRRS progression therefore becomes:</a><br><br>
+<a><b>Reliance Eligibility &amp; Sufficiency → Reliance Conditions &amp;</b><br>
+<b>Authorization → Reliance Monitoring, Dependency &amp; Change Propagation</b><br>
+<b>→ Revalidation Scope, Delta &amp; Validation Reuse → Revalidation</b><br>
+<b>Execution, Renewal &amp; Reliance Continuity</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="foundational-principle" data-oof-section-id="true" role="heading" aria-level="2">Foundational Principle</h1>
+<a><b>Revalidation should repeat neither too little nor too much: it</b><br>
+<b>should reuse what remains methodologically valid and revalidate</b><br>
+<b>precisely what material change has made uncertain, insufficient, or</b><br>
+<b>no longer applicable.</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="canonical-closing-statement" data-oof-section-id="true" role="heading" aria-level="2">Canonical Closing Statement</h1>
+<a><b>Revalidation Scope, Delta &amp; Validation Reuse Module establishes the</b><br>
+<b>revalidation-design layer of VALIDOS® by transforming material</b><br>
+<b>change into a structured Validation Delta, determining which prior</b><br>
+<b>validation components remain reusable, identifying which assumptions</b><br>
+<b>and artifacts no longer apply, mapping change to affected validation</b><br>
+<b>layers, and defining the scope, depth, and lifecycle re-entry point</b><br>
+<b>of the new validation cycle. Through validation equivalence, reuse</b><br>
+<b>eligibility, reuse exclusion, criteria, method, evidence, source and</b><br>
+<b>execution mapping, targeted, partial, full and critical</b><br>
+<b>revalidation, residual-delta assessment, scope freezing, and</b><br>
+<b>lifecycle traceability, RSDVRM ensures that revalidation is neither</b><br>
+<b>an administrative renewal nor an unnecessary repetition of previous</b><br>
+<b>work, but a proportionate methodological response to the exact</b><br>
+<b>difference between the reality that was validated before and the</b><br>
+<b>reality that must be validated now.</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<!-- OOF GOVERNED LINKS START -->
+<section class="container governed-links">
+<h1 id="parent-resources" data-oof-section-id="true" role="heading" aria-level="2">Parent Resources</h1>
+<div class="oof-warning20">
+<a href="../../content/v/validos-architecture.html">&rarr; VALIDOS® Validation Governance Architecture — Validation Governance Layer</a>
+<br><br>
+<a href="../../content/v/validos-architecture-map.html">&rarr; VALIDOS® Architecture Map</a>
+<br><br>
+<a href="../../content/v/validos-complete-index.html">&rarr; VALIDOS® Complete Standards &amp; Modules Index</a>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container governed-links">
+<h1 id="internal-module-flow" data-oof-section-id="true" role="heading" aria-level="2">Internal Module Flow</h1>
+<div class="oof-warning20">
+<a href="../../content/v/validos-vrrs-vrmdcpm-3.html">&rarr; Previous module: Validation Reliance Monitoring, Dependency &amp; Change Propagation Module (VRMDCPM)</a>
+<br><br>
+<a href="../../content/v/validos-vrrs-rerrcm-5.html">&rarr; Next module: Revalidation Execution, Renewal &amp; Reliance Continuity Module (RERRCM)</a>
+</div>
+<section class="viewbor"></section>
+</section>
+<!-- OOF GOVERNED LINKS END -->
+<section class="container">
+<h1 id="related-documents" data-oof-section-id="true" role="heading" aria-level="2">Related Documents</h1>
+<div class="oof-warning20">
+<a href="../../content/v/validos-vrrs.html">&rarr; Validation Reliance &amp; Revalidation Standard</a><br><br>
+<a href="../../content/v/validos-vrrs-about.html">&rarr; About Validation Reliance &amp; Revalidation Standard</a>
+</div><br><br><br><br>
+</section>
+
+</article></main>
+<!-- OOF SEMANTIC CONTENT END -->
+<div id="footer"></div>
+<script src="../../header.js"></script>
+<script>
+fetch("../../header.html").then(res => res.text()).then(data => { document.getElementById("header").innerHTML = data; if (window.normalizePageLinks) window.normalizePageLinks(); });
+fetch("../../footer.html").then(res => res.text()).then(data => { document.getElementById("footer").innerHTML = data; if (window.normalizePageLinks) window.normalizePageLinks(); });
+</script>
+</body>
+</html>

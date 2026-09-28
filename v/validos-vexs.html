@@ -1,0 +1,1227 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Validation Execution Standard</title>
+<link rel="stylesheet" href="../../style.css" />
+<link rel="alternate" type="application/json" href="../../data/oof-relationship-registry.json" title="OOF Governed Relationship Registry" />
+<!-- OOF AI DISCOVERY START -->
+<meta name="description" content="Validation Execution Standard. Standard ID: VEXS OriginID: OOF-OID-AI-VALIDOS-VEXS-2026-08-11-0007 Architecture: VALIDOS® — Validation Governance Architecture." />
+<link rel="canonical" href="https://originopenfoundation.org/content/v/validos-vexs.html" />
+<link rel="alternate" hreflang="en" href="https://originopenfoundation.org/content/v/validos-vexs.html" />
+<link rel="alternate" hreflang="x-default" href="https://originopenfoundation.org/content/v/validos-vexs.html" />
+<link rel="alternate" type="application/ld+json" href="https://originopenfoundation.org/data/oof-site-knowledge-graph.json" title="OOF Site Knowledge Graph" />
+<link rel="alternate" type="text/plain" href="https://originopenfoundation.org/llms.txt" title="OOF LLM Index" />
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="content-language" content="en" />
+<meta property="og:title" content="Validation Execution Standard" />
+<meta property="og:description" content="Validation Execution Standard. Standard ID: VEXS OriginID: OOF-OID-AI-VALIDOS-VEXS-2026-08-11-0007 Architecture: VALIDOS® — Validation Governance Architecture." />
+<meta property="og:url" content="https://originopenfoundation.org/content/v/validos-vexs.html" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="OOF® — OriginOpen® Foundation" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Validation Execution Standard" />
+<meta name="twitter:description" content="Validation Execution Standard. Standard ID: VEXS OriginID: OOF-OID-AI-VALIDOS-VEXS-2026-08-11-0007 Architecture: VALIDOS® — Validation Governance Architecture." />
+<meta name="DC.title" content="Validation Execution Standard" />
+<meta name="DC.language" content="en" />
+<meta name="DC.identifier" content="https://originopenfoundation.org/content/v/validos-vexs.html" />
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","@id":"https://originopenfoundation.org/content/v/validos-vexs.html#webpage","url":"https://originopenfoundation.org/content/v/validos-vexs.html","name":"Validation Execution Standard","description":"Validation Execution Standard. Standard ID: VEXS OriginID: OOF-OID-AI-VALIDOS-VEXS-2026-08-11-0007 Architecture: VALIDOS® — Validation Governance Architecture.","inLanguage":"en","isPartOf":[{"@id":"https://originopenfoundation.org/#website"},{"@id":"https://originopenfoundation.org/content/v/validos-architecture-map.html#webpage"},{"@id":"https://originopenfoundation.org/content/v/validos-complete-index.html#webpage"},{"@id":"https://originopenfoundation.org/content/v/validos-four-layer-validation-protocol.html#webpage"}],"publisher":{"@id":"https://originopenfoundation.org/#organization"},"breadcrumb":{"@type":"BreadcrumbList","@id":"https://originopenfoundation.org/content/v/validos-vexs.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"OOF® — OriginOpen® Foundation","item":"https://originopenfoundation.org/"},{"@type":"ListItem","position":2,"name":"Validation Execution Standard","item":"https://originopenfoundation.org/content/v/validos-vexs.html"}]},"headline":"Validation Execution Standard","author":{"@id":"https://originopenfoundation.org/#organization"},"mainEntityOfPage":{"@id":"https://originopenfoundation.org/content/v/validos-vexs.html#webpage"},"keywords":["VALIDOS® — Validation Governance Architecture","AI & Interpretation","Validation Governance","Validation Execution"],"about":[{"@type":"Thing","name":"VALIDOS® — Validation Governance Architecture"},{"@type":"Thing","name":"AI & Interpretation"},{"@type":"Thing","name":"Validation Governance"},{"@type":"Thing","name":"Validation Execution"}],"relatedLink":["https://originopenfoundation.org/content/v/validos-vexs-vebam-1.html","https://originopenfoundation.org/content/v/validos-vexs-veicm-2.html","https://originopenfoundation.org/content/v/validos-vexs-veotm-3.html","https://originopenfoundation.org/content/v/validos-vexs-vedegm-4.html","https://originopenfoundation.org/content/v/validos-vexs-veccm-5.html","https://originopenfoundation.org/content/v/validos-architecture-map.html","https://originopenfoundation.org/content/v/validos-complete-index.html","https://originopenfoundation.org/content/v/validos-four-layer-validation-protocol.html","https://originopenfoundation.org/content/v/validos-vmts.html","https://originopenfoundation.org/content/v/validos-vefs.html","https://originopenfoundation.org/content/v/validos-vsrs.html","https://originopenfoundation.org/content/v/validos-vdts.html","https://originopenfoundation.org/content/v/validos-vsgs.html","https://originopenfoundation.org/content/v/validos-vexs-about.html","https://originopenfoundation.org/content/v/validos-architecture.html"],"citation":["https://originopenfoundation.org/content/v/validos-vmts.html","https://originopenfoundation.org/content/v/validos-vefs.html","https://originopenfoundation.org/content/v/validos-vsrs.html","https://originopenfoundation.org/content/v/validos-vdts.html","https://originopenfoundation.org/content/v/validos-vsgs.html","https://originopenfoundation.org/content/v/validos-vexs-about.html","https://originopenfoundation.org/content/v/validos-architecture.html"],"hasPart":[{"@id":"https://originopenfoundation.org/content/v/validos-vexs-vebam-1.html#webpage"},{"@id":"https://originopenfoundation.org/content/v/validos-vexs-veicm-2.html#webpage"},{"@id":"https://originopenfoundation.org/content/v/validos-vexs-veotm-3.html#webpage"},{"@id":"https://originopenfoundation.org/content/v/validos-vexs-vedegm-4.html#webpage"},{"@id":"https://originopenfoundation.org/content/v/validos-vexs-veccm-5.html#webpage"}],"identifier":"OOF-OID-AI-VALIDOS-VEXS-2026-08-11-0007","version":"1.0","creativeWorkStatus":"Canonical · Open Standard","additionalProperty":[{"@type":"PropertyValue","name":"OriginID","value":"OOF-OID-AI-VALIDOS-VEXS-2026-08-11-0007"},{"@type":"PropertyValue","name":"Architecture","value":"VALIDOS® — Validation Governance Architecture"},{"@type":"PropertyValue","name":"Category","value":"AI & Interpretation"},{"@type":"PropertyValue","name":"Subcategory","value":"Validation Governance"},{"@type":"PropertyValue","name":"Type","value":"Parent Standard"},{"@type":"PropertyValue","name":"Governed Space","value":"Validation Execution"},{"@type":"PropertyValue","name":"Version","value":"1.0"},{"@type":"PropertyValue","name":"Status","value":"Canonical · Open Standard"},{"@type":"PropertyValue","name":"Canonical Language","value":"English (UCL™)"}]}</script>
+<!-- OOF AI DISCOVERY END -->
+</head>
+<body>
+<div id="header"></div>
+<!-- OOF SEMANTIC CONTENT START -->
+<main class="oof-semantic-main"><article class="oof-semantic-article">
+
+<section class="container">
+<h2 id="validation-execution-standard" data-oof-section-id="true" role="heading" aria-level="1">Validation Execution Standard</h2>
+</section>
+
+<section class="container">
+<div class="oof-warning3">
+<p class="podstand"><b>Standard ID: </b>VEXS<br>
+<b>OriginID: </b>OOF-OID-AI-VALIDOS-VEXS-2026-08-11-0007<br>
+<b>Architecture: </b>VALIDOS® — Validation Governance Architecture<br>
+<b>Category: </b>AI &amp; Interpretation<br>
+<b>Subcategory: </b>Validation Governance<br>
+<b>Type: </b>Parent Standard<br>
+<b>Governed Space: </b>Validation Execution<br>
+<b>Version: </b>1.0<br>
+<b>Status: </b>Canonical · Open Standard<br>
+<b>Effective Date: </b>11 August 2026<br>
+<b>Compatibility: </b>OOF® Methodology OS™ · GOA™ · OBIDENITY® · INTEGROS®<br>
+· ORA™ · AGA™ · AIG® · CLIA® · MGIA™ · ASGA™ · RIS™<br>
+<b>AI-Readable: </b>Yes<br>
+<b>Authority: </b>OOF®<br>
+<b>Protection: </b>MIP® — Methodological Intellectual Property<br>
+<b>Canonical Language: </b>English (UCL™)
+</p><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="canonical-definition" data-oof-section-id="true" role="heading" aria-level="2">Canonical Definition</h1>
+<a><b>Validation Execution Standard (VEXS) </b>defines the governance<br>
+conditions under which an approved validation method is<br>
+instantiated, performed, controlled, observed, documented,<br>
+monitored, and completed against the established Validation Object,<br>
+Validation Purpose, Validation Scope, Validation Criteria, qualified<br>
+evidence basis, and reliability-qualified source structure.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="canonical-definition-extension" data-oof-section-id="true" role="heading" aria-level="2">Canonical Definition Extension</h1>
+<a>A validation method does not validate anything merely because it has<br>
+been designed, selected, documented, or approved.</a><br><br>
+<a>Validation requires execution.</a><br><br>
+<a>Execution creates a separate governance problem.</a><br><br>
+<a>A method may be appropriate while its execution is:</a><br><br>
+<a><ul>
+<li>incomplete,</li>
+<li>incorrectly sequenced,</li>
+<li>performed against the wrong object version,</li>
+<li>performed outside the approved scope,</li>
+<li>conducted under materially different conditions,</li>
+<li>based upon substituted evidence,</li>
+<li>affected by unauthorized deviations,</li>
+<li>interrupted,</li>
+<li>insufficiently documented,</li>
+<li>or impossible to reconstruct afterward.</li>
+</ul></a><br><br>
+<a>VALIDOS® therefore separates:</a><br><br>
+<a><b>Validation Method</b></a><br><br>
+<a>from:</a><br><br>
+<a><b>Validation Execution</b></a><br><br>
+<a>Validation Method establishes <b>how validation should be performed.</b></a><br><br>
+<a>Validation Execution establishes <b>what validation was</b><br>
+<b>actually performed.</b></a><br><br>
+<a>VEXS governs the relationship between those two realities.</a><br><br>
+<a>The standard establishes the conditions necessary to determine:</a><br><br>
+<a><ul>
+<li>whether the approved validation method was correctly instantiated,</li>
+<li>whether the correct Validation Object was examined,</li>
+<li>whether execution remained within approved Validation Scope,</li>
+<li>whether applicable Validation Criteria were actually evaluated,</li>
+<li>whether required evidence and sources were used appropriately,</li>
+<li>whether execution conditions were controlled,</li>
+<li>whether required procedural steps occurred,</li>
+<li>whether execution sequencing was preserved,</li>
+<li>whether deviations occurred,</li>
+<li>whether deviations were authorized,</li>
+<li>whether interruptions or failures affected execution,</li>
+<li>whether material substitutions occurred,</li>
+<li>whether execution remained sufficiently complete,</li>
+<li>whether execution records are reconstructable,</li>
+<li>and whether the completed execution is sufficiently conformant to proceed to Validation Determination.</li>
+</ul></a><br><br>
+<a>VEXS does not determine whether the Validation Object satisfies the<br>
+Validation Criteria.</a><br><br>
+<a>It determines whether the <b>validation process itself was actually</b><br>
+<b>executed with sufficient conformity, completeness, control, and</b><br>
+<b>traceability for a later Validation Determination to be legitimate.</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="core-question" data-oof-section-id="true" role="heading" aria-level="2">Core Question</h1>
+<a><b>Was the approved validation process actually performed against the</b><br>
+<b>correct Validation Object, within the governed scope, according to</b><br>
+<b>the required method, criteria, evidence conditions, controls, and</b><br>
+<b>execution requirements?</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="purpose" data-oof-section-id="true" role="heading" aria-level="2">Purpose</h1>
+<a>The purpose of Validation Execution Standard is to prevent<br>
+validation conclusions from being derived merely from the existence<br>
+of an approved validation methodology.</a><br><br>
+<a>A theoretically excellent methodology provides little assurance if<br>
+it was not executed as governed.</a><br><br>
+<a>VEXS therefore creates a controlled bridge between:<br>
+<b>Validation Design</b></a><br><br>
+<a>and:</a><br><br>
+<a><b>Validation Determination</b></a><br><br>
+<a>The standard ensures that what was planned and what actually<br>
+occurred can be compared, reconstructed, and governed independently.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="governance-objective" data-oof-section-id="true" role="heading" aria-level="2">Governance Objective</h1>
+<a>VEXS establishes a governed Validation Execution layer capable of<br>
+determining whether the approved validation structure has been<br>
+materially implemented in operational reality.</a><br><br>
+<a>The standard seeks to ensure that:</a><br><br>
+<a><ul>
+<li>execution begins from an authorized validation basis,</li>
+<li>the correct Validation Object is used,</li>
+<li>the applicable object version or state is preserved,</li>
+<li>Validation Scope remains controlled,</li>
+<li>Validation Criteria remain connected to execution,</li>
+<li>the approved Validation Method is instantiated correctly,</li>
+<li>qualified evidence remains identifiable,</li>
+<li>source-reliability conditions remain visible,</li>
+<li>execution conditions are established,</li>
+<li>procedural steps remain traceable,</li>
+<li>deviations are detected,</li>
+<li>substitutions are controlled,</li>
+<li>interruptions are recorded,</li>
+<li>execution completeness can be assessed,</li>
+<li>execution conformity can be determined,</li>
+<li>and a reconstructable Validation Execution Record exists.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="operational-role" data-oof-section-id="true" role="heading" aria-level="2">Operational Role</h1>
+<a>Validation Execution Standard serves as the <b>operational performance</b><br>
+<b>layer of the VALIDOS® validation lifecycle.</b></a><br><br>
+<a>The preceding Parent Standards establish:</a><br><br>
+<a><b>Validation Object → Validation Purpose &amp; Scope → Validation Criteria</b><br>
+<b>→ Validation Method → Validation Evidence Fitness → Validation</b><br>
+<b>Source Reliability</b></a><br><br>
+<a>VEXS then asks:</a><br><br>
+<a><b>Was that governed validation design actually executed as required?</b></a><br><br>
+<a>Its structural progression is:</a><br><br>
+<a><b>Approved Validation Basis → Execution Authorization → Execution</b><br>
+<b>Instantiation → Controlled Performance → Execution Observation →</b><br>
+<b>Deviation Governance → Completeness Assessment → Execution</b><br>
+<b>Conformity → Validation Execution Record</b></a><br><br>
+<a>The resulting execution record can then progress to<br>
+Validation Determination.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="validation-execution-basis" data-oof-section-id="true" role="heading" aria-level="2">Validation Execution Basis</h1>
+<a>Formal execution should begin from a sufficiently established<br>
+Validation Execution Basis.</a><br><br>
+<a>This may include:</a><br><br>
+<a><ul>
+<li>Validation Object reference,</li>
+<li>object version or state,</li>
+<li>Validation Purpose,</li>
+<li>Validation Scope,</li>
+<li>Validation Depth,</li>
+<li>Validation Criteria,</li>
+<li>approved Validation Method,</li>
+<li>qualified evidence basis,</li>
+<li>Source Reliability conditions,</li>
+<li>required execution controls,</li>
+<li>required participants,</li>
+<li>required systems or instruments,</li>
+<li>required operating conditions,</li>
+<li>and applicable restrictions.</li>
+</ul></a><br><br>
+<a>The execution basis establishes the governed reference against which<br>
+actual execution can later be assessed.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="execution-authorization" data-oof-section-id="true" role="heading" aria-level="2">Execution Authorization</h1>
+<a>Validation execution should not begin merely because a<br>
+method exists.</a><br><br>
+<a>Where required by the validation context, execution should possess<br>
+sufficient authorization to establish:</a><br><br>
+<a><ul>
+<li>that the validation is ready to proceed,</li>
+<li>that prerequisite governance conditions have been satisfied,</li>
+<li>that the approved method is the method intended for execution,</li>
+<li>that required resources are available,</li>
+<li>and that responsible execution roles are known.</li>
+</ul></a><br><br>
+<a>Authorization requirements should remain proportionate to Validation<br>
+Purpose, Depth, risk, and consequence.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="execution-instantiation" data-oof-section-id="true" role="heading" aria-level="2">Execution Instantiation</h1>
+<a>A general validation methodology must become a concrete<br>
+execution instance.</a><br><br>
+<a>Instantiation connects the approved method to:</a><br><br>
+<a><ul>
+<li>a specific Validation Object,</li>
+<li>a specific object version,</li>
+<li>a specific Validation Scope,</li>
+<li>applicable Validation Criteria,</li>
+<li>selected evidence,</li>
+<li>identified sources,</li>
+<li>execution participants,</li>
+<li>systems and instruments,</li>
+<li>time,</li>
+<li>environment,</li>
+<li>and other relevant operational conditions.</li>
+</ul></a><br><br>
+<a>This prevents a generic method from being mistaken for evidence that<br>
+validation actually occurred.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="validation-object-continuity" data-oof-section-id="true" role="heading" aria-level="2">Validation Object Continuity</h1>
+<a>Execution must remain connected to the Validation Object established<br>
+earlier in VALIDOS®.</a><br><br>
+<a>VEXS therefore governs whether the object examined during execution<br>
+corresponds to the object that was approved for validation.</a><br><br>
+<a>Material differences involving:</a><br><br>
+<a><ul>
+<li>identity,</li>
+<li>version,</li>
+<li>configuration,</li>
+<li>state,</li>
+<li>boundaries,</li>
+<li>dependencies,</li>
+<li>or environment</li>
+</ul></a><br><br>
+<a>may require execution reassessment or revalidation.</a><br><br>
+<a>VALIDOS® establishes:</a><br><br>
+<a><b>Validation of Object A cannot silently become validation of</b><br>
+<b>Object B.</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="validation-scope-conformity" data-oof-section-id="true" role="heading" aria-level="2">Validation Scope Conformity</h1>
+<a>Execution must remain within the governed Validation Scope.</a><br><br>
+<a>VEXS determines whether execution:</a><br><br>
+<a><ul>
+<li>covered the required scope,</li>
+<li>exceeded the scope,</li>
+<li>omitted material scope elements,</li>
+<li>introduced unapproved exclusions,</li>
+<li>or operated under materially altered scope conditions.</li>
+</ul></a><br><br>
+<a>A Validation Determination should not claim broader coverage than<br>
+the execution actually performed.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="validation-criteria-execution" data-oof-section-id="true" role="heading" aria-level="2">Validation Criteria Execution</h1>
+<a>Applicable Validation Criteria must be connected to actual<br>
+validation activity.</a><br><br>
+<a>VEXS governs whether:</a><br><br>
+<a><ul>
+<li>required criteria were evaluated,</li>
+<li>evaluation activities are identifiable,</li>
+<li>omitted criteria are visible,</li>
+<li>conditional criteria were handled appropriately,</li>
+<li>and execution evidence can be connected to the relevant criteria.</li>
+</ul></a><br><br>
+<a>VEXS does not determine whether each criterion was satisfied.</a><br><br>
+<a>That belongs to Validation Determination.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="method-execution-conformity" data-oof-section-id="true" role="heading" aria-level="2">Method Execution Conformity</h1>
+<a>The approved Validation Method creates the methodological reference<br>
+for execution.</a><br><br>
+<a>VEXS evaluates whether the actual process materially conformed to<br>
+that method.</a><br><br>
+<a>Relevant conditions may include:</a><br><br>
+<a><ul>
+<li>required steps,</li>
+<li>sequencing,</li>
+<li>sampling,</li>
+<li>testing procedures,</li>
+<li>analytical procedures,</li>
+<li>controls,</li>
+<li>observation requirements,</li>
+<li>repetition requirements,</li>
+<li>comparison procedures,</li>
+<li>simulation conditions,</li>
+<li>review procedures,</li>
+<li>and other method-specific requirements.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="planned-execution-and-actual-execution" data-oof-section-id="true" role="heading" aria-level="2">Planned Execution and Actual Execution</h1>
+<a>VALIDOS® distinguishes:</a><br><br>
+<a><b>Planned Execution</b></a><br><br>
+<a>from:</a><br><br>
+<a><b>Actual Execution</b></a><br><br>
+<a>The planned process describes what should occur.</a><br><br>
+<a>The actual process records what did occur.</a><br><br>
+<a>VEXS requires the relationship between the two to remain visible.</a><br><br>
+<a>Where they differ materially, the difference becomes a governed<br>
+Execution Deviation.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="execution-sequencing" data-oof-section-id="true" role="heading" aria-level="2">Execution Sequencing</h1>
+<a>Some validation activities depend upon order.</a><br><br>
+<a>A later step may only be meaningful after an earlier condition has<br>
+been established.</a><br><br>
+<a>VEXS therefore governs sequencing where sequence affects<br>
+methodological validity.</a><br><br>
+<a>Incorrect sequencing may constitute:</a><br><br>
+<a><ul>
+<li>immaterial deviation,</li>
+<li>correctable deviation,</li>
+<li>material deviation,</li>
+<li>or execution-invalidating deviation</li>
+</ul></a><br><br>
+<a>depending upon consequence.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="execution-conditions" data-oof-section-id="true" role="heading" aria-level="2">Execution Conditions</h1>
+<a>Validation results may depend upon the conditions under which<br>
+validation occurred.</a><br><br>
+<a>Execution conditions may include:</a><br><br>
+<a><ul>
+<li>physical environment,</li>
+<li>digital environment,</li>
+<li>system configuration,</li>
+<li>network conditions,</li>
+<li>load,</li>
+<li>temperature,</li>
+<li>geographic context,</li>
+<li>population,</li>
+<li>operational state,</li>
+<li>human participation,</li>
+<li>available tools,</li>
+<li>simulation settings,</li>
+<li>or another materially relevant condition.</li>
+</ul></a><br><br>
+<a>Required conditions should be recorded sufficiently to support<br>
+later reconstruction.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="controlled-execution" data-oof-section-id="true" role="heading" aria-level="2">Controlled Execution</h1>
+<a>Where the Validation Method requires controlled conditions, VEXS<br>
+governs whether those conditions were sufficiently established<br>
+and maintained.</a><br><br>
+<a>Control may concern:</a><br><br>
+<a><ul>
+<li>environment,</li>
+<li>variables,</li>
+<li>access,</li>
+<li>data,</li>
+<li>configuration,</li>
+<li>instrumentation,</li>
+<li>participant behavior,</li>
+<li>or system state.</li>
+</ul></a><br><br>
+<a>Loss of required control must remain visible.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="execution-evidence" data-oof-section-id="true" role="heading" aria-level="2">Execution Evidence</h1>
+<a>Validation execution itself produces evidence.</a><br><br>
+<a>This may include:</a><br><br>
+<a><ul>
+<li>test records,</li>
+<li>observations,</li>
+<li>measurements,</li>
+<li>system logs,</li>
+<li>analytical outputs,</li>
+<li>execution timestamps,</li>
+<li>operator records,</li>
+<li>instrument records,</li>
+<li>simulation results,</li>
+<li>exception records,</li>
+<li>screenshots,</li>
+<li>audit trails,</li>
+<li>or other execution artifacts.</li>
+</ul></a><br><br>
+<a>These artifacts form part of the Validation Execution Record.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="evidence-continuity-during-execution" data-oof-section-id="true" role="heading" aria-level="2">Evidence Continuity During Execution</h1>
+<a>Evidence qualified earlier in VALIDOS® should remain connected to<br>
+its governed identity and source conditions during execution.</a><br><br>
+<a>VEXS prevents:</a><br><br>
+<a><ul>
+<li>evidence substitution without record,</li>
+<li>mixing evidence versions,</li>
+<li>using expired evidence without governance,</li>
+<li>removing evidence limitations,</li>
+<li>ignoring Source Reliability restrictions,</li>
+<li>or silently replacing approved evidence with alternative material.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="source-condition-continuity" data-oof-section-id="true" role="heading" aria-level="2">Source Condition Continuity</h1>
+<a>Source Reliability conditions established under VSRS must remain<br>
+visible during execution.</a><br><br>
+<a>For example:</a><br><br>
+<a>If a source is reliable only:</a><br><br>
+<a><ul>
+<li>within a defined role,</li>
+<li>under specific conditions,</li>
+<li>with independent corroboration,</li>
+<li>within a particular version,</li>
+<li>or subject to a restriction,</li>
+</ul></a><br><br>
+<a>execution must preserve those conditions.</a><br><br>
+<a>VEXS does not reassess Source Reliability unless material change<br>
+requires reassessment.</a><br><br>
+<a>It ensures that source conditions are respected during execution.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="execution-participant-governance" data-oof-section-id="true" role="heading" aria-level="2">Execution Participant Governance</h1>
+<a>Validation may involve:</a><br><br>
+<a><ul>
+<li>validators,</li>
+<li>operators,</li>
+<li>observers,</li>
+<li>reviewers,</li>
+<li>experts,</li>
+<li>automated systems,</li>
+<li>AI agents,</li>
+<li>autonomous systems,</li>
+<li>or other participants.</li>
+</ul></a><br><br>
+<a>VEXS requires material execution roles to be sufficiently<br>
+identifiable where their actions affect validation reconstruction<br>
+or accountability.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="human-execution" data-oof-section-id="true" role="heading" aria-level="2">Human Execution</h1>
+<a>Where humans perform validation activities, execution governance<br>
+may include:</a><br><br>
+<a><ul>
+<li>assigned role,</li>
+<li>required instructions,</li>
+<li>procedural conformity,</li>
+<li>relevant competence requirements,</li>
+<li>intervention records,</li>
+<li>manual overrides,</li>
+<li>observations,</li>
+<li>and deviations.</li>
+</ul></a><br><br>
+<a>Human participation should remain distinguishable from automated<br>
+execution where material.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="automated-execution" data-oof-section-id="true" role="heading" aria-level="2">Automated Execution</h1>
+<a>Validation may be executed partially or entirely by<br>
+automated systems.</a><br><br>
+<a>Automated execution may involve:</a><br><br>
+<a><ul>
+<li>testing pipelines,</li>
+<li>monitoring systems,</li>
+<li>analytical software,</li>
+<li>simulation systems,</li>
+<li>AI systems,</li>
+<li>autonomous agents,</li>
+<li>or machine-controlled procedures.</li>
+</ul></a><br><br>
+<a>VEXS applies the same fundamental question:</a><br><br>
+<a><b>Did the governed validation process actually occur as required?</b></a><br><br>
+<a>Automation does not remove the requirement for<br>
+execution traceability.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="hybrid-execution" data-oof-section-id="true" role="heading" aria-level="2">Hybrid Execution</h1>
+<a>Many validation processes combine human and automated activity.</a><br><br>
+<a>VEXS governs the interaction points where:</a><br><br>
+<a><ul>
+<li>humans initiate automated processes,</li>
+<li>automated systems generate findings,</li>
+<li>humans interpret outputs,</li>
+<li>systems escalate exceptions,</li>
+<li>humans override automation,</li>
+<li>or multiple systems exchange execution responsibility.</li>
+</ul></a><br><br>
+<a>Material handoffs should remain reconstructable.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="execution-deviation" data-oof-section-id="true" role="heading" aria-level="2">Execution Deviation</h1>
+<a>An <b>Execution Deviation </b>occurs when actual execution differs from the<br>
+approved execution basis.</a><br><br>
+<a>Examples include:</a><br><br>
+<a><ul>
+<li>skipped step,</li>
+<li>changed sequence,</li>
+<li>substituted evidence,</li>
+<li>changed instrument,</li>
+<li>altered configuration,</li>
+<li>reduced sample,</li>
+<li>unavailable source,</li>
+<li>environmental variation,</li>
+<li>manual intervention,</li>
+<li>unexpected system behavior,</li>
+<li>or unplanned interruption.</li>
+</ul></a><br><br>
+<a>Deviation is not automatically execution failure.</a><br><br>
+<a>It is a governance event.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="deviation-materiality" data-oof-section-id="true" role="heading" aria-level="2">Deviation Materiality</h1>
+<a>VEXS distinguishes deviations according to their potential effect.</a><br><br>
+<a>Possible classes may include:</a><br><br>
+<a><b>Immaterial Deviation</b></a><br><br>
+<a><b>Minor Deviation</b></a><br><br>
+<a><b>Material Deviation</b></a><br><br>
+<a><b>Critical Deviation</b></a><br><br>
+<a><b>Execution-Invalidating Deviation</b></a><br><br>
+<a>Classification should depend upon the Validation Purpose, Criteria,<br>
+Method, Depth, and consequence.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="authorized-deviation" data-oof-section-id="true" role="heading" aria-level="2">Authorized Deviation</h1>
+<a>Some deviations may be anticipated or legitimately approved.</a><br><br>
+<a>An Authorized Deviation should establish:</a><br><br>
+<a><ul>
+<li>what changed,</li>
+<li>why it changed,</li>
+<li>who or what authorized it,</li>
+<li>when authorization occurred,</li>
+<li>which validation elements were affected,</li>
+<li>and whether compensating controls were required.</li>
+</ul></a><br><br>
+<a>Authorization does not automatically make a deviation<br>
+methodologically harmless.</a><br><br>
+<a>Its effect must still be assessed.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="unauthorized-deviation" data-oof-section-id="true" role="heading" aria-level="2">Unauthorized Deviation</h1>
+<a>An Unauthorized Deviation occurs where actual execution departs<br>
+materially from the approved basis without sufficient authorization.</a><br><br>
+<a>Such deviation may require:</a><br><br>
+<a><ul>
+<li>correction,</li>
+<li>repetition,</li>
+<li>restricted use,</li>
+<li>additional validation,</li>
+<li>escalation,</li>
+<li>or execution invalidation.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="execution-substitution" data-oof-section-id="true" role="heading" aria-level="2">Execution Substitution</h1>
+<a>Substitution occurs where a planned validation component is replaced<br>
+during execution.</a><br><br>
+<a>Substitution may involve:</a><br><br>
+<a><ul>
+<li>evidence,</li>
+<li>source,</li>
+<li>instrument,</li>
+<li>method step,</li>
+<li>participant,</li>
+<li>dataset,</li>
+<li>model,</li>
+<li>system,</li>
+<li>environment,</li>
+<li>or control.</li>
+</ul></a><br><br>
+<a>Material substitutions must remain explicit.</a><br><br>
+<a>Equivalent appearance does not establish methodological equivalence.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="execution-interruption" data-oof-section-id="true" role="heading" aria-level="2">Execution Interruption</h1>
+<a>Execution may be interrupted because of:</a><br><br>
+<a><ul>
+<li>system failure,</li>
+<li>loss of evidence,</li>
+<li>infrastructure outage,</li>
+<li>human intervention,</li>
+<li>safety condition,</li>
+<li>environmental change,</li>
+<li>resource failure,</li>
+<li>or another event.</li>
+</ul></a><br><br>
+<a>VEXS governs whether execution can:</a><br><br>
+<a><ul>
+<li>resume,</li>
+<li>restart,</li>
+<li>continue conditionally,</li>
+<li>require partial repetition,</li>
+<li>or require complete re-execution.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="execution-failure" data-oof-section-id="true" role="heading" aria-level="2">Execution Failure</h1>
+<a>An Execution Failure occurs where required validation activity<br>
+cannot be performed with sufficient methodological integrity.</a><br><br>
+<a>Failure may affect:</a><br><br>
+<a><ul>
+<li>one criterion,</li>
+<li>one execution stage,</li>
+<li>one evidence source,</li>
+<li>one test,</li>
+<li>or the complete validation execution.</li>
+</ul></a><br><br>
+<a>Execution failure must not automatically be converted into failure<br>
+of the Validation Object.</a><br><br>
+<a>VALIDOS® establishes:</a><br><br>
+<a><b>Failure to Validate ≠ Validation Failure of the Object</b></a><br><br>
+<a>This distinction is fundamental.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="execution-completeness" data-oof-section-id="true" role="heading" aria-level="2">Execution Completeness</h1>
+<a>Execution completeness asks whether all materially required<br>
+validation activities were actually performed.</a><br><br>
+<a>Completeness may be:</a><br><br>
+<a><b>Complete</b></a><br><br>
+<a><b>Conditionally Complete</b></a><br><br>
+<a><b>Partially Complete</b></a><br><br>
+<a><b>Incomplete</b></a><br><br>
+<a>or:</a><br><br>
+<a><b>Completeness Undetermined</b></a><br><br>
+<a>Completeness concerns execution coverage.</a><br><br>
+<a>It does not determine criterion satisfaction.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="execution-conformity" data-oof-section-id="true" role="heading" aria-level="2">Execution Conformity</h1>
+<a>Execution Conformity asks whether the completed validation process<br>
+sufficiently corresponds to the approved Validation Execution Basis.</a><br><br>
+<a>Possible states may include:</a><br><br>
+<a><b>Execution Conformant</b></a><br><br>
+<a>The material validation activities were performed in sufficient<br>
+conformity with the approved execution basis.</a><br><br>
+<a><b>Execution Conditionally Conformant</b></a><br><br>
+<a>Execution may support subsequent determination only under explicit<br>
+conditions, limitations, or restrictions.</a><br><br>
+<a><b>Execution Conformity Undetermined</b></a><br><br>
+<a>Available execution information is insufficient to<br>
+establish conformity.</a><br><br>
+<a><b>Execution Non-Conformant</b></a><br><br>
+<a>Material execution requirements were not sufficiently followed.</a><br><br>
+<a><b>Execution Invalid</b></a><br><br>
+<a>Execution contains critical conditions preventing legitimate use for<br>
+the intended Validation Determination.</a><br><br>
+<a>These states apply to the validation process.</a><br><br>
+<a>They do not determine whether the Validation Object is valid.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="execution-conformity-is-not-criterion-satisfaction" data-oof-section-id="true" role="heading" aria-level="2">Execution Conformity Is Not Criterion Satisfaction</h1>
+<a>VALIDOS® establishes:</a><br><br>
+<a><b>Execution Conformant ≠ Validation Criteria Satisfied</b></a><br><br>
+<a>A perfectly executed validation may demonstrate that the Validation<br>
+Object fails.</a><br><br>
+<a>That is a valid outcome.</a><br><br>
+<a>Likewise, an object that might actually satisfy the criteria cannot<br>
+legitimately receive a governed positive Validation Determination<br>
+from materially invalid execution.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="execution-completeness-is-not-validation-success" data-oof-section-id="true" role="heading" aria-level="2">Execution Completeness Is Not Validation Success</h1>
+<a>A complete validation means the required validation activities<br>
+were performed.</a><br><br>
+<a>It does not mean the object passed them.</a><br><br>
+<a>Therefore:</a><br><br>
+<a><b>Complete Execution ≠ Successful Validation Outcome</b></a><br><br>
+<a>This preserves the separation between process quality and<br>
+object validity.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="execution-reconstruction" data-oof-section-id="true" role="heading" aria-level="2">Execution Reconstruction</h1>
+<a>A validation process should be sufficiently reconstructable<br>
+to determine:</a><br><br>
+<a><ul>
+<li>what was performed,</li>
+<li>against which object,</li>
+<li>by whom or by what,</li>
+<li>using which method,</li>
+<li>using which evidence,</li>
+<li>under which conditions,</li>
+<li>in which sequence,</li>
+<li>with which deviations,</li>
+<li>and with which resulting execution artifacts.</li>
+</ul></a><br><br>
+<a>The required reconstruction depth should remain proportionate to<br>
+validation consequence.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="execution-traceability" data-oof-section-id="true" role="heading" aria-level="2">Execution Traceability</h1>
+<a>VEXS establishes traceability between:</a><br><br>
+<a><b>Validation Object</b></a><br><br>
+<a><b>Validation Purpose &amp; Scope</b></a><br><br>
+<a><b>Validation Criteria</b></a><br><br>
+<a><b>Validation Method</b></a><br><br>
+<a><b>Validation Evidence</b></a><br><br>
+<a><b>Validation Sources</b></a><br><br>
+<a><b>Execution Activities</b></a><br><br>
+<a><b>Execution Deviations</b></a><br><br>
+<a>and:</a><br><br>
+<a><b>Execution Outputs</b></a><br><br>
+<a>This creates the operational chain required for defensible<br>
+Validation Determination.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="execution-record" data-oof-section-id="true" role="heading" aria-level="2">Execution Record</h1>
+<a>A formal <b>Validation Execution Record </b>should preserve,<br>
+where applicable:</a><br><br>
+<a><ul>
+<li>Validation Object reference,</li>
+<li>object version or state,</li>
+<li>Validation Purpose,</li>
+<li>Validation Scope,</li>
+<li>Validation Depth,</li>
+<li>Validation Criteria references,</li>
+<li>Validation Method reference,</li>
+<li>evidence references,</li>
+<li>source references,</li>
+<li>Source Reliability conditions,</li>
+<li>execution authorization,</li>
+<li>execution participants,</li>
+<li>execution environment,</li>
+<li>execution sequence,</li>
+<li>performed activities,</li>
+<li>timestamps,</li>
+<li>execution outputs,</li>
+<li>deviations,</li>
+<li>substitutions,</li>
+<li>interruptions,</li>
+<li>failures,</li>
+<li>corrective actions,</li>
+<li>execution completeness,</li>
+<li>execution conformity,</li>
+<li>and sufficient auditability.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="execution-repetition" data-oof-section-id="true" role="heading" aria-level="2">Execution Repetition</h1>
+<a>A validation activity may require repetition where:</a><br><br>
+<a><ul>
+<li>execution failed,</li>
+<li>critical deviation occurred,</li>
+<li>required conditions were not maintained,</li>
+<li>evidence was materially substituted,</li>
+<li>system configuration changed,</li>
+<li>or execution records are insufficient.</li>
+</ul></a><br><br>
+<a>Repetition should preserve the relationship between the original and<br>
+repeated execution.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="partial-re-execution" data-oof-section-id="true" role="heading" aria-level="2">Partial Re-Execution</h1>
+<a>Not every execution issue requires repeating the<br>
+complete validation.</a><br><br>
+<a>Where methodologically defensible, VEXS may permit partial<br>
+re-execution of affected validation activities.</a><br><br>
+<a>The unaffected portions must remain demonstrably separable from the<br>
+affected portions.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="execution-versioning" data-oof-section-id="true" role="heading" aria-level="2">Execution Versioning</h1>
+<a>Repeated or materially changed validation executions should<br>
+remain distinguishable.</a><br><br>
+<a>Possible representations may include:</a><br><br>
+<a><b>Execution 1.0</b></a><br><br>
+<a><b>Execution 1.1</b></a><br><br>
+<a><b>Execution 2.0</b></a><br><br>
+<a>or another governed versioning structure.</a><br><br>
+<a>Historical execution records should not be silently overwritten.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="execution-change-governance" data-oof-section-id="true" role="heading" aria-level="2">Execution Change Governance</h1>
+<a>Material changes occurring during execution may trigger:</a><br><br>
+<a><ul>
+<li>continuation,</li>
+<li>controlled deviation,</li>
+<li>partial restart,</li>
+<li>complete restart,</li>
+<li>scope reassessment,</li>
+<li>method reassessment,</li>
+<li>evidence reassessment,</li>
+<li>source reassessment,</li>
+<li>or revalidation.</li>
+</ul></a><br><br>
+<a>The appropriate response depends upon what changed and how<br>
+materially it affects validation.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="execution-readiness-for-determination" data-oof-section-id="true" role="heading" aria-level="2">Execution Readiness for Determination</h1>
+<a>A completed execution may progress to Validation Determination when<br>
+sufficient information exists to determine:</a><br><br>
+<a><ul>
+<li>what was executed,</li>
+<li>whether the correct object was used,</li>
+<li>whether scope was respected,</li>
+<li>whether applicable criteria were addressed,</li>
+<li>whether the approved method was materially followed,</li>
+<li>whether evidence and source conditions were preserved,</li>
+<li>whether material deviations are understood,</li>
+<li>whether execution is sufficiently complete,</li>
+<li>whether execution is sufficiently conformant,</li>
+<li>and whether the execution record is reconstructable.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="determination-block" data-oof-section-id="true" role="heading" aria-level="2">Determination Block</h1>
+<a>Where execution is materially insufficient, VEXS may establish a<br>
+<b>Determination Block.</b></a><br><br>
+<a>A Determination Block prevents a final Validation Determination from<br>
+being represented as methodologically established until the blocking<br>
+execution condition is resolved.</a><br><br>
+<a>Possible causes include:</a><br><br>
+<a><ul>
+<li>critical missing execution activity,</li>
+<li>wrong Validation Object,</li>
+<li>critical scope deviation,</li>
+<li>invalid method substitution,</li>
+<li>irrecoverable evidence discontinuity,</li>
+<li>critical execution failure,</li>
+<li>or insufficient execution traceability.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="governance-boundary" data-oof-section-id="true" role="heading" aria-level="2">Governance Boundary</h1>
+<a>Validation Execution Standard begins when the governed validation<br>
+basis is sufficiently established for operational execution.</a><br><br>
+<a>It ends when actual execution has been performed, recorded, assessed<br>
+for completeness and conformity, and determined sufficiently<br>
+ready—or not ready—to enter Validation Determination.</a><br><br>
+<a>VEXS does not determine:</a><br><br>
+<a><ul>
+<li>whether the Validation Criteria were ultimately satisfied,</li>
+<li>the final Validation Determination,</li>
+<li>the formal Validation State,</li>
+<li>reliance authorization,</li>
+<li>validation expiration,</li>
+<li>or future revalidation requirements.</li>
+</ul></a><br><br>
+<a>These responsibilities belong to subsequent VALIDOS®<br>
+Parent Standards.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="minimum-governance-requirements" data-oof-section-id="true" role="heading" aria-level="2">Minimum Governance Requirements</h1>
+<a>A conforming implementation of VEXS should establish:</a><br><br>
+<a><ul>
+<li>1. an identifiable Validation Execution Basis,</li>
+<li>2. the Validation Object and applicable version or state,</li>
+<li>3. execution authorization where required,</li>
+<li>4. applicable Validation Scope and Depth,</li>
+<li>5. Validation Criteria references,</li>
+<li>6. approved Validation Method reference,</li>
+<li>7. qualified evidence and source-condition references,</li>
+<li>8. identifiable execution activities,</li>
+<li>9. relevant execution participants or systems,</li>
+</ul></a><br><br>
+<a>10. material execution conditions, 11. execution sequencing where<br>
+required, 12. deviation and substitution governance, 13.<br>
+interruption and failure governance, 14. Execution Completeness<br>
+assessment, 15. Execution Conformity assessment, 16. a<br>
+reconstructable Validation Execution Record, 17. and a determination<br>
+of readiness for Validation Determination.</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="governance-outputs" data-oof-section-id="true" role="heading" aria-level="2">Governance Outputs</h1>
+<a>VEXS may produce:</a><br><br>
+<a><ul>
+<li>Validation Execution Basis,</li>
+<li>Validation Execution Authorization,</li>
+<li>Validation Execution Instance,</li>
+<li>Validation Execution Plan Reference,</li>
+<li>Validation Activity Record,</li>
+<li>Validation Criteria Execution Map,</li>
+<li>Validation Evidence Use Record,</li>
+<li>Source Condition Continuity Record,</li>
+<li>Execution Environment Record,</li>
+<li>Execution Sequence Record,</li>
+<li>Execution Observation Record,</li>
+<li>Execution Deviation Record,</li>
+<li>Execution Substitution Record,</li>
+<li>Execution Interruption Record,</li>
+<li>Execution Failure Record,</li>
+<li>Corrective Execution Record,</li>
+<li>Execution Completeness Determination,</li>
+<li>Execution Conformity Determination,</li>
+<li>Validation Execution Record,</li>
+<li>Determination Readiness Status,</li>
+<li>Determination Block,</li>
+<li>and Execution Traceability Record.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="operational-applications" data-oof-section-id="true" role="heading" aria-level="2">Operational Applications</h1>
+<a>Validation Execution Standard may be applied across:</a><br><br>
+<a><ul>
+<li>artificial intelligence,</li>
+<li>machine learning,</li>
+<li>autonomous systems,</li>
+<li>model validation,</li>
+<li>AI safety testing,</li>
+<li>software validation,</li>
+<li>data validation,</li>
+<li>predictions,</li>
+<li>simulations,</li>
+<li>scientific validation,</li>
+<li>financial services,</li>
+<li>healthcare,</li>
+<li>industrial operations,</li>
+<li>manufacturing,</li>
+<li>regulatory compliance,</li>
+<li>critical infrastructure,</li>
+<li>cybersecurity,</li>
+<li>digital identities,</li>
+<li>operational governance,</li>
+<li>public-sector systems,</li>
+<li>and any governed environment requiring demonstrable validation execution.</li>
+</ul></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="relationship-to-other-oof-architectures" data-oof-section-id="true" role="heading" aria-level="2">Relationship to Other OOF Architectures</h1>
+<a>Validation Execution Standard interoperates with:</a><br><br>
+<a><ul>
+<li><b>GOA™</b></li>
+<li><b>OBIDENITY®</b></li>
+<li><b>INTEGROS®</b></li>
+<li><b>ORA™</b></li>
+<li><b>AGA™</b></li>
+<li><b>AIG®</b></li>
+<li><b>CLIA®</b></li>
+<li><b>MGIA™</b></li>
+<li><b>ASGA™</b></li>
+<li><b>RIS™</b></li>
+</ul></a><br><br>
+<a>by providing the canonical validation-governance methodology for<br>
+determining whether an approved validation structure was actually<br>
+instantiated and performed with sufficient conformity, completeness,<br>
+control, continuity, and traceability.</a><br><br>
+<a><b>GOA™ </b>may provide complementary authority and delegation conditions.</a><br><br>
+<a><b>OBIDENITY® </b>may provide complementary identity, origin, ownership,<br>
+provenance, and continuity relationships.</a><br><br>
+<a><b>INTEGROS® </b>may provide complementary integrity conditions affecting<br>
+execution records and processes.</a><br><br>
+<a><b>ORA™ </b>may provide complementary operational-reality information.</a><br><br>
+<a><b>AGA™ </b>may provide complementary accountability relationships for<br>
+execution roles and decisions.</a><br><br>
+<a><b>AIG®, CLIA®, MGIA™, </b>and <b>ASGA™ </b>may establish specialized execution<br>
+conditions for AI behavior, cognition, memory, and<br>
+autonomous systems.</a><br><br>
+<a><b>RIS™ </b>may inform the execution depth and control strength required<br>
+according to risk and consequence.</a><br><br>
+<a>VEXS does not duplicate these architectures.</a><br><br>
+<a>It consumes relevant governed information where necessary and<br>
+determines what that information means specifically for<br>
+<b>Validation Execution.</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="foundational-principle" data-oof-section-id="true" role="heading" aria-level="2">Foundational Principle</h1>
+<a><b>A validation method has no operational validity until its required</b><br>
+<b>validation activities are actually performed.</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="canonical-closing-statement" data-oof-section-id="true" role="heading" aria-level="2">Canonical Closing Statement</h1>
+<a><b>Validation Execution Standard establishes the operational</b><br>
+<b>performance layer of VALIDOS® — Validation Governance Architecture</b><br>
+<b>by governing the transition from approved validation design to</b><br>
+<b>demonstrable validation activity. Through execution authorization,</b><br>
+<b>instantiation, object continuity, scope conformity, criteria</b><br>
+<b>execution, method conformity, evidence and source continuity,</b><br>
+<b>execution conditions, sequencing, deviations, substitutions,</b><br>
+<b>interruptions, failures, completeness, conformity, reconstruction,</b><br>
+<b>and traceability, VEXS ensures that no Validation Determination</b><br>
+<b>derives legitimacy merely from what validation was intended to do,</b><br>
+<b>but from what the governed validation process can demonstrate was</b><br>
+<b>actually performed.</b></a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<div class="oof-warning3">
+<h1 id="validation-execution-standard-3" data-oof-section-id="true" role="heading" aria-level="2">Validation Execution Standard</h1>
+<a><b>Architecture: </b>VALIDOS® — Validation Governance Architecture<br>
+<b>Category: </b>AI &amp; Interpretation · <b>Subcategory: </b>Validation Governance</a><br><br>
+<a><b>Canonical Definition: Validation Execution Standard (VEXS) </b>defines<br>
+the governance conditions under which an approved validation method<br>
+is instantiated, performed, controlled, observed, documented,<br>
+monitored, and completed against the established Validation Object,<br>
+Validation Purpose, Validation Scope, Validation Criteria, qualified<br>
+evidence basis, and reliability-qualified source structure.</a><br><br>
+<a><b>Governed Space: </b>Validation Execution</a><br><br>
+<a><b>A validation method has no operational validity until its required</b><br>
+<b>validation activities are actually performed.</b></a><br><br>
+<a>→ View Standard</a><br><br>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container">
+<h1 id="module-architecture" data-oof-section-id="true" role="heading" aria-level="2">Module Architecture</h1>
+<div class="oof-warning20">
+<a href="../../content/v/validos-vexs-vebam-1.html">&rarr; Validation Execution Basis &amp; Authorization Module (VEBAM)</a><br><br>
+<a href="../../content/v/validos-vexs-veicm-2.html">&rarr; Validation Execution Instantiation &amp; Control Module (VEICM)</a><br><br>
+<a href="../../content/v/validos-vexs-veotm-3.html">&rarr; Validation Execution Observation &amp; Traceability Module (VEOTM)</a><br><br>
+<a href="../../content/v/validos-vexs-vedegm-4.html">&rarr; Validation Execution Deviation &amp; Exception Governance Module (VEDEGM)</a><br><br>
+<a href="../../content/v/validos-vexs-veccm-5.html">&rarr; Validation Execution Completeness &amp; Conformity Module (VECCM)</a>
+</div><br><br><br><br>
+</section>
+<!-- OOF GOVERNED LINKS START -->
+<section class="container governed-links">
+<h1 id="parent-resources" data-oof-section-id="true" role="heading" aria-level="2">Parent Resources</h1>
+<div class="oof-warning20">
+<a href="../../content/v/validos-architecture-map.html">&rarr; VALIDOS® Architecture Map</a>
+<br><br>
+<a href="../../content/v/validos-complete-index.html">&rarr; VALIDOS® Complete Standards &amp; Modules Index</a>
+<br><br>
+<a href="../../content/v/validos-four-layer-validation-protocol.html">&rarr; VALIDOS® — Four-Layer Validation Protocol™</a>
+</div>
+<section class="viewbor"></section>
+</section>
+<section class="container governed-links">
+<h1 id="standards-compatibility" data-oof-section-id="true" role="heading" aria-level="2">Standards Compatibility</h1>
+<div class="oof-warning20">
+<a href="../../content/v/validos-vmts.html">&rarr; Validation Method Standard</a>
+<br><span class="governed-link-context">Operational compatibility within the governed validation lifecycle.</span>
+<br><br>
+<a href="../../content/v/validos-vefs.html">&rarr; Validation Evidence Fitness Standard</a>
+<br><span class="governed-link-context">Operational compatibility within the governed validation lifecycle.</span>
+<br><br>
+<a href="../../content/v/validos-vsrs.html">&rarr; Validation Source Reliability Standard</a>
+<br><span class="governed-link-context">Operational compatibility within the governed validation lifecycle.</span>
+<br><br>
+<a href="../../content/v/validos-vdts.html">&rarr; Validation Determination Standard</a>
+<br><span class="governed-link-context">Operational compatibility within the governed validation lifecycle.</span>
+<br><br>
+<a href="../../content/v/validos-vsgs.html">&rarr; Validation State Governance Standard</a>
+<br><span class="governed-link-context">Operational compatibility within the governed validation lifecycle.</span>
+</div>
+<section class="viewbor"></section>
+</section>
+<!-- OOF GOVERNED LINKS END -->
+<section class="container">
+<h1 id="related-documents" data-oof-section-id="true" role="heading" aria-level="2">Related Documents</h1>
+<div class="oof-warning20">
+<a href="../../content/v/validos-vexs-about.html">&rarr; About Validation Execution Standard</a><br><br>
+<a href="../../content/v/validos-architecture.html">&rarr; VALIDOS® Validation Governance Architecture — Validation Governance Layer</a>
+</div><br><br><br><br>
+</section>
+
+</article></main>
+<!-- OOF SEMANTIC CONTENT END -->
+<div id="footer"></div>
+<script src="../../header.js"></script>
+<script>
+fetch("../../header.html").then(res => res.text()).then(data => { document.getElementById("header").innerHTML = data; if (window.normalizePageLinks) window.normalizePageLinks(); });
+fetch("../../footer.html").then(res => res.text()).then(data => { document.getElementById("footer").innerHTML = data; if (window.normalizePageLinks) window.normalizePageLinks(); });
+</script>
+</body>
+</html>
