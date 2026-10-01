@@ -629,10 +629,10 @@ function loadLaRA() {
   if (document.querySelector('script[data-lara-widget]')) return;
   const stylesheet = document.createElement("link");
   stylesheet.rel = "stylesheet";
-  stylesheet.href = "/assets/lara/lara.css?v=20260928-4";
+  stylesheet.href = "/assets/lara/lara.css?v=20261001-1";
   document.head.appendChild(stylesheet);
   const widget = document.createElement("script");
-  widget.src = "/assets/lara/lara.js?v=20260928-4";
+  widget.src = "/assets/lara/lara.js?v=20261001-1";
   widget.defer = true;
   widget.dataset.laraWidget = "true";
   document.body.appendChild(widget);
